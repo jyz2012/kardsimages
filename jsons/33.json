@@ -1,0 +1,1116 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 85725,
+            "cardId": "us_weather_bureau",
+            "importId": "ys",
+            "json": {
+              "id": "us_weather_bureau",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Wähle eins - Vorhersage ODER ziehe eine Karte.",
+                "en-EN": "Choose One - Forecast OR draw a card.",
+                "es-ES": "Elige una: activa Pronóstico O roba una carta.",
+                "fr-FR": "Choisissez : Prévision OU piochez une carte.",
+                "it-IT": "Scegli - fai una Previsione OPPURE pesca una carta.",
+                "ja-JP": "選択-予測またはカードを1枚引く。",
+                "ko-KR": "선택 - 예보를 내립니다. 또는 카드 1장을 뽑습니다.",
+                "pl-PL": "Wybierz: Prognoza LUB dobierz kartę.",
+                "pt-BR": "Escolha um - ative Previsão OU compre uma carta.",
+                "ru-RU": "Выберите оно - Прогноз ИЛИ вы берёте карту.",
+                "zh-Hans": "抉择：预报 或 抽 1 张牌。",
+                "zh-Hant": "抉擇：預報 或 抽 1 張牌。"
+              },
+              "type": "order",
+              "image": "us_weather_bureau.avif",
+              "title": {
+                "de-DE": "US-WETTERDIENST",
+                "en-EN": "US WEATHER BUREAU",
+                "es-ES": "OFICINA DE METEOROLOGÍA",
+                "fr-FR": "WEATHER BUREAU",
+                "it-IT": "SERVIZIO METEOROLOGICO",
+                "ja-JP": "米国気象局",
+                "ko-KR": "미국 기상국",
+                "pl-PL": "AMERYKAŃSKA SŁUŻBA METEOROLOGICZNA",
+                "pt-BR": "SERVIÇO METEOROLÓGICO",
+                "ru-RU": "БЮРО ПОГОДЫ США",
+                "zh-Hans": "美国气象局",
+                "zh-Hant": "美國氣象局"
+              },
+              "rarity": "Standard",
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "ys",
+              "can_create": [
+                "blue_sky",
+                "mist",
+                "gale"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/us_weather_bureau.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/us_weather_bureau.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86694,
+            "cardId": "valentine_mk_ii",
+            "importId": "w0",
+            "json": {
+              "id": "valentine_mk_ii",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Erhält Blitz, wenn du in der letzten Runde eine britische Infanterie eingesetzt hast.",
+                "en-EN": "Deployment: Gets Blitz if you deployed a British infantry last turn.",
+                "es-ES": "Despliegue: Recibe Blitz si desplegaste una infantería británica en el último turno.",
+                "fr-FR": "Déploiement : Gagne Blitz si vous avez déployé une infanterie britannique durant le tour précédent.",
+                "it-IT": "Schieramento: ottiene Blitz se hai schierato una fanteria britannica lo scorso turno.",
+                "ja-JP": "配備時：最後のターンにイギリスの歩兵を配備していた場合、電撃を得る。",
+                "ko-KR": "배치: 지난 턴에 당신이 영국 보병을 배치 했다면 기습을 얻습니다.",
+                "pl-PL": "Rozmieszczenie: otrzymuje Impet, jeśli w poprzedniej turze rozmieściłeś brytyjską piechotę.",
+                "pt-BR": "Posicionamento: Recebe Blitz se tiver posicionado uma infantaria britânica no turno anterior.",
+                "ru-RU": "Размещение: получает Блиц, если вы разместили британскую пехоту на предыдущем ходу.",
+                "zh-Hans": "部署：若上回合友方部署过英国步兵，获得闪击。",
+                "zh-Hant": "部署：若上回合友方部署過英國步兵，獲得閃擊。"
+              },
+              "type": "tank",
+              "image": "valentine_mk_ii.avif",
+              "title": {
+                "de-DE": "VALENTINE Mk II",
+                "en-EN": "VALENTINE Mk II",
+                "es-ES": "VALENTINE Mk II",
+                "fr-FR": "VALENTINE Mk II",
+                "it-IT": "VALENTINE Mk II",
+                "ja-JP": "バレンタインMk.II",
+                "ko-KR": "밸런타인 Mk 2",
+                "pl-PL": "VALENTINE Mk II",
+                "pt-BR": "VALENTINE Mk II",
+                "ru-RU": "VALENTINE Mk II",
+                "zh-Hans": "瓦伦丁 Mk II",
+                "zh-Hant": "瓦倫丁 Mk II"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "w0",
+              "attributes": [
+                "fury",
+                "bond"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/valentine_mk_ii.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/valentine_mk_ii.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85730,
+            "cardId": "vanguard",
+            "importId": "nF",
+            "json": {
+              "id": "vanguard",
+              "set": "WinterWar",
+              "text": {
+                "de-DE": "Gibt deiner Alpin Einheit Blitz und \\\"Von dieser Einheit verursachter Schaden fügt deinem HQ Verteidigung in gleicher Höhe hinzu.\\\"",
+                "en-EN": "A friendly Alpine unit gets Blitz and \\\"Damage dealt by this unit adds equal defense to your HQ.\\\"",
+                "es-ES": "Una unidad alpina aliada obtiene Blitz y \\\"El daño infligido por esta unidad añade igual defensa a tu cuartel general.\\\"",
+                "fr-FR": "Confère à unité Alpine alliée Blitz et \\\"Les dégâts infligés par cette unité ajoutent une défense égale à votre QG.\\\"",
+                "it-IT": "Dai a un'unità Alpina alleata Blitz e: \\\"Quando questa unità infligge danni, il QG alleato ottiene altrettanta difesa.\\\"",
+                "ja-JP": "味方の山岳ユニットに電撃を与え、\\\"このユニットが与えたダメージと等しい防御力を自身の本部に追加する。\\\"を与える。",
+                "ko-KR": "아군 알파인 유닛에 기습과 다음 능력을 부여합니다. \\\"이 유닛이 입힌 피해만큼 아군 본부에 방어력을 부여합니다.\\\"",
+                "pl-PL": "Sojusznicza jednostka alpejska otrzymuje Impet i \\\"Obrażenia zadane przez tę jednostkę zwiększają obronę sztabu.\\\"",
+                "pt-BR": "Uma unidade Alpina aliada recebe Blitz e \\\"Dano causado por esta unidade adiciona defesa igual ao seu QG.\\\"",
+                "ru-RU": "Ваш Альпийский отряд получает Блиц и \\\"Когда этот отряд наносит урон, ваш штаб получает столько же защиты.\\\"",
+                "zh-Hans": "使 1 个友方山地单位获得闪击，且：“本单位造成伤害时，使友方总部获得同等防御力。”",
+                "zh-Hant": "使 1 個友方山地單位獲得閃擊，且：“本單位造成傷害時，使友方總部獲得同等防禦力。”"
+              },
+              "type": "order",
+              "image": "vanguard.avif",
+              "title": {
+                "de-DE": "VORHUT",
+                "en-EN": "VANGUARD",
+                "es-ES": "VANGUARDIA",
+                "fr-FR": "AVANT-GARDE",
+                "it-IT": "AVANGUARDIA",
+                "ja-JP": "バンガード",
+                "ko-KR": "전위대",
+                "pl-PL": "STRAŻ PRZEDNIA",
+                "pt-BR": "VANGUARDA",
+                "ru-RU": "АВАНГАРД",
+                "zh-Hans": "先峰",
+                "zh-Hant": "先峰"
+              },
+              "rarity": "Standard",
+              "faction": "Italy",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "nF"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/vanguard.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/vanguard.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86696,
+            "cardId": "vildebeest",
+            "importId": "ly",
+            "json": {
+              "id": "vildebeest",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Wenn eine verbündete Einheit 1 Kampfschaden verursacht, füge dem feindlichen HQ 2 Schaden zu.",
+                "en-EN": "When a friendly unit deals 1 combat damage, deal 2 damage to the enemy HQ.",
+                "es-ES": "Cuando una unidad aliada inflige 1 de daño de combate, inflige 2 de daño al cuartel general enemigo.",
+                "fr-FR": "Lorsqu'une unité alliée inflige 1 dégât au combat, inflige 2 dégâts au QG ennemi.",
+                "it-IT": "Quando un'unità alleata infligge 1 danno da combattimento, infliggi 2 danni al QG nemico.",
+                "ja-JP": "自身のユニットが戦闘ダメージを1与えると、敵の本部に2ダメージを与える。",
+                "ko-KR": "아군 유닛이 1의 교전 피해를 입힐 경우, 상대 본부에도 2의 피해를 입힙니다.",
+                "pl-PL": "Gdy sojusznicza jednostka zada 1 punkt obrażeń bojowych, zadaj 2 punkty uszkodzeń wrogiemu sztabowi.",
+                "pt-BR": "Quando uma unidade aliada causa 1 dano de combate, cause 2 de dano ao QG inimigo.",
+                "ru-RU": "Когда дружественный отряд наносит 1 урона в бою, вражеский штаб получает 2 урона.",
+                "zh-Hans": "友方单位造成 1 点对战伤害时，对敌方总部造成 2 点伤害。",
+                "zh-Hant": "友方單位造成 1 點對戰傷害時，對敵方總部造成 2 點傷害。"
+              },
+              "type": "bomber",
+              "image": "vildebeest.avif",
+              "title": {
+                "de-DE": "VILDEBEEST",
+                "en-EN": "VILDEBEEST",
+                "es-ES": "VILDEBEEST",
+                "fr-FR": "VILDEBEEST",
+                "it-IT": "VILDEBEEST",
+                "ja-JP": "ヴィルデビースト",
+                "ko-KR": "빌데비스트",
+                "pl-PL": "VILDEBEEST",
+                "pt-BR": "VILDEBEEST",
+                "ru-RU": "VILDEBEEST",
+                "zh-Hans": "牛羚",
+                "zh-Hant": "牛羚"
+              },
+              "attack": 1,
+              "rarity": "Special",
+              "defense": 2,
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "ly",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/vildebeest.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/vildebeest.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85682,
+            "cardId": "vive_la_resistance",
+            "importId": "2p",
+            "json": {
+              "id": "vive_la_resistance",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Füge dem gegnerischen Deck 2 WIDERSTAND-Karten hinzu. Ziehe eine Karte.",
+                "en-EN": "Add 2 RESISTANCE cards to the enemy deck. Draw a card.",
+                "es-ES": "Añade 2 cartas RESISTENCIA al mazo enemigo. Roba una carta.",
+                "fr-FR": "Ajoute 2 cartes RÉSISTANCE dans le deck ennemi. Piochez une carte.",
+                "it-IT": "Aggiungi 2 RESISTENZA al mazzo nemico. Pesca una carta.",
+                "ja-JP": "敵のデッキにレジスタンスカードを2枚追加する。カードを1枚引く。",
+                "ko-KR": "'레지스탕스' 2장을 상대의 덱에 추가합니다. 카드 1장을 뽑습니다.",
+                "pl-PL": "Dodaj 2 karty OPORU do talii przeciwnika. Dobierz kartę.",
+                "pt-BR": "Adicione 2 cartas RESISTÊNCIA ao baralho inimigo. Compre uma carta.",
+                "ru-RU": "Добавляет 2 карты СОПРОТИВЛЕНИЯ в колоду противника. Вы берёте карту.",
+                "zh-Hans": "将 2 张“抵抗”加入敌方卡组。抽 1 张牌。",
+                "zh-Hant": "將 2 張“抵抗”加入敵方卡組。抽 1 張牌。"
+              },
+              "type": "order",
+              "image": "vive_la_resistance.avif",
+              "title": {
+                "de-DE": "VIVE LA RESISTANCE!",
+                "en-EN": "VIVE LA RESISTANCE!",
+                "es-ES": "VIVE LA RÉSISTANCE!",
+                "fr-FR": "VIVE LA RÉSISTANCE !",
+                "it-IT": "VIVE LA RESISTANCE!",
+                "ja-JP": "レジスタンス万歳！",
+                "ko-KR": "레지스탕스 만세!",
+                "pl-PL": "VIVE LA RESISTANCE!",
+                "pt-BR": "VIVE LA RESISTANCE!",
+                "ru-RU": "VIVE LA RESISTANCE!",
+                "zh-Hans": "抵抗万岁！",
+                "zh-Hant": "抵抗萬歲！"
+              },
+              "rarity": "Standard",
+              "faction": "France",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "2p",
+              "can_create": [
+                "resistance_b"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/vive_la_resistance.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/vive_la_resistance.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85737,
+            "cardId": "vystrel_course",
+            "importId": "qH",
+            "json": {
+              "id": "vystrel_course",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Muss eine verbündete Panzer- oder Infanterieeinheit als Ziel haben. Am Anfang deines nächsten Zugs gibst du ihm +3+3.",
+                "en-EN": "Target a friendly tank or infantry. At the start of your next turn give it +3+3.",
+                "es-ES": "Seleccionar como objetivo una unidad de infantería o tanque aliada. En el comienzo de tu próximo turno, recibe +3+3.",
+                "fr-FR": "Prenez pour cible une unité d’infanterie ou un char allié. Au début de votre prochain tour, cette unité gagne +3+3.",
+                "it-IT": "Scegli un carro armato o fanteria alleata. All'inizio del tuo prossimo turno, dagli +3+3.",
+                "ja-JP": "自身の戦車または歩兵ユニットをターゲットする必要があります次のターン開始時、それに+3 +3を付与する。",
+                "ko-KR": "아군 전차나 보병 하나를 지정합니다. 당신의 다음 턴 시작 시 그 유닛에 +3+3을 부여합니다.",
+                "pl-PL": "Celem musi być sojusznicza jednostka pancerna lub piechoty. Na początku swojej następnej tury zapewnij jej +3+3.",
+                "pt-BR": "Mire em um tanque ou infantaria aliado. No início do seu próximo turno, dê +3+3 a ela.",
+                "ru-RU": "Выберите дружественный танк или пехоту. В начале вашего следующего хода он получает +3+3.",
+                "zh-Hans": "指向 1 个友方坦克或步兵。下个友方回合开始时，使其获得 +3+3。",
+                "zh-Hant": "指向 1 個友方坦克或步兵。下個友方回合開始時，使其獲得 +3+3。"
+              },
+              "type": "order",
+              "image": "vystrel_course.avif",
+              "title": {
+                "de-DE": "WVYSTREL-KURS",
+                "en-EN": "VYSTREL COURSE",
+                "es-ES": "CURSO VYSTREL",
+                "fr-FR": "COURS VYSTREL",
+                "it-IT": "CORSO VYSTREL",
+                "ja-JP": "VYSTRELコース",
+                "ko-KR": "비스트렐 과정",
+                "pl-PL": "KURS STRZELECKI",
+                "pt-BR": "CURSO VYSTREL",
+                "ru-RU": "КУРСЫ \\\"ВЫСТРЕЛ\\\"",
+                "zh-Hans": "高级步兵战术进修",
+                "zh-Hant": "高級步兵戰術進修"
+              },
+              "rarity": "Standard",
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "qH"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/vystrel_course.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/vystrel_course.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85741,
+            "cardId": "way_of_subjects",
+            "importId": "wZ",
+            "json": {
+              "id": "way_of_subjects",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Alle japanischen Karten in deinem Deck erhalten Bindung und „Dein HQ erhält +1 Verteidigung, wenn du diese Karte ausspielst.“",
+                "en-EN": "All Japanese cards in your deck get Bond and \\\"Your HQ gets +1 defense when you play this card.\\\"",
+                "es-ES": "Todas las cartas japonesas de tu mazo obtienen Vínculo y \\\"Tu cuartel general obtiene +1 de defensa cuando juegas esta carta\\\".",
+                "fr-FR": "Toutes les cartes japonaises dans votre deck reçoivent Lien et \\\"Votre QG gagne +1 de défense lorsque vous jouez cette carte.\\\"",
+                "it-IT": "Dai alle carte giapponesi nel tuo mazzo Legame e \\\"Quando giochi questa carta, dai +1 difesa al tuo QG.\\\"",
+                "ja-JP": "デッキにあるすべての日本のカードに絆と 「このカードをプレイすると、本部の防御力+1 」を付与する。",
+                "ko-KR": "당신의 덱에 있는 모든 일본 카드가 결속과 다음을 얻습니다. \\\"이 카드를 사용하면 아군 본부가 방어력 +1을 얻습니다.\\\"",
+                "pl-PL": "Wszystkie japońskie karty w twojej talii otrzymują Więz i „Twój sztab otrzymuje +1 do obrony, gdy zagrasz tę kartę”.",
+                "pt-BR": "Todas as cartas japonesas do seu baralho recebem Vínculo e: “Seu QG recebe +1 de defesa quando você joga esta carta.”",
+                "ru-RU": "Все японские карты в вашей колоде получают Узы и «Ваш штаб получает +1 к защите при разыгрывании этой карты».",
+                "zh-Hans": "使卡组中的所有日本牌获得协力，且：“使用时，使友方总部获得 +1 防御力。”",
+                "zh-Hant": "使卡組中的所有日本牌獲得協力，且：“使用時，使友方總部獲得 +1 防禦力。”"
+              },
+              "type": "order",
+              "image": "way_of_subjects.avif",
+              "title": {
+                "de-DE": "DER WEG DER UNTERTANEN",
+                "en-EN": "WAY OF SUBJECTS",
+                "es-ES": "EL CAMINO DEL SUJETO",
+                "fr-FR": "LA VOIE DES SUJETS",
+                "it-IT": "VIA DEI SUDDITI",
+                "ja-JP": "臣民の道",
+                "ko-KR": "신민의 도",
+                "pl-PL": "DROGA PODDANYCH",
+                "pt-BR": "CAMINHO DOS SÚDITOS",
+                "ru-RU": "ПУТЬ ПОДДАННЫХ",
+                "zh-Hans": "臣民之道",
+                "zh-Hant": "臣民之道"
+              },
+              "rarity": "Elite",
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "wZ"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/way_of_subjects.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/way_of_subjects.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86705,
+            "cardId": "wirbelwind",
+            "importId": "4G",
+            "json": {
+              "id": "wirbelwind",
+              "set": "Base",
+              "text": {
+                "de-DE": "Wenn an der Front, kommen feindliche Lufteinheiten festgesetzt ins Spiel.",
+                "en-EN": "While in frontline, enemy air units enter the battlefield pinned.",
+                "es-ES": "Al estar en el frente, las unidades aéreas entran en el campo de batalla inmovilizadas.",
+                "fr-FR": "Tant que cette unité est en première ligne, les unités aériennes ennemies qui rejoignent le champ de bataille sont immobilisées.",
+                "it-IT": "Mentre è in prima linea, le unità aeree nemiche entrano in campo Bloccate.",
+                "ja-JP": "このユニットが前線にいる間、敵空軍ユニットは抑止された状態で戦場に出る。",
+                "ko-KR": "이 유닛이 전방에 있는 동안, 전장에 배치 또는 추가되는 상대의 모든 공중 유닛이 고정됩니다.",
+                "pl-PL": "Gdy WIRBELWIND jest na linii frontu, wrogie jednostki powietrzne wkraczają na pole bitwy przyszpilone.",
+                "pt-BR": "Quando está na linha de frente, as unidades aéreas inimigas entram no campo de batalha imobilizadas.",
+                "ru-RU": "Пока этот отряд на линии фронта, вражеские самолёты выходят на поле боя заблокированными.",
+                "zh-Hans": "本单位在前线时，敌方空军进入战场时会被压制。",
+                "zh-Hant": "本單位在前線時，敵方空軍進入戰場時會被壓制。"
+              },
+              "type": "tank",
+              "image": "wirbelwind.avif",
+              "title": {
+                "de-DE": "WIRBELWIND",
+                "en-EN": "WIRBELWIND",
+                "es-ES": "WIRBELWIND",
+                "fr-FR": "WIRBELWIND",
+                "it-IT": "WIRBELWIND",
+                "ja-JP": "ヴィルベルヴィント",
+                "ko-KR": "비르벨빈트",
+                "pl-PL": "WIRBELWIND",
+                "pt-BR": "WIRBELWIND",
+                "ru-RU": "WIRBELWIND",
+                "zh-Hans": "旋风防空坦克",
+                "zh-Hant": "旋風防空坦克"
+              },
+              "attack": 2,
+              "rarity": "Special",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "4G",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/wirbelwind.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/wirbelwind.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86708,
+            "cardId": "wolves_of_tuscany",
+            "importId": "s4",
+            "json": {
+              "id": "wolves_of_tuscany",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Wenn an der Front, haben deine Lufteinheiten +2 Angriff.",
+                "en-EN": "While this unit is in the frontline, your air units have +2 attack.",
+                "es-ES": "Mientras esta unidad se encuentra en el frente, tus unidades aéreas tienen +2 de ataque.",
+                "fr-FR": "Lorsque cette unité est située en première ligne, vos unités aériennes ont +2 d'attaque.",
+                "it-IT": "Mentre è in prima linea, le unità aeree alleate hanno +2 attacco.",
+                "ja-JP": "このユニットが前線にいる場合、自身の空軍ユニットは攻撃力+2を得る。",
+                "ko-KR": "이 유닛이 전방에 있는 동안 아군 공중 유닛의 공격력이 +2 증가합니다.",
+                "pl-PL": "Gdy ta jednostka znajduje się na linii frontu, twoje jednostki powietrzne otrzymują +2 do ataku.",
+                "pt-BR": "Enquanto esta unidade estiver na linha de frente, suas unidades aéreas recebem +2 de ataque.",
+                "ru-RU": "Пока этот отряд на линии фронта, ваши воздушные отряды получают +2 к атаке.",
+                "zh-Hans": "本单位在前线时，所有友方空军具有 +2 攻击力。",
+                "zh-Hant": "本單位在前線時，所有友方空軍具有 +2 攻擊力。"
+              },
+              "type": "infantry",
+              "image": "wolves_of_tuscany.avif",
+              "title": {
+                "de-DE": "WÖLFE DER TOSKANA",
+                "en-EN": "WOLVES OF TUSCANY",
+                "es-ES": "LOS LOBOS DE LA TOSCANA",
+                "fr-FR": "LOUPS DE TOSCANE",
+                "it-IT": "LUPI DI TOSCANA",
+                "ja-JP": "トスカーナの狼",
+                "ko-KR": "토스카나의 늑대들",
+                "pl-PL": "WILKI TOSKANII",
+                "pt-BR": "OS LOBOS DA TOSCANA",
+                "ru-RU": "ТОСКАНСКИЕ ВОЛКИ",
+                "zh-Hans": "托斯卡纳之狼步兵师",
+                "zh-Hant": "托斯卡納之狼步兵師"
+              },
+              "attack": 1,
+              "rarity": "Special",
+              "defense": 5,
+              "faction": "Italy",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "s4",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/wolves_of_tuscany.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/wolves_of_tuscany.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85747,
+            "cardId": "women_at_work",
+            "importId": "r0",
+            "json": {
+              "id": "women_at_work",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Wähle eine US Einheit in deiner Hand. Reduziere die Kosten um ihre Aktionskosten.",
+                "en-EN": "Choose a US unit in hand. Reduce its cost by its operation cost.",
+                "es-ES": "Elige una unidad estadounidense de tu mano. Su costo se reduce por su costo de operación.",
+                "fr-FR": "Choisissez une unité américaine dans votre main. Son coût de déploiement est réduit de son coût d'opération.",
+                "it-IT": "Scegli un'unità USA dalla tua mano. Riducine il costo pari al suo costo operativo.",
+                "ja-JP": "手札のアメリカ軍ユニットを選択する。操作コストの分コストを減らす。",
+                "ko-KR": "패에서 미국 유닛을 선택합니다. 그 유닛의 운용 비용만큼 배치 비용을 감소시킵니다.",
+                "pl-PL": "Wybierz jednostkę amerykańską w ręce. Zmniejsz jej koszt o koszt działania.",
+                "pt-BR": "Escolha uma unidade dos EUA na mão. Reduza o seu custo pelo custo de operação.",
+                "ru-RU": "Выберите американский отряд в руке. Его стоимость уменьшается на стоимость его использования.",
+                "zh-Hans": "选择手中 1 张美国单位。使其失去等同于其行动花费的花费。",
+                "zh-Hant": "選擇手中 1 張美國單位。使其失去等同於其行動花費的花費。"
+              },
+              "type": "order",
+              "image": "women_at_work.avif",
+              "title": {
+                "de-DE": "FRAUEN BEI DER ARBEIT",
+                "en-EN": "WOMEN AT WORK",
+                "es-ES": "MUJERES EN LA FUERZA LABORAL",
+                "fr-FR": "LES FEMMES AU TRAVAIL",
+                "it-IT": "DONNE AL LAVORO",
+                "ja-JP": "働く女性",
+                "ko-KR": "전시 생산의 여인들",
+                "pl-PL": "KOBIETY W PRACY",
+                "pt-BR": "MULHERES NO TRABALHO",
+                "ru-RU": "ЖЕНЩИНЫ ЗА РАБОТОЙ",
+                "zh-Hans": "半边天",
+                "zh-Hant": "半邊天"
+              },
+              "rarity": "Standard",
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "r0"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/women_at_work.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/women_at_work.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85748,
+            "cardId": "workers_unite",
+            "importId": "8d",
+            "json": {
+              "id": "workers_unite",
+              "set": "Base",
+              "text": {
+                "de-DE": "Wirf alle LEICHTEN INFANTERIEEINHEITEN aus deiner Hand ab. Erhalte einen Kredit und ziehe für jede eine Karte.",
+                "en-EN": "Discard your LIGHT INFANTRY units. Gain a kredit and draw a card for each.",
+                "es-ES": "Descarta tus unidades de INFANTERÍA LIGERA. Obtienes un krédito y robas una carta por cada una de ellas.",
+                "fr-FR": "Défaussez vos unités D'INFANTERIE LÉGÈRE. Vous gagnez un Krédit et piochez une carte pour chacune.",
+                "it-IT": "Scarta tutte le unità FANTERIA LEGGERA dalla tua mano. Ottieni un kredito e pesca una carta per ciascuna unità scartata.",
+                "ja-JP": "狙撃兵をすべて捨てる。 捨てた狙撃兵それぞれにつき、クレジットを1つ獲得し、カードを1枚引く。",
+                "ko-KR": "모든 경보병 카드를 버립니다. 버린 카드마다 추가 크레딧을 얻고 카드를 뽑습니다.",
+                "pl-PL": "Odrzuć swoje jednostki LEKKIEJ PIECHOTY. Zyskaj kredyt i dobierz kartę za każdą z nich.",
+                "pt-BR": "Descarte suas unidades de INFANTARIA LEVE. Ganhe um krédito e compre uma carta para cada uma.",
+                "ru-RU": "Вы сбрасываете всю ЛЁГКУЮ ПЕХОТУ из руки. За каждую сброшенную таким образом карту вы получаете кредит и берёте карту.",
+                "zh-Hans": "弃掉所有“轻步兵”。每弃 1 张，获得 1 个指挥点并抽 1 张牌。",
+                "zh-Hant": "棄掉所有“輕步兵”。每棄 1 張，獲得 1 個指揮點並抽 1 張牌。"
+              },
+              "type": "order",
+              "image": "workers_unite.avif",
+              "title": {
+                "de-DE": "PROLETARIER, VEREINIGT EUCH!",
+                "en-EN": "WORKERS UNITE!",
+                "es-ES": "¡TRABAJADORES REUNIDOS!",
+                "fr-FR": "PROLÉTAIRES, UNISSEZ-VOUS !",
+                "it-IT": "LAVORATORI UNITI!",
+                "ja-JP": "労働者の団結",
+                "ko-KR": "노동자여 단결하라!",
+                "pl-PL": "ROBOTNICY ŁĄCZCIE SIĘ!",
+                "pt-BR": "TRABALHADORES UNIDOS!",
+                "ru-RU": "ПРОЛЕТАРИИ, СОЕДИНЯЙТЕСЬ!",
+                "zh-Hans": "无产者，联合起来！",
+                "zh-Hant": "無產者，聯合起來！"
+              },
+              "rarity": "Special",
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "8d"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/workers_unite.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/workers_unite.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86710,
+            "cardId": "yak_7",
+            "importId": "fx",
+            "json": {
+              "id": "yak_7",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Ziehe am Anfang deines Zugs eine Karte und füge deinem HQ 1 Schaden zu.",
+                "en-EN": "At the start of your turn, draw a card and deal 1 damage to your HQ.",
+                "es-ES": "Al comienzo de tu turno, roba una carta e inflige 1 de daño a tu cuartel general.",
+                "fr-FR": "Au début de votre tour, piochez une carte et inflige 1 dégât à votre QG.",
+                "it-IT": "All'inizio del tuo turno, pesca una carta e infliggi 1 danno al tuo QG.",
+                "ja-JP": "自分のターンの開始時にカードを1枚引き、自分の本部に1ダメージを与える。",
+                "ko-KR": "당신의 턴 시작시에 카드 1장을 뽑고 아군 본부에 1의 피해를 입힙니다.",
+                "pl-PL": "Na początku swojej tury dobierz kartę i zadaj 1 pkt zniszczeń swojemu sztabowi.",
+                "pt-BR": "No início do seu turno, compre uma carta e cause 1 de dano ao seu QG.",
+                "ru-RU": "В начале вашего хода вы берёте карту, а ваш штаб получает 1 урона.",
+                "zh-Hans": "友方回合开始时，抽 1 张牌，对友方总部造成 1 点伤害。",
+                "zh-Hant": "友方回合開始時，抽 1 張牌，對友方總部造成 1 點傷害。"
+              },
+              "type": "fighter",
+              "image": "yak_7.avif",
+              "title": {
+                "de-DE": "JAK-7",
+                "en-EN": "YAK 7",
+                "es-ES": "YAK-7",
+                "fr-FR": "YAK 7",
+                "it-IT": "YAK-7",
+                "ja-JP": "YAK-7",
+                "ko-KR": "Yak 7",
+                "pl-PL": "JAK-7",
+                "pt-BR": "YAK 7",
+                "ru-RU": "ЯК-7",
+                "zh-Hans": "雅克-7",
+                "zh-Hant": "雅克-7"
+              },
+              "attack": 2,
+              "rarity": "Elite",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "fx",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/yak_7.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/yak_7.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86713,
+            "cardId": "yamagata_regiment",
+            "importId": "hI",
+            "json": {
+              "id": "yamagata_regiment",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Hat Hinterhalt, Blitz und Schnellfeuer, wenn du keine Karten auf der Hand hast.",
+                "en-EN": "Has Ambush, Blitz and Fury if you have no cards in hand.",
+                "es-ES": "Tiene Emboscada, Blitz y Furia si no tienes cartas en la mano.",
+                "fr-FR": "A Embuscade, Blitz et Fureur si vous n'avez aucune carte en main.",
+                "it-IT": "Ha Imboscata, Blitz e Furia se non hai carte in mano.",
+                "ja-JP": "手札にカードがない場合、奇襲、電撃、猛攻を持つ。",
+                "ko-KR": "당신의 패에 카드가 없다면 이 유닛은 매복, 기습, 분노를 가집니다.",
+                "pl-PL": "Otrzymuje Zasadzkę, Impet i Furię, jeśli nie masz żadnych kart na ręce.",
+                "pt-BR": "Possui Emboscada, Blitz e Fúria se você não tiver cartas na mão.",
+                "ru-RU": "Получает Засаду, Блиц и Ярость, если у вас нет карт в руке.",
+                "zh-Hans": "若友方没有手牌，具有伏击、闪击和奋战。",
+                "zh-Hant": "若友方沒有手牌，具有伏擊、閃擊和奮戰。"
+              },
+              "type": "infantry",
+              "image": "yamagata_regiment.avif",
+              "title": {
+                "de-DE": "YAMAGATA-REGIMENT",
+                "en-EN": "YAMAGATA REGIMENT",
+                "es-ES": "REGIMIENTO DE YAMAGATA",
+                "fr-FR": "RÉGIMENT DE YAMAGATA",
+                "it-IT": "REG. YAMAGATA",
+                "ja-JP": "山形連隊",
+                "ko-KR": "야마가타 연대",
+                "pl-PL": "PUŁK YAMAGATA",
+                "pt-BR": "REGIMENTO YAMAGATA",
+                "ru-RU": "ПОЛК ЯМАГАТА",
+                "zh-Hans": "山形联队",
+                "zh-Hant": "山形聯隊"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "hI",
+              "operationCost": 0
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/yamagata_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/yamagata_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86714,
+            "cardId": "yokosuka_e14y",
+            "importId": "tK",
+            "json": {
+              "id": "yokosuka_e14y",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Einsatz: Vorhersage. Ziehe eine Karte, wenn du 0 Kredits hast.",
+                "en-EN": "Deployment: Forecast. Draw a card if you have 0 kredits.",
+                "es-ES": "Despliegue: Pronóstico. Si tienes 0 kréditos, roba una carta.",
+                "fr-FR": "Déploiement : Prévision. Piochez une carte si vous avez 0 Krédit.",
+                "it-IT": "Schieramentio: fai una Previsione. Se hai 0 krediti, pesca una carta.",
+                "ja-JP": "配備時：予測。クレジットを持たない場合、カードを1枚引く。",
+                "ko-KR": "배치: 예보를 내립니다. 크레딧을 모두 소모한 상태라면 카드 1장을 뽑습니다.",
+                "pl-PL": "Rozmieszczenie: Prognoza. Dobierz kartę, jeśli masz 0 kredytów.",
+                "pt-BR": "Posicionamento: Previsão. Compre uma carta se você tiver 0 kréditos.",
+                "ru-RU": "Размещение: Прогноз. Если у вас 0 кредитов, вы берёте карту.",
+                "zh-Hans": "部署：预报。若指挥点数为 0，抽 1 张牌。",
+                "zh-Hant": "部署：預報。若指揮點數為 0，抽 1 張牌。"
+              },
+              "type": "fighter",
+              "image": "yokosuka_e14y.avif",
+              "title": {
+                "de-DE": "YOKOSUKA E14Y",
+                "en-EN": "YOKOSUKA E14Y",
+                "es-ES": "YOKOSUKA E14Y",
+                "fr-FR": "YOKOSUKA E14Y",
+                "it-IT": "YOKOSUKA E14Y",
+                "ja-JP": "零式小型水上機",
+                "ko-KR": "요코스카 E14Y",
+                "pl-PL": "YOKOSUKA E14Y",
+                "pt-BR": "YOKOSUKA E14Y",
+                "ru-RU": "YOKOSUKA E14Y",
+                "zh-Hans": "E14Y 零式小型水侦",
+                "zh-Hant": "E14Y 零式小型水偵"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "tK",
+              "attributes": [
+                "intel2",
+                "blitz"
+              ],
+              "can_create": [
+                "blue_sky",
+                "mist",
+                "gale"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/yokosuka_e14y.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/yokosuka_e14y.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85753,
+            "cardId": "zamo_uprising",
+            "importId": "qE",
+            "json": {
+              "id": "zamo_uprising",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Die Zieleinheit zieht sich zurück.",
+                "en-EN": "Retreat target unit.",
+                "es-ES": "Retira la unidad objetivo.",
+                "fr-FR": "L'unité ciblée bat en retraite.",
+                "it-IT": "Un'unità bersaglio si Ritira.",
+                "ja-JP": "ターゲットしたユニットを撤退させる。",
+                "ko-KR": "지정한 유닛을 후퇴시킵니다. ",
+                "pl-PL": "Wycofaj wybraną jednostkę.",
+                "pt-BR": "Recue a unidade alvo.",
+                "ru-RU": "Выбранный отряд отступает.",
+                "zh-Hans": "使 1 个单位撤退。",
+                "zh-Hant": "使 1 個單位撤退。"
+              },
+              "type": "order",
+              "image": "zamo_uprising.avif",
+              "title": {
+                "de-DE": "ZAMOŚĆ-AUFSTAND",
+                "en-EN": "ZAMOŚĆ UPRISING",
+                "es-ES": "LEVANTAMIENTO DE ZAMOŚĆ",
+                "fr-FR": "SOULÈVEMENT DE ZAMOŚĆ",
+                "it-IT": "POWSTANIE ZAMOJSKIE",
+                "ja-JP": "ザモシチ蜂起",
+                "ko-KR": "자모시치 봉기",
+                "pl-PL": "POWSTANIE ZAMOJSKIE",
+                "pt-BR": "REVOLTA DE ZAMOŚĆ",
+                "ru-RU": "ЗАМОЙСКОЕ ВОССТАНИЕ",
+                "zh-Hans": "扎莫希奇起义",
+                "zh-Hant": "紮莫希奇起義"
+              },
+              "rarity": "Standard",
+              "faction": "Poland",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "qE",
+              "attributes": [
+                "intel2"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/zamo_uprising.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/zamo_uprising.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85783,
+            "cardId": "101_infantry_regiment",
+            "importId": "lZ",
+            "json": {
+              "id": "101_infantry_regiment",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Zangenangriff: Erhält +1+1, wenn diese Einheit angreift.",
+                "en-EN": "Pincer: Gets +1+1 when this unit attacks.",
+                "es-ES": "Pinza: cuando esta unidad ataca, obtiene +1+1.",
+                "fr-FR": "Tenaille : Lorsque cette unité attaque, elle gagne +1+1.",
+                "it-IT": "Tenaglia: quando questa unità attacca, ottiene +1+1.",
+                "ja-JP": "挟撃：このユニットが攻撃すると、+1+1を得る。",
+                "ko-KR": "협공: 이 유닛이 공격할 때 +1/+1 을 얻습니다.",
+                "pl-PL": "Kleszcze: Otrzymuje +1+1, gdy ta jednostka atakuje.",
+                "pt-BR": "Pinça: Recebe +1+1 quando esta unidade ataca.",
+                "ru-RU": "Клещи: Получает +1+1, когда этот отряд атакует.",
+                "zh-Hans": "钳击：本单位攻击时，获得 +1+1。",
+                "zh-Hant": "鉗擊：本單位攻擊時，獲得 +1+1。"
+              },
+              "type": "infantry",
+              "image": "101_infantry_regiment.avif",
+              "title": {
+                "de-DE": "101. Infanterieregiment",
+                "en-EN": "101. INFANTRY REGIMENT",
+                "es-ES": "101.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "101e RÉGIMENT D'INFANTERIE",
+                "it-IT": "101. REG. FANTERIA",
+                "ja-JP": "第101歩兵連隊",
+                "ko-KR": "101. 보병 연대",
+                "pl-PL": "101 PUŁK PIECHOTY",
+                "pt-BR": "101. REGIMENTO DE INFANTARIA",
+                "ru-RU": "101-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 101 步兵团",
+                "zh-Hant": "第 101 步兵團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Germany",
+              "kredits": 3,
+              "reserved": true,
+              "import_id": "lZ",
+              "attributes": [
+                "pincer"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/101_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/101_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85782,
+            "cardId": "101st_bezhitsa",
+            "importId": "pw",
+            "json": {
+              "id": "101st_bezhitsa",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Zu Beginn deines Zugs erhalten deine Einheiten +2 Angriff und du verlierst 2 Kredits.",
+                "en-EN": "At the start of your turn, your units get +2 attack and you lose 2 kredits.",
+                "es-ES": "Al comienzo de tu turno, tus unidades obtienen +2 de ataque y pierdes 2 kréditos.",
+                "fr-FR": "Au début de votre tour, vos unités gagnent +2 d'attaque et vous perdez 2 Krédits.",
+                "it-IT": "All'inizio del tuo turno, dai +2 attacco alle unità alleate e spendi 2 krediti.",
+                "ja-JP": "自身のターン開始時、自身のユニットの攻撃力が2増加し、自身は2クレジットを失う。",
+                "ko-KR": "당신의 턴 시작 시, 모든 아군 유닛이 공격력 +2를 얻고, 당신은 2 크레딧을 잃습니다.",
+                "pl-PL": "Na początku tury twoje jednostki otrzymują +2 do ataku i tracisz 2 kredyty.",
+                "pt-BR": "No início do seu turno, suas unidades recebem +2 de ataque e você perde 2 kréditos.",
+                "ru-RU": "В начале вашего хода ваши отряды получают +2 к атаке, а вы теряете 2 кредита.",
+                "zh-Hans": "友方回合开始时，使友方单位获得 +2 攻击力，失去 2 个指挥点。",
+                "zh-Hant": "友方回合開始時，使友方單位獲得 +2 攻擊力，失去 2 個指揮點。"
+              },
+              "type": "infantry",
+              "image": "101st_bezhitsa.avif",
+              "title": {
+                "de-DE": "101. BEZHITSA",
+                "en-EN": "101st BEZHITSA",
+                "es-ES": "101.ª BEZHITSA",
+                "fr-FR": "101e DE BEZHITSA",
+                "it-IT": "101° BEZHITSA",
+                "ja-JP": "第101師団ベジツァ",
+                "ko-KR": "제101연대 '베지차'",
+                "pl-PL": "101 PUŁK STRZELECKI BIEŻYCA",
+                "pt-BR": "101º BEZHITSA",
+                "ru-RU": "101-й БЕЖИЦКИЙ ПОЛК",
+                "zh-Hans": "别日察第 101 团",
+                "zh-Hant": "別日察第 101 團"
+              },
+              "attack": 3,
+              "rarity": "Elite",
+              "defense": 6,
+              "faction": "Soviet",
+              "kredits": 3,
+              "reserved": false,
+              "import_id": "pw",
+              "attributes": [
+                "guard",
+                "covert"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/101st_bezhitsa.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/101st_bezhitsa.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85786,
+            "cardId": "103rd_cavalry_recon",
+            "importId": "pK",
+            "json": {
+              "id": "103rd_cavalry_recon",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Enthüllung: Deine Einheiten erhalten +1+1, wenn diese Einheit 2 oder mehr Züge lang verdeckt war.",
+                "en-EN": "Reveal: Your units get +1+1 if this unit was Covert for 2 or more turns.",
+                "es-ES": "Descubrir: tus unidades obtienen +1+1 si esta unidad estuvo Encubierta durante 2 o más turnos.",
+                "fr-FR": "Dévoilement : Vos unités gagnent +1+1 si cette unité est restée Secrète pendant au moins 2 tours.",
+                "it-IT": "Rivelazione: se questa unità è rimasta sotto Copertura per 2 o più turni, dai +1+1 alle unità alleate.",
+                "ja-JP": "発見時：このユニットが2ターン以上の間隠密状態であった場合、自身のユニットは+1 +1を得る。",
+                "ko-KR": "발각: 이 유닛이 2턴 이상 비밀 상태였다면, 아군 유닛들이 +1/+1을 얻습니다.",
+                "pl-PL": "Ujawnienie: twoje jednostki otrzymują +1+1, jeśli ta jednostka była w Ukryciu przez 2 lub więcej tur.",
+                "pt-BR": "Revelar: Suas unidades recebem +1+1 se esta unidade estiver Encoberta por 2 ou mais turnos.",
+                "ru-RU": "Раскрытие: Если пробыл в Скрытности 2 или более ходов, ваши отряды получают +1+1.",
+                "zh-Hans": "揭示：若处于隐蔽的回合数不小于 2，使所有友方单位获得 +1+1。",
+                "zh-Hant": "揭示：若處於隱蔽的回合數不小於 2，使所有友方單位獲得 +1+1。"
+              },
+              "type": "infantry",
+              "image": "103rd_cavalry_recon.avif",
+              "title": {
+                "de-DE": "103. AUFKLÄRUNGS-KAVALLERIEREGIMENT",
+                "en-EN": "103rd CAVALRY RECON",
+                "es-ES": "103.º DE CABALLERÍA DE RECONOCIMIENTO",
+                "fr-FR": "103e CAVALERIE DE RECON.",
+                "it-IT": "103° CAVALLERIA RICOGNIZIONE ",
+                "ja-JP": "第103騎兵偵察連隊",
+                "ko-KR": "제103기병정찰연대",
+                "pl-PL": "103 ODDZIAŁ ROZPOZNAWCZY KAWALERII",
+                "pt-BR": "103º CAVALARIA DE RECONHECIMENTO",
+                "ru-RU": "103-й КАВАЛЕРИЙСКИЙ РАЗВЕДОТРЯД",
+                "zh-Hans": "第 103 骑兵侦察小队",
+                "zh-Hant": "第 103 騎兵偵察小隊"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 4,
+              "faction": "USA",
+              "kredits": 3,
+              "reserved": true,
+              "import_id": "pK",
+              "attributes": [
+                "covert"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/103rd_cavalry_recon.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/103rd_cavalry_recon.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85796,
+            "cardId": "10th_guards_regiment",
+            "importId": "8B",
+            "json": {
+              "id": "10th_guards_regiment",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Kann sich nicht zurückziehen oder unterdrückt werden.",
+                "en-EN": "Cannot Retreat or be Suppressed.",
+                "es-ES": "No se puede Retirar o Neutralizar.",
+                "fr-FR": "Ne peut pas battre en Retraite ou être Neutralisée.",
+                "it-IT": "Non può Ritirarsi o venire Soppresso.",
+                "ja-JP": "撤退も制圧もされない。",
+                "ko-KR": "후퇴하거나 제압될 수 없습니다.",
+                "pl-PL": "Nie może się wycofać ani zostać wyciszona.",
+                "pt-BR": "Não é possível recuar ou ser suprimido.",
+                "ru-RU": "Не может отступить или быть подавлен.",
+                "zh-Hans": "无法撤退或被抑制。",
+                "zh-Hant": "無法撤退或被抑制。"
+              },
+              "type": "infantry",
+              "image": "10th_guards_regiment.avif",
+              "title": {
+                "de-DE": "10. GARDEREGIMENT",
+                "en-EN": "10th GUARDS REGIMENT",
+                "es-ES": "10.º EJÉRCITO DE LA GUARDIA",
+                "fr-FR": "10e RÉGIMENT DE LA GARDE",
+                "it-IT": "10° REG. DELLA GUARDIA",
+                "ja-JP": "第10親衛軍",
+                "ko-KR": "제10근위연대",
+                "pl-PL": "10 GWARDYJSKI PUŁK STRZELCÓW",
+                "pt-BR": "10º REGIMENTO DE GUARDAS",
+                "ru-RU": "10-й ГВАРДЕЙСКИЙ ПОЛК",
+                "zh-Hans": "近卫步兵第 10 团",
+                "zh-Hant": "近衛步兵第 10 團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Soviet",
+              "kredits": 3,
+              "reserved": true,
+              "import_id": "8B",
+              "attributes": [
+                "guard"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/10th_guards_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/10th_guards_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85806,
+            "cardId": "115th_separate_btn",
+            "importId": "pv",
+            "json": {
+              "id": "115th_separate_btn",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Enthüllen: Erhält +2+1 für jeden deiner Züge, die sie verdeckt beendet.",
+                "en-EN": "Reveal: Gets +2+1 for each friendly turn it ends as Covert.",
+                "es-ES": "Descubrir: obtiene +2+1 por cada uno de tus turnos que termine Encubierta.",
+                "fr-FR": "Dévoilement : Gagne +2+1 pour chaque tour allié terminé en restant Secret.",
+                "it-IT": "Rivelazione: ottiene +2+1 per ogni tuo turno che termina sotto copertura.",
+                "ja-JP": "発見時：隠密状態で終了した自身のターンごとに+2+1を得る。",
+                "ko-KR": "발각: 이 유닛이 비밀 상태로 당신의 턴이 종료된 횟수만큼 +2+1을 얻습니다.",
+                "pl-PL": "Ujawnienie: Otrzymuje +2+1 za każdą własną turę, którą kończy w Ukryciu.",
+                "pt-BR": "Revelar: Recebe +2+1 para cada turno aliado em que termina como Encoberto.",
+                "ru-RU": "Раскрытие: Получает +2+1 за каждый дружеский ход, который этот отряд закончил в Скрытности.",
+                "zh-Hans": "揭示：处于隐蔽状态下友方回合每结束一次，获得一次 +2+1。",
+                "zh-Hant": "揭示：處於隱蔽狀態下友方回合每結束一次，獲得一次 +2+1。"
+              },
+              "type": "infantry",
+              "image": "115th_separate_btn.avif",
+              "title": {
+                "de-DE": "115. SEPARATER BTN",
+                "en-EN": "115th SEPARATE BTN",
+                "es-ES": "115.º BATALLÓN INDEPENDIENTE",
+                "fr-FR": "115e BATAILLON SÉPARÉ",
+                "it-IT": "115° SEPARATO",
+                "ja-JP": "第115独立BTN",
+                "ko-KR": "제115독립대대",
+                "pl-PL": "115 SAMODZIELNY BATALION",
+                "pt-BR": "115º BATALHÃO INDEPENDENTE",
+                "ru-RU": "115-й ОТДЕЛЬНЫЙ БАТАЛЬОН",
+                "zh-Hans": "独立第 115 营",
+                "zh-Hant": "獨立第 115 營"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 3,
+              "reserved": false,
+              "import_id": "pv",
+              "attributes": [
+                "covert"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/115th_separate_btn.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/115th_separate_btn.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

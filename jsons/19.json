@@ -1,0 +1,1125 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 86006,
+            "cardId": "40_royal_marine",
+            "importId": "sV",
+            "json": {
+              "id": "40_royal_marine",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Einsatz: Kämpft gegen die anvisierte feindliche Einheit. \\r\\nZerstörung: Falls diese Einheit keine Marineeinheit ist, lege sie mit dem Marine -Subtyp oben auf dein Deck zurück.",
+                "en-EN": "Deployment: Fight target enemy unit. \\r\\nDestruction: If this unit isn't Navy, put on top of your deck with the Navy type.",
+                "es-ES": "Despliegue: se enfrenta a la unidad enemiga objetivo. \\r\\nDestrucción: Si esta unidad no tiene el tipo Armada, ponla en la parte superior de tu mazo con el tipo Armada.",
+                "fr-FR": "Déploiement : Affronte l'unité ennemie ciblée. \\r\\nDestruction : Si cette unité n'est pas de type Marine, placez-la au-dessus de votre deck avec le type Marine.",
+                "it-IT": "Schieramento: Ingaggia un'unità nemica. \\r\\nDistruzione: se questa unità non è Marina, mettila in cima al tuo mazzo con il tipo Marina.",
+                "ja-JP": "配備時：ターゲットの敵ユニットと戦う。\\r\\n破壊時：このユニットが海軍タイプでない場合は、それを付与してデッキの上に置く。",
+                "ko-KR": "배치: 지정한 상대 유닛과 공방을 벌입니다. \\r\\n파괴: 이 유닛이 해군이 아닌 경우, 해군으로 변경하여 당신의 덱 맨 위에 놓습니다.",
+                "pl-PL": "Rozmieszczenie: Walcz z wybraną wrogą jednostką. \\r\\nZniszczenie: Jeśli ta jednostka nie jest jednostką marynarki, umieść ją na wierzchu talii w postaci jednostki marynarki.",
+                "pt-BR": "Posicionamento: Enfrente uma unidade inimiga alvo.\\r\\nDestruição: Se esta unidade não for Marinha, coloque no topo do seu baralho com o tipo Marinha.",
+                "ru-RU": "Размещение: Сражается с выбранным вражеским отрядом. \\r\\nУничтожение: если этот отряд не Морской, он кладётся наверх вашей колоды и становится Морским.",
+                "zh-Hans": "部署：与 1 个敌方单位战斗。\\r\\n亡计：若本单位不是海军，返回卡组顶并算作是海军。",
+                "zh-Hant": "部署：與 1 個敵方單位戰鬥。\\r\\n亡計：若本單位不是海軍，返回卡組頂並算作是海軍。"
+              },
+              "type": "infantry",
+              "image": "40_royal_marine.avif",
+              "title": {
+                "de-DE": "40 ROYAL MARINE",
+                "en-EN": "40 ROYAL MARINE",
+                "es-ES": "40.º DE MARINES REALES",
+                "fr-FR": "40 ROYAL MARINE",
+                "it-IT": "40 ROYAL MARINE",
+                "ja-JP": "第40海兵隊",
+                "ko-KR": "40 RM 코만도",
+                "pl-PL": "40 ROYAL MARINE",
+                "pt-BR": "40º FUZILEIROS NAVAIS REAIS",
+                "ru-RU": "40-й БАТАЛЬОН КОРОЛЕВСКОЙ МОРСКОЙ ПЕХОТЫ",
+                "zh-Hans": "第 40 突击队",
+                "zh-Hant": "第 40 突擊隊"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "sV",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/40_royal_marine.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/40_royal_marine.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86007,
+            "cardId": "414th_rifles",
+            "importId": "Bn",
+            "json": {
+              "id": "414th_rifles",
+              "set": "OnlySpawnable",
+              "text": {
+                "de-DE": "Zerstörung: Mische 97. SCHÜTZENREGIMENT in dein Deck. Ziehe 3 Karten und füge deinem HQ 3 Schaden zu.",
+                "en-EN": "Destruction: Shuffle 97th RIFLES into your deck. Draw 3 cards and deal 3 damage to your HQ.",
+                "es-ES": "Destrucción: baraja 97.º REGIMIENTO DE FUSILEROS en tu mazo. Roba 3 cartas e inflige 3 de daño a tu cuartel general.",
+                "fr-FR": "Destruction : Mélangez un 97e RÉGIMENT DE FUSILIERS dans votre deck. Piochez 3 cartes et inflige 3 dégâts à votre QG.",
+                "it-IT": "Distruzione: mescola 97° FUCILIERI nel tuo mazzo. Pesca 3 carte e infliggi 3 danni al tuo QG.",
+                "ja-JP": "破壊時： 第97狙撃連隊をデッキにシャッフルする。カードを3枚引いて、自身の本部に3ダメージを与える。 ",
+                "ko-KR": "파괴: 당신의 덱에 제97소총연대를 섞어 넣습니다. 카드를 3장 뽑고 아군 본부에 피해를 3 입힙니다.",
+                "pl-PL": "Zniszczenie: wtasuj 97 PUŁK STRZELCÓW do swojej talii. Dobierz 3 karty i zadaj 3 uszkodzenia swojemu sztabowi.",
+                "pt-BR": "Destruição: Embaralhe os 97º REGIMENTO DE FUZILEIROS em seu baralho. Compre 3 cartas e cause 3 de dano ao seu QG.",
+                "ru-RU": "Уничтожение: Замешивает 97-й СТРЕЛКОВЫЙ ПОЛК в вашу колоду. Вы берёте 3 карты и ваш штаб получает 3 урона.",
+                "zh-Hans": "亡计：将 1 张“步兵第 97 团”洗入卡组。抽 3 张牌，对友方总部造成 3 点伤害。",
+                "zh-Hant": "亡計：將 1 張“步兵第 97 團”洗入卡組。抽 3 張牌，對友方總部造成 3 點傷害。"
+              },
+              "type": "infantry",
+              "image": "414th_rifles.avif",
+              "title": {
+                "de-DE": "414. SCHÜTZENREGIMENT",
+                "en-EN": "414th RIFLES",
+                "es-ES": "414.º REGIMIENTO DE FUSILEROS",
+                "fr-FR": "414e RÉGIMENT DE FUSILIERS",
+                "it-IT": "414° FUCILIERI",
+                "ja-JP": "第414狙撃師団",
+                "ko-KR": "제414소총연대",
+                "pl-PL": "414 PUŁK STRZELCÓW",
+                "pt-BR": "414º REGIMENTO DE FUZILEIROS",
+                "ru-RU": "414-й СТРЕЛКОВЫЙ ПОЛК",
+                "zh-Hans": "步兵第 414 团",
+                "zh-Hant": "步兵第 414 團"
+              },
+              "attack": 5,
+              "rarity": "Elite",
+              "defense": 5,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "Bn",
+              "can_create": [
+                "97th_rifles"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/414th_rifles.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/414th_rifles.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86016,
+            "cardId": "456th_rifle_regiment",
+            "importId": "gb",
+            "json": {
+              "id": "456th_rifle_regiment",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Erhält +1+1 und Wache wenn dein HQ beschädigt wird.",
+                "en-EN": "Gets +1+1 and Guard when your HQ takes damage.",
+                "es-ES": "Obtiene +1+1 y Guardia cuando tu cuartel general recibe daño.",
+                "fr-FR": "Gagne +1+1 et Garde lorsque votre QG subit des dégâts.",
+                "it-IT": "Quando il tuo QG subisce danni, ottiene +1+1 e Guardia .",
+                "ja-JP": "我々の本部がダメージを受けると、+1+1と護衛を得る。",
+                "ko-KR": "아군 본부가 피해를 입으면 공격력과 방어력에 +1과 근위를 얻습니다.",
+                "pl-PL": "Otrzymuje +1+1 i Straż, gdy Twój sztab zostanie uszkodzony.",
+                "pt-BR": "Ganha +1+1 e Guarda, toda vez que seu QG sofre danos.",
+                "ru-RU": "Получает +1 +1 и Охрану когда ваш штаб получает урон.",
+                "zh-Hans": "友方总部受到伤害时，获得 +1+1 和守护。",
+                "zh-Hant": "友方總部受到傷害時，獲得 +1+1 和守護。"
+              },
+              "type": "infantry",
+              "image": "456th_rifle_regiment.avif",
+              "title": {
+                "de-DE": "456. SCHÜTZENREGIMENT",
+                "en-EN": "456th RIFLE REGIMENT",
+                "es-ES": "456.º DE FUSILEROS",
+                "fr-FR": "456e RÉGIMENT DE FUSILIERS",
+                "it-IT": "456° REG. FUCILIERI",
+                "ja-JP": "第456狙撃連隊",
+                "ko-KR": "제456소총연대",
+                "pl-PL": "456 PUŁK STRZELCÓW",
+                "pt-BR": "456º REGIMENTO DE RIFLES",
+                "ru-RU": "456-й СТРЕЛКОВЫЙ ПОЛК",
+                "zh-Hans": "步兵第 456 团",
+                "zh-Hant": "步兵第 456 團"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "gb",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/456th_rifle_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/456th_rifle_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86017,
+            "cardId": "45_mm_antitank_gun",
+            "importId": "8M",
+            "json": {
+              "id": "45_mm_antitank_gun",
+              "set": "Base",
+              "text": {
+                "de-DE": "Hat +2 Angriff gegen Panzer.",
+                "en-EN": "Has +2 attack against tanks.",
+                "es-ES": "Tiene +2 de ataque contra tanques.",
+                "fr-FR": "Gagne +2 d’attaque contre les chars.",
+                "it-IT": "Ha +2 attacco contro i carri armati.",
+                "ja-JP": "戦車に対して攻撃力+2。",
+                "ko-KR": "전차 공격시 공격력에 +2를 부여합니다.",
+                "pl-PL": "Otrzymuje +2 do ataku przeciwko czołgom.",
+                "pt-BR": "Tem +2 de ataque contra tanques.",
+                "ru-RU": "Получает +2 к атаке против танков.",
+                "zh-Hans": "对抗坦克时，具有 +2 攻击力。",
+                "zh-Hant": "對抗坦克時，具有 +2 攻擊力。"
+              },
+              "type": "artillery",
+              "image": "45_mm_antitank_gun.avif",
+              "title": {
+                "de-DE": "45-mm-PANZERABWEHRKANONE",
+                "en-EN": "45 mm ANTI-TANK GUN",
+                "es-ES": "CAÑÓN ANTITANQUE DE 45 mm",
+                "fr-FR": "CANON ANTICHAR DE 45 mm",
+                "it-IT": "ANTICARRO DA 45mm",
+                "ja-JP": "45mm対戦車砲",
+                "ko-KR": "45mm 대전차포",
+                "pl-PL": "DZIAŁO PRZECIWPANCERNE 45 mm",
+                "pt-BR": "ARMA ANTITANQUE DE 45 mm",
+                "ru-RU": "45-мм ПРОТИВОТАНКОВАЯ ПУШКА",
+                "zh-Hans": "45 毫米反坦克炮",
+                "zh-Hant": "45 毫米反坦克炮"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "8M",
+              "attributes": [
+                "ambush"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/45_mm_antitank_gun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/45_mm_antitank_gun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86023,
+            "cardId": "48e_rgiment_dinfanterie",
+            "importId": "2w",
+            "json": {
+              "id": "48e_rgiment_dinfanterie",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Hat Wache, wenn sie nicht Mobilisieren hat.",
+                "en-EN": "Has Guard when it doesn't have Mobilize.",
+                "es-ES": "Tiene Guardia cuando no tiene Movilizar.",
+                "fr-FR": "Possède Garde lorsqu’il n’est pas Mobilisé.",
+                "it-IT": "Ottiene Guardia quando perde Mobilitazione.",
+                "ja-JP": "動員を持たない場合、護衛を得る。",
+                "ko-KR": "이 유닛은 집결 능력이 사라지면 근위 능력을 얻습니다.",
+                "pl-PL": "Otrzymuje Straż, jeśli nie posiada Mobilizacji.",
+                "pt-BR": "Tem guarda quando não tem mobilizar.",
+                "ru-RU": "Получает Охрану, пока не действует Мобилизация.",
+                "zh-Hans": "本单位不具有动员时，具有守护。",
+                "zh-Hant": "本單位不具有動員時，具有守護。"
+              },
+              "type": "infantry",
+              "image": "48e_rgiment_dinfanterie.avif",
+              "title": {
+                "de-DE": "48. INFANTERIEREGIMENT",
+                "en-EN": "48e RÉGIMENT D'INFANTERIE",
+                "es-ES": "48e RÉGIMENT D'INFANTERIE",
+                "fr-FR": "48e RÉGIMENT D’INFANTERIE",
+                "it-IT": "48e RÉGIMENT D'INFANTERIE",
+                "ja-JP": "48e RÉGIMENT D'INFANTERIE",
+                "ko-KR": "제48보병연대",
+                "pl-PL": "48e RÉGIMENT D'INFANTERIE",
+                "pt-BR": "48e RÉGIMENT D'INFANTERIE",
+                "ru-RU": "48-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 48 团",
+                "zh-Hant": "第 48 團"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "France",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "2w",
+              "attributes": [
+                "mobilize"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/48e_rgiment_dinfanterie.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/48e_rgiment_dinfanterie.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86037,
+            "cardId": "507th_pir",
+            "importId": "j8",
+            "json": {
+              "id": "507th_pir",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Gib am Ende deines Zuges einer zufälligen verbündeten Infanterieeinheit +2 Angriff.",
+                "en-EN": "At the end of your turn, give a random friendly infantry unit +2 attack.",
+                "es-ES": "Al final de tu turno, otorga +2 de ataque a una unidad de infantería aliada al azar.",
+                "fr-FR": "À la fin de votre tour, confère +2 d'attaque à une infanterie alliée au hasard.",
+                "it-IT": "Alla fine del tuo turno, dai +2 attacco a un'unità di fanteria alleata casuale.",
+                "ja-JP": "自分のターン終了時、ランダムな味方の歩兵ユニット1体に攻撃力+2を与える。",
+                "ko-KR": "당신의 턴이 끝날 때 무작위 아군 보병 유닛의 공격력에 +2를 부여합니다.",
+                "pl-PL": "Na końcu twojej tury zapewnij swojej losowej piechocie +2 do ataku.",
+                "pt-BR": "No final do seu turno, dê +2 de ataque a uma unidade de infantaria aliada aleatória.",
+                "ru-RU": "В конце вашего хода даёт случайной дружественной пехоте +2 к атаке.",
+                "zh-Hans": "友方回合结束时，随机使 1 个友方步兵获得 +2 攻击力。",
+                "zh-Hant": "友方回合結束時，隨機使 1 個友方步兵獲得 +2 攻擊力。"
+              },
+              "type": "infantry",
+              "image": "507th_pir.avif",
+              "title": {
+                "de-DE": "507. PIR",
+                "en-EN": "507th PIR",
+                "es-ES": "507.º PIR",
+                "fr-FR": "507e PARACHUTISTE",
+                "it-IT": "507° PIR",
+                "ja-JP": "第507落下傘歩兵連隊",
+                "ko-KR": "507공수연대",
+                "pl-PL": "507 PUŁK PIECHOTY SPADOCHRONOWEJ",
+                "pt-BR": "507º PIR",
+                "ru-RU": "507-й ДЕСАНТНЫЙ ПОЛК",
+                "zh-Hans": "第 507 空降步兵团",
+                "zh-Hant": "第 507 空降步兵團"
+              },
+              "attack": 2,
+              "rarity": "Elite",
+              "defense": 3,
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "j8",
+              "attributes": [
+                "smokescreen"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/507th_pir.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/507th_pir.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86038,
+            "cardId": "50_infantry_regiment",
+            "importId": "lV",
+            "json": {
+              "id": "50_infantry_regiment",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Wird Veteran, sobald es an die Front gelangt. ",
+                "en-EN": "Becomes Veteran when it moves into the frontline.",
+                "es-ES": "Se transforma en Veterana cuando se mueve al frente.",
+                "fr-FR": "Lorsque cette unité rejoint la première ligne, elle devient Vétéran. ",
+                "it-IT": "Diventa Veterano quando si muove in prima linea. ",
+                "ja-JP": "前線に移動するとベテランになる。",
+                "ko-KR": "전방으로 이동하면 베테랑으로 승급합니다.",
+                "pl-PL": "Staje się Weteranem, gdy przemieszcza się na linię frontu. ",
+                "pt-BR": "Torna-se Veterano quando se move para a linha de frente.",
+                "ru-RU": "Становится Ветераном, когда выходит на линию фронта.",
+                "zh-Hans": "移至前线时，升为老兵。",
+                "zh-Hant": "移至前線時，升為老兵。"
+              },
+              "type": "infantry",
+              "image": "50_infantry_regiment.avif",
+              "title": {
+                "de-DE": "50. INFANTERIEREGIMENT",
+                "en-EN": "50. INFANTRY REGIMENT",
+                "es-ES": "50.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "50e RÉGIMENT D'INFANTERIE",
+                "it-IT": "50. REG. FANTERIA",
+                "ja-JP": "第50歩兵連隊",
+                "ko-KR": "제50보병연대",
+                "pl-PL": "50 PUŁK PIECHOTY",
+                "pt-BR": "50º REGIMENTO DE INFANTARIA",
+                "ru-RU": "50-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 50 步兵团",
+                "zh-Hant": "第 50 步兵團"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "lV",
+              "attributes": [
+                "BecomesVeteran:50_infantry_regiment_vet",
+                "OnlySpawnable"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/50_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/50_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86039,
+            "cardId": "50_infantry_regiment_vet",
+            "importId": "Cr",
+            "json": {
+              "id": "50_infantry_regiment_vet",
+              "set": "Special",
+              "text": {},
+              "type": "infantry",
+              "image": "50_infantry_regiment_vet.avif",
+              "title": {
+                "de-DE": "50. INFANTERIEREGIMENT",
+                "en-EN": "50. INFANTRY REGIMENT",
+                "es-ES": "50.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "50e RÉGIMENT D'INFANTERIE",
+                "it-IT": "50. REG. FANTERIA",
+                "ja-JP": "第50歩兵連隊",
+                "ko-KR": "제50보병연대",
+                "pl-PL": "50 PUŁK PIECHOTY",
+                "pt-BR": "50º REGIMENTO DE INFANTARIA",
+                "ru-RU": "50-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 50 步兵团",
+                "zh-Hant": "第 50 步兵團"
+              },
+              "attack": 4,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "Cr",
+              "attributes": [
+                "VeteranOf:50_infantry_regiment",
+                "ambush"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/50_infantry_regiment_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/50_infantry_regiment_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86041,
+            "cardId": "511th_regiment",
+            "importId": "z1",
+            "json": {
+              "id": "511th_regiment",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Die Verteidigung dieser Einheit kann nicht unter 1 fallen. Wird Veteran, nachdem sie Schaden genommen hat.",
+                "en-EN": "Defense of this unit cannot go lower than 1. Becomes Veteran after it takes damage.",
+                "es-ES": "La defensa de esta unidad no puede ser inferior a 1. Se convierte en Veterana después de recibir daño.",
+                "fr-FR": "La défense de cette unité ne peut pas être inférieure à 1. Devient Vétéran après avoir subi des dégâts.",
+                "it-IT": "La difesa di questa unità non può essere inferiore a 1. Diventa Veterano dopo aver subito danni.",
+                "ja-JP": "このユニットの防御力は1以下にならない。 ダメージを受けた後にベテランになる。",
+                "ko-KR": "이 유닛의 방어력은 1보다 낮아질 수 없습니다. 피해를 입으면 베테랑으로 승급합니다.",
+                "pl-PL": "Obrona tej jednostki nie może spaść poniżej 1. Zostaje Weteranem po otrzymaniu obrażeń.",
+                "pt-BR": "A defesa desta unidade não pode ficar abaixo de 1. Torna-se Veterano depois de sofrer dano.",
+                "ru-RU": "Защита этого отряда не может быть ниже 1. Становится Ветераном после получения урона.",
+                "zh-Hans": "防御力无法降为 1 以下。受到伤害后，升为老兵。",
+                "zh-Hant": "防禦力無法降為 1 以下。受到傷害後，升為老兵。"
+              },
+              "type": "infantry",
+              "image": "511th_regiment.avif",
+              "title": {
+                "de-DE": "511. REGIMENT",
+                "en-EN": "511th REGIMENT",
+                "es-ES": "511.º REGIMIENTO",
+                "fr-FR": "511e RÉGIMENT",
+                "it-IT": "511° REGGIMENTO",
+                "ja-JP": "第511連隊",
+                "ko-KR": "제511연대",
+                "pl-PL": "511 PUŁK STRZELCÓW",
+                "pt-BR": "511º REGIMENTO",
+                "ru-RU": "511-й ПОЛК",
+                "zh-Hans": "步兵第 511 团",
+                "zh-Hant": "步兵第 511 團"
+              },
+              "attack": 3,
+              "rarity": "Special",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "z1",
+              "attributes": [
+                "BecomesVeteran:511th_regiment_vet",
+                "OnlySpawnable"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/511th_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/511th_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86042,
+            "cardId": "511th_regiment_vet",
+            "importId": "Bw",
+            "json": {
+              "id": "511th_regiment_vet",
+              "set": "Special",
+              "text": {
+                "de-DE": "Deine Infanterie mit 1 Verteidigung hat +2 Angriff.",
+                "en-EN": "Your infantry with 1 defense have +2 attack.",
+                "es-ES": "Tus unidades de infantería con 1 de defensa tienen +2 de ataque.",
+                "fr-FR": "Vos unités d'infanterie ayant une défense de 1 possèdent +2 d'attaque.",
+                "it-IT": "La fanteria alleata con 1 difesa ha +2 di attacco.",
+                "ja-JP": "防御力1の歩兵の攻撃力+2。",
+                "ko-KR": "방어력이 1인 아군 보병의 공격력이 +2 증가합니다.",
+                "pl-PL": "Twoja piechota z 1 punktem obrony ma +2 do ataku.",
+                "pt-BR": "Sua Infantaria com 1 de defesa recebe +2 de ataque.",
+                "ru-RU": "Ваша пехота с 1 защитой получает +2 к атаке.",
+                "zh-Hans": "防御力为 1 的友方步兵具有 +2 攻击力。",
+                "zh-Hant": "防禦力為 1 的友方步兵具有 +2 攻擊力。"
+              },
+              "type": "infantry",
+              "image": "511th_regiment_vet.avif",
+              "title": {
+                "de-DE": "511. REGIMENT",
+                "en-EN": "511th REGIMENT",
+                "es-ES": "511.º REGIMIENTO",
+                "fr-FR": "511e RÉGIMENT",
+                "it-IT": "511° REGGIMENTO",
+                "ja-JP": "第511連隊",
+                "ko-KR": "제511연대",
+                "pl-PL": "511 PUŁK STRZELCÓW",
+                "pt-BR": "511º REGIMENTO",
+                "ru-RU": "511-й ПОЛК",
+                "zh-Hans": "步兵第 511 团",
+                "zh-Hant": "步兵第 511 團"
+              },
+              "attack": 3,
+              "rarity": "Special",
+              "defense": 3,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "Bw",
+              "attributes": [
+                "VeteranOf:511th_regiment",
+                "ambush"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/511th_regiment_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/511th_regiment_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86044,
+            "cardId": "51st_recon",
+            "importId": "pd",
+            "json": {
+              "id": "51st_recon",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Wenn das gegnerische HQ Verteidigung gewinnt, erhält diese Einheit den gleichen Angriff.",
+                "en-EN": "When the enemy HQ gains defense, this unit gets equal attack.",
+                "es-ES": "Cuando el cuartel general enemigo obtiene defensa, esta unidad obtiene el mismo ataque.",
+                "fr-FR": "Lorsque le QG ennemi gagne en défense, l'attaque de cette unité est augmentée d'un nombre égal.",
+                "it-IT": "Quando il QG nemico guadagna difesa, questa unità riceve uguale attacco.",
+                "ja-JP": "敵の本部が防御力を得ると、このユニットはそれと同量の攻撃力を得る。",
+                "ko-KR": "적 본부가 방어력을 얻으면, 이 유닛이 동일한 공격력을 얻습니다.",
+                "pl-PL": "Gdy sztab przeciwnika zyskuje obronę, ta jednostka zyskuje taki sam atak.",
+                "pt-BR": "Quando o QG inimigo ganha defesa, esta unidade recebe ataque igual.",
+                "ru-RU": "Когда штаб противника получает защиту, этот отряд получает столько же атаки.",
+                "zh-Hans": "敌方总部获得防御力时，本单位获得等量攻击力。",
+                "zh-Hant": "敵方總部獲得防禦力時，本單位獲得等量攻擊力。"
+              },
+              "type": "infantry",
+              "image": "51st_recon.avif",
+              "title": {
+                "de-DE": "51. AUFKLÄRUNGSREGIMENT",
+                "en-EN": "51st RECON",
+                "es-ES": "51.º DE RECONOCIMIENTO",
+                "fr-FR": "51e DE RECONNAISSANCE",
+                "it-IT": "51° RICOGNIZIONE",
+                "ja-JP": "偵察第五十一連隊",
+                "ko-KR": "제51수색연대",
+                "pl-PL": "51 PUŁK ROZPOZNAWCZY",
+                "pt-BR": "51º RECONHECIMENTO",
+                "ru-RU": "51-й РАЗВЕДПОЛК",
+                "zh-Hans": "搜索第五十一联队",
+                "zh-Hant": "搜索第五十一聯隊"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "pd",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 0
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/51st_recon.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/51st_recon.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86503,
+            "cardId": "59_panzergrenadier",
+            "importId": "4n",
+            "json": {
+              "id": "59_panzergrenadier",
+              "set": "Base",
+              "text": {
+                "de-DE": "59. Panzergrenadier-Division kann sich im selben Zug bewegen und angreifen.",
+                "en-EN": "59. Panzergrenadier can move and attack during the same turn.",
+                "es-ES": "La 59.ª de Panzergrenadier puede moverse y atacar en el mismo turno.",
+                "fr-FR": "Le 59e PANZERGRENADIER peut se déplacer et attaquer pendant le même tour.",
+                "it-IT": "59° Panzergrenadier può muoversi e attaccare nello stesso turno.",
+                "ja-JP": "第59装甲擲弾兵連隊は、同じターン中に移動、攻撃することができる。",
+                "ko-KR": "해당 유닛은 같은 턴에 움직이고 공격할 수 있습니다.",
+                "pl-PL": "59 Pułk Panzergrenadierów może się poruszać i atakować w czasie jednej tury.",
+                "pt-BR": "O 59º Panzergrenadier pode se mover e atacar durante o mesmo turno.",
+                "ru-RU": "59. PANZERGRENADIER может и двигаться и атаковать в один и тот же ход.",
+                "zh-Hans": "本单位能在同一回合移动并攻击。",
+                "zh-Hant": "本單位能在同一回合移動並攻擊。"
+              },
+              "type": "infantry",
+              "image": "59_panzergrenadier.avif",
+              "title": {
+                "de-DE": "59. PANZERGRENADIER-DIVISION",
+                "en-EN": "59. PANZERGRENADIER",
+                "es-ES": "59.º PANZERGRENADIER",
+                "fr-FR": "59e PANZERGRENADIER",
+                "it-IT": "59° PANZERGRENADIER",
+                "ja-JP": "第59装甲擲弾兵連隊",
+                "ko-KR": "제59기갑척탄병연대",
+                "pl-PL": "59 PANZERGRENADIER",
+                "pt-BR": "59º PANZERGRENADIER",
+                "ru-RU": "59. PANZERGRENADIER",
+                "zh-Hans": "第 59 装甲掷弹兵团",
+                "zh-Hant": "第 59 裝甲擲彈兵團"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "4n",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/59_panzergrenadier.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/59_panzergrenadier.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86056,
+            "cardId": "5e_cuirassiers",
+            "importId": "rT",
+            "json": {
+              "id": "5e_cuirassiers",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Einsatz: Wenn dies die erste Einheit ist, die du in diesem Zug einsetzt, füge deiner Hand ein 18e RÉGIMENT hinzu.",
+                "en-EN": "Deployment: If this is the first unit you deploy this turn, add a 18e RÉGIMENT to hand.",
+                "es-ES": "Despliegue: Si esta es la primera unidad que despliegas en este turno, añade un 18e RÉGIMENT a tu mano.",
+                "fr-FR": "Déploiement : Si c'est la première unité que vous déployez pendant ce tour, un 18e RÉGIMENT est ajouté à votre main.",
+                "it-IT": "Schieramento: se questa è la prima unità che schieri in questo turno, aggiungi un 18e RÉGIMENT alla mano.",
+                "ja-JP": "配備時：これがターン中に最初に配備したユニットである場合、手札に18e RÉGIMENTを追加する。",
+                "ko-KR": "배치: 이번 턴에 배치하는 첫 유닛이라면 당신의 패에 '제18보병연대'를 추가합니다.",
+                "pl-PL": "Rozmieszczenie: Jeśli jest to pierwsza jednostka, którą rozmieszczasz w tej turze, dodaj do ręki 18e RÉGIMENT.",
+                "pt-BR": "Posicionamento: Se esta for a primeira unidade que você implantar neste turno, adicione um 18e RÉGIMENT à sua mão.",
+                "ru-RU": "Размещение: Если это первый отряд, который вы размещаете в этом ходу, добавляет 18e RÉGIMENT вам в руку.",
+                "zh-Hans": "部署：若是本回合部署的第一个单位，将 1 张“第 18 团”加入手牌。",
+                "zh-Hant": "部署：若是本回合部署的第一個單位，將 1 張“第 18 團”加入手牌。"
+              },
+              "type": "infantry",
+              "image": "5e_cuirassiers.avif",
+              "title": {
+                "de-DE": "5e CUIRASSIERS",
+                "en-EN": "5e CUIRASSIERS",
+                "es-ES": "5e CUIRASSIERS",
+                "fr-FR": "5e CUIRASSIERS",
+                "it-IT": "5e CUIRASSIERS",
+                "ja-JP": "5e CUIRASSIERS",
+                "ko-KR": "제5퀴라시에연대",
+                "pl-PL": "5e CUIRASSIERS",
+                "pt-BR": "5e CUIRASSIERS",
+                "ru-RU": "5e CUIRASSIERS",
+                "zh-Hans": "第 5 胸甲骑兵团",
+                "zh-Hant": "第 5 胸甲騎兵團"
+              },
+              "attack": 2,
+              "rarity": "Special",
+              "defense": 3,
+              "faction": "France",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "rT",
+              "attributes": [
+                "blitz"
+              ],
+              "can_create": [
+                "18e_rgiment"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/5e_cuirassiers.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/5e_cuirassiers.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86059,
+            "cardId": "5th_brigade",
+            "importId": "17",
+            "json": {
+              "id": "5th_brigade",
+              "set": "Base",
+              "text": {},
+              "type": "infantry",
+              "image": "5th_brigade.avif",
+              "title": {
+                "de-DE": "5. BRIGADE",
+                "en-EN": "5th BRIGADE",
+                "es-ES": "5.ª BRIGADA",
+                "fr-FR": "5e BRIGADE",
+                "it-IT": "5ª BRIGATA",
+                "ja-JP": "第5旅団",
+                "ko-KR": "제5여단",
+                "pl-PL": "5 BRYGADA",
+                "pt-BR": "5ª BRIGADA",
+                "ru-RU": "5-Я БРИГАДА",
+                "zh-Hans": "第 5 步兵旅",
+                "zh-Hant": "第 5 步兵旅"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "17",
+              "attributes": [
+                "guard"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/5th_brigade.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/5th_brigade.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86464,
+            "cardId": "5th_infantry_regiment",
+            "importId": "da",
+            "json": {
+              "id": "5th_infantry_regiment",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Einheit erhält +1+1, wenn sie sich an die Front bewegt.",
+                "en-EN": "Gets +1+1 when it moves into the frontline.",
+                "es-ES": "Obtiene +1+1 cuando entra en el frente.",
+                "fr-FR": "Gagne +1+1 lorsqu’il rejoint la première ligne.",
+                "it-IT": "Ottiene +1+1 quando si sposta in prima linea.",
+                "ja-JP": "前線に移動すると+1+1を得る。",
+                "ko-KR": "이 유닛은 전방으로 이동하면 공격력, 방어력에 +1을 부여받습니다.",
+                "pl-PL": "Po przemieszczeniu na linię frontu otrzymuje +1+1.",
+                "pt-BR": "Obtém +1+1 quando move para a linha de frente.",
+                "ru-RU": "Получает +1 +1 при перемещении на линию фронта.",
+                "zh-Hans": "移至前线时，获得 +1+1。",
+                "zh-Hant": "移至前線時，獲得 +1+1。"
+              },
+              "type": "infantry",
+              "image": "5th_infantry_regiment.avif",
+              "title": {
+                "de-DE": "5. INFANTERIEREGIMENT",
+                "en-EN": "5th INFANTRY REGIMENT",
+                "es-ES": "5.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "5e RÉGIMENT D’INFANTERIE",
+                "it-IT": "5° REG. FANTERIA",
+                "ja-JP": "第5歩兵連隊",
+                "ko-KR": "제5보병연대",
+                "pl-PL": "5 PUŁK PIECHOTY",
+                "pt-BR": "5º REGIMENTO DE INFANTARIA",
+                "ru-RU": "5-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 5 步兵团",
+                "zh-Hant": "第 5 步兵團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "da",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/5th_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/5th_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86068,
+            "cardId": "60th_cavalry_regiment",
+            "importId": "jZ",
+            "json": {
+              "id": "60th_cavalry_regiment",
+              "set": "WorldAtWar",
+              "text": {
+                "de-DE": "Spieler können in jeder Runde nur einen Befehl erteilen.",
+                "en-EN": "Players can only give one order each turn.",
+                "es-ES": "Los jugadores solo pueden dar una orden por turno.",
+                "fr-FR": "Les joueurs ne peuvent donner qu'un seul ordre à chaque tour.",
+                "it-IT": "I giocatori possono giocare solo un ordine per turno.",
+                "ja-JP": "両プレイヤーは各ターンに指令を1枚のみ発令できる。",
+                "ko-KR": "플레이어들은 매 턴당 최대 1개의 명령만 사용할 수 있습니다.",
+                "pl-PL": "Gracze mogą zagrać tylko jeden rozkaz w każdej turze.",
+                "pt-BR": "Os jogadores podem dar apenas uma ordem por turno.",
+                "ru-RU": "Каждый ход игроки могут отдать только один приказ.",
+                "zh-Hans": "每回合，双方只能使用至多 1 张指令。",
+                "zh-Hant": "每回合，雙方只能使用至多 1 張指令。"
+              },
+              "type": "infantry",
+              "image": "60th_cavalry_regiment.avif",
+              "title": {
+                "de-DE": "60. KAVALLERIE-REGIMENT",
+                "en-EN": "60th CAVALRY REGIMENT",
+                "es-ES": "60.º REGIMIENTO DE CABALLERÍA",
+                "fr-FR": "60e RÉGIMENT DE CAVALERIE",
+                "it-IT": "60° REG. CAVALLERIA",
+                "ja-JP": "第60騎兵連隊",
+                "ko-KR": "제60기병연대",
+                "pl-PL": "60 PUŁK KAWALERII",
+                "pt-BR": "60º REGIMENTO DE CAVALARIA",
+                "ru-RU": "60-й КАВАЛЕРИЙСКИЙ ПОЛК",
+                "zh-Hans": "骑兵第 60 团",
+                "zh-Hant": "騎兵第 60 團"
+              },
+              "attack": 2,
+              "rarity": "Special",
+              "defense": 4,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "jZ",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/60th_cavalry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/60th_cavalry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86073,
+            "cardId": "62_infantry_regiment",
+            "importId": "qk",
+            "json": {
+              "id": "62_infantry_regiment",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Einsatz: Reduziere die Aktionskosten einer verbündeten Einheit um 1.",
+                "en-EN": "Deployment: Reduce the operation cost on a friendly unit by 1.",
+                "es-ES": "Despliegue: reduce el costo de operación de una unidad aliada en 1.",
+                "fr-FR": "Déploiement : Réduit le coût d'opération d'une unité alliée de 1.",
+                "it-IT": "Schieramento: dai -1 costo operativo a un'unità alleata.",
+                "ja-JP": "配備時：味方ユニットの操作コストを1減らす。",
+                "ko-KR": "배치: 아군 유닛 하나의 운용 비용을 1 낮춥니다.",
+                "pl-PL": "Rozmieszczenie: zmniejsz koszt działania sojuszniczej jednostki o 1.",
+                "pt-BR": "Posicionamento: Reduza o custo de operação de uma unidade aliada em 1.",
+                "ru-RU": "Размещение: Даёт дружественному отряду -1 к стоимости использования.",
+                "zh-Hans": "部署：使 1 个友方单位获得 -1 行动花费。",
+                "zh-Hant": "部署：使 1 個友方單位獲得 -1 行動花費。"
+              },
+              "type": "infantry",
+              "image": "62_infantry_regiment.avif",
+              "title": {
+                "de-DE": "62. INFANTERIEREGIMENT",
+                "en-EN": "62. INFANTRY REGIMENT",
+                "es-ES": "62.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "62e RÉGIMENT D'INFANTERIE",
+                "it-IT": "62. REG. FANTERIA",
+                "ja-JP": "第62歩兵連隊",
+                "ko-KR": "제62보병연대",
+                "pl-PL": "62 PUŁK PIECHOTY",
+                "pt-BR": "62. REGIMENTO DE INFANTARIA",
+                "ru-RU": "62-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 62 步兵团",
+                "zh-Hant": "第 62 步兵團"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "qk",
+              "attributes": [
+                "shock"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/62_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/62_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86076,
+            "cardId": "64_panzergrenadier",
+            "importId": "nu",
+            "json": {
+              "id": "64_panzergrenadier",
+              "set": "WinterWar",
+              "text": {
+                "de-DE": "Wird Veteran, wenn es deinen Zug in der Frontlinie beginnt. ",
+                "en-EN": "Becomes Veteran if it starts your turn in the frontline.",
+                "es-ES": "Se transforma en Veterana si comienza tu turno en el frente.",
+                "fr-FR": "Cette unité devient Vétéran si elle débute votre tour en première ligne. ",
+                "it-IT": "Diventa Veterano se si trova in prima linea all'inizio del turno. ",
+                "ja-JP": "前線にいる状態でターンを開始するとベテランになる。",
+                "ko-KR": "이 유닛이 전방에 있는 상태에서 당신의 턴이 시작되면 베테랑이 됩니다.",
+                "pl-PL": "Staje się Weteranem, jeśli rozpoczyna twoją turę na linii frontu. ",
+                "pt-BR": "Ele se torna Veterano se começar sua vez na linha de frente. ",
+                "ru-RU": "Становится Ветераном, когда начинает свой ход на линии фронта. ",
+                "zh-Hans": "友方回合开始时，若在前线，升为老兵。",
+                "zh-Hant": "友方回合開始時，若在前線，升為老兵。"
+              },
+              "type": "infantry",
+              "image": "64_panzergrenadier.avif",
+              "title": {
+                "de-DE": "64. PANZERGRENADIER",
+                "en-EN": "64. PANZERGRENADIER",
+                "es-ES": "64.º PANZERGRENADIER",
+                "fr-FR": "64e PANZERGRENADIER",
+                "it-IT": "64. PANZERGRENADIER",
+                "ja-JP": "第64装甲擲弾兵連隊",
+                "ko-KR": "64.기갑척탄병연대",
+                "pl-PL": "64 PANZERGRENADIER",
+                "pt-BR": "64. PANZERGRENADIER",
+                "ru-RU": "64. PANZERGRENADIER",
+                "zh-Hans": "第 64 装甲掷弹兵团",
+                "zh-Hant": "第 64 裝甲擲彈兵團"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "nu",
+              "attributes": [
+                "BecomesVeteran:64_panzergrenadier_vet",
+                "OnlySpawnable",
+                "blitz"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/64_panzergrenadier.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/64_panzergrenadier.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86077,
+            "cardId": "64_panzergrenadier_vet",
+            "importId": "Cq",
+            "json": {
+              "id": "64_panzergrenadier_vet",
+              "set": "Special",
+              "text": {
+                "de-DE": "Wenn diese Einheit Veteran wird, erhältst du 2 zusätzliche Kredits.",
+                "en-EN": "When this unit becomes Veteran gain 2 additional kredits.",
+                "es-ES": "Cuando esta unidad se transforma en Veterana, obtienes 2 kréditos adicionales.",
+                "fr-FR": "Lorsque cette unité devient Vétéran, gagnez 2 Krédits supplémentaires.",
+                "it-IT": "Quando questa unità diventa Veterano, ottieni 2 krediti aggiuntivi.",
+                "ja-JP": "このユニットがベテランになると、追加で2クレジットを獲得する。",
+                "ko-KR": "이 유닛이 베테랑으로 승급하면 2 크레딧을 추가로 얻습니다.",
+                "pl-PL": "Gdy ta jednostka zostaje Weteranem, zyskujesz 2 dodatkowe kredyty.",
+                "pt-BR": "Quando esta unidade se tornar Veterana, ganhe 2 kréditos adicionais.",
+                "ru-RU": "Когда этот отряд становится Ветераном, вы получаете 2 дополнительных кредита.",
+                "zh-Hans": "升为老兵时，获得 2 个指挥点。",
+                "zh-Hant": "升為老兵時，獲得 2 個指揮點。"
+              },
+              "type": "infantry",
+              "image": "64_panzergrenadier_vet.avif",
+              "title": {
+                "de-DE": "64. PANZERGRENADIER",
+                "en-EN": "64. PANZERGRENADIER",
+                "es-ES": "64.º PANZERGRENADIER",
+                "fr-FR": "64e PANZERGRENADIER",
+                "it-IT": "64. PANZERGRENADIER",
+                "ja-JP": "第64装甲擲弾兵連隊",
+                "ko-KR": "64.기갑척탄병연대",
+                "pl-PL": "64 PANZERGRENADIER",
+                "pt-BR": "64. PANZERGRENADIER",
+                "ru-RU": "64. PANZERGRENADIER",
+                "zh-Hans": "第 64 装甲掷弹兵团",
+                "zh-Hant": "第 64 裝甲擲彈兵團"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "Cq",
+              "attributes": [
+                "VeteranOf:64_panzergrenadier"
+              ],
+              "can_create": [
+                "64_panzergrenadier_vet"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/64_panzergrenadier_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/64_panzergrenadier_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86080,
+            "cardId": "676th_regiment",
+            "importId": "t7",
+            "json": {
+              "id": "676th_regiment",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Erhält jedes Mal +2 Angriff und Schock, wenn sie Schaden erleidet.",
+                "en-EN": "Gains +2 attack and Shock every time it takes damage.",
+                "es-ES": "Obtiene +2 de ataque y Choque cada vez que recibe daño.",
+                "fr-FR": "Cette unité gagne +2 d'attaque et Choc chaque fois qu'elle subit des dégâts.",
+                "it-IT": "Ottiene +2 attacco e Shock quando subisce danni.",
+                "ja-JP": "ダメージを受けるたびに攻撃力が+2と衝撃を得る",
+                "ko-KR": "피해를 입을 때마다 공격력 +2와 충격을 얻습니다.",
+                "pl-PL": "Otrzymuje +2 do ataku i Wstrząs za każdym razem, gdy otrzyma obrażenia.",
+                "pt-BR": "Ganha +2 de ataque e Choque toda vez que sofre dano.",
+                "ru-RU": "Получает +2 к атаке и Штурм каждый раз, когда получает урон.",
+                "zh-Hans": "受到伤害时，获得 +2 攻击力和冲击。",
+                "zh-Hant": "受到傷害時，獲得 +2 攻擊力和衝擊。"
+              },
+              "type": "infantry",
+              "image": "676th_regiment.avif",
+              "title": {
+                "de-DE": "676. REGIMENT",
+                "en-EN": "676th REGIMENT",
+                "es-ES": "676.º REGIMIENTO",
+                "fr-FR": "676e RÉGIMENT",
+                "it-IT": "676° REGGIMENTO",
+                "ja-JP": "第676連隊",
+                "ko-KR": "제676연대",
+                "pl-PL": "676 PUŁK STRZELCÓW",
+                "pt-BR": "676º REGIMENTO",
+                "ru-RU": "676-й ПОЛК",
+                "zh-Hans": "步兵第 676 团",
+                "zh-Hant": "步兵第 676 團"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 5,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "t7",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/676th_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/676th_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

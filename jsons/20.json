@@ -1,0 +1,1090 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 86083,
+            "cardId": "6th_airlanding_brigade",
+            "importId": "lD",
+            "json": {
+              "id": "6th_airlanding_brigade",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Wenn eine verbündete Einheit 1 Kampfschaden verursachen würde, verursacht sie stattdessen 3.",
+                "en-EN": "When a friendly unit would deal 1 combat damage, it deals 3 instead.",
+                "es-ES": "Cuando una unidad aliada tendría que infligir 1 de daño de combate, en su lugar inflige 3.",
+                "fr-FR": "Lorsqu'une unité alliée doit infliger 1 dégât au combat, elle en inflige 3 à la place.",
+                "it-IT": "Quando un'unità alleata infliggerebbe 1 danno da combattimento, ne infligge invece 3.",
+                "ja-JP": "自身のユニットが戦闘ダメージを1与える場合、代わりに3を与える。",
+                "ko-KR": "아군 유닛이 주는 교전 피해가 1일 경우 3으로 증폭시켜 줍니다.",
+                "pl-PL": "Gdy sojusznicza jednostka miałaby zadać 1 punkt obrażeń bojowych, zamiast tego zadaje 3.",
+                "pt-BR": "Quando uma unidade aliada causaria 1 dano de combate, ela causa 3 em vez disso.",
+                "ru-RU": "Когда дружественный отряд наносит 1 урона в бою, вместо этого он наносит 3.",
+                "zh-Hans": "友方单位造成 1 点对战伤害时，改为造成 3 点。",
+                "zh-Hant": "友方單位造成 1 點對戰傷害時，改為造成 3 點。"
+              },
+              "type": "infantry",
+              "image": "6th_airlanding_brigade.avif",
+              "title": {
+                "de-DE": "6. LUFTLANDEBRIGADE",
+                "en-EN": "6th AIRLANDING BRIGADE",
+                "es-ES": "6.ª BRIGADA AÉREA",
+                "fr-FR": "6e BRIGADE AÉROPORTÉE",
+                "it-IT": "6ª BRIGATA D'ATTERRAGGIO",
+                "ja-JP": "第6空挺旅団",
+                "ko-KR": "제6공수여단",
+                "pl-PL": "6 BRYGADA POWIETRZNODESANTOWA",
+                "pt-BR": "6ª BRIGADA ÁEREA",
+                "ru-RU": "6-я ВОЗДУШНО-ДЕСАНТНАЯ БРИГАДА",
+                "zh-Hans": "第 6 空降旅",
+                "zh-Hant": "第 6 空降旅"
+              },
+              "attack": 1,
+              "rarity": "Elite",
+              "defense": 4,
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "lD",
+              "attributes": [
+                "fury"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/6th_airlanding_brigade.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/6th_airlanding_brigade.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86088,
+            "cardId": "6th_infantry_regiment",
+            "importId": "6F",
+            "json": {
+              "id": "6th_infantry_regiment",
+              "set": "Base",
+              "text": {},
+              "type": "infantry",
+              "image": "6th_infantry_regiment.avif",
+              "title": {
+                "de-DE": "6. INFANTERIEREGIMENT",
+                "en-EN": "6th INFANTRY REGIMENT",
+                "es-ES": "6.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "6e RÉGIMENT D’INFANTERIE",
+                "it-IT": "6° REG. FANTERIA",
+                "ja-JP": "歩兵第六連隊",
+                "ko-KR": "제6보병연대",
+                "pl-PL": "6 PUŁK PIECHOTY",
+                "pt-BR": "6º REGIMENTO DE INFANTARIA",
+                "ru-RU": "6-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "步兵第六联队",
+                "zh-Hant": "步兵第六聯隊"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "6F",
+              "attributes": [
+                "fury"
+              ],
+              "operationCost": 0
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/6th_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/6th_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86102,
+            "cardId": "74_panzergrenadier",
+            "importId": "wH",
+            "json": {
+              "id": "74_panzergrenadier",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Schicke eine verbündete Einheit auf deine Hand zurück. Sie erhält +1+1.",
+                "en-EN": "Deployment: Send a friendly unit to hand. Gets +1+1 if you do.",
+                "es-ES": "Despliegue: Envía una unidad aliada a la mano. Obtiene +1+1 si lo haces.",
+                "fr-FR": "Déploiement : Renvoyez une unité alliée dans la main de son propriétaire. Dans ce cas, ce 74e PANZERGRENADIER gagne +1+1.",
+                "it-IT": "Schieramento: Manda un'unità alleata in mano. Se lo fai, questa unità ottiene +1+1.",
+                "ja-JP": "配備時：自身のユニットを手札に送る。その場合、+1+1を得る。",
+                "ko-KR": "배치: 아군 유닛 하나를 패로 되돌립니다. 되돌렸다면 이 유닛은 +1+1을 얻습니다.",
+                "pl-PL": "Rozmieszczenie: Wyślij sojuszniczą jednostkę do ręki. Jeśli to zrobisz, otrzymuje +1+1.",
+                "pt-BR": "Posicionamento: Envie uma unidade aliada para a mão. Recebe +1+1 se o fizer.",
+                "ru-RU": "Размещение: Возвращает дружественный отряд в руку. Получает +1+1, если это было сделано.",
+                "zh-Hans": "部署：将 1 个友方单位返回手牌。若如此做，获得 +1+1。",
+                "zh-Hant": "部署：將 1 個友方單位返回手牌。若如此做，獲得 +1+1。"
+              },
+              "type": "infantry",
+              "image": "74_panzergrenadier.avif",
+              "title": {
+                "de-DE": "74. PANZERGRENADIER",
+                "en-EN": "74. PANZERGRENADIER",
+                "es-ES": "74.º PANZERGRENADIER",
+                "fr-FR": "74e PANZERGRENADIER",
+                "it-IT": "74. PANZERGRENADIER",
+                "ja-JP": "第74装甲擲弾兵連隊",
+                "ko-KR": "74.기갑척탄병연대",
+                "pl-PL": "74 PANZERGRENADIER",
+                "pt-BR": "74. PANZERGRENADIER",
+                "ru-RU": "74. PANZERGRENADIER",
+                "zh-Hans": "第 74 装甲掷弹兵团",
+                "zh-Hant": "第 74 裝甲擲彈兵團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "wH",
+              "attributes": [
+                "blitz",
+                "bond"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/74_panzergrenadier.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/74_panzergrenadier.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86101,
+            "cardId": "74th_silesian_regiment",
+            "importId": "jp",
+            "json": {
+              "id": "74th_silesian_regiment",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Wenn eine feindliche Einheit an Front zieht, setze sie fest.",
+                "en-EN": "When an enemy unit moves into the frontline, pin it.",
+                "es-ES": "Cuando una unidad enemiga se mueva al frente de batalla, inmovilízala.",
+                "fr-FR": "Lorsqu'une unité ennemie rejoint la première ligne, immobilisez-la.",
+                "it-IT": "Quando un'unità nemica si muove in prima linea, Bloccala.",
+                "ja-JP": "敵ユニットが前線に移動すると、それを足止めする。",
+                "ko-KR": "상대 유닛이 전방으로 이동하면 그 유닛을 고정시킵니다.",
+                "pl-PL": "Gdy jednostka przeciwnika przemieści się na linię frontu, przyszpil ją.",
+                "pt-BR": "Quando uma unidade inimiga se mover para a linha de frente, fixe-a.",
+                "ru-RU": "Когда вражеский отряд перемещается на линию фронта, блокирует его.",
+                "zh-Hans": "敌方单位移至前线时，将其压制。",
+                "zh-Hant": "敵方單位移至前線時，將其壓制。"
+              },
+              "type": "infantry",
+              "image": "74th_silesian_regiment.avif",
+              "title": {
+                "de-DE": "74. SCHLESISCHES REGIMENT",
+                "en-EN": "74th SILESIAN REGIMENT",
+                "es-ES": "74.º REGIMIENTO SILESIANO",
+                "fr-FR": "74e RÉGIMENT DE SILÉSIE",
+                "it-IT": "74° REG. DELLA SLESIA",
+                "ja-JP": "第74シレジア連隊",
+                "ko-KR": "제74실레지아연대",
+                "pl-PL": "74 GÓRNOŚLĄSKI PUŁK PIECHOTY",
+                "pt-BR": "74º REGIMENTO SILESIANO",
+                "ru-RU": "74-Й СИЛЕЗСКИЙ ПОЛК",
+                "zh-Hans": "西里西亚第 74 步兵团",
+                "zh-Hant": "西里西亞第 74 步兵團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Poland",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "jp",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/74th_silesian_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/74th_silesian_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86105,
+            "cardId": "75mm_mountain_gun",
+            "importId": "6H",
+            "json": {
+              "id": "75mm_mountain_gun",
+              "set": "Base",
+              "text": {
+                "de-DE": "Kann das feindliche HQ nicht angreifen.",
+                "en-EN": "Cannot attack the enemy HQ.",
+                "es-ES": "No puede atacar el cuartel general del enemigo.",
+                "fr-FR": "Ne peut pas attaquer le QG ennemi.",
+                "it-IT": "Non puoi attaccare il QG nemico.",
+                "ja-JP": "敵の本部を攻撃できない。",
+                "ko-KR": "상대 본부를 공격할 수 없습니다.",
+                "pl-PL": "Nie można zaatakować sztabu przeciwnika.",
+                "pt-BR": "Não é possível atacar o QG do inimigo.",
+                "ru-RU": "Не может атаковать вражеский штаб.",
+                "zh-Hans": "无法攻击敌方总部。",
+                "zh-Hant": "無法攻擊敵方總部。"
+              },
+              "type": "artillery",
+              "image": "75mm_mountain_gun.avif",
+              "title": {
+                "de-DE": "75-mm-GEBIRGSGESCHÜTZ",
+                "en-EN": "75mm MOUNTAIN GUN",
+                "es-ES": "Cañón de montaña de 75 mm",
+                "fr-FR": "CANON DE MONTAGNE de 75 mm",
+                "it-IT": "CANNONE da 45mm",
+                "ja-JP": "75mm山砲",
+                "ko-KR": "97식 75MM 산포",
+                "pl-PL": "ARMATA GÓRSKA 75 mm",
+                "pt-BR": "CANHÃO DE MONTANHA DE 75 mm",
+                "ru-RU": "75-мм ГОРНОЕ ОРУДИЕ",
+                "zh-Hans": "四一式山炮",
+                "zh-Hant": "四一式山炮"
+              },
+              "attack": 3,
+              "rarity": "Special",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "6H",
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/75mm_mountain_gun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/75mm_mountain_gun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86117,
+            "cardId": "7th_scottish_borderers",
+            "importId": "oA",
+            "json": {
+              "id": "7th_scottish_borderers",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Füge dem feindlichen HQ 1 Schaden für jede überschüssige Spionage zu, die du erhältst.",
+                "en-EN": "Deal 1 damage to the enemy HQ for each excess Intel you get.",
+                "es-ES": "Inflige 1 de daño al cuartel general enemigo por cada Inteligencia excedente que obtengas.",
+                "fr-FR": "Pour chaque Renseignement excédentaire que vous obtenez, inflige 1 dégât au QG ennemi.",
+                "it-IT": "Quando fai Intelligence ma il nemico non ha abbastanza carte in mano, infliggi danno al QG nemico per ogni Intelligence in eccesso.",
+                "ja-JP": "敵の手札を超えて行った諜報ごとに、敵の本部に1ダメージを与える。",
+                "ko-KR": "당신이 얻는 초과분의 정보당 상대 본부에 1의 피해를 입힙니다.",
+                "pl-PL": "Zadaj 1 pkt zniszczeń wrogiemu sztabowi za każdy uzyskany nadmiar danych Wywiadu.",
+                "pt-BR": "Cause 1 de dano ao QG inimigo por cada Inteligência excedente que você receber.",
+                "ru-RU": "Наносит 1 урона вражескому штабу за каждую избыточную Разведку.",
+                "zh-Hans": "每溢出 1 情报，对敌方总部造成 1 点伤害。",
+                "zh-Hant": "每溢出 1 情報，對敵方總部造成 1 點傷害。"
+              },
+              "type": "infantry",
+              "image": "7th_scottish_borderers.avif",
+              "title": {
+                "de-DE": "7. SCOTTISH BORDERERS",
+                "en-EN": "7th SCOTTISH BORDERERS",
+                "es-ES": "7.º BORDERERS ESCOCESES",
+                "fr-FR": "7e SCOTTISH BORDERERS",
+                "it-IT": "7° SCOTTISH BORDERERS",
+                "ja-JP": "第7スコティッシュ・ボーダーズ",
+                "ko-KR": "제7 스코틀랜드 국경대",
+                "pl-PL": "7 SCOTTISH BORDERS",
+                "pt-BR": "7º BORDERERS ESCOCESES",
+                "ru-RU": "7-й ШОТЛАНДСКИЙ ПОГРАНБАТАЛЬОН",
+                "zh-Hans": "苏格兰边民团第 7 营",
+                "zh-Hant": "蘇格蘭邊民團第 7 營"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "oA",
+              "attributes": [
+                "intel3",
+                "smokescreen"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/7th_scottish_borderers.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/7th_scottish_borderers.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86118,
+            "cardId": "7tp",
+            "importId": "iA",
+            "json": {
+              "id": "7tp",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Ziehe eine Karte, wenn eine verbündete Einheit zum ersten Mal jeden Zug den Kampf überlebt.",
+                "en-EN": "Draw a card the first time a friendly unit survives combat each turn.",
+                "es-ES": "Cada turno, roba una carta la primera vez que una unidad aliada sobrevive al combate.",
+                "fr-FR": "Piochez une carte la première fois à chaque tour qu'une unité alliée survit au combat.",
+                "it-IT": "La prima volta che un'unità alleata sopravvive in combattimento ogni turno, pesca una carta.",
+                "ja-JP": "各ターンで、味方ユニットが初めて戦闘を生き残るとカードを1枚引く。",
+                "ko-KR": "매 턴마다 아군 유닛이 처음으로 교전에서 생존하면 카드 1장을 뽑습니다.",
+                "pl-PL": "Dobierz kartę za pierwszym razem, gdy sojusznicza jednostka przeżyje walkę w każdej turze.",
+                "pt-BR": "Compre uma carta na primeira vez que uma unidade aliada sobreviver ao combate a cada turno.",
+                "ru-RU": "Вы берёте карту каждый раз, когда впервые за ход дружественный отряд выживает в бою.",
+                "zh-Hans": "每回合，友方单位首次对战并存活时，抽 1 张牌。",
+                "zh-Hant": "每回合，友方單位首次對戰並存活時，抽 1 張牌。"
+              },
+              "type": "tank",
+              "image": "7tp.avif",
+              "title": {
+                "de-DE": "7TP",
+                "en-EN": "7TP",
+                "es-ES": "7TP",
+                "fr-FR": "7TP",
+                "it-IT": "7TP",
+                "ja-JP": "7TP",
+                "ko-KR": "7TP",
+                "pl-PL": "7TP",
+                "pt-BR": "7TP",
+                "ru-RU": "7TP",
+                "zh-Hans": "7TP",
+                "zh-Hant": "7TP"
+              },
+              "attack": 2,
+              "rarity": "Special",
+              "defense": 3,
+              "faction": "Poland",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "iA",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/7tp.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/7tp.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86124,
+            "cardId": "845th_rifles",
+            "importId": "8U",
+            "json": {
+              "id": "845th_rifles",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Wenn diese Einheit Schaden nimmt, erhält dein HQ genauso viel Verteidigung.",
+                "en-EN": "When this unit is dealt damage, your HQ gets equal amount of defense.",
+                "es-ES": "Cuando esta unidad sufre daño, tu cuartel recibe una cantidad de defensa equivalente.",
+                "fr-FR": "Lorsque cette unité subit des dégâts, votre QG gagne la même quantité de défense.",
+                "it-IT": "Quando viene inflitto danno a questa unità, il tuo QG ottiene la stessa quantità di difesa.",
+                "ja-JP": "このユニットがダメージを受けると、我々の本部は同量の防御力を得る。",
+                "ko-KR": "이 유닛이 피해를 입으면, 아군 본부가 그 피해만큼 방어력을 얻습니다.",
+                "pl-PL": "Gdy ta jednostka otrzymuje obrażenia, twój sztab otrzymuje taką samą liczbę pkt obrony.",
+                "pt-BR": "Quando esta unidade recebe dano, o seu QG recebe a mesma quantidade de defesa.",
+                "ru-RU": "Когда этот отряд получает урон, ваш штаб получает столько же защиты.",
+                "zh-Hans": "本单位受到伤害时，使友方总部获得等量的防御力。",
+                "zh-Hant": "本單位受到傷害時，使友方總部獲得等量的防禦力。"
+              },
+              "type": "infantry",
+              "image": "845th_rifles.avif",
+              "title": {
+                "de-DE": "845. SCHÜTZENREGIMENT",
+                "en-EN": "845th RIFLES",
+                "es-ES": "845.º DE FUSILEROS",
+                "fr-FR": "845e RÉGIMENT DE FUSILIERS",
+                "it-IT": "845° FUCILIERI",
+                "ja-JP": "第845狙撃連隊",
+                "ko-KR": "제845소총연대",
+                "pl-PL": "845 PUŁK STRZELCÓW",
+                "pt-BR": "845º REGIMENTO DE RIFLES",
+                "ru-RU": "845-й СТРЕЛКОВЫЙ ПОЛК",
+                "zh-Hans": "步兵第 845 团",
+                "zh-Hant": "步兵第 845 團"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 4,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "8U",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/845th_rifles.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/845th_rifles.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86128,
+            "cardId": "866th_rifles",
+            "importId": "z4",
+            "json": {
+              "id": "866th_rifles",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Zerstörung: Füge deiner Hand zwei EXPLOSIONEN hinzu.",
+                "en-EN": "Destruction: Add two BLASTS to your hand.",
+                "es-ES": "Destrucción: Añade dos EXPLOSIÓN a tu mano.",
+                "fr-FR": "Destruction : Ajoute deux EXPLOSIONS à votre main.",
+                "it-IT": "Distruzione: aggiungi due ESPLOSIONI alla tua mano.",
+                "ja-JP": "破壊時：手札に2回の爆破を加える。",
+                "ko-KR": "파괴: 당신의 패에 '파괴' 2장을 추가합니다.",
+                "pl-PL": "Zniszczenie: Dodaj dwa WYBUCHY do swojej ręki.",
+                "pt-BR": "Destruição: Adicione duas EXPLOSÕES à sua mão.",
+                "ru-RU": "Уничтожение: Добавляет два ВЗРЫВА в вашу руку.",
+                "zh-Hans": "亡计：将 2 张“爆破”加入手中。",
+                "zh-Hant": "亡計：將 2 張“爆破”加入手中。"
+              },
+              "type": "infantry",
+              "image": "866th_rifles.avif",
+              "title": {
+                "de-DE": "866. SCHÜTZENREGIMENT",
+                "en-EN": "866th RIFLES",
+                "es-ES": "866.º DE FUSILEROS",
+                "fr-FR": "866e RÉGIMENT DE FUSILIERS",
+                "it-IT": "866° FUCILIERI",
+                "ja-JP": "第866狙撃師団",
+                "ko-KR": "제866소총연대",
+                "pl-PL": "866 PUŁK STRZELCÓW",
+                "pt-BR": "866º REGIMENTO DE FUZILEIROS",
+                "ru-RU": "866-й СТРЕЛКОВЫЙ ПОЛК",
+                "zh-Hans": "步兵第 866 团",
+                "zh-Hant": "步兵第 866 團"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "z4",
+              "can_create": [
+                "blast"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/866th_rifles.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/866th_rifles.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86129,
+            "cardId": "87_grenadier",
+            "importId": "f4",
+            "json": {
+              "id": "87_grenadier",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Gib +2+2, wenn der Feind deine Gegenmaßnahme auslöst.",
+                "en-EN": "Give +2+2 when the enemy triggers your countermeasure.",
+                "es-ES": "Obtiene +2+2 cuando el enemigo activa tus contramedidas.",
+                "fr-FR": "Confère +2+2 lorsque l'ennemi déclenche votre contre-mesure.",
+                "it-IT": "Dopo che il nemico ha attivato una tua contromisura, ottiene +2+2.",
+                "ja-JP": "敵が自身の対抗策を発動すると、+2+2付与される。",
+                "ko-KR": "상대가 당신의 대응책을 발동시키면 이 유닛의 공격력과 방어력에 +2를 부여합니다..",
+                "pl-PL": "Zapewnij tej jednostce +2+2, gdy przeciwnik aktywuje twój środek zaradczy.",
+                "pt-BR": "Dê +2+2 quando o inimigo ativar sua contramedida.",
+                "ru-RU": "Получает +2+2, когда срабатывает ваша контрмера.",
+                "zh-Hans": "友方反制触发时，获得 +2+2。",
+                "zh-Hant": "友方反制觸發時，獲得 +2+2。"
+              },
+              "type": "infantry",
+              "image": "87_grenadier.avif",
+              "title": {
+                "de-DE": "87. GRENADIERE",
+                "en-EN": "87. GRENADIER",
+                "es-ES": "87. GRENADIER",
+                "fr-FR": "87e DE GRENADIERS",
+                "it-IT": "87° GRENADIER",
+                "ja-JP": "第87擲弾兵連隊",
+                "ko-KR": "제87척탄병연대",
+                "pl-PL": "87 PUŁK GRENADIERÓW",
+                "pt-BR": "87º GRANADEIROS",
+                "ru-RU": "87. GRENADIER",
+                "zh-Hans": "第 87 掷弹兵团",
+                "zh-Hant": "第 87 擲彈兵團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "f4",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/87_grenadier.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/87_grenadier.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86258,
+            "cardId": "8_fallschirmjger",
+            "importId": "40",
+            "json": {
+              "id": "8_fallschirmjger",
+              "set": "Base",
+              "text": {},
+              "type": "infantry",
+              "image": "8_fallschirmjger.avif",
+              "title": {
+                "de-DE": "8. FALLSCHIRMJÄGER",
+                "en-EN": "8. FALLSCHIRMJÄGER",
+                "es-ES": "8. FALLSCHIRMJÄGER",
+                "fr-FR": "8e FALLSCHIRMJÄGER",
+                "it-IT": "8° FALLSCHIRMJÄGER",
+                "ja-JP": "第8降下猟兵大隊",
+                "ko-KR": "제8공수연대",
+                "pl-PL": "8 FALLSCHIRMJÄGER",
+                "pt-BR": "8. FALLSCHIRMJÄGER",
+                "ru-RU": "8. FALLSCHIRMJÄGER",
+                "zh-Hans": "第 8 空降猎兵团",
+                "zh-Hant": "第 8 空降獵兵團"
+              },
+              "attack": 3,
+              "rarity": "Elite",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "40",
+              "attributes": [
+                "blitz",
+                "fury"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/8_fallschirmjger.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/8_fallschirmjger.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86136,
+            "cardId": "91st_astrakhan",
+            "importId": "mx",
+            "json": {
+              "id": "91st_astrakhan",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Wenn diese Einheit einen Zangenangriff erhält, gib ihr +1+2.",
+                "en-EN": "When this unit gets a Pincer effect, give it +1+2.",
+                "es-ES": "Cuando esta unidad obtiene un efecto Pinza, obtiene +1+2.",
+                "fr-FR": "Lorsque cette unité reçoit un effet Tenaille, elle gagne +1+2.",
+                "it-IT": "Quando questa unità ottiene un effetto Tenaglia, ottiene +1+2.",
+                "ja-JP": "このユニットが挟撃能力を得た時、+1+2が付与される。",
+                "ko-KR": "이 유닛이 협공 효과를 받으면, +1/+2를 얻습니다.",
+                "pl-PL": "Gdy ta jednostka uzyska efekt Kleszczy, otrzymuje +1+2.",
+                "pt-BR": "Quando esta unidade recebe o efeito de Pinça, dê +1+2 a ela.",
+                "ru-RU": "Когда этот отряд получает Клещи, он также получает +1+2.",
+                "zh-Hans": "本单位获得钳击加成时，获得 +1+2。",
+                "zh-Hant": "本單位獲得鉗擊加成時，獲得 +1+2。"
+              },
+              "type": "infantry",
+              "image": "91st_astrakhan.avif",
+              "title": {
+                "de-DE": "91. ASTRACHAN",
+                "en-EN": "91st ASTRAKHAN",
+                "es-ES": "91.º ASTRACÁN",
+                "fr-FR": "91e ASTRAKHAN",
+                "it-IT": "91° ASTRAKHAN",
+                "ja-JP": "第91アストラハン連隊",
+                "ko-KR": "제91아스트라칸연대",
+                "pl-PL": "91 ASTRACHAŃ",
+                "pt-BR": "91st ASTRAKHAN",
+                "ru-RU": "91-й АСТРАХАНСКИЙ ПОЛК",
+                "zh-Hans": "阿斯特拉罕第 91 团",
+                "zh-Hant": "阿斯特拉罕第 91 團"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "mx",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/91st_astrakhan.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/91st_astrakhan.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86141,
+            "cardId": "957_volksgrenadier",
+            "importId": "ts",
+            "json": {
+              "id": "957_volksgrenadier",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Füge deiner Hand eine PRODUKTION hinzu.",
+                "en-EN": "Deployment: Add a PRODUCTION to your hand.",
+                "es-ES": "Despliegue: añade una PRODUCCIÓN a tu mano.",
+                "fr-FR": "Déploiement : Ajoute une PRODUCTION à votre main.",
+                "it-IT": "Schieramento: aggiungi PRODUZIONE alla tua mano.",
+                "ja-JP": "配備時：生産を手札に追加する。",
+                "ko-KR": "배치: 당신의 패에 '생산'을 추가합니다.",
+                "pl-PL": "Rozmieszczenie: dodaj PRODUKCJĘ do swojej ręki.",
+                "pt-BR": "Posicionamento: Adicione uma PRODUÇÃO à sua mão.",
+                "ru-RU": "Размещение: Добавляет в вашу руку ПРОИЗВОДСТВО.",
+                "zh-Hans": "部署：将 1 张“生产”加入手中。",
+                "zh-Hant": "部署：將 1 張“生產”加入手中。"
+              },
+              "type": "infantry",
+              "image": "957_volksgrenadier.avif",
+              "title": {
+                "de-DE": "957. VOLKSGRENADIER",
+                "en-EN": "957. VOLKSGRENADIER",
+                "es-ES": "957.º VOLKSGRENADIER",
+                "fr-FR": "957e VOLKSGRENADIER",
+                "it-IT": "957. VOLKSGRENADIER",
+                "ja-JP": "第957国民擲弾兵",
+                "ko-KR": "957.국민척탄병연대",
+                "pl-PL": "957 VOLKSGRENADIER",
+                "pt-BR": "957º VOLKSGRENADIER",
+                "ru-RU": "957-й ПОЛК VOLKSGRENADIER",
+                "zh-Hans": "第 957 国民掷弹兵团",
+                "zh-Hant": "第 957 國民擲彈兵團"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "ts",
+              "can_create": [
+                "production"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/957_volksgrenadier.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/957_volksgrenadier.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86142,
+            "cardId": "95th_rifle_regiment",
+            "importId": "8Z",
+            "json": {
+              "id": "95th_rifle_regiment",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Fügt einer Einheit und deinem HQ 1 Schaden zu.",
+                "en-EN": "Deployment: Deal 1 damage to a unit and your HQ.",
+                "es-ES": "Despliegue: inflige 1 de daño a una unidad y a tu cuartel general.",
+                "fr-FR": "Déploiement : Inflige 1 dégât à une unité et à votre QG.",
+                "it-IT": "Schieramento: infliggi 1 danno a un'unità e al tuo QG.",
+                "ja-JP": "配備時：ユニットと本部に1ダメージを与える。",
+                "ko-KR": "배치 : 대상 유닛과 아군 본부에 1의 피해를 입힙니다.",
+                "pl-PL": "Rozmieszczenie: zadaj 1 pkt obrażeń jednostce i swojemu sztabowi.",
+                "pt-BR": "Posicionamento: cause 1 de dano a unidade a seu QG.",
+                "ru-RU": "Размещение: Наносит 1 урона отряду и вашему штабу.",
+                "zh-Hans": "部署：对 1 个单位和友方总部造成 1 点伤害。",
+                "zh-Hant": "部署：對 1 個單位和友方總部造成 1 點傷害。"
+              },
+              "type": "infantry",
+              "image": "95th_rifle_regiment.avif",
+              "title": {
+                "de-DE": "95. SCHÜTZENREGIMENT",
+                "en-EN": "95th RIFLE REGIMENT",
+                "es-ES": "95.º REGIMIENTO DE FUSILEROS",
+                "fr-FR": "95e RÉGIMENT DE FUSILIERS",
+                "it-IT": "95° REG. FUCILIERI",
+                "ja-JP": "第95狙撃連隊",
+                "ko-KR": "제95소총연대",
+                "pl-PL": "95 PUŁK STRZELCÓW",
+                "pt-BR": "95º REGIMENTO DE FUZILEIROS",
+                "ru-RU": "95-й СТРЕЛКОВЫЙ ПОЛК",
+                "zh-Hans": "步兵第 95 团",
+                "zh-Hant": "步兵第 95 團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "8Z",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/95th_rifle_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/95th_rifle_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86143,
+            "cardId": "96_infantry_regiment",
+            "importId": "oT",
+            "json": {
+              "id": "96_infantry_regiment",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Wenn du eine andere Einheit einsetzt, zerstöre diese Einheit.",
+                "en-EN": "When you deploy another unit, destroy this unit.",
+                "es-ES": "Cuando despliegues otra unidad, destruye 96.º REGIMIENTO DE INFANTERÍA.",
+                "fr-FR": "Détruisez cette unité lorsque vous déployez une autre unité.",
+                "it-IT": "Quando schieri un'altra unità, distruggi questa unità.",
+                "ja-JP": "他のユニットを配備すると、このユニットを破壊します。",
+                "ko-KR": "당신이 다른 유닛을 배치할 경우, 이 유닛을 파괴합니다.",
+                "pl-PL": "Gdy rozmieścisz inną jednostkę, zniszcz tę jednostkę.",
+                "pt-BR": "Ao posicionar outra unidade, destrua esta unidade.",
+                "ru-RU": "Когда вы размещаете другой отряд, этот уничтожается.",
+                "zh-Hans": "其他友方单位部署时，消灭本单位。",
+                "zh-Hant": "其他友方單位部署時，消滅本單位。"
+              },
+              "type": "infantry",
+              "image": "96_infantry_regiment.avif",
+              "title": {
+                "de-DE": "96. INFANTERIEREGIMENT",
+                "en-EN": "96. INFANTRY REGIMENT",
+                "es-ES": "96.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "96e RÉGIMENT D'INFANTERIE",
+                "it-IT": "96. REG. FANTERIA",
+                "ja-JP": "第96歩兵連隊",
+                "ko-KR": "제96보병연대",
+                "pl-PL": "96 PUŁK PIECHOTY",
+                "pt-BR": "96º REGIMENTO DE INFANTARIA",
+                "ru-RU": "96-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 96 步兵团",
+                "zh-Hant": "第 96 步兵團"
+              },
+              "attack": 4,
+              "rarity": "Elite",
+              "defense": 4,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "oT",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/96_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/96_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86146,
+            "cardId": "99th_infantry_battalion",
+            "importId": "cF",
+            "json": {
+              "id": "99th_infantry_battalion",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Wenn du die Front kontrollierst, gib einer verbündeten Einheit +2+2.",
+                "en-EN": "Deployment: If you control the frontline, give another friendly unit +2+2.",
+                "es-ES": "Despliegue: si controlas el frente, le otorga a otra unidad aliada +2+2.",
+                "fr-FR": "Déploiement : si vous contrôlez la première ligne, confère +2+2 à une autre unité alliée.",
+                "it-IT": "Schieramento: se controlli la prima linea, dai +2+2 a un'unità alleata.",
+                "ja-JP": "配備時：前線を制圧している場合、他の味方ユニットに+2+2を与える。",
+                "ko-KR": "배치: 당신이 전방을 점령하고 있다면, 다른 아군 유닛에게 공격력, 방어력 +2를 부여합니다.",
+                "pl-PL": "Rozmieszczenie: Jeśli kontrolujesz linię frontu, zapewnij sojuszniczej jednostce +2+2.",
+                "pt-BR": "Desdobramento: Se você controlar a linha de frente, dê +2+2 a outra unidade aliada.",
+                "ru-RU": "Размещение: Если вы контролируете линию фронта, даёт дружественному отряду +2+2.",
+                "zh-Hans": "部署：若前线有友方单位，使 1 个友方单位获得 +2+2。",
+                "zh-Hant": "部署：若前線有友方單位，使 1 個友方單位獲得 +2+2。"
+              },
+              "type": "infantry",
+              "image": "99th_infantry_battalion.avif",
+              "title": {
+                "de-DE": "99. INFANTERIEBATAILLON",
+                "en-EN": "99th INFANTRY BATTALION",
+                "es-ES": "99.º BATALLÓN DE INFANTERÍA",
+                "fr-FR": "99e BATAILLON D’INFANTERIE",
+                "it-IT": "99° BATTAGLIONE FANTERIA",
+                "ja-JP": "第99歩兵大隊",
+                "ko-KR": "제99보병대대",
+                "pl-PL": "99 BATALION PIECHOTY",
+                "pt-BR": "99º BATALHÃO DE INFANTARIA",
+                "ru-RU": "99-й ПЕХОТНЫЙ БАТАЛЬОН",
+                "zh-Hans": "第 99 步兵营",
+                "zh-Hant": "第 99 步兵營"
+              },
+              "attack": 2,
+              "rarity": "Special",
+              "defense": 2,
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "cF",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/99th_infantry_battalion.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/99th_infantry_battalion.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86153,
+            "cardId": "a5m4_claude",
+            "importId": "6I",
+            "json": {
+              "id": "a5m4_claude",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Gib einer anderen verbündeten Einheit -1 Aktionskosten.",
+                "en-EN": "Deployment: Give another friendly unit -1 operation cost.",
+                "es-ES": "Despliegue: le otorga a otra unidad aliada -1 de costo de operación.",
+                "fr-FR": "Déploiement : Réduit de 1 le coût d'opération d'une autre unité alliée.",
+                "it-IT": "Schieramento: dai -1 costo operativo a un'altra unità alleata.",
+                "ja-JP": "配備時：味方ユニット1体の行動コストを1減らす。",
+                "ko-KR": "배치: 다른 아군 유닛에 운용 비용 -1을 부여합니다.",
+                "pl-PL": "Rozmieszczenie: Zapewnij innej sojuszniczej jednostce -1 do kosztu działania.",
+                "pt-BR": "Posicionamento: Dê a uma unidade aliada -1 de custo de operação.",
+                "ru-RU": "Размещение: Даёт другому дружественному отряду -1 к стоимости использования.",
+                "zh-Hans": "部署：使 1 个友方单位获得 -1 行动花费。",
+                "zh-Hant": "部署：使 1 個友方單位獲得 -1 行動花費。"
+              },
+              "type": "fighter",
+              "image": "a5m4_claude.avif",
+              "title": {
+                "de-DE": "A5M4 CLAUDE",
+                "en-EN": "A5M4 CLAUDE",
+                "es-ES": "A5M4 CLAUDE",
+                "fr-FR": "A5M4 CLAUDE",
+                "it-IT": "A5M4 CLAUDE",
+                "ja-JP": "九六式四号艦戦",
+                "ko-KR": "A5M4 클로드",
+                "pl-PL": "A5M4 CLAUDE",
+                "pt-BR": "A5M4 CLAUDE",
+                "ru-RU": "A5M4 CLAUDE",
+                "zh-Hans": "A5M4 九六舰战",
+                "zh-Hant": "A5M4 九六艦戰"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "6I",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/a5m4_claude.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/a5m4_claude.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85132,
+            "cardId": "a_few_good_men",
+            "importId": "bR",
+            "json": {
+              "id": "a_few_good_men",
+              "set": "TheatersOfWar",
+              "text": {
+                "de-DE": "Wähle 1 von 3 zufälligen amerikanischen Eliteeinheiten und füge sie deiner Hand hinzu.",
+                "en-EN": "Choose 1 of 3 random elite US units to add to your hand.",
+                "es-ES": "De entre 3 unidades estadounidenses de élite aleatorias, elige 1 para añadirla a tu mano.",
+                "fr-FR": "Choisissez une unité Elite américaine parmi 3 au hasard à ajouter à votre main.",
+                "it-IT": "Scegli 1 di 3 unità USA d’élite casuali e aggiungila alla tua mano.",
+                "ja-JP": "ランダムな3枚のエリートアメリカ軍ユニットから1枚選んで手札に加える。",
+                "ko-KR": "3장의 무작위 미국 엘리트 유닛 중 1장을 선택해 패에 추가합니다.",
+                "pl-PL": "Wybierz 1 z 3 losowych elitarnych jednostek amerykańskich i dodaj ją do swojej ręki.",
+                "pt-BR": "Escolha 1 de 3 unidades de elite norte-americanas para adicionar à sua mão.",
+                "ru-RU": "Выберите 1 из 3 случайных элитных отрядов США, он добавляется в вашу руку.",
+                "zh-Hans": "从 3 张随机美国精英单位中选择 1 张加入手牌。",
+                "zh-Hant": "從 3 張隨機美國精英單位中選擇 1 張加入手牌。"
+              },
+              "type": "order",
+              "image": "a_few_good_men.avif",
+              "title": {
+                "de-DE": "EINE HANDVOLL HELDEN",
+                "en-EN": "A FEW GOOD MEN",
+                "es-ES": "ALGUNOS HOMBRES BUENOS",
+                "fr-FR": "DES HOMMES D’HONNEUR",
+                "it-IT": "POCHI MA BUONI",
+                "ja-JP": "ア・フュー・グッドメン",
+                "ko-KR": "소수정예",
+                "pl-PL": "KILKU DOBRYCH LUDZI",
+                "pt-BR": "ALGUNS HOMENS BONS",
+                "ru-RU": "НЕСКОЛЬКО ХОРОШИХ ПАРНЕЙ",
+                "zh-Hans": "好人寥寥",
+                "zh-Hant": "好人寥寥"
+              },
+              "rarity": "Elite",
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "bR"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/a_few_good_men.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/a_few_good_men.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85540,
+            "cardId": "afrika_korps",
+            "importId": "3m",
+            "json": {
+              "id": "afrika_korps",
+              "set": "TheatersOfWar",
+              "text": {
+                "de-DE": "Wähle 1 von 3 zufälligen deutschen Eliteeinheiten und füge sie deiner Hand hinzu.",
+                "en-EN": "Choose 1 of 3 random elite German units to add to your hand.",
+                "es-ES": "De entre 3 unidades de élite alemanas aleatorias, elige 1 y añádela a tu mano.",
+                "fr-FR": "Choisissez une unité Elite allemande parmi 3 au hasard à ajouter à votre main.",
+                "it-IT": "Scegli 1 di 3 unità tedesche d'élite casuali e agiungila alla tua mano.",
+                "ja-JP": "ランダムな3枚のエリートドイツ軍ユニットから1枚選んで手札に加える。",
+                "ko-KR": "3장의 무작위 독일 엘리트 유닛 중 1장을 선택해 패에 추가합니다.",
+                "pl-PL": "Wybierz 1 z 3 losowych elitarnych jednostek niemieckich i dodaj ją do swojej ręki.",
+                "pt-BR": "Escolha 1 de 3 unidades alemãs de elite aleatórias para adicionar à sua mão.",
+                "ru-RU": "Выберите 1 из 3 случайных элитных отрядов Германии, он добавляется в вашу руку.",
+                "zh-Hans": "从 3 张随机德军精英单位中选择 1 张加入手牌。",
+                "zh-Hant": "從 3 張隨機德軍精英單位中選擇 1 張加入手牌。"
+              },
+              "type": "order",
+              "image": "afrika_korps.avif",
+              "title": {
+                "de-DE": "AFRIKAKORPS",
+                "en-EN": "AFRIKA KORPS",
+                "es-ES": "AFRIKA KORPS",
+                "fr-FR": "AFRIKAKORPS",
+                "it-IT": "AFRIKAKORPS",
+                "ja-JP": "ドイツアフリカ軍団",
+                "ko-KR": "아프리카 군단",
+                "pl-PL": "AFRIKA KORPS",
+                "pt-BR": "AFRIKA KORPS",
+                "ru-RU": "АФРИКАНСКИЙ КОРПУС",
+                "zh-Hans": "非洲军团",
+                "zh-Hant": "非洲軍團"
+              },
+              "rarity": "Elite",
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "3m"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/afrika_korps.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/afrika_korps.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85095,
+            "cardId": "agency_africa",
+            "importId": "iq",
+            "json": {
+              "id": "agency_africa",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Füge deiner Hand eine Kopie einer bekannten Karte in der feindlichen Hand hinzu.",
+                "en-EN": "Add to hand a copy of a random known card in the enemy hand.",
+                "es-ES": "Agrega a tu mano una copia al azar de una carta conocida del enemigo.",
+                "fr-FR": "Ajoutez à votre main une copie d'une carte au hasard parmi celles révélées dans la main ennemie .",
+                "it-IT": "Aggiungi alla tua mano una copia di una carta casuale nella mano del nemico che conosci.",
+                "ja-JP": "敵の手札にある既知のカードのコピーを手札に追加する。",
+                "ko-KR": "상대 패에서 드러난 무작위 카드 1장을 복사해 패에 추가합니다.",
+                "pl-PL": "Dodaj do ręki kopię losowej znanej karty w ręce przeciwnika.",
+                "pt-BR": "Adicione à mão uma cópia de uma carta conhecida aleatória na mão inimiga.",
+                "ru-RU": "Добавляет в вашу руку копию случайной известной карты в руке противника.",
+                "zh-Hans": "随机将 1 张敌方明牌的复制加入手牌。",
+                "zh-Hant": "隨機將 1 張敵方明牌的複製加入手牌。"
+              },
+              "type": "order",
+              "exile": "Britain",
+              "image": "agency_africa.avif",
+              "title": {
+                "de-DE": "AGENTUR AFRIKA",
+                "en-EN": "AGENCY AFRICA",
+                "es-ES": "AGENCJA AFRIKA",
+                "fr-FR": "AGENCJA AFRYKA",
+                "it-IT": "AGENCJA AFRYKA",
+                "ja-JP": "アフリカ機関",
+                "ko-KR": "아프리카 에이전시",
+                "pl-PL": "AGENCJA AFRYKA",
+                "pt-BR": "AGENCY AFRICA",
+                "ru-RU": "АФРИКАНСКОЕ АГЕНТСТВО",
+                "zh-Hans": "非洲情报局",
+                "zh-Hant": "非洲情報局"
+              },
+              "rarity": "Special",
+              "faction": "Poland",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "iq",
+              "attributes": [
+                "intel3"
+              ]
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/agency_africa.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/agency_africa.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

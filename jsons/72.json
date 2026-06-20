@@ -1,0 +1,1116 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 86082,
+            "cardId": "6th_airborne",
+            "importId": "8O",
+            "json": {
+              "id": "6th_airborne",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Füge deiner Nachschublinie einen T-34 1942 hinzu. Wird am Ende des Zugs zerstört.",
+                "en-EN": "Deployment: Add a T-34 1942 to your support line. Destroy it at end of turn.",
+                "es-ES": "Despliegue: añade un T-34 1942 a tu línea de apoyo. Destrúyelo al final del turno.",
+                "fr-FR": "Déploiement : Ajoute un T-34 1942 à votre ligne de soutien. Il est détruit à la fin du tour.",
+                "it-IT": "Schieramento: aggiungi un T-34 1942 alla tua linea di supporto. Alla fine del turno, distruggilo.",
+                "ja-JP": "配備時：後方支援にT-34 1942を追加する。ターン終了時にそれを破壊する。",
+                "ko-KR": "배치: 'T-34 1942년형'을 당신의 후방에 추가하고 턴 종료 시 파괴합니다.",
+                "pl-PL": "Rozmieszczenie: Dodaj T-34 1942 do swojej linii wsparcia. Zniszcz go na końcu tury.",
+                "pt-BR": "Posicionamento: Adicione uma unidade T-34 1942 à sua linha de suporte. Destrua-o no final do turno.",
+                "ru-RU": "Размещение: Добавляет Т-34 1942 на вашу линию поддержки. Он уничтожается в конце хода.",
+                "zh-Hans": "部署：将 1 个“T-34 1942”加入支援阵线，友方回合结束时，将其消灭。",
+                "zh-Hant": "部署：將 1 個“T-34 1942”加入支援陣線，友方回合結束時，將其消滅。"
+              },
+              "type": "infantry",
+              "image": "6th_airborne.avif",
+              "title": {
+                "de-DE": "6. LUFTLANDEDIVISION",
+                "en-EN": "6th AIRBORNE",
+                "es-ES": "6.ª AEROTRANSPORTADA",
+                "fr-FR": "6e AÉROPORTÉE",
+                "it-IT": "6° AVIOTRASPORTATO",
+                "ja-JP": "第6親衛空挺旅団",
+                "ko-KR": "제6공수부대",
+                "pl-PL": "6 PUŁK SPADOCHRONOWY",
+                "pt-BR": "6ª DIVISÃO AEROTRANSPORTADA",
+                "ru-RU": "6-я ГВАРДЕЙСКАЯ ВОЗДУШНО-ДЕСАНТНАЯ ДИВИЗИЯ",
+                "zh-Hans": "近卫空降第 6 团",
+                "zh-Hant": "近衛空降第 6 團"
+              },
+              "attack": 6,
+              "rarity": "Elite",
+              "defense": 8,
+              "faction": "Soviet",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "8O",
+              "can_create": [
+                "t34_1942_b"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/6th_airborne.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/6th_airborne.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86099,
+            "cardId": "73rd_infantry_regiment",
+            "importId": "xv",
+            "json": {
+              "id": "73rd_infantry_regiment",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Löse Zerstörungsseffekte aller verbündeten Einheiten aus, die seit Beginn deines letzten Zuges zerstört wurden.",
+                "en-EN": "Deployment: Trigger the destruction effects of all friendly units destroyed since the start of your last turn.",
+                "es-ES": "Despliegue: activa los efectos de destrucción de todas las unidades aliadas destruidas desde el inicio de tu último turno.",
+                "fr-FR": "Déploiement : Déclenche les effets de destruction de toutes les unités alliées détruites depuis le début de votre tour précédent.",
+                "it-IT": "Schieramento: attiva gli effetti di Distruzione di tutte le unità alleate distrutte dall'inizio del tuo scorso turno.",
+                "ja-JP": "配備時：自身の前のターン開始時から破壊されたすべての味方ユニットの破壊時効果を発動する。",
+                "ko-KR": "배치: 당신의 지난 턴 시작 이후 파괴된 모든 아군 유닛의 파괴 효과를 발동시킵니다.",
+                "pl-PL": "Rozmieszczenie: uruchom efekty zniszczenia wszystkich sojuszniczych jednostek zniszczonych od początku twojej ostatniej tury.",
+                "pt-BR": "Posicionamento: ative os efeitos de destruição de todas as unidades aliadas destruídas desde o início do seu último turno.",
+                "ru-RU": "Размещение: Активирует эффекты уничтожения всех дружественных отрядов, уничтоженных с начала вашего предыдущего хода.",
+                "zh-Hans": "部署：触发上个友方回合开始后所有被消灭的友方单位的亡计。",
+                "zh-Hant": "部署：觸發上個友方回合開始後所有被消滅的友方單位的亡計。"
+              },
+              "type": "infantry",
+              "image": "73rd_infantry_regiment.avif",
+              "title": {
+                "de-DE": "73. INFANTERIEREGIMENT",
+                "en-EN": "73rd INFANTRY REGIMENT",
+                "es-ES": "73.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "73e RÉGIMENT D'INFANTERIE",
+                "it-IT": "73° REG. FANTERIA",
+                "ja-JP": "歩兵第73連隊",
+                "ko-KR": "제73보병연대",
+                "pl-PL": "73 PUŁK PIECHOTY",
+                "pt-BR": "73º REGIMENTO DE INFANTARIA",
+                "ru-RU": "73-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "步兵第七十三联队",
+                "zh-Hant": "步兵第七十三聯隊"
+              },
+              "attack": 6,
+              "rarity": "Special",
+              "defense": 5,
+              "faction": "Japan",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "xv",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/73rd_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/73rd_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86115,
+            "cardId": "7th_alpini_regiment",
+            "importId": "le",
+            "json": {
+              "id": "7th_alpini_regiment",
+              "set": "WorldAtWar",
+              "text": {
+                "de-DE": "Von dieser Einheit verursachter Schaden fügt deinem HQ Verteidigung in gleicher Höhe hinzu.",
+                "en-EN": "Damage dealt by this unit adds equal defense to your HQ.",
+                "es-ES": "El daño que inflige esta unidad agrega igual defensa a tu cuartel general.",
+                "fr-FR": "Les dégâts infligés par cette unité ajoutent une défense égale à votre QG.",
+                "it-IT": "Quando questa unità infligge danni, il tuo QG ottiene altrettanta difesa.",
+                "ja-JP": "このユニットが与えたダメージの値と等しい防御力を自身の本部に追加する。",
+                "ko-KR": "이 유닛이 가한 피해와 동일한 수치만큼 아군 본부에 방어력을 부여합니다.",
+                "pl-PL": "Obrażenia zadane przez tę jednostkę wzmacniają obronę twojego sztabu o taką samą wartość.",
+                "pt-BR": "O dano causado por esta unidade adiciona defesa igual ao seu QG.",
+                "ru-RU": "Когда этот отряд наносит урон, ваш штаб получает столько же защиты.",
+                "zh-Hans": "本单位造成伤害时，使友方总部获得同等防御力。",
+                "zh-Hant": "本單位造成傷害時，使友方總部獲得同等防禦力。"
+              },
+              "type": "infantry",
+              "image": "7th_alpini_regiment.avif",
+              "title": {
+                "de-DE": "7. ALPINI-REGIMENT",
+                "en-EN": "7th ALPINI REGIMENT",
+                "es-ES": "7.º REGIMIENTO DE ALPINOS",
+                "fr-FR": "7e RÉGIMENT ALPIN",
+                "it-IT": "7° REG. ALPINI",
+                "ja-JP": "第7山岳連隊",
+                "ko-KR": "제 7 알피니 보병 연대",
+                "pl-PL": "7 PUŁK ALPEJSKI",
+                "pt-BR": "7º REGIMENTO ALPINI",
+                "ru-RU": "7-й АЛЬПИЙСКИЙ ПОЛК",
+                "zh-Hans": "第 7 山地团",
+                "zh-Hant": "第 7 山地團"
+              },
+              "attack": 4,
+              "rarity": "Limited",
+              "defense": 7,
+              "faction": "Italy",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "le",
+              "attributes": [
+                "guard",
+                "alpine"
+              ],
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/7th_alpini_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/7th_alpini_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86123,
+            "cardId": "83rd_naval_brigade",
+            "importId": "8T",
+            "json": {
+              "id": "83rd_naval_brigade",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Einsatz: Zerstört eine feindliche beschädigte Einheit.",
+                "en-EN": "Deployment: Destroy an enemy unit that is damaged.",
+                "es-ES": "Despliegue: Destruye a una unidad enemiga que está dañada.",
+                "fr-FR": "Déploiement : Détruit une unité ennemie endommagée.",
+                "it-IT": "Schieramento: distruggi un'unità nemica danneggiata.",
+                "ja-JP": "配備時：ダメージを受けた敵ユニットを破壊する。",
+                "ko-KR": "배치: 피해를 입은 상대 유닛을 파괴합니다.",
+                "pl-PL": "Rozmieszczenie: zniszcz uszkodzoną wrogą jednostkę.",
+                "pt-BR": "Posicionamento: destrua uma unidade inimiga que esteja danificada.",
+                "ru-RU": "Размещение: Уничтожает вражеский повреждённый отряд.",
+                "zh-Hans": "部署：消灭 1 个受伤的敌方单位。",
+                "zh-Hant": "部署：消滅 1 個受傷的敵方單位。"
+              },
+              "type": "infantry",
+              "image": "83rd_naval_brigade.avif",
+              "title": {
+                "de-DE": "83. MARINEBRIGADE",
+                "en-EN": "83rd NAVAL BRIGADE",
+                "es-ES": "83.ª BRIGADA NAVAL",
+                "fr-FR": "83e BRIGADE NAVALE",
+                "it-IT": "83ª BRIGATA NAVALE",
+                "ja-JP": "第83海軍旅団",
+                "ko-KR": "제83해군 여단",
+                "pl-PL": "83 BRYGADA PIECHOTY MORSKIEJ",
+                "pt-BR": "83ª BRIGADA NAVAL",
+                "ru-RU": "83-я БРИГАДА МОРСКОЙ ПЕХОТЫ",
+                "zh-Hans": "海军步兵第 83 旅",
+                "zh-Hant": "海軍步兵第 83 旅"
+              },
+              "attack": 4,
+              "rarity": "Elite",
+              "defense": 4,
+              "faction": "Soviet",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "8T",
+              "attributes": [
+                "ambush",
+                "guard"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/83rd_naval_brigade.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/83rd_naval_brigade.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86126,
+            "cardId": "85mm_d44_field_gun",
+            "importId": "8W",
+            "json": {
+              "id": "85mm_d44_field_gun",
+              "set": "Base",
+              "text": {
+                "de-DE": "Durch die 85-mm-KANONE D-44 beschädigte Einheiten und benachbarte Einheiten werden festgesetzt.",
+                "en-EN": "Units damaged by 85mm D-44 FIELD GUN and their adjacent units get pinned.",
+                "es-ES": "Las unidades que sufren daños de un CAÑÓN DE CAMPAÑA D-44 de 85 mm y sus unidades adyacentes quedan inmovilizadas.",
+                "fr-FR": "Les unités endommagées par le CANON DE CAMPAGNE D-44 de 85 mm et les unités adjacentes sont immobilisées.",
+                "it-IT": "Le unità danneggiate da questa unità e le unità adiacenti vengono Bloccate.",
+                "ja-JP": "85mm D-44野砲に攻撃されたユニットとそれに隣接するユニットは抑止される。",
+                "ko-KR": "85mm D-44 야포에 피해를 입은 유닛과 그에 인접한 유닛들은 고정됩니다.",
+                "pl-PL": "Jednostki uszkodzone przez DZIAŁO POLOWE D-44 85 mm oraz jednostki sąsiednie zostają przyszpilone.",
+                "pt-BR": "As unidades atingidas pela ARMA DE CAMPO D-44 de 85mm e as unidades adjacentes são imobilizadas.",
+                "ru-RU": "Отряды, получившие урон от Д-44, и соседние отряды блокируются.",
+                "zh-Hans": "压制被本单位伤害的单位和其相邻单位。",
+                "zh-Hant": "壓制被本單位傷害的單位和其相鄰單位。"
+              },
+              "type": "artillery",
+              "image": "85mm_d44_field_gun.avif",
+              "title": {
+                "de-DE": "85-mm-KANONE D-44",
+                "en-EN": "85mm D-44 FIELD GUN",
+                "es-ES": "CAÑÓN DE CAMPAÑA D-44 de 85 mm",
+                "fr-FR": "CANON DE CAMPAGNE D-44 de 85mm",
+                "it-IT": "CANNONE D-44 da 85 mm",
+                "ja-JP": "85mm D-44野砲",
+                "ko-KR": "85mm D-44 야포",
+                "pl-PL": "DZIAŁO POLOWE D-44 85 mm",
+                "pt-BR": "ARMA DE CAMPO D-44 de 85mm",
+                "ru-RU": "85-мм ДИВИЗИОННАЯ ПУШКА Д-44",
+                "zh-Hans": "85 毫米野战炮",
+                "zh-Hant": "85 毫米野戰炮"
+              },
+              "attack": 4,
+              "rarity": "Special",
+              "defense": 3,
+              "faction": "Soviet",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "8W",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/85mm_d44_field_gun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/85mm_d44_field_gun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86130,
+            "cardId": "88_mm_flak",
+            "importId": "3V",
+            "json": {
+              "id": "88_mm_flak",
+              "set": "Base",
+              "text": {
+                "de-DE": "Fügt Luft- und Panzereinheiten doppelten Schaden zu.",
+                "en-EN": "Deals double damage against air and tank units.",
+                "es-ES": "Inflige el doble de daño contra unidades aéreas y tanques.",
+                "fr-FR": "Inflige le double de dégâts aux unités aériennes et aux chars.",
+                "it-IT": "Infligge il doppio dei danni contro le unità aeree e i carri armati.",
+                "ja-JP": "空軍ユニットと戦車ユニットに2倍のダメージを与える。",
+                "ko-KR": "공중 및 전차 유닛을 상대로 두 배의 피해를 입힙니다.",
+                "pl-PL": "Zadaj podwójne obrażenia jednostkom powietrznym oraz czołgom.",
+                "pt-BR": "Causa o dobro de dano contra unidades aéreas e tanques.",
+                "ru-RU": "Наносит двойной урон самолётам и танкам.",
+                "zh-Hans": "对空军和坦克造成双倍伤害。",
+                "zh-Hant": "對空軍和坦克造成雙倍傷害。"
+              },
+              "type": "artillery",
+              "image": "88_mm_flak.avif",
+              "title": {
+                "de-DE": "88-mm-FLAK",
+                "en-EN": "88 mm FLAK",
+                "es-ES": "FLAK de 88 mm",
+                "fr-FR": "FLAK de 88 mm",
+                "it-IT": "FLAK da 88 mm",
+                "ja-JP": "88mm FLAK",
+                "ko-KR": "8.8cm 대공포",
+                "pl-PL": "88 mm FLAK",
+                "pt-BR": "FLAK 88 mm",
+                "ru-RU": "88 mm FLAK",
+                "zh-Hans": "88 毫米高射炮",
+                "zh-Hant": "88 毫米高射炮"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 4,
+              "faction": "Germany",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "3V",
+              "attributes": [
+                "ambush"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/88_mm_flak.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/88_mm_flak.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86168,
+            "cardId": "a24_banshee",
+            "importId": "cI",
+            "json": {
+              "id": "a24_banshee",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Füge der anvisierten feindlichen Einheit Schaden in Höhe deiner nicht ausgegebenen Kredits zu.",
+                "en-EN": "Deployment: Deal damage to target enemy unit equal to your unspent kredits.",
+                "es-ES": "Despliegue: inflige daño a la unidad enemiga objetivo equivalente a los kréditos que tengas sin gastar.",
+                "fr-FR": "Déploiement : Inflige des dégâts à l'unité ennemie ciblée égaux à vos Krédits non dépensés.",
+                "it-IT": "Schieramento: infliggi danni a un'unità nemica pari al numero di krediti non spesi.",
+                "ja-JP": "配備時：未使用のクレジットに等しい数のダメージをターゲットの敵ユニットに与える。",
+                "ko-KR": "배치: 남는 미사용 크레딧만큼 지정한 상대 유닛에 피해를 입힙니다.",
+                "pl-PL": "Rozmieszczenie: Zadaj wybranej wrogiej jednostce obrażenia równe liczbie niewydanych kredytów.",
+                "pt-BR": "Posicionamento: Causa dano à unidade inimiga alvo igual aos seus kréditos não gastos.",
+                "ru-RU": "Размещение: Наносит урон выбранному вражескому отряду, равный вашим неизрасходованным кредитам.",
+                "zh-Hans": "部署：对 1 个敌方单位造成等同于友方剩余指挥点数的伤害。",
+                "zh-Hant": "部署：對 1 個敵方單位造成等同於友方剩餘指揮點數的傷害。"
+              },
+              "type": "bomber",
+              "image": "a24_banshee.avif",
+              "title": {
+                "de-DE": "A-24 BANSHEE",
+                "en-EN": "A-24 BANSHEE",
+                "es-ES": "A-24 BANSHEE",
+                "fr-FR": "A-24 BANSHEE",
+                "it-IT": "A-24 BANSHEE",
+                "ja-JP": "A-24バンシー",
+                "ko-KR": "A-24 밴시",
+                "pl-PL": "A-24 BANSHEE",
+                "pt-BR": "A-24 BANSHEE",
+                "ru-RU": "A-24 BANSHEE",
+                "zh-Hans": "A-24 女妖",
+                "zh-Hant": "A-24 女妖"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "USA",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "cI",
+              "attributes": [
+                "heavyArmor1"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/a24_banshee.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/a24_banshee.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86227,
+            "cardId": "a34_comet",
+            "importId": "1j",
+            "json": {
+              "id": "a34_comet",
+              "set": "Base",
+              "text": {
+                "de-DE": "Wenn diese Einheit dem gegnerischen HQ Schaden zufügt, ziehe eine Karte.",
+                "en-EN": "When this unit deals damage to enemy HQ, draw a card.",
+                "es-ES": "Cuando esta unidad inflige daño al cuartel general enemigo, robas una carta.",
+                "fr-FR": "Lorsque cette unité inflige des dégâts au QG ennemi, piochez une carte.",
+                "it-IT": "Quando questa unità infligge danni al QG nemico, pesca una carta.",
+                "ja-JP": "このユニットが敵の本部にダメージを与えると、カードを1枚引く。",
+                "ko-KR": "이 유닛이 상대 본부에 피해를 입히면 카드 1장을 뽑습니다.",
+                "pl-PL": "Dobierz kartę, gdy ta jednostka trafi wrogi sztab.",
+                "pt-BR": "Quando esta unidade causa dano ao QG inimigo, compre uma carta.",
+                "ru-RU": "Когда этот отряд наносит урон вражескому штабу, вы берёте карту.",
+                "zh-Hans": "本单位对敌方总部造成伤害时，抽 1 张牌。",
+                "zh-Hant": "本單位對敵方總部造成傷害時，抽 1 張牌。"
+              },
+              "type": "tank",
+              "image": "a34_comet.avif",
+              "title": {
+                "de-DE": "A34 COMET",
+                "en-EN": "A34 COMET",
+                "es-ES": "A34 COMET",
+                "fr-FR": "A34 COMET",
+                "it-IT": "A34 COMET",
+                "ja-JP": "A34コメット巡航戦車",
+                "ko-KR": "A34 코멧",
+                "pl-PL": "A34 COMET",
+                "pt-BR": "COMET I (A34)",
+                "ru-RU": "A34 COMET",
+                "zh-Hans": "A34 彗星",
+                "zh-Hant": "A34 彗星"
+              },
+              "attack": 6,
+              "rarity": "Elite",
+              "defense": 6,
+              "faction": "Britain",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "1j",
+              "attributes": [
+                "heavyArmor1"
+              ],
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/a34_comet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/a34_comet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86169,
+            "cardId": "a36_apache",
+            "importId": "cJ",
+            "json": {
+              "id": "a36_apache",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Wenn A-36 APACHE angreift, erhalten verbündete Bodeneinheiten +1+1.",
+                "en-EN": "When A-36 APACHE attacks, friendly ground units get +1+1.",
+                "es-ES": "Cuando el A-36 APACHE ataca, las unidades terrestres aliadas obtienen +1+1.",
+                "fr-FR": "Lorsque l’A-36 APACHE attaque, les unités terrestres alliées gagnent +1+1.",
+                "it-IT": "Quando questa unità attacca, dai +1+1 alle unità di terra alleate.",
+                "ja-JP": "A-36アパッチが攻撃すると、味方の地上ユニットに+1+1が付与される。",
+                "ko-KR": "A-36 아파치가 공격하면 아군 지상 유닛들은 +1+1을 부여받습니다.",
+                "pl-PL": "Gdy A-36 APACHE atakuje, sojusznicze jednostki lądowe otrzymują +1+1.",
+                "pt-BR": "Quando um A-36 APACHE ataca, as unidades terrestres aliadas ganham +1+1.",
+                "ru-RU": "Когда A-36 APACHE атакует, дружественные наземные отряды получают +1 +1.",
+                "zh-Hans": "本单位攻击时，使所有友方陆军获得 +1+1。",
+                "zh-Hant": "本單位攻擊時，使所有友方陸軍獲得 +1+1。"
+              },
+              "type": "fighter",
+              "image": "a36_apache.avif",
+              "title": {
+                "de-DE": "A-36 APACHE",
+                "en-EN": "A-36 APACHE",
+                "es-ES": "A-36 APACHE",
+                "fr-FR": "A-36 APACHE",
+                "it-IT": "A-36 APACHE",
+                "ja-JP": "A-36アパッチ",
+                "ko-KR": "A-36 아파치",
+                "pl-PL": "A-36 APACHE",
+                "pt-BR": "A-36 APACHE",
+                "ru-RU": "A-36 APACHE",
+                "zh-Hans": "A-36 阿帕齐",
+                "zh-Hant": "A-36 阿帕齊"
+              },
+              "attack": 4,
+              "rarity": "Limited",
+              "defense": 4,
+              "faction": "USA",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "cJ",
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/a36_apache.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/a36_apache.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86717,
+            "cardId": "a6m221_zero",
+            "importId": "nG",
+            "json": {
+              "id": "a6m221_zero",
+              "set": "WinterWar",
+              "text": {
+                "de-DE": "Die erste Karte, die der Feind in jedem Zug ausspielt, kostet das Doppelte.",
+                "en-EN": "The first card played by the enemy each turn costs double.",
+                "es-ES": "La primera carta que juega el enemigo cada turno cuesta el doble.",
+                "fr-FR": "La première carte jouée par l'ennemi à chaque tour coûte le double.",
+                "it-IT": "La prima carta giocata dal nemico ogni turno costa il doppio.",
+                "ja-JP": "各ターンで敵が最初に出すカードのコストが2倍になる。",
+                "ko-KR": "매 턴마다 상대의 첫 번째 카드는 두 배의 비용이 듭니다.",
+                "pl-PL": "Koszt pierwszej karty zagranej przez przeciwnika w każdej turze jest podwojony.",
+                "pt-BR": "A primeira carta jogada pelo inimigo a cada turno custa o dobro.",
+                "ru-RU": "Первая карта, разыгрываемая противником на каждом ходу, стоит вдвое дороже.",
+                "zh-Hans": "每回合，敌方使用的第 1 张牌花费翻倍。",
+                "zh-Hant": "每回合，敵方使用的第 1 張牌花費翻倍。"
+              },
+              "type": "fighter",
+              "image": "a6m221_zero.avif",
+              "title": {
+                "de-DE": "A6M2-21 ZERO",
+                "en-EN": "A6M2-21 ZERO",
+                "es-ES": "A6M2-21 ZERO",
+                "fr-FR": "A6M2-21 ZERO",
+                "it-IT": "A6M2-21 ZERO",
+                "ja-JP": "零式艦上戦闘機二一型",
+                "ko-KR": "A6M2-21 제로",
+                "pl-PL": "A6M2-21 ZERO",
+                "pt-BR": "A6M2-21 ZERO",
+                "ru-RU": "A6M2-21 ZERO",
+                "zh-Hans": "A6M2 零战二一型",
+                "zh-Hant": "A6M2 零戰二一型"
+              },
+              "attack": 4,
+              "rarity": "Elite",
+              "defense": 3,
+              "faction": "Japan",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "nG",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/a6m221_zero.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/a6m221_zero.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86155,
+            "cardId": "ace_of_spades",
+            "importId": "wF",
+            "json": {
+              "id": "ace_of_spades",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Füge einem Feind 3 Schaden zu. \\r\\nWird zu Beginn deines Zuges Veteran.",
+                "en-EN": "Deployment: Deal 3 damage to an enemy. \\r\\nBecomes Veteran at the start of your turn.",
+                "es-ES": "Despliegue: inflige 3 de daño a una unidad enemiga. \\r\\nSe transforma en Veterana en el comienzo de tu turno.",
+                "fr-FR": "Déploiement : Inflige 3 dégâts à un ennemi. \\r\\nDevient Vétéran au début de votre tour.",
+                "it-IT": "Schieramento: infliggi 3 danni a un nemico.\\r\\nDiventa Veterano all'inizio del tuo turno.",
+                "ja-JP": "配備時：敵ユニットに3ダメージを与える。\\r\\n自分のターン開始時にベテランになる。",
+                "ko-KR": "배치: 지정한 상대 목표물에 3의 피해를 줍니다. \\r\\n당신의 턴 시작 시 베테랑으로 승급합니다.",
+                "pl-PL": "Rozmieszczenie: zadaj 3 pkt obrażeń przeciwnikowi. \\r\\nStaje się Weteranem na początku twojej tury.",
+                "pt-BR": "Posicionamento: cause 3 de dano a um inimigo. \\r\\nTorna-se Veterano no início do seu turno.",
+                "ru-RU": "Размещение: наносит 3 урона врагу. \\r\\nСтановится Ветераном в начале вашего хода.",
+                "zh-Hans": "部署：对 1 个敌方目标造成 3 点伤害。\\r\\n友方回合开始时，升为老兵。",
+                "zh-Hant": "部署：對 1 個敵方目標造成 3 點傷害。\\r\\n友方回合開始時，升為老兵。"
+              },
+              "type": "infantry",
+              "image": "ace_of_spades.avif",
+              "title": {
+                "de-DE": "PIK ASS",
+                "en-EN": "ACE OF SPADES",
+                "es-ES": "AS DE ESPADAS",
+                "fr-FR": "AS DE PIQUE",
+                "it-IT": "ASSI DI PICCHE",
+                "ja-JP": "スペードのエース",
+                "ko-KR": "제206사단 '피크아스'",
+                "pl-PL": "AS PIK",
+                "pt-BR": "ÁS DE ESPADAS",
+                "ru-RU": "ПИКОВЫЙ ТУЗ",
+                "zh-Hans": "黑桃 A 师",
+                "zh-Hant": "黑桃 A 師"
+              },
+              "attack": 8,
+              "rarity": "Elite",
+              "defense": 8,
+              "faction": "Germany",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "wF",
+              "attributes": [
+                "BecomesVeteran:ace_of_spades_vet",
+                "OnlySpawnable"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/ace_of_spades.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/ace_of_spades.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86156,
+            "cardId": "ace_of_spades_vet",
+            "importId": "Co",
+            "json": {
+              "id": "ace_of_spades_vet",
+              "set": "Special",
+              "text": {
+                "de-DE": "Sende zu Beginn deines Zugs alle Einheiten auf die Hand ihres Besitzers zurück.",
+                "en-EN": "At the start of your turn, send all units to hand.",
+                "es-ES": "Al comienzo de tu turno, envía todas las unidades a la mano.",
+                "fr-FR": "Au début de votre tour, renvoyez toutes les unités en main.",
+                "it-IT": "All'inizio del tuo turno, manda tutte le unità in mano.",
+                "ja-JP": "自身のターンの開始時に、全ユニットを手札に送る。",
+                "ko-KR": "당신의 턴 시작 시 모든 유닛을 패로 보냅니다.",
+                "pl-PL": "Na początku swojej tury wyślij wszystkie jednostki do ręki.",
+                "pt-BR": "No início do seu turno, envie todas as unidades para a mão.",
+                "ru-RU": "В начале вашего хода возвращает все отряды в руку.",
+                "zh-Hans": "友方回合开始时，将所有单位返回手牌。",
+                "zh-Hant": "友方回合開始時，將所有單位返回手牌。"
+              },
+              "type": "infantry",
+              "image": "ace_of_spades_vet.avif",
+              "title": {
+                "de-DE": "PIK ASS",
+                "en-EN": "ACE OF SPADES",
+                "es-ES": "AS DE ESPADAS",
+                "fr-FR": "AS DE PIQUE",
+                "it-IT": "ASSI DI PICCHE",
+                "ja-JP": "スペードのエース",
+                "ko-KR": "제206사단 '피크아스'",
+                "pl-PL": "AS PIK",
+                "pt-BR": "ÁS DE ESPADAS",
+                "ru-RU": "ПИКОВЫЙ ТУЗ",
+                "zh-Hans": "黑桃 A 师",
+                "zh-Hant": "黑桃 A 師"
+              },
+              "attack": 8,
+              "rarity": "Elite",
+              "defense": 8,
+              "faction": "Germany",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "Co",
+              "attributes": [
+                "VeteranOf:ace_of_spades",
+                "guard"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/ace_of_spades_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/ace_of_spades_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85085,
+            "cardId": "act_on_the_intel",
+            "importId": "mj",
+            "json": {
+              "id": "act_on_the_intel",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Füge einem Feind Schaden in Höhe der Anzahl der bekannten Karten in der feindlichen Hand zu.",
+                "en-EN": "Deal damage to target enemy equal to known cards in the enemy hand.",
+                "es-ES": "Inflige daño a una unidad objetivo equivalente a las cartas en la mano enemiga.",
+                "fr-FR": "Inflige des dégâts à la cible égaux au nombre de cartes révélées dans la main ennemie.",
+                "it-IT": "Infliggi danni pari al numero di carte conosciute nella mano del nemico.",
+                "ja-JP": "ターゲットした敵に、敵の手札にある既知のカードと等しいダメージを与える。",
+                "ko-KR": "상대 패에서 드러난 카드의 수만큼 지정한 상대 목표물에 피해를 입힙니다.",
+                "pl-PL": "Zadaj obrażenia wybranemu wrogiemu celowi równe liczbie znanych kart na ręce przeciwnika.",
+                "pt-BR": "Cause dano ao inimigo alvo igual ao número de cartas conhecidas na mão do inimigo.",
+                "ru-RU": "Наносит выбранному врагу урон, равный количеству известных карт в руке противника.",
+                "zh-Hans": "对 1 个敌方目标造成等同于敌方明牌数量的伤害。",
+                "zh-Hant": "對 1 個敵方目標造成等同於敵方明牌數量的傷害。"
+              },
+              "type": "order",
+              "image": "act_on_the_intel.avif",
+              "title": {
+                "de-DE": "GEHEIMDIENSTBERICHTE",
+                "en-EN": "ACT ON THE INTEL",
+                "es-ES": "DECIDIR CON INTELIGENCIA",
+                "fr-FR": "EXPLOITER LES RENSEIGNEMENTS",
+                "it-IT": "INFORMAZIONI CRUCIALI",
+                "ja-JP": "情報に基づき",
+                "ko-KR": "정보에 따른 행동",
+                "pl-PL": "DZIAŁAĆ NA PODSTAWIE WYWIADU",
+                "pt-BR": "AGIR NA INTELIGÊNCIA",
+                "ru-RU": "ПО ДАННЫМ РАЗВЕДКИ",
+                "zh-Hans": "见机行事",
+                "zh-Hant": "見機行事"
+              },
+              "rarity": "Standard",
+              "faction": "Poland",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "mj",
+              "attributes": [
+                "intel3"
+              ]
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/act_on_the_intel.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/act_on_the_intel.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85113,
+            "cardId": "ancestral_call",
+            "importId": "ms",
+            "json": {
+              "id": "ancestral_call",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Deine Einheiten erhalten +1 Angriff für jede andere Einheit in ihrer Front.",
+                "en-EN": "Your units get +1 attack for each other unit in their front.",
+                "es-ES": "Tus unidades obtienen +1 de ataque por cada otra unidad que se encuentre en la misma línea.",
+                "fr-FR": "Vos unités gagnent +1 d'attaque pour chaque autre unité située sur la même ligne.",
+                "it-IT": "Dai +1 di attacco alle unità alleate per ogni altra unità nel loro stesso fronte.",
+                "ja-JP": "前線にいる他のユニット毎に、自分のユニットの攻撃力が1増加する。",
+                "ko-KR": "당신의 유닛들이 전방에 있는 자신 외의 유닛 1개 당 1의 추가 공격력을 획득합니다.",
+                "pl-PL": "Twoje jednostki otrzymują +1 do ataku za każdą inną jednostkę znajdującą się przed nimi.",
+                "pt-BR": "Suas unidades recebem +1 de ataque para cada outra unidade na frente.",
+                "ru-RU": "Дружественные отряды получают +1 к атаке за каждый другой отряд на одной с ними линии.",
+                "zh-Hans": "使所有友方单位获得等同于同一阵线其他单位数量的攻击力。",
+                "zh-Hant": "使所有友方單位獲得等同於同一陣線其他單位數量的攻擊力。"
+              },
+              "type": "order",
+              "image": "ancestral_call.avif",
+              "title": {
+                "de-DE": "RUF DER AHNEN",
+                "en-EN": "ANCESTRAL CALL",
+                "es-ES": "NUESTROS ANCESTROS",
+                "fr-FR": "APPEL ANCESTRAL",
+                "it-IT": "CHIAMATA ANCESTRALE",
+                "ja-JP": "先祖の呼び声",
+                "ko-KR": "선조의 부름",
+                "pl-PL": "ZEW PRZODKÓW",
+                "pt-BR": "CHAMADA ANCESTRAL",
+                "ru-RU": "ЗОВ ПРЕДКОВ",
+                "zh-Hans": "卫国英烈",
+                "zh-Hant": "衛國英烈"
+              },
+              "rarity": "Standard",
+              "faction": "Soviet",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "ms"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/ancestral_call.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/ancestral_call.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86206,
+            "cardId": "b25_mitchell",
+            "importId": "cN",
+            "json": {
+              "id": "b25_mitchell",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Fügt einer zufälligen feindlichen Einheit 3 Schaden zu.",
+                "en-EN": "Deployment: Deal 3 damage to a random enemy unit.",
+                "es-ES": "Despliegue: Inflige 3 de daño a una unidad enemiga al azar.",
+                "fr-FR": "Déploiement : Inflige 3 dégâts à une unité ennemie au hasard.",
+                "it-IT": "Schieramento: infliggi 3 danni a un'unità nemica casuale.",
+                "ja-JP": "配備時：ランダムな敵ユニット1体に3ダメージを与える。",
+                "ko-KR": "배치: 무작위 상대 유닛에게 3의 피해를 줍니다.",
+                "pl-PL": "Rozmieszczenie: zadaj 3 pkt obrażeń losowej jednostce wroga.",
+                "pt-BR": "Posicionamento: cause 3 de dano a uma unidade inimiga aleatória.",
+                "ru-RU": "Размещение: наносит 3 урона случайному вражескому отряду.",
+                "zh-Hans": "部署：随机对 1 个敌方单位造成 3 点伤害。",
+                "zh-Hant": "部署：隨機對 1 個敵方單位造成 3 點傷害。"
+              },
+              "type": "bomber",
+              "image": "b25_mitchell.avif",
+              "title": {
+                "de-DE": "B-25 MITCHELL",
+                "en-EN": "B-25 MITCHELL",
+                "es-ES": "B-25 MITCHELL",
+                "fr-FR": "B-25 MITCHELL",
+                "it-IT": "B-25 MITCHELL",
+                "ja-JP": "B-25 ミッチェル",
+                "ko-KR": "B-25 미첼",
+                "pl-PL": "B-25 MITCHELL",
+                "pt-BR": "B-25 MITCHELL",
+                "ru-RU": "B-25 MITCHELL",
+                "zh-Hans": "B-25 米切尔",
+                "zh-Hant": "B-25 米切爾"
+              },
+              "attack": 4,
+              "rarity": "Limited",
+              "defense": 5,
+              "faction": "USA",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "cN",
+              "operationCost": 3
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/b25_mitchell.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/b25_mitchell.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85135,
+            "cardId": "banzai",
+            "importId": "jj",
+            "json": {
+              "id": "banzai",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Zerstöre alle Einheiten mit 4 oder weniger Angriff. Beende deinen Zug.",
+                "en-EN": "Destroy all units with 4 attack or less. End your turn.",
+                "es-ES": "Destruye todas las unidades con 4 de ataque o menos. Termina tu turno.",
+                "fr-FR": "Détruit toutes les unités dont l'attaque est inférieure ou égale à 4. Met fin à votre tour.",
+                "it-IT": "Distruggi tutte le unità con attacco pari a 4 o inferiore. Termina il tuo turno.",
+                "ja-JP": "攻撃力4以下の地上ユニットをすべて破壊する。ターンを終わらせる。",
+                "ko-KR": "공격력이 4 이하인 모든 유닛을 파괴합니다. 당신의 턴을 종료합니다.",
+                "pl-PL": "Zniszcz wszystkie jednostki o sile ataku 4 lub mniejszej. Zakończ turę.",
+                "pt-BR": "Destrua todas as unidades com 4 de ataque ou menos. Encerre seu turno.",
+                "ru-RU": "Уничтожает все отряды с атакой 4 или менее. Ваш ход завершается.",
+                "zh-Hans": "消灭所有攻击力不大于 4 的单位，结束回合。",
+                "zh-Hant": "消滅所有攻擊力不大於 4 的單位，結束回合。"
+              },
+              "type": "order",
+              "image": "banzai.avif",
+              "title": {
+                "de-DE": "BANZAI",
+                "en-EN": "BANZAI",
+                "es-ES": "BANZAI",
+                "fr-FR": "BANZAÏ",
+                "it-IT": "BANZAI",
+                "ja-JP": "吶喊",
+                "ko-KR": "반자이",
+                "pl-PL": "BANZAI",
+                "pt-BR": "BANZAI",
+                "ru-RU": "БАНЗАЙ",
+                "zh-Hans": "万岁冲锋",
+                "zh-Hant": "萬歲衝鋒"
+              },
+              "rarity": "Elite",
+              "faction": "Japan",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "jj"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/banzai.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/banzai.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86175,
+            "cardId": "beaufighter_tf_mk_x",
+            "importId": "hT",
+            "json": {
+              "id": "beaufighter_tf_mk_x",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Jede Einheit, die diese Einheit angreift, erhält zuerst 3 Schaden.",
+                "en-EN": "Any unit that attacks this unit takes 3 damage first.",
+                "es-ES": "Cualquier unidad que ataque a esta unidad recibe 3 puntos de daño primero.",
+                "fr-FR": "Toute unité qui attaque cette unité subit d'abord 3 dégâts.",
+                "it-IT": "Unità che attaccano questa unità subiscono prima 3 danni.",
+                "ja-JP": "このユニットを攻撃しようとしたユニットは、攻撃前に3ダメージを受ける。",
+                "ko-KR": "이 유닛을 공격한 모든 유닛은 3의 피해를 먼저 받습니다.",
+                "pl-PL": "Każda jednostka, która zaatakuje tę jednostkę, najpierw otrzymuje 3 pkt obrażeń.",
+                "pt-BR": "Qualquer unidade que ataca esta unidade sofre 3 pontos de dano primeiro.",
+                "ru-RU": "Любой отряд, который атакует этот отряд, сначала получает 3 урона.",
+                "zh-Hans": "其他单位攻击本单位时，先对其造成 3 点伤害。",
+                "zh-Hant": "其他單位攻擊本單位時，先對其造成 3 點傷害。"
+              },
+              "type": "bomber",
+              "image": "beaufighter_tf_mk_x.avif",
+              "title": {
+                "de-DE": "BEAUFIGHTER TF Mk X",
+                "en-EN": "BEAUFIGHTER TF Mk X",
+                "es-ES": "BEAUFIGHTER TF Mk X",
+                "fr-FR": "BEAUFIGHTER TF Mk X",
+                "it-IT": "BEAUFIGHTER TF Mk X",
+                "ja-JP": "ボーファイターTF Mk.X",
+                "ko-KR": "보파이터 어뢰 폭격기 Mk 10",
+                "pl-PL": "BEAUFIGHTER TF Mk X",
+                "pt-BR": "BEAUFIGHTER TF Mk X",
+                "ru-RU": "BEAUFIGHTER TF Mk X",
+                "zh-Hans": "英俊战士 TF Mk X",
+                "zh-Hant": "英俊戰士 TF Mk X"
+              },
+              "attack": 4,
+              "rarity": "Elite",
+              "defense": 4,
+              "faction": "Britain",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "hT",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/beaufighter_tf_mk_x.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/beaufighter_tf_mk_x.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86032,
+            "cardId": "bl_4_5_medium_gun",
+            "importId": "16",
+            "json": {
+              "id": "bl_4_5_medium_gun",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Einsatz: Setzt eine feindliche Einheit fest.",
+                "en-EN": "Deployment: Pin an enemy unit.",
+                "es-ES": "Despliegue: Inmoviliza una unidad enemiga.",
+                "fr-FR": "Déploiement : Immobilise une unité ennemie.",
+                "it-IT": "Schieramento: Blocca un’unità nemica.",
+                "ja-JP": "配備時：敵ユニット1体を抑止する。",
+                "ko-KR": "배치: 상대 유닛 하나를 고정합니다.",
+                "pl-PL": "Rozmieszczenie: przyszpil wrogą jednostkę.",
+                "pt-BR": "Posicionamento: imobilize uma unidade inimiga.",
+                "ru-RU": "Размещение: Блокирует отряд противника.",
+                "zh-Hans": "部署：压制 1 个敌方单位。",
+                "zh-Hant": "部署：壓制 1 個敵方單位。"
+              },
+              "type": "artillery",
+              "image": "bl_4_5_medium_gun.avif",
+              "title": {
+                "de-DE": "BL 4,5\\\" ARTILLERIEGESCHÜTZ",
+                "en-EN": "BL 4.5\\\" MEDIUM GUN",
+                "es-ES": "CAÑÓN BL DE 4,5 PULGADAS",
+                "fr-FR": "CANON MOYEN BL 4,5 POUCES",
+                "it-IT": "CANNONE BL da 4.5",
+                "ja-JP": "BL 4.5インチ砲",
+                "ko-KR": "BL 4.5인치 주포",
+                "pl-PL": "ARMATA 4,5-CALOWA",
+                "pt-BR": "CANHÃO MÉDIO BL 4,5 POLEGADAS",
+                "ru-RU": "4,5-ДЮЙМОВАЯ ПУШКА",
+                "zh-Hans": "4.5 英寸中型火炮",
+                "zh-Hant": "4.5 英寸中型火炮"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Britain",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "16",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/bl_4_5_medium_gun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/bl_4_5_medium_gun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85142,
+            "cardId": "blade_of_the_samurai",
+            "importId": "5w",
+            "json": {
+              "id": "blade_of_the_samurai",
+              "set": "Base",
+              "text": {
+                "de-DE": "Zerstört eine feindliche Einheit.",
+                "en-EN": "Destroy an enemy unit.",
+                "es-ES": "Destruye una unidad del enemigo.",
+                "fr-FR": "Détruit une unité ennemie.",
+                "it-IT": "Distruggi un'unità nemica.",
+                "ja-JP": "敵ユニットを1体破壊する。",
+                "ko-KR": "적 유닛을 파괴합니다.",
+                "pl-PL": "Zniszcz wrogą jednostkę.",
+                "pt-BR": "Destrua uma unidade inimiga.",
+                "ru-RU": "Уничтожает вражеский отряд.",
+                "zh-Hans": "消灭 1 个敌方单位。",
+                "zh-Hant": "消滅 1 個敵方單位。"
+              },
+              "type": "order",
+              "image": "blade_of_the_samurai.avif",
+              "title": {
+                "de-DE": "SCHWERT DER SAMURAI",
+                "en-EN": "BLADE OF THE SAMURAI",
+                "es-ES": "LA ESPADA DEL SAMURÁI",
+                "fr-FR": "ÉPÉE DE SAMOURAÏ",
+                "it-IT": "LAMA DEL SAMURAI",
+                "ja-JP": "侍の刃",
+                "ko-KR": "사무라이의 검",
+                "pl-PL": "OSTRZE SAMURAJA",
+                "pt-BR": "LÂMINA DO SAMURAI",
+                "ru-RU": "КЛИНОК САМУРАЯ",
+                "zh-Hans": "武士之刃",
+                "zh-Hant": "武士之刃"
+              },
+              "rarity": "Special",
+              "faction": "Japan",
+              "kredits": 6,
+              "reserved": false,
+              "import_id": "5w"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/blade_of_the_samurai.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/blade_of_the_samurai.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86187,
+            "cardId": "blue_and_gray",
+            "importId": "pL",
+            "json": {
+              "id": "blue_and_gray",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Wenn eine verbündete Einheit (einschließlich dieser) zerstört wird, füge deiner Hand eine Rage hinzu.",
+                "en-EN": "When a friendly unit (including this) is destroyed, add an OUTRAGE to your hand.",
+                "es-ES": "Cuando una unidad aliada (incluida esta) es destruida, añade una INDIGNACIÓN a tu mano.",
+                "fr-FR": "Lorsqu'une unité alliée (y compris celle-ci) est détruite, ajoute un OUTRAGE à votre main.",
+                "it-IT": "Dopo che un'unità alleata (inclusa questa) viene distrutta, aggiungi INDIGNAZIONE alla tua mano.",
+                "ja-JP": "味方ユニット（これを含む）が破壊されると、手札にアウトレイジを加える。",
+                "ko-KR": "이 카드를 포함한 아군 유닛이 파괴되면 당신의 패에 '격분'을 추가합니다.",
+                "pl-PL": "Gdy sojusznicza jednostka (w tym ta) zostanie zniszczona, dodaj ZNIEWAGĘ do swojej ręki.",
+                "pt-BR": "Quando uma unidade aliada (incluindo esta) é destruída, adicione um OUTRAGE à sua mão.",
+                "ru-RU": "Когда уничтожается дружественный отряд (включая этот), добавляет ГНЕВ в вашу руку.",
+                "zh-Hans": "友方单位被消灭时，将 1 张“激怒”加入手牌。",
+                "zh-Hant": "友方單位被消滅時，將 1 張“激怒”加入手牌。"
+              },
+              "type": "infantry",
+              "image": "blue_and_gray.avif",
+              "title": {
+                "de-DE": "BLAU UND GRAU",
+                "en-EN": "BLUE AND GRAY",
+                "es-ES": "AZUL Y GRIS",
+                "fr-FR": "BLEUS ET GRIS",
+                "it-IT": "BLUE AND GRAY",
+                "ja-JP": "青とグレー",
+                "ko-KR": "블루앤그레이",
+                "pl-PL": "NIEBIESKI I SZARY",
+                "pt-BR": "AZUL E CINZA",
+                "ru-RU": "СИНЕ-СЕРАЯ ДИВИЗИЯ",
+                "zh-Hans": "蓝灰师",
+                "zh-Hant": "藍灰師"
+              },
+              "attack": 6,
+              "rarity": "Special",
+              "defense": 6,
+              "faction": "USA",
+              "kredits": 6,
+              "reserved": true,
+              "import_id": "pL",
+              "can_create": [
+                "outrage"
+              ],
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/blue_and_gray.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/blue_and_gray.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

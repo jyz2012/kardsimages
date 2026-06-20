@@ -1,0 +1,1061 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 85469,
+            "cardId": "order_227",
+            "importId": "7Y",
+            "json": {
+              "id": "order_227",
+              "set": "Base",
+              "text": {
+                "de-DE": "Gib deinen beschädigten sowjetischen Einheiten +2 Angriff und repariere sie vollständig.",
+                "en-EN": "Give your damaged Soviet units +2 attack and fully repair them.",
+                "es-ES": "Le da a tus unidades soviéticas dañadas +2 de ataque y las repara por completo.",
+                "fr-FR": " Confère +2 d'attaque à vos unités soviétiques endommagées et les répare complètement.",
+                "it-IT": "Dai +2 di attacco alle unità sovietiche alleate danneggiate e riparale completamente.",
+                "ja-JP": "ダメージを受けたソ連ユニットに攻撃力+2を与え、修復する。",
+                "ko-KR": "피해를 입은 아군 소련 유닛들의 공격력에 +2를 부여하고 완전히 수리합니다.",
+                "pl-PL": "Dodaj swoim uszkodzonym radzieckim jednostkom +2 do ataku i napraw je całkowicie.",
+                "pt-BR": "Dê às suas unidades Soviéticas danificadas +2 de ataque e repare-as totalmente.",
+                "ru-RU": "Дружественные повреждённые советские отряды получают +2 к атаке и полностью восстанавливаются.",
+                "zh-Hans": "使所有友方受伤苏联单位获得 +2 攻击力，将其完全修复。",
+                "zh-Hant": "使所有友方受傷蘇聯單位獲得 +2 攻擊力，將其完全修復。"
+              },
+              "type": "order",
+              "image": "order_227.avif",
+              "title": {
+                "de-DE": "BEFEHL NR. 227",
+                "en-EN": "ORDER 227",
+                "es-ES": "ORDEN 227",
+                "fr-FR": "ORDRE 227",
+                "it-IT": "ORDINE 227",
+                "ja-JP": "ソ連国防人民委員令第227号",
+                "ko-KR": "명령 제 227호",
+                "pl-PL": "ROZKAZ NR 227",
+                "pt-BR": "ORDEM 227",
+                "ru-RU": "ПРИКАЗ №227",
+                "zh-Hans": "第 227 号命令",
+                "zh-Hant": "第 227 號命令"
+              },
+              "rarity": "Special",
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "7Y"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/order_227.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/order_227.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85468,
+            "cardId": "orders_from_above",
+            "importId": "tk",
+            "json": {
+              "id": "orders_from_above",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Muss eine verbündete Panzer- oder Infanterieeinheit als Ziel haben. Gewähre ihr +1+1 für jede beschädigte Einheit, falls verbündet. Andernfalls füge ihr 3 Schaden zu.",
+                "en-EN": "Target a tank or infantry. Give it +1+1 for each damaged unit if friendly. Otherwise, deal 3 damage to it.",
+                "es-ES": "Selecciona como objetivo una unidad de infantería o tanque. Si es aliada, obtiene +1+1 por cada unidad dañada. Si es enemiga, inflige 3 de daño.",
+                "fr-FR": "Ciblez une unité d’infanterie ou un char. Si c'est une unité alliée, elle gagne +1+1 pour chaque unité endommagée. Sinon, elle subit 3 dégâts.",
+                "it-IT": "Scegli un carro armato o fanteria. Se è alleata dagli +1+1 per ogni unità danneggiata, altrimenti infliggigli 3 danni.",
+                "ja-JP": "戦車または歩兵をターゲットする。味方の場合、ダメージを受けたユニットにつき+1 +1を与える。そうでなければ、3ダメージを与える。",
+                "ko-KR": "전차나 보병 하나를 지정합니다. 아군이면 피해를 입은 유닛 하나 당 +1+1을 부여합니다. 아군이 아닐 경우 3의 피해를 입힙니다.",
+                "pl-PL": "Celem musi być jednostka pancerna lub piechoty. Zapewnij jej +1+1 za każdą uszkodzoną jednostkę, jeśli jest sojusznicza. W przeciwnym razie zadaj jej 3 pkt obrażeń.",
+                "pt-BR": "Mire um tanque ou uma unidade de infantaria. Se aliada, Dê +1 +1 para ela para cada unidade danificada. Caso contrário, cause 3 de dano a ele.",
+                "ru-RU": "Выберите танк или пехоту. Дружественный отряд получает +1+1 за каждый повреждённый отряд. Вражеский получает 3 урона. ",
+                "zh-Hans": "指向 1 个坦克或步兵。若是友方，每有 1 个受伤单位，使其获得一次 +1+1。若是敌方，对其造成 3 点伤害。",
+                "zh-Hant": "指向 1 個坦克或步兵。若是友方，每有 1 個受傷單位，使其獲得一次 +1+1。若是敵方，對其造成 3 點傷害。"
+              },
+              "type": "order",
+              "image": "orders_from_above.avif",
+              "title": {
+                "de-DE": "BEFEHLE VON OBEN",
+                "en-EN": "ORDERS FROM ABOVE",
+                "es-ES": "ÓRDENES DE ARRIBA",
+                "fr-FR": "ORDRES VENANT D'EN HAUT",
+                "it-IT": "ORDINI DALL’ALTO",
+                "ja-JP": "上からの命令",
+                "ko-KR": "상부의 명령",
+                "pl-PL": "ROZKAZY ZE SZTABU",
+                "pt-BR": "ORDENS DE CIMA",
+                "ru-RU": "ПРИКАЗ СВЕРХУ",
+                "zh-Hans": "上级指令",
+                "zh-Hant": "上級指令"
+              },
+              "rarity": "Special",
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "tk"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/orders_from_above.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/orders_from_above.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85477,
+            "cardId": "out_of_the_sun",
+            "importId": "zo",
+            "json": {
+              "id": "out_of_the_sun",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Gibt deinen Lufteinheiten -1 Aktionskosten. Wenn du in diesem Zug eine Sonnig-Karte gespielt hast, erhalten sie zusätzlich +2 Angriff.",
+                "en-EN": "Give your air units -1 operation cost. If you played a Sunny card this turn, they get +2 attack as well.",
+                "es-ES": "Tus unidades aéreas obtienen -1 de costo de operación. Si jugaste una carta Soleado este turno, también reciben +2 de ataque.",
+                "fr-FR": "Le coût d'opération de vos unités aériennes est réduit de 1. Si vous avez joué une carte Soleil pendant ce tour, elles gagnent aussi +2 d'attaque.",
+                "it-IT": "Dai alle unità aeree alleate -1 costo operativo. Se hai giocato una carta Soleggiato in questo turno, dagli anche +2 attacco.",
+                "ja-JP": "自身の空軍ユニットに-1の操作コストを付与する。このターンで晴天を1枚プレイした場合、攻撃力が2増加する。",
+                "ko-KR": "모든 아군 공중 유닛에 운용 비용 -1을 부여합니다. 이번 턴에 당신이 맑음 카드를 사용했다면 공격력 +2도 부여합니다.",
+                "pl-PL": "Zapewnij swoim jednostkom powietrznym -1 do kosztu działania. Jeśli zagrałeś kartę Słoneczną, otrzymują one również +2 do ataku.",
+                "pt-BR": "Suas unidades aéreas têm -1 de custo de operação. Se você jogou uma carta Ensolarado neste turno, elas também recebem +2 de ataque.",
+                "ru-RU": "Ваши воздушные отряды получают -1 к стоимости использования. Если вы разыграли СОЛНЕЧНО на этом ходу, они также получают +2 к атаке.",
+                "zh-Hans": "使所有友方空军获得 -1 行动花费。若本回合使用过晴天牌，使其获得 +2 攻击力。",
+                "zh-Hant": "使所有友方空軍獲得 -1 行動花費。若本回合使用過晴天牌，使其獲得 +2 攻擊力。"
+              },
+              "type": "order",
+              "image": "out_of_the_sun.avif",
+              "title": {
+                "de-DE": "JENSEITS DER SONNE",
+                "en-EN": "OUT OF THE SUN",
+                "es-ES": "CON EL SOL EN LA ESPALDA",
+                "fr-FR": "SORTI DU SOLEIL",
+                "it-IT": "SOLE ALLE SPALLE",
+                "ja-JP": "日差し",
+                "ko-KR": "태양 속에서 나타난",
+                "pl-PL": "Z DALA OD SŁOŃCA",
+                "pt-BR": "SOL ÀS COSTAS",
+                "ru-RU": "СО СТОРОНЫ СОЛНЦА",
+                "zh-Hans": "逆光攻击",
+                "zh-Hant": "逆光攻擊"
+              },
+              "rarity": "Special",
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "zo"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/out_of_the_sun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/out_of_the_sun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85551,
+            "cardId": "outrage",
+            "importId": "AT",
+            "json": {
+              "id": "outrage",
+              "set": "OnlySpawnable",
+              "text": {
+                "de-DE": "Entwickle eine VERGELTUNG.",
+                "en-EN": "Develop a RETRIBUTION.",
+                "es-ES": "Desarrolla una REPRESALIA.",
+                "fr-FR": "Développez une RIPOSTE.",
+                "it-IT": "Sviluppa una PUNIZIONE.",
+                "ja-JP": "報復を開発する。",
+                "ko-KR": "응징을 개발합니다.",
+                "pl-PL": "Rozwiń ODWET.",
+                "pt-BR": "Desenvolva uma REPRESÁLIA.",
+                "ru-RU": "Вы разрабатываете ВОЗМЕЗДИЕ.",
+                "zh-Hans": "开发 1 张“惩戒”。",
+                "zh-Hant": "開發 1 張“懲戒”。"
+              },
+              "type": "order",
+              "image": "outrage.avif",
+              "title": {
+                "de-DE": "RAGE",
+                "en-EN": "OUTRAGE",
+                "es-ES": "INDIGNACIÓN",
+                "fr-FR": "OUTRAGE",
+                "it-IT": "INDIGNAZIONE",
+                "ja-JP": "アウトレイジ",
+                "ko-KR": "격분",
+                "pl-PL": "ZNIEWAGA",
+                "pt-BR": "INDIGNAÇÃO",
+                "ru-RU": "ГНЕВ",
+                "zh-Hans": "激怒",
+                "zh-Hant": "激怒"
+              },
+              "rarity": "Standard",
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "AT"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/outrage.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/outrage.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85479,
+            "cardId": "overcast",
+            "importId": "gg",
+            "json": {
+              "id": "overcast",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Vorhersage. Alle HQs erhalten +2 Verteidigung. Alle Spieler erhalten 1 zusätzlichen Kredit-Slot und ziehen eine Karte.",
+                "en-EN": "Forecast. All HQs get +2 defense. All players gain an extra kredit slot and draw a card.",
+                "es-ES": "Pronóstico. Todos los cuarteles generales obtienen +2 de defensa. Todos los jugadores obtienen un espacio para kréditos adicional y roban una carta.",
+                "fr-FR": "Prévision. Les deux QG gagnent +2 de défense. Chaque joueur gagne un emplacement de Krédit supplémentaire et pioche une carte.",
+                "it-IT": "Fai una Previsione. Dai +2 difesa a entrambi i QG. Entrambi i giocatori ricevono uno slot krediti extra e pescano una carta.",
+                "ja-JP": "予測。全本部の防御力が2増加する。すべてのプレイヤーは追加のクレジットスロットを獲得し、カードを1枚引く。",
+                "ko-KR": "예보를 내립니다. 모든 본부가 방어력 +2를 얻습니다. 모든 플레이어가 추가 크레딧 슬롯 1개를 얻고 카드 1장을 뽑습니다.",
+                "pl-PL": "Prognoza. Wszystkie sztaby otrzymują +2 do obrony. Wszyscy gracze otrzymują dodatkowe okno kredytów i dobierają kartę.",
+                "pt-BR": "Previsão. Todos os QGs recebem +2 de defesa. Todos os jogadores ganham um espaço de krédito adicional e compram uma carta.",
+                "ru-RU": "Прогноз. Все штабы получают +2 к защите. Все игроки получают дополнительную кредитную ячейку и берут карту.",
+                "zh-Hans": "预报。使双方总部获得 +2 防御力。双方额外获得 1 个指挥点槽，抽 1 张牌。",
+                "zh-Hant": "預報。使雙方總部獲得 +2 防禦力。雙方額外獲得 1 個指揮點槽，抽 1 張牌。"
+              },
+              "type": "order",
+              "image": "overcast.avif",
+              "title": {
+                "de-DE": "BEWÖLKT",
+                "en-EN": "OVERCAST",
+                "es-ES": "NUBLADO",
+                "fr-FR": "CIEL COUVERT",
+                "it-IT": "NUVOLOSO",
+                "ja-JP": "曇天",
+                "ko-KR": "흐린 날씨",
+                "pl-PL": "ZACHMURZENIE",
+                "pt-BR": "ENCOBERTO",
+                "ru-RU": "НЕПОГОДА",
+                "zh-Hans": "阴云密布",
+                "zh-Hant": "陰雲密佈"
+              },
+              "rarity": "Standard",
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "gg",
+              "can_create": [
+                "blue_sky",
+                "mist",
+                "gale"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/overcast.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/overcast.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85480,
+            "cardId": "overpower",
+            "importId": "wX",
+            "json": {
+              "id": "overpower",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Zerstöre eine Einheit mit 2 oder weniger Angriff und alle anderen Einheiten mit dem gleichen Namen auf dem Schlachtfeld.",
+                "en-EN": "Destroy a unit with 2 or less attack and all other units with the same name on the battlefield.",
+                "es-ES": "Destruye una unidad con ataque 2 o inferior y todas las demás unidades con el mismo nombre en el campo de batalla.",
+                "fr-FR": "Détruit une unité dont l'attaque est inférieure ou égale à 2 et toutes les autres unités portant le même nom sur le champ de bataille.",
+                "it-IT": "Distruggi un'unità con 2 o meno attacco, e tutte le altre unità in campo con lo stesso nome.",
+                "ja-JP": "攻撃力が2以下のユニットと、それと同じ名前の他のユニットをすべて破壊する。",
+                "ko-KR": "공격력 2 이하인 유닛을 지정해 파괴하고, 전장에서 파괴된 유닛과 같은 이름을 가진 다른 모든 유닛을 파괴합니다.",
+                "pl-PL": "Zniszcz jednostkę z atakiem 2 lub mniejszym i wszystkie inne jednostki o tej samej nazwie na polu bitwy.",
+                "pt-BR": "Destrua uma unidade com 2 ou menos de ataque e todas as outras unidades com o mesmo nome no campo de batalha.",
+                "ru-RU": "Уничтожает отряд с атакой 2 или меньше и все другие отряды с таким же названием на поле боя.",
+                "zh-Hans": "消灭 1 个攻击力不大于 2 的单位和其他同名单位。",
+                "zh-Hant": "消滅 1 個攻擊力不大於 2 的單位和其他同名單位。"
+              },
+              "type": "order",
+              "image": "overpower.avif",
+              "title": {
+                "de-DE": "ÜBERWÄLTIGEN",
+                "en-EN": "OVERPOWER",
+                "es-ES": "SUBYUGAR",
+                "fr-FR": "PUISSANCE ÉCRASANTE",
+                "it-IT": "POTENZA SCHIACCIANTE",
+                "ja-JP": "オーバーパワー",
+                "ko-KR": "압승",
+                "pl-PL": "OBEZWŁADNIENIE",
+                "pt-BR": "SOBREPUJAR",
+                "ru-RU": "ПРЕВОСХОДСТВО",
+                "zh-Hans": "摧枯拉朽",
+                "zh-Hant": "摧枯拉朽"
+              },
+              "rarity": "Special",
+              "faction": "Japan",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "wX"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/overpower.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/overpower.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85481,
+            "cardId": "overrun",
+            "importId": "jd",
+            "json": {
+              "id": "overrun",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Angreifende Bodeneinheiten verursachen in dieser Runde Schaden in Höhe ihrer Verteidigung.",
+                "en-EN": "Attacking ground units deal damage equal to their defense this turn.",
+                "es-ES": "Las unidades terrestres atacantes infligen daño igual a su defensa este turno.",
+                "fr-FR": "Les unités terrestres attaquantes infligent des dégâts égaux à leur défense pendant ce tour.",
+                "it-IT": "Le unità di terra attaccanti infliggono danni pari alla loro difesa fino alla fine del turno.",
+                "ja-JP": "攻撃する地上ユニットはこのターン、防御力と等しいダメージを与える。",
+                "ko-KR": "이번 턴에 공격하는 지상 유닛들은 그들의 방어력만큼의 피해를 입힙니다.",
+                "pl-PL": "Jednostki naziemne atakujące w tej turze zadają obrażenia równe ich obronie.",
+                "pt-BR": "Unidades terrestres atacantes causam dano igual à sua defesa neste turno.",
+                "ru-RU": "До конца хода атакующие наземные отряды наносят урон, равный их защите.",
+                "zh-Hans": "本回合，陆军攻击时，造成等同于其防御力的伤害。",
+                "zh-Hant": "本回合，陸軍攻擊時，造成等同於其防禦力的傷害。"
+              },
+              "type": "order",
+              "image": "overrun.avif",
+              "title": {
+                "de-DE": "ÜBERRENNEN",
+                "en-EN": "OVERRUN",
+                "es-ES": "ARRASAR",
+                "fr-FR": "DÉBORDEMENT",
+                "it-IT": "TRAVOLGERE",
+                "ja-JP": "オーバーラン",
+                "ko-KR": "압도",
+                "pl-PL": "NAJAZD",
+                "pt-BR": "INVADIR",
+                "ru-RU": "ЗАХЛЁСТ",
+                "zh-Hans": "横扫千军",
+                "zh-Hant": "橫掃千軍"
+              },
+              "rarity": "Standard",
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "jd"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/overrun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/overrun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86481,
+            "cardId": "oxford",
+            "importId": "ld",
+            "json": {
+              "id": "oxford",
+              "set": "WorldAtWar",
+              "text": {
+                "de-DE": "Wenn du eine Wacheinheit einsetzt oder hinzufügst, gib ihr +1+3.",
+                "en-EN": "When you deploy or add a Guard unit, give it +1+3.",
+                "es-ES": "Cuando despliegas o añades una unidad con Guardia, esta obtiene +1+3.",
+                "fr-FR": "Lorsque vous déployez ou ajoutez une unité avec Garde, elle gagne +1+3.",
+                "it-IT": "Quando schieri o aggiungi un'unità con Guardia, dagli +1+3.",
+                "ja-JP": "護衛ユニットを配備または追加すると、そのユニットに+1 +3を与える。",
+                "ko-KR": "당신이 근위 유닛을 배치하거나 추가하면 그 유닛에 +1+3을 부여합니다.",
+                "pl-PL": "Gdy rozmieścisz lub dodasz jednostkę ze Strażą, zapewnij jej +1+3.",
+                "pt-BR": "Quando você posicionar ou adicionar uma unidade com Guarda, ela recebe +1+3.",
+                "ru-RU": "Когда вы размещаете или добавляете отряд с Охраной, тот получает +1+3.",
+                "zh-Hans": "友方守护单位部署或加入时，使其获得 +1+3。",
+                "zh-Hant": "友方守護單位部署或加入時，使其獲得 +1+3。"
+              },
+              "type": "fighter",
+              "image": "oxford.avif",
+              "title": {
+                "de-DE": "OXFORD",
+                "en-EN": "OXFORD",
+                "es-ES": "OXFORD",
+                "fr-FR": "OXFORD",
+                "it-IT": "OXFORD",
+                "ja-JP": "オクスフォード",
+                "ko-KR": "AS. 10 옥스포드",
+                "pl-PL": "OXFORD",
+                "pt-BR": "OXFORD",
+                "ru-RU": "OXFORD",
+                "zh-Hans": "牛津",
+                "zh-Hant": "牛津"
+              },
+              "attack": 1,
+              "rarity": "Elite",
+              "defense": 3,
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "ld",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/oxford.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/oxford.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86497,
+            "cardId": "pak_36_fi",
+            "importId": "ne",
+            "json": {
+              "id": "pak_36_fi",
+              "set": "WinterWar",
+              "text": {
+                "de-DE": "Wenn diese Einheit angreift, fügt sie einem zufälligen Feind 1 Schaden zu.",
+                "en-EN": "When this unit attacks, it deals 1 damage to a random enemy.",
+                "es-ES": "Cuando esta unidad ataca, le inflige 1 de daño a un enemigo al azar.",
+                "fr-FR": "Lorsque cette unité attaque, elle inflige 1 dégât à un ennemi au hasard.",
+                "it-IT": "Quando questa unità attacca, infliggi 1 danno a un nemico casuale.",
+                "ja-JP": "このユニットが攻撃すると、ランダムな敵に1ダメージを与える。",
+                "ko-KR": "이 유닛이 공격할 때 무작위 상대에게 1의 피해를 입힙니다.",
+                "pl-PL": "Gdy ta jednostka atakuje, zadaje 1 pkt obrażeń losowemu wrogowi.",
+                "pt-BR": "Quando esta unidade ataca, causa 1 ponto de dano a um inimigo aleatório.",
+                "ru-RU": "Когда этот отряд атакует, он наносит 1 урона случайному врагу.",
+                "zh-Hans": "本单位攻击时，随机对 1 个敌方目标造成 1 点伤害。",
+                "zh-Hant": "本單位攻擊時，隨機對 1 個敵方目標造成 1 點傷害。"
+              },
+              "type": "artillery",
+              "image": "pak_36_fi.avif",
+              "title": {
+                "de-DE": "PAK 36 FI",
+                "en-EN": "PAK 36 FI",
+                "es-ES": "PAK 36 FI",
+                "fr-FR": "PAK 36 FI",
+                "it-IT": "PAK 36 FI",
+                "ja-JP": "PAK 36 FI",
+                "ko-KR": "PAK 36 FI",
+                "pl-PL": "PAK 36 FI",
+                "pt-BR": "PAK 36",
+                "ru-RU": "PAK 36 FI",
+                "zh-Hans": "Pak 36 反坦克炮 FI",
+                "zh-Hant": "Pak 36 反坦克炮 FI"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Finland",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "ne",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/pak_36_fi.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/pak_36_fi.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86506,
+            "cardId": "panzer_35t",
+            "importId": "4p",
+            "json": {
+              "id": "panzer_35t",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Reduziert Aktionskosten um 1, wenn du eine Infanterie kontrollierst.",
+                "en-EN": "Deployment: Reduce operation cost by 1 if you control an infantry.",
+                "es-ES": "Despliegue: Reduce el costo de operaciones en 1 si controlas alguna infantería.",
+                "fr-FR": "Déploiement : Réduit le coût d’opération de 1 si vous contrôlez une unité d’infanterie.",
+                "it-IT": "Schieramento: ottiene -1 costo operativo se controlli un'unità di fanteria.",
+                "ja-JP": "配備時：歩兵をコントロールしている場合、行動コストが1減少する。",
+                "ko-KR": "배치: 당신이 보병을 조종하고 있다면 이 유닛의 운용 비용이 1 감소합니다.",
+                "pl-PL": "Rozmieszczenie: obniż koszt operacji o 1, jeśli posiadasz jednostkę piechoty.",
+                "pt-BR": "Posicionamento: reduz o custo de operação em 1 se você controla uma infantaria.",
+                "ru-RU": "Размещение: Стоимость использования снижается на 1, если под вашим командованием есть пехота.",
+                "zh-Hans": "部署：若有友方步兵，获得 -1 行动花费。",
+                "zh-Hant": "部署：若有友方步兵，獲得 -1 行動花費。"
+              },
+              "type": "tank",
+              "image": "panzer_35t.avif",
+              "title": {
+                "de-DE": "PANZER 35(t)",
+                "en-EN": "PANZER 35(t)",
+                "es-ES": "PANZER 35(t)",
+                "fr-FR": "PANZER 35(t)",
+                "it-IT": "PANZER 35(t)",
+                "ja-JP": "35(t) 戦車",
+                "ko-KR": "전차 35(t)",
+                "pl-PL": "PANZER 35(t)",
+                "pt-BR": "PANZER 35(t)",
+                "ru-RU": "PANZER 35(t)",
+                "zh-Hans": "35(t) 坦克",
+                "zh-Hant": "35(t) 坦克"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "4p",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/panzer_35t.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/panzer_35t.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85487,
+            "cardId": "patriotic_firestorm",
+            "importId": "80",
+            "json": {
+              "id": "patriotic_firestorm",
+              "set": "Base",
+              "text": {
+                "de-DE": "Deine Einheiten in der Nachschublinie haben bis zum Ende des Zugs +2 Angriff.",
+                "en-EN": "Your support line units have + 2 attack until end of turn.",
+                "es-ES": "Tus unidades de la línea de apoyo tienen +2 de ataque hasta que finaliza el turno.",
+                "fr-FR": "Les unités de votre ligne de soutien gagnent +2 d’attaque jusqu’à la fin du tour.",
+                "it-IT": "Dai +2 attacco alle unità alleate nella linea di supporto fino alla fine del turno.",
+                "ja-JP": "自身の後方支援ユニットはターン終了時まで攻撃力が+2増加する。",
+                "ko-KR": "이번 턴이 끝날 때까지 당신의 후방에 있는 유닛들의 공격력이 +2 증가합니다.",
+                "pl-PL": "Jednostki linii wsparcia otrzymują +2 do ataku do końca tury.",
+                "pt-BR": "As suas unidades da linha de apoio têm +2 de ataque até o final do turno.",
+                "ru-RU": "Ваши отряды на линии поддержки получают +2 к атаке до конца хода.",
+                "zh-Hans": "本回合，友方支援阵线所有单位具有 +2 攻击力。",
+                "zh-Hant": "本回合，友方支援陣線所有單位具有 +2 攻擊力。"
+              },
+              "type": "order",
+              "image": "patriotic_firestorm.avif",
+              "title": {
+                "de-DE": "VATERLÄNDISCHE FEUERSBRUNST",
+                "en-EN": "PATRIOTIC FIRESTORM",
+                "es-ES": "TORMENTA PATRIÓTICA",
+                "fr-FR": "TEMPÊTE PATRIOTIQUE",
+                "it-IT": "TEMPESTA DI FUOCO PATRIOTTICA",
+                "ja-JP": "燃え上がる愛国心",
+                "ko-KR": "애국적 불폭풍",
+                "pl-PL": "PATRIOTYCZNY ŻAR",
+                "pt-BR": "BOMBARDEIO PATRIOTA",
+                "ru-RU": "ПАТРИОТИЧЕСКИЙ ПОДЪЁМ",
+                "zh-Hans": "爱国风暴",
+                "zh-Hant": "愛國風暴"
+              },
+              "rarity": "Limited",
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "80"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/patriotic_firestorm.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/patriotic_firestorm.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85490,
+            "cardId": "patrol",
+            "importId": "bU",
+            "json": {
+              "id": "patrol",
+              "set": "TheatersOfWar",
+              "text": {
+                "de-DE": "Gewählte feindliche Einheit verliert Wache, Vernebelung und Zerstörung. Sie nimmt 2 Schaden.",
+                "en-EN": "Target enemy unit loses Guard, Smokescreen and Destruction. Deal 2 damage to it.",
+                "es-ES": "La unidad del enemigo seleccionada pierde Guardia, Cortina de humo y Destrucción. Sufre 2 de daño.",
+                "fr-FR": "L’unité ennemie ciblée perd Garde, Écran de fumée et Destruction. Elle subit 2 dégâts.",
+                "it-IT": "L'unità nemica bersaglio perde Guardia, Cortina Fumogena e Distruzione, poi Infliggigli 2 danni.",
+                "ja-JP": "ターゲットした敵は護衛、煙幕、破壊時効果を失う。それに2ダメージを与える。",
+                "ko-KR": "목표 상대 유닛이 근위, 연막, 파괴를 잃습니다. 피해를 2 줍니다.",
+                "pl-PL": "Wybrana jednostka wroga traci Straż, Zasłonę Dymną oraz Zniszczenie. Zadaj jej 2 pkt obrażeń.",
+                "pt-BR": "A unidade inimiga alvo perde guarda, cortina de fumaça e destruição. Cause 2 de dano.",
+                "ru-RU": "Вражеский отряд теряет Охрану, Дымовую завесу и эффект Уничтожения, а затем получает 2 урона.",
+                "zh-Hans": "使 1 个敌方单位失去守护、烟幕和亡计，对其造成 2 点伤害。",
+                "zh-Hant": "使 1 個敵方單位失去守護、煙幕和亡計，對其造成 2 點傷害。"
+              },
+              "type": "order",
+              "image": "patrol.avif",
+              "title": {
+                "de-DE": "PATROUILLE",
+                "en-EN": "PATROL",
+                "es-ES": "PATRULLA",
+                "fr-FR": "PATROUILLE",
+                "it-IT": "PATTUGLIA ",
+                "ja-JP": "偵察隊",
+                "ko-KR": "순찰",
+                "pl-PL": "PATROL",
+                "pt-BR": "PATRULHA",
+                "ru-RU": "ПАТРУЛЬ",
+                "zh-Hans": "巡逻队",
+                "zh-Hant": "巡邏隊"
+              },
+              "rarity": "Limited",
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "bU"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/patrol.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/patrol.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85493,
+            "cardId": "persian_corridor",
+            "importId": "wv",
+            "json": {
+              "id": "persian_corridor",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Gib einer verbündeten britischen oder US-Einheit: \\\"Zerstörung: Löse alle Zerstörungseffekte deiner sowjetischen Einheiten aus.\\\"",
+                "en-EN": "Give a friendly British or US unit: \\\"Destruction: Trigger all Destruction effects of your Soviet units.\\\"",
+                "es-ES": "Una unidad británica o estadounidense aliada obtiene: \\\"Destrucción: activa todos los efectos de Destrucción de tus unidades soviéticas\\\".",
+                "fr-FR": "Confère à une unité britannique ou américaine alliée : \\\"Destruction : Déclenche tous les effets de Destruction de vos unités soviétiques.\\\"",
+                "it-IT": "Dai a un'unità alleata britannica o USA: \\\"Distruzione: attiva gli effetti di Distruzione delle unità sovietiche alleate\\\".",
+                "ja-JP": "味方のイギリスまたはアメリカのユニット1体に次を与える：「破壊時：自分のソビエトユニットのすべての破壊時効果を発動する。」",
+                "ko-KR": "아군 영국/미국 유닛 하나에 다음을 부여합니다. \\\"파괴: 모든 아군 소련 유닛의 파괴 효과를 발동시킵니다.\\\"",
+                "pl-PL": "Zapewnij sojuszniczej jednostce brytyjskiej lub amerykańskiej: „Zniszczenie: Uruchom wszystkie efekty zniszczenia swoich jednostek radzieckich”.",
+                "pt-BR": "Uma unidade britânica ou americana aliada recebe: \\\"Destruição: Ative todos os efeitos de Destruição das suas unidades soviéticas.\\\"",
+                "ru-RU": "Дружественный британский или американский отряд получает: «Уничтожение: Активирует все эффекты Уничтожения ваших советских отрядов».",
+                "zh-Hans": "使 1 个友方英国或美国单位获得：“亡计：触发所有友方苏联单位的亡计。”",
+                "zh-Hant": "使 1 個友方英國或美國單位獲得：“亡計：觸發所有友方蘇聯單位的亡計。”"
+              },
+              "type": "order",
+              "image": "persian_corridor.avif",
+              "title": {
+                "de-DE": "PERSISCHER KORRIDOR",
+                "en-EN": "PERSIAN CORRIDOR",
+                "es-ES": "EL CORREDOR PERSA",
+                "fr-FR": "CORRIDOR PERSE",
+                "it-IT": "CORRIDOIO PERSIANO",
+                "ja-JP": "ペルシャ回廊",
+                "ko-KR": "페르시아 회랑",
+                "pl-PL": "KORYTARZ PERSKI",
+                "pt-BR": "CORREDOR PERSA",
+                "ru-RU": "ПЕРСИДСКИЙ КОРИДОР",
+                "zh-Hans": "波斯走廊",
+                "zh-Hant": "波斯走廊"
+              },
+              "rarity": "Special",
+              "faction": "Soviet",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "wv"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/persian_corridor.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/persian_corridor.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85495,
+            "cardId": "pilot_escape",
+            "importId": "vk",
+            "json": {
+              "id": "pilot_escape",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Entwickle eine Lufteinheit deiner Hauptnation. Sie hat um 1 verringerte Einsatz- und Aktionskosten.",
+                "en-EN": "Develop an air unit of your main nation. It costs 1 less to deploy and operate.",
+                "es-ES": "Desarrolla una unidad aérea de tu nación principal. Desplegarla y operar con ella cuesta 1 menos.",
+                "fr-FR": "Développez une unité aérienne de votre nation principale. Son coût de déploiement et d'opération est réduit de 1.",
+                "it-IT": "Sviluppa un'unità aerea della tua nazione principale. Costa 1 in meno e ha -1 costo operativo.",
+                "ja-JP": "自身の主要国の空軍ユニットを開発する。 その配備と操作コストが1減少する。",
+                "ko-KR": "주요 국가의 공중 유닛 하나를 개발합니다. 개발한 유닛의 배치/운용 비용을 1 낮춥니다.",
+                "pl-PL": "Rozwiń jednostkę powietrzną swojego głównego kraju. Jej rozmieszczenie i działanie kosztuje o 1 mniej.",
+                "pt-BR": "Desenvolva uma unidade aérea de sua nação principal. Custa menos 1 para posicionar e operar.",
+                "ru-RU": "Вы разрабатываете самолёт вашей основной нации. Он получает -1 к стоимости размещения и использования.",
+                "zh-Hans": "开发 1 张主国空军。 使其获得 -1 花费和 -1 行动花费。",
+                "zh-Hant": "開發 1 張主國空軍。 使其獲得 -1 花費和 -1 行動花費。"
+              },
+              "type": "order",
+              "image": "pilot_escape.avif",
+              "title": {
+                "de-DE": "PILOTENRETTUNG",
+                "en-EN": "PILOT ESCAPE",
+                "es-ES": "ESCAPE DEL PILOTO",
+                "fr-FR": "PILOTE RESCAPÉ",
+                "it-IT": "PILOTI IN ESILIO",
+                "ja-JP": "パイロット脱出",
+                "ko-KR": "조종사 탈출",
+                "pl-PL": "EWAKUACJA PILOTA",
+                "pt-BR": "FUGA DO PILOTO",
+                "ru-RU": "СПАСШИЙСЯ ПИЛОТ",
+                "zh-Hans": "异乡之翼",
+                "zh-Hant": "異鄉之翼"
+              },
+              "rarity": "Limited",
+              "faction": "Poland",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "vk"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/pilot_escape.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/pilot_escape.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85496,
+            "cardId": "plan",
+            "importId": "CJ",
+            "json": {
+              "id": "plan",
+              "set": "OnlySpawnable",
+              "text": {
+                "de-DE": "Ziehe eine Karte.",
+                "en-EN": "Draw a card.",
+                "es-ES": "Roba una carta.",
+                "fr-FR": "Piochez une carte.",
+                "it-IT": "Pesca una carta.",
+                "ja-JP": "カードを1枚引く",
+                "ko-KR": "카드 1장을 뽑습니다.",
+                "pl-PL": "Dobierz kartę.",
+                "pt-BR": "Compre uma carta.",
+                "ru-RU": "Вы берёте карту.",
+                "zh-Hans": "抽 1 张牌。",
+                "zh-Hant": "抽 1 張牌。"
+              },
+              "type": "order",
+              "image": "plan.avif",
+              "title": {
+                "de-DE": "PLAN",
+                "en-EN": "PLAN",
+                "es-ES": "PLAN",
+                "fr-FR": "PLAN",
+                "it-IT": "PIANIFICAZIONE",
+                "ja-JP": "計画",
+                "ko-KR": "계획",
+                "pl-PL": "PLAN",
+                "pt-BR": "PLANO",
+                "ru-RU": "ПЛАН",
+                "zh-Hans": "计划",
+                "zh-Hant": "計畫"
+              },
+              "rarity": "Standard",
+              "faction": "Neutral",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "CJ"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/plan.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/plan.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85497,
+            "cardId": "planned_attack",
+            "importId": "yN",
+            "json": {
+              "id": "planned_attack",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Wähle Eins - füge dem Ziel 2 Schaden zu und füge deiner Hand einen PLAN hinzu oder ziehe eine Karte und füge deiner Hand eine EXPLOSION hinzu.",
+                "en-EN": "Choose One - deal 2 damage and add a PLAN to hand OR draw a card and and add a BLAST to hand.",
+                "es-ES": "Elige una: inflige 2 puntos de daño y añade un PLAN a la mano O roba una carta y añade una EXPLOSIÓN a la mano.",
+                "fr-FR": "Choisissez : Inflige 2 dégâts et ajoute un PLAN à votre main OU piochez une carte et ajoute une EXPLOSION à votre main.",
+                "it-IT": "Scegli - infliggi 2 danni e aggiungi PIANIFICAZIONE alla tua mano OPPURE pesca una carta e aggiungi ESPLOSIONE.",
+                "ja-JP": "選択：2ダメージを与え、手札に計画を追加するか、カードを1枚引いて手札に爆破を追加する。",
+                "ko-KR": "선택 - 2의 피해를 입히고 패에 '계획'을 추가합니다. 또는 카드 1장을 뽑고 패에 '폭발'을 추가합니다.",
+                "pl-PL": "Wybierz - zadaj 2 obrażenia i dodaj PLAN do ręki lub dobierz kartę i dodaj WYBUCH do ręki.",
+                "pt-BR": "Escolha um - cause 2 de dano e adicione um PLANO à mão OU compre uma carta e adicione uma EXPLOSÃO à mão.",
+                "ru-RU": "Выберите одно - наносит 2 урона и добавляет ПЛАН в руку ИЛИ вы берёте карту и добавляет ВЗРЫВ в руку.",
+                "zh-Hans": "抉择：造成 2 点伤害并将 1 张“计划”加入手中 或 抽 1 张牌并将 1 张“爆破”加入手中。",
+                "zh-Hant": "抉擇：造成 2 點傷害並將 1 張“計畫”加入手中 或 抽 1 張牌並將 1 張“爆破”加入手中。"
+              },
+              "type": "order",
+              "image": "planned_attack.avif",
+              "title": {
+                "de-DE": "GEPLANTER ANGRIFF",
+                "en-EN": "PLANNED ATTACK",
+                "es-ES": "ATAQUE PLANIFICADO",
+                "fr-FR": "ATTAQUE PLANIFIÉE",
+                "it-IT": "ATTACCO PIANIFICATO",
+                "ja-JP": "計画された攻撃",
+                "ko-KR": "준비된 공격",
+                "pl-PL": "ZAPLANOWANY ATAK",
+                "pt-BR": "ATAQUE PLANEJADO",
+                "ru-RU": "ЗАПЛАНИРОВАННОЕ НАПАДЕНИЕ",
+                "zh-Hans": "预定攻势",
+                "zh-Hant": "預定攻勢"
+              },
+              "rarity": "Limited",
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "yN",
+              "can_create": [
+                "blast",
+                "plan"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/planned_attack.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/planned_attack.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85500,
+            "cardId": "pontoon_bridge",
+            "importId": "qW",
+            "json": {
+              "id": "pontoon_bridge",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Gib einer verbündeten Einheit +1+2. Wenn sie 4 oder mehr Angriffe hatte, setze ihre Aktionskosten auf 0.",
+                "en-EN": "Give a friendly unit +1+2. If it had 4 or more attack, set its operation cost to 0 as well.",
+                "es-ES": "Otorga a una unidad aliada +1+2. Si tenía 4 o más de ataque, también establece su costo de operación en 0.",
+                "fr-FR": "Confère +1+2 à une unité alliée. Si son attaque était supérieure ou égale à 4, son coût d'opération est également fixé à 0.",
+                "it-IT": "Dai +1+2 a un'unità alleata. Se aveva 4 o più attacco, imposta il suo costo operativo a 0.",
+                "ja-JP": "味方のユニット1体に+1 +2を与える。 その攻撃力が4以上の場合、行動コストを0に設定する。",
+                "ko-KR": "아군 유닛 하나에 +1+2를 부여합니다. 공격력이 4 이상이었다면 운용 비용을 0으로 설정합니다.",
+                "pl-PL": "Zapewnij sojuszniczej jednostce +1+2. Jeśli miała 4 lub więcej ataku, ustaw również jej koszt działania na 0.",
+                "pt-BR": "Dê +1+2 para uma unidade aliada. Se tiver 4 ou mais de ataque, defina seu custo de operação como 0 também.",
+                "ru-RU": "Даёт дружественному отряду +1+2. Если у него было 4 или более атаки, его стоимость использования также становится 0.",
+                "zh-Hans": "使 1 个友方单位获得 +1+2。若此前其攻击力不小于 4，使其行动花费为 0。",
+                "zh-Hant": "使 1 個友方單位獲得 +1+2。若此前其攻擊力不小於 4，使其行動花費為 0。"
+              },
+              "type": "order",
+              "image": "pontoon_bridge.avif",
+              "title": {
+                "de-DE": "PONTONBRÜCKE",
+                "en-EN": "PONTOON BRIDGE",
+                "es-ES": "PUENTE DE BARCAS",
+                "fr-FR": "PONT FLOTTANT",
+                "it-IT": "PONTE DI BARCHE",
+                "ja-JP": "浮桟橋",
+                "ko-KR": "부교",
+                "pl-PL": "MOST PONTONOWY",
+                "pt-BR": "PONTE FLUTUANTE",
+                "ru-RU": "ПОНТОННЫЙ МОСТ",
+                "zh-Hans": "浮桥",
+                "zh-Hant": "浮橋"
+              },
+              "rarity": "Limited",
+              "faction": "USA",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "qW"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/pontoon_bridge.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/pontoon_bridge.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85513,
+            "cardId": "punish",
+            "importId": "ph",
+            "json": {
+              "id": "punish",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Der Feind wirft eine zufällige Karte ab. Ziehe eine Karte, falls sie bekannt war.",
+                "en-EN": "The enemy discards a random card. Draw a card if it was known.",
+                "es-ES": "El enemigo descarta una carta al azar. Si era una carta conocida, robas una carta.",
+                "fr-FR": "L'ennemi défausse une carte au hasard. Piochez une carte si elle était révélée.",
+                "it-IT": "Il nemico scarta una carta casuale. Se era conosciuta, pesca una carta.",
+                "ja-JP": "敵はランダムなカードを1枚捨てる。それが公開されていた場合はカードを引く。",
+                "ko-KR": "상대 패에서 무작위 카드 1장을 버립니다. 드러난 카드였다면 당신은 카드 1장을 뽑습니다.",
+                "pl-PL": "Przeciwnik odrzuca losową kartę. Dobierz kartę, jeśli była znana.",
+                "pt-BR": "O inimigo descarta uma carta aleatória. Se era uma carta conhecida, compre uma carta.",
+                "ru-RU": "Враг сбрасывает случайную карту. Если она была известна, вы берёте карту.",
+                "zh-Hans": "敌方随机弃 1 张牌。若是明牌，友方抽 1 张牌。",
+                "zh-Hant": "敵方隨機棄 1 張牌。若是明牌，友方抽 1 張牌。"
+              },
+              "type": "order",
+              "image": "punish.avif",
+              "title": {
+                "de-DE": "BESTRAFUNG",
+                "en-EN": "PUNISH",
+                "es-ES": "CASTIGAR",
+                "fr-FR": "PUNIR",
+                "it-IT": "DENTE PER DENTE",
+                "ja-JP": "懲罰",
+                "ko-KR": "처벌",
+                "pl-PL": "WYMIERZYĆ KARĘ",
+                "pt-BR": "CASTIGAR",
+                "ru-RU": "НАКАЗАНИЕ",
+                "zh-Hans": "严惩",
+                "zh-Hant": "嚴懲"
+              },
+              "rarity": "Special",
+              "faction": "Poland",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "ph",
+              "attributes": [
+                "intel1"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/punish.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/punish.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86505,
+            "cardId": "pz_befehlswagen_35t",
+            "importId": "fR",
+            "json": {
+              "id": "pz_befehlswagen_35t",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Wenn diese Einheit in deiner Hand ist, füge sie der Front hinzu, wenn du sie eroberst.",
+                "en-EN": "If this unit is in hand, add it to the frontline when you take it.",
+                "es-ES": "Si esta unidad está en la mano, se añade al frente al tomarlo.",
+                "fr-FR": "Si cette unité est en main, ajoutez-la à la première ligne lorsque vous capturez cette dernière.",
+                "it-IT": "Se hai questa unità in mano, aggiungila alla prima linea quando la conquisti.",
+                "ja-JP": "自身が前線を取得したとき、このユニットが手札にある場合は、このユニットを前線に追加する。",
+                "ko-KR": "이 유닛이 패에 있을 때 당신이 전방을 점령하면 이 유닛을 전방에 추가합니다.",
+                "pl-PL": "Jeśli ta jednostka znajduje się w twojej ręce, poślij ją na linię frontu, gdy ją przejmiesz.",
+                "pt-BR": "Se esta unidade estiver na mão, adicione-a à linha de frente ao pegá-la.",
+                "ru-RU": "Добавляется из вашей руки на линию фронта, когда вы захватываете её.",
+                "zh-Hans": "友方占领前线时，若本单位在手中，将其加入前线。",
+                "zh-Hant": "友方佔領前線時，若本單位在手中，將其加入前線。"
+              },
+              "type": "tank",
+              "image": "pz_befehlswagen_35t.avif",
+              "title": {
+                "de-DE": "PANZERBEFEHLSWAGEN 35t",
+                "en-EN": "Pz. BEFEHLSWAGEN 35t",
+                "es-ES": "Pz. BEFEHLSWAGEN 35t",
+                "fr-FR": "Pz. BEFEHLSWAGEN 35t",
+                "it-IT": "Pz. BEFEHLSWAGEN 35t",
+                "ja-JP": "35(t) 指揮戦車",
+                "ko-KR": "지휘전차 35(t)",
+                "pl-PL": "Pz. BEFEHLSWAGEN 35t",
+                "pt-BR": "Pz. BEFEHLSWAGEN 35t",
+                "ru-RU": "Pz. BEFEHLSWAGEN 35t",
+                "zh-Hans": "35(t) 指挥车",
+                "zh-Hant": "35(t) 指揮車"
+              },
+              "attack": 2,
+              "rarity": "Special",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 2,
+              "reserved": true,
+              "import_id": "fR",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/pz_befehlswagen_35t.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/pz_befehlswagen_35t.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85518,
+            "cardId": "radar_alert",
+            "importId": "0r",
+            "json": {
+              "id": "radar_alert",
+              "set": "Base",
+              "text": {
+                "de-DE": "Wenn der Feind eine Einheit einsetzt, wird eine zufällige britische Lufteinheit mit ähnlichen Kosten hinzugefügt.",
+                "en-EN": "When the enemy deploys a unit, add a random British air unit of similar cost.",
+                "es-ES": "Cuando el enemigo despliegue una unidad, añade una unidad aérea británica aleatoria de costo similar.",
+                "fr-FR": "Ajoute une unité aérienne britannique de même coût au hasard lorsque l’ennemi déploie une unité.",
+                "it-IT": "Dopo che il nemico ha giocato un’unità, aggiungi un’unità aerea britannica alla linea di supporto con costo simile.",
+                "ja-JP": "敵がユニットを配備させると、同じコストのランダムなイギリス空軍ユニットを追加する。",
+                "ko-KR": "상대가 유닛을 배치하면 동일한 비용의 영국 공중 유닛을 추가합니다.",
+                "pl-PL": "Gdy przeciwnik rozmieszcza jednostkę, dodaj losową brytyjską jednostkę powietrzną o podobnym koszcie.",
+                "pt-BR": "Quando o inimigo posiciona uma unidade, adicione uma unidade aérea britânica aleatória com custo parecido.",
+                "ru-RU": "Когда противник размещает отряд, добавляет на линию поддержки ближайший к нему по стоимости британский самолёт.",
+                "zh-Hans": "敌方单位部署时，随机将 1 个与其花费相近的英国空军加入战场。",
+                "zh-Hant": "敵方單位部署時，隨機將 1 個與其花費相近的英國空軍加入戰場。"
+              },
+              "type": "countermeasure",
+              "image": "radar_alert.avif",
+              "title": {
+                "de-DE": "RADARALARM",
+                "en-EN": "RADAR ALERT",
+                "es-ES": "ALERTA DE RADAR",
+                "fr-FR": "ALERTE RADAR",
+                "it-IT": "ALLARME RADAR",
+                "ja-JP": "レーダー警報",
+                "ko-KR": "레이더 경보",
+                "pl-PL": "ALARM RADAROWY",
+                "pt-BR": "ALERTA DE RADAR",
+                "ru-RU": "РАДИОЛОКАЦИЯ",
+                "zh-Hans": "雷达警报",
+                "zh-Hant": "雷達警報"
+              },
+              "rarity": "Special",
+              "faction": "Britain",
+              "kredits": 2,
+              "reserved": false,
+              "import_id": "0r"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/radar_alert.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/radar_alert.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

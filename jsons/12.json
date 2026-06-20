@@ -1,0 +1,1073 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 85454,
+            "cardId": "naval_task_force",
+            "importId": "by",
+            "json": {
+              "id": "naval_task_force",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Wähle eins: Fügt einmal LANDZIELBESCHUSS zur Hand hinzu ODER fügt einmal NACHSCHUBLIEFERUNG zur Hand hinzu.",
+                "en-EN": "Choose one - add a NAVAL BOMBARDMENT to hand OR add a SUPPLY SHIPMENT to hand.",
+                "es-ES": "Elige una: Añade un BOMBARDEO NAVAL a la mano O añade una ENTREGA DE SUMINISTROS a la mano.",
+                "fr-FR": "Choisissez : Ajouter à votre main un BOMBARDEMENT NAVAL OU une EXPÉDITION D'APPROVISIONNEMENT",
+                "it-IT": "Scegli - aggiungi BOMBARDAMENTO NAVALE alla tua mano OPPURE aggiungi SPEDIZIONE DI RIFORNIMENTI alla tua mano.",
+                "ja-JP": "選択:海軍砲撃か、補給物資を手札に追加する。",
+                "ko-KR": "선택 - 패에 \\\"해군의 포격\\\" 1장 또는 \\\"보급 선적\\\" 1장을 추가합니다.",
+                "pl-PL": "Wybierz: dodaj do ręki BOMBARDOWANIE MORSKIE LUB DOSTAWĘ ZAOPATRZENIA.",
+                "pt-BR": "Escolha um - adicione um BOMBARDEIO NAVAL à sua mão OU adicione um TRANSPORTE DE SUPRIMENTOS à sua mão.",
+                "ru-RU": "Выберите одно: Добавляет в вашу руку ОБСТРЕЛ С МОРЯ ИЛИ ПОСТАВКА ПРИПАСОВ.",
+                "zh-Hans": "抉择：将 1 张“海军轰炸” 或 1 张“运输补给”加入手牌。",
+                "zh-Hant": "抉擇：將 1 張“海軍轟炸” 或 1 張“運輸補給”加入手牌。"
+              },
+              "type": "order",
+              "image": "naval_task_force.avif",
+              "title": {
+                "de-DE": "MARINE-KAMPFVERBAND",
+                "en-EN": "NAVAL TASK FORCE",
+                "es-ES": "FUERZA OPERATIVA NAVAL",
+                "fr-FR": "FORCE OPÉRATIONNELLE NAVALE",
+                "it-IT": "TASK FORCE NAVALE",
+                "ja-JP": "海軍タスクフォース",
+                "ko-KR": "해군 기동 부대",
+                "pl-PL": "ODDZIAŁ SPECJALNY MARYNARKI WOJENNEJ",
+                "pt-BR": "FORÇA TAREFA NAVAL",
+                "ru-RU": "ОПЕРАТИВНОЕ СОЕДИНЕНИЕ ВМС",
+                "zh-Hans": "海军特遣队",
+                "zh-Hant": "海軍特遣隊"
+              },
+              "rarity": "Standard",
+              "faction": "USA",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "by",
+              "can_create": [
+                "naval_bombardment",
+                "supply_shipment"
+              ]
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/naval_task_force.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/naval_task_force.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85455,
+            "cardId": "new_doctrine",
+            "importId": "jk",
+            "json": {
+              "id": "new_doctrine",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Ignoriere \\\"Kann das feindliche HQ nicht angreifen\\\" auf der Zieleinheit.",
+                "en-EN": "Ignore \\\"Cannot attack the enemy HQ\\\" on target unit.",
+                "es-ES": "Ignora \\\"No puede atacar el cuartel general enemigo\\\" en la unidad objetivo.",
+                "fr-FR": "Ignorez \\\"Ne peut pas attaquer le QG ennemi\\\" sur l'unité ciblée.",
+                "it-IT": "Rimuovi \\\"Non può attaccare il QG nemico\\\" da un'unità bersaglio.",
+                "ja-JP": "ターゲットしたユニットの「敵本部を攻撃できない」を無効にする。",
+                "ko-KR": "대상 유닛의 \\\"상대 본부를 공격할 수 없습니다\\\" 를 무시합니다.",
+                "pl-PL": "Ignoruj „Nie można zaatakować sztabu przeciwnika\\\" na wybranej jednostce.",
+                "pt-BR": "Remova \\\"Não pode atacar o QG inimigo\\\" da unidade alvo.",
+                "ru-RU": "Убирает \\\"Не может атаковать вражеский штаб\\\" с выбранного отряда.",
+                "zh-Hans": "使 1 个单位忽略“无法攻击敌方总部”。",
+                "zh-Hant": "使 1 個單位忽略“無法攻擊敵方總部”。"
+              },
+              "type": "order",
+              "image": "new_doctrine.avif",
+              "title": {
+                "de-DE": "NEUE DOKTRIN",
+                "en-EN": "NEW DOCTRINE",
+                "es-ES": "NUEVA DOCTRINA",
+                "fr-FR": "NOUVELLE DOCTRINE",
+                "it-IT": "NUOVA DOTTRINA",
+                "ja-JP": "新戦術",
+                "ko-KR": "새로운 교리",
+                "pl-PL": "NOWA DOKTRYNA",
+                "pt-BR": "NOVA DOUTRINA",
+                "ru-RU": "НОВАЯ ДОКТРИНА",
+                "zh-Hans": "新式战法",
+                "zh-Hant": "新式戰法"
+              },
+              "rarity": "Standard",
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "jk"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/new_doctrine.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/new_doctrine.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86475,
+            "cardId": "no_46_commando",
+            "importId": "yH",
+            "json": {
+              "id": "no_46_commando",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Einsatz: Füge deiner Hand eine EXPLOSION und einen PLAN hinzu.",
+                "en-EN": "Deployment: Add a BLAST and a PLAN to your hand.",
+                "es-ES": "Despliegue: Añade una EXPLOSIÓN y un PLAN a tu mano.",
+                "fr-FR": "Déploiement : Ajoute une EXPLOSION et un PLAN à votre main.",
+                "it-IT": "Schieramento: aggiungi ESPLOSIONE e PIANIFICAZIONE alla tua mano.",
+                "ja-JP": "配備時：手札に爆破と計画を追加する。",
+                "ko-KR": "배치: 당신의 패에 '폭발'과 '계획'을 추가합니다.",
+                "pl-PL": "Rozmieszczenie: dodaj WYBUCH i PLAN do swojej ręki.",
+                "pt-BR": "Posicionamento: adicione uma EXPLOSÃO e um PLANO à sua mão.",
+                "ru-RU": "Размещение: Добавляет в вашу руку ВЗРЫВ и ПЛАН.",
+                "zh-Hans": "部署：将 1 张“爆破”和 1 张“计划”加入手中。",
+                "zh-Hant": "部署：將 1 張“爆破”和 1 張“計畫”加入手中。"
+              },
+              "type": "infantry",
+              "image": "no_46_commando.avif",
+              "title": {
+                "de-DE": "KOMMANDO Nr. 46",
+                "en-EN": "No. 46 COMMANDO",
+                "es-ES": "46.º COMANDO",
+                "fr-FR": "COMMANDO N° 46",
+                "it-IT": "COMMANDO N. 46",
+                "ja-JP": "No.46コマンドー",
+                "ko-KR": "제46코만도",
+                "pl-PL": "46 COMMANDO",
+                "pt-BR": "COMANDO Nº 9",
+                "ru-RU": "46-е ПОДРАЗДЕЛЕНИЕ КОММАНДОС",
+                "zh-Hans": "第 46 突击队",
+                "zh-Hant": "第 46 突擊隊"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 1,
+              "faction": "Britain",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "yH",
+              "can_create": [
+                "blast",
+                "plan"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/no_46_commando.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/no_46_commando.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86476,
+            "cardId": "no_9_commando",
+            "importId": "ox",
+            "json": {
+              "id": "no_9_commando",
+              "set": "CovertOps",
+              "text": {
+                "de-DE": "Einsatz: Setze die Verteidigung der feindlichen Zieleinheit auf 1.",
+                "en-EN": "Deployment: Set the defense of target enemy unit to 1.",
+                "es-ES": "Despliegue: establece la defensa de la unidad enemiga objetivo en 1.",
+                "fr-FR": "Déploiement : Fixez la défense de l'unité ennemie ciblée à 1.",
+                "it-IT": "Schieramento: imposta la difesa di un'unità nemica a 1.",
+                "ja-JP": "配備時：ターゲットした敵ユニットの防御力を1に設定する。",
+                "ko-KR": "배치: 대상 적 유닛의 방어력을 1로 설정합니다.",
+                "pl-PL": "Rozmieszczenie: Ustaw obronę wybranej wrogiej jednostki na 1.",
+                "pt-BR": "Posicionamento: Defina a defesa da unidade inimiga alvo para 1.",
+                "ru-RU": "Размещение: Защита выбранного вражеского отряда становится 1.",
+                "zh-Hans": "部署：使 1 个敌方单位的防御力为 1。",
+                "zh-Hant": "部署：使 1 個敵方單位的防禦力為 1。"
+              },
+              "type": "infantry",
+              "image": "no_9_commando.avif",
+              "title": {
+                "de-DE": "KOMMANDO Nr. 9",
+                "en-EN": "No. 9 COMMANDO",
+                "es-ES": "9.º COMANDO",
+                "fr-FR": "COMMANDO N° 9",
+                "it-IT": "COMMANDO N. 9",
+                "ja-JP": "No.9コマンドー",
+                "ko-KR": "제9코만도",
+                "pl-PL": "9 COMMANDO",
+                "pt-BR": "COMANDO Nº 9",
+                "ru-RU": "9-е ПОДРАЗДЕЛЕНИЕ КОММАНДОС",
+                "zh-Hans": "第 9 突击队",
+                "zh-Hant": "第 9 突擊隊"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 1,
+              "faction": "Britain",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "ox",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/no_9_commando.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/no_9_commando.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85463,
+            "cardId": "observer_corps",
+            "importId": "jA",
+            "json": {
+              "id": "observer_corps",
+              "set": "WorldAtWar",
+              "text": {
+                "de-DE": "Wähle eine Karte mit Kosten von 5 oder mehr auf der Hand. Reduziere dessen Kosten um 2.",
+                "en-EN": "Choose a card with cost 5 or more in your hand. Reduce its cost by 2.",
+                "es-ES": "Elige una carta con un costo de 5 o más de tu mano. Reduce su costo en 2.",
+                "fr-FR": "Choisissez une carte dont le coût est supérieur ou égal à 5 dans votre main. Son coût est réduit de 2.",
+                "it-IT": "Scegli una carta nella tua mano con costo pari a 5 o superiore. Riducine il costo di 2.",
+                "ja-JP": "手札のコストが4以上のカードを1枚選びます。コストを2つ減らします。",
+                "ko-KR": "비용이 5 이상인 카드를 선택하고 비용을 2 낮춥니다.",
+                "pl-PL": "Wybierz kartę o koszcie 5 lub wyższym w ręku. Zmniejsz jej koszt o 2.",
+                "pt-BR": "Escolha uma carta com custo 5 ou mais na mão Reduza seu custo em 2.",
+                "ru-RU": "Выберите карту в руке стоимостью 5 или более. Её стоимость снижается на 2.",
+                "zh-Hans": "选择 1 张花费不小于 5 的手牌，使其获得 -2 花费。",
+                "zh-Hant": "選擇 1 張花費不小於 5 的手牌，使其獲得 -2 花費。"
+              },
+              "type": "order",
+              "image": "observer_corps.avif",
+              "title": {
+                "de-DE": "BEOBACHTERKORPS",
+                "en-EN": "OBSERVER CORPS",
+                "es-ES": "CUERPO DE OBSERVADORES",
+                "fr-FR": "CORPS DES OBSERVATEURS",
+                "it-IT": "OBSERVER CORPS",
+                "ja-JP": "王立防空監視軍団",
+                "ko-KR": "관측대",
+                "pl-PL": "KORPUS OBSERWATORÓW",
+                "pt-BR": "CORPO DE OBSERVAÇÃO",
+                "ru-RU": "НАБЛЮДАТЕЛЬНЫЙ КОРПУС",
+                "zh-Hans": "观察团",
+                "zh-Hant": "觀察團"
+              },
+              "rarity": "Standard",
+              "faction": "Britain",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "jA"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/observer_corps.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/observer_corps.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85467,
+            "cardId": "on_the_horizon",
+            "importId": "m7",
+            "json": {
+              "id": "on_the_horizon",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "In diesem Zug sind deine Einheiten immun gegen Schaden und haben \\\"Kann das feindliche HQ nicht angreifen\\\".",
+                "en-EN": "This turn, your units are immune to damage and have \\\"Cannot attack the enemy HQ.\\\"",
+                "es-ES": "Este turno, tus unidades son inmunes al daño y tienen \\\"No puede atacar el cuartel general enemigo\\\".",
+                "fr-FR": "Pendant ce tour, vos unités sont immunisées aux dégâts et obtiennent \\\"Ne peut pas attaquer le QG ennemi.\\\"",
+                "it-IT": "Fino alla fine del turno le unità alleate sono immuni e hanno \\\"Non può attaccare il QG nemico\\\".",
+                "ja-JP": "このターン、自分の部隊ユニットはダメージを受けなくなり、「敵の本部を攻撃できない」状態になる。",
+                "ko-KR": "이번 턴 동안 모든 아군 유닛에게 피해면역과 다음을 부여합니다. \\\"상대 본부를 공격할 수 없습니다.\\\"",
+                "pl-PL": "W tej turze twoje jednostki są odporne na obrażenia i otrzymują \\\"Nie można zaatakować sztabu przeciwnika\\\".",
+                "pt-BR": "Neste turno, suas unidades estão imunes a danos e têm \\\"Não podem atacar o HQ inimigo\\\".",
+                "ru-RU": "До конца хода ваши отряды получают Неуязвимость и \\\"Не может атаковать вражеский штаб.\\\"",
+                "zh-Hans": "本回合，使所有友方单位具有免疫，且：“无法攻击敌方总部。”",
+                "zh-Hant": "本回合，使所有友方單位具有免疫，且：“無法攻擊敵方總部。”"
+              },
+              "type": "order",
+              "image": "on_the_horizon.avif",
+              "title": {
+                "de-DE": "AM HORIZONT",
+                "en-EN": "ON THE HORIZON",
+                "es-ES": "EN EL HORIZONTE",
+                "fr-FR": "À L'HORIZON",
+                "it-IT": "ALL'ORIZZONTE",
+                "ja-JP": "水平線にて",
+                "ko-KR": "지평선 위에서",
+                "pl-PL": "NA HORYZONCIE",
+                "pt-BR": "NO HORIZONTE",
+                "ru-RU": "НА ГОРИЗОНТЕ",
+                "zh-Hans": "海平面",
+                "zh-Hant": "海平面"
+              },
+              "rarity": "Special",
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "m7"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/on_the_horizon.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/on_the_horizon.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85473,
+            "cardId": "orp_orze",
+            "importId": "jn",
+            "json": {
+              "id": "orp_orze",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Erhöhe die Kosten einer bekannten Karte in der feindlichen Hand um 2.",
+                "en-EN": "Increase the cost of a known card in the enemy hand by 2.",
+                "es-ES": "Aumenta en 2 el costo de una carta conocida de la mano enemiga.",
+                "fr-FR": "Augmentez de 2 le coût d'une carte révélée dans la main ennemie.",
+                "it-IT": "Aumenta di 2 il costo di una carta casuale conosciuta nella mano del nemico.",
+                "ja-JP": "敵の手札にある既知のカード1枚のコストを2増加させる。",
+                "ko-KR": "상대 패에서 드러난 카드 중 무작위 1장의 비용을 2 높입니다.",
+                "pl-PL": "Zwiększ koszt odkrytej karty w ręce wroga o 2.",
+                "pt-BR": "Aumenta em 2 o custo de uma carta conhecida na mão inimiga.",
+                "ru-RU": "Увеличивает стоимость известной карты в руке противника на 2.",
+                "zh-Hans": "使 1 张敌方明牌获得 +2 花费。",
+                "zh-Hant": "使 1 張敵方明牌獲得 +2 花費。"
+              },
+              "type": "order",
+              "exile": "Britain",
+              "image": "orp_orze.avif",
+              "title": {
+                "de-DE": "ORP ORZEŁ",
+                "en-EN": "ORP ORZEŁ",
+                "es-ES": "ORP ORZEŁ",
+                "fr-FR": "ORP ORZEŁ",
+                "it-IT": "ORP ORZEŁ",
+                "ja-JP": "ORP オジェウ",
+                "ko-KR": "ORP 오제우",
+                "pl-PL": "ORP ORZEŁ",
+                "pt-BR": "ORP ORZEŁ",
+                "ru-RU": "ORP ORZEŁ",
+                "zh-Hans": "ORP 鹰号",
+                "zh-Hant": "ORP 鷹號"
+              },
+              "rarity": "Limited",
+              "faction": "Poland",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "jn",
+              "attributes": [
+                "intel1"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/orp_orze.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/orp_orze.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85475,
+            "cardId": "outmaneuver",
+            "importId": "fb",
+            "json": {
+              "id": "outmaneuver",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Die gewählte japanische Einheit hat in diesem Zug 0 Aktionskosten. Wenn sie Vernebelung hat, gib ihr +2+2.",
+                "en-EN": "Target Japanese unit has 0 operation cost this turn. If it has Smokescreen it gets +2+2.",
+                "es-ES": "La unidad japonesa objetivo tiene un 0 de costo de operación este turno. Si tiene Cortina de humo, recibe +2+2.",
+                "fr-FR": "Le coût d'opération de l'unité japonaise ciblée est fixé à 0 pendant ce tour. Si elle possède Écran de fumée, elle gagne +2+2.",
+                "it-IT": "Riduce a 0 il costo operativo di un'unità giapponese fino alla fine del turno. Se ha Cortina Fumogena, ottiene +2+2.",
+                "ja-JP": "ターゲットした日本軍ユニットの操作コストをこのターンのみ0に設定する。 煙幕を持っている場合、+2 +2を得る。",
+                "ko-KR": "일본 유닛을 지정하여 이번 턴 동안 운용 비용을 0으로 설정합니다. 그 유닛이 연막을 가졌다면 +2+2를 부여합니다.",
+                "pl-PL": "Koszt działania wybranej jednostki japońskiej w tej turze wynosi 0. Jeśli ma Zasłonę dymną, otrzymuje +2+2.",
+                "pt-BR": "A unidade Japonesa alvo tem custo 0 de operação neste turno. Se ela tiver Cortina de Fumaça, ela recebe +2+2.",
+                "ru-RU": "Снижает до нуля стоимость использования выбранного японского отряда до конца хода. Если у него есть Дымовая Завеса, он получает +2+2.",
+                "zh-Hans": "使 1 个日本单位的行动花费为 0，直到回合结束。若是烟幕单位，使其获得 +2+2。",
+                "zh-Hant": "使 1 個日本單位的行動花費為 0，直到回合結束。若是煙幕單位，使其獲得 +2+2。"
+              },
+              "type": "order",
+              "image": "outmaneuver.avif",
+              "title": {
+                "de-DE": "AUSMANÖVRIEREN",
+                "en-EN": "OUTMANEUVER",
+                "es-ES": "MANIOBRAS SUPERIORES",
+                "fr-FR": "CONTRECARRER",
+                "it-IT": "ASTUZIA SUPERIORE",
+                "ja-JP": "出し抜け",
+                "ko-KR": "의표를 찌르다",
+                "pl-PL": "WYMANEWROWANIE",
+                "pt-BR": "ESQUIVAR",
+                "ru-RU": "МАНЕВРИРОВАНИЕ",
+                "zh-Hans": "以智取胜",
+                "zh-Hant": "以智取勝"
+              },
+              "rarity": "Limited",
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "fb"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/outmaneuver.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/outmaneuver.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85476,
+            "cardId": "out_of_the_mist",
+            "importId": "nO",
+            "json": {
+              "id": "out_of_the_mist",
+              "set": "WinterWar",
+              "text": {
+                "de-DE": "Füge der Zieleinheit 1 Schaden zu. Falls sie in diesem Zug zerstört wird, berge sie.",
+                "en-EN": "Deal 1 damage to target unit. If it is destroyed this turn, Salvage it.",
+                "es-ES": "Inflige 1 de daño a la unidad objetivo. Si es destruida este turno, se Reutiliza.",
+                "fr-FR": "Inflige 1 dégât à l'unité ciblée. Si elle est détruite pendant ce tour, Récupérez-la.",
+                "it-IT": "Infliggi 1 danno a un'unità. Se viene distrutta in questo turno, Recuperala.",
+                "ja-JP": "ターゲットしたユニットに1ダメージを与える。それがこのターンに破壊された場合、サルベージする。",
+                "ko-KR": "지정한 유닛에 1의 피해를 입힙니다. 이번 턴에 해당 유닛이 파괴될 경우 그 유닛을 노획합니다.",
+                "pl-PL": "Zadaj 1 pkt obrażeń wybranemu celowi. Jeśli zostanie zniszczony w tej turze, Odzyskaj go.",
+                "pt-BR": "Cause 1 de dano à unidade alvo. Ela é Recuperada se for destruída neste turno.",
+                "ru-RU": "Наносит 1 урона выбранному отряду. При уничтожении отряда Утилизирует его.",
+                "zh-Hans": "对 1 个单位造成 1 点伤害。若其在本回合被消灭，将其收缴。",
+                "zh-Hant": "對 1 個單位造成 1 點傷害。若其在本回合被消滅，將其收繳。"
+              },
+              "type": "order",
+              "image": "out_of_the_mist.avif",
+              "title": {
+                "de-DE": "AUS DEM NEBEL",
+                "en-EN": "OUT OF THE MIST",
+                "es-ES": "DESDE LA NIEBLA",
+                "fr-FR": "EMERGEANT DE LA BRUME",
+                "it-IT": "DALLA NEBBIA",
+                "ja-JP": "霧の中から",
+                "ko-KR": "안개 속에서",
+                "pl-PL": "Z MGŁY",
+                "pt-BR": "FORA DA NÉVOA",
+                "ru-RU": "ИЗ ТУМАНА",
+                "zh-Hans": "穿云破雾",
+                "zh-Hant": "穿雲破霧"
+              },
+              "rarity": "Standard",
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "nO"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/out_of_the_mist.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/out_of_the_mist.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85478,
+            "cardId": "out_with_the_old",
+            "importId": "vd",
+            "json": {
+              "id": "out_with_the_old",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Löse die Zerstörungseffekte bei einer beschädigten sowjetischen Lufteinheit aus und wandle sie dann in eine YAK 9 um.",
+                "en-EN": "Trigger the destruction effects on a damaged Soviet air unit, then Convert it into YAK 9.",
+                "es-ES": "Activa los efectos de destrucción en una unidad aérea soviética dañada y luego la Convierte en un YAK 9.",
+                "fr-FR": "Déclenchez les effets de Destruction d'une unité aérienne soviétique endommagée, puis convertissez-la en YAK 9.",
+                "it-IT": "Attiva gli effetti di distruzione di un'unità aerea sovietica danneggiata, poi convertila in uno YAK 9.",
+                "ja-JP": "ダメージを受けたソビエト空軍ユニットの破壊時効果を発動し、Yak-9に変換する。",
+                "ko-KR": "피해를 입은 소련 공중 유닛을 지정해 파괴 효과를 발동시킨 후, 그 유닛을 'YAK 9'으로 변환합니다.",
+                "pl-PL": "Uruchomić efekt zniszczenia uszkodzonej radzieckiej jednostki powietrznej, a następnie Przekształcić ją w JAK 9.",
+                "pt-BR": "Ative os efeitos de destruição de uma unidade aérea soviética danificada. Depois, Converta em um YAK 9.",
+                "ru-RU": "Активирует эффекты уничтожения повреждённого советского самолёта, а затем конвертирует его в ЯК-9.",
+                "zh-Hans": "指向 1 个受伤的苏联空军。触发其亡计，将其转换为“雅克-9”。",
+                "zh-Hant": "指向 1 個受傷的蘇聯空軍。觸發其亡計，將其轉換為“雅克-9”。"
+              },
+              "type": "order",
+              "image": "out_with_the_old.avif",
+              "title": {
+                "de-DE": "WEG MIT DEM ALTEN",
+                "en-EN": "OUT WITH THE OLD",
+                "es-ES": "MODERNIZACIÓN",
+                "fr-FR": "NOUVELLES MONTURES",
+                "it-IT": "NUOVA AVIAZIONE",
+                "ja-JP": "古いものは捨てよう",
+                "ko-KR": "낡은 것의 청산",
+                "pl-PL": "POŻEGNANIE ZE STARYM",
+                "pt-BR": "ADEUS AO VELHO",
+                "ru-RU": "ДОЛОЙ СТАРЬЁ",
+                "zh-Hans": "推陈出新",
+                "zh-Hant": "推陳出新"
+              },
+              "rarity": "Limited",
+              "faction": "Soviet",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "vd",
+              "can_create": [
+                "yak_9"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/out_with_the_old.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/out_with_the_old.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86496,
+            "cardId": "pak_36",
+            "importId": "4j",
+            "json": {
+              "id": "pak_36",
+              "set": "Base",
+              "text": {
+                "de-DE": "Fügt einer feindlichen Panzereinheit 1 Schaden zu, wenn dein Feind sie einsetzt.",
+                "en-EN": "When your enemy deploys a tank unit, deal 1 damage to it.",
+                "es-ES": "Cuando el enemigo despliegue un tanque, inflige 1 de daño a esa unidad.",
+                "fr-FR": "Lorsque l’ennemi déploie un char, infligez-lui 1 dégât.",
+                "it-IT": "Quando il tuo nemico schiera un carro armato, infliggigli 1 danno.",
+                "ja-JP": "敵が戦車ユニットを出撃させると、1ダメージを与える。",
+                "ko-KR": "상대가 전차 유닛을 배치할 경우, 해당 유닛에 1의 피해를 줍니다.",
+                "pl-PL": "Gdy przeciwnik rozmieszcza jednostkę pancerną, zadaj jej 1 pkt obrażeń.",
+                "pt-BR": "Quando seu inimigo posiciona uma unidade de tanque, cause 1 de dano a ele.",
+                "ru-RU": "Когда противник размещает танк, наносит ему 1 урона.",
+                "zh-Hans": "敌方坦克部署时，对其造成 1 点伤害。",
+                "zh-Hant": "敵方坦克部署時，對其造成 1 點傷害。"
+              },
+              "type": "artillery",
+              "image": "pak_36.avif",
+              "title": {
+                "de-DE": "PAK 36",
+                "en-EN": "PAK 36",
+                "es-ES": "PAK 36",
+                "fr-FR": "PAK 36",
+                "it-IT": "PAK 36",
+                "ja-JP": "PAK 36",
+                "ko-KR": "PAK 36",
+                "pl-PL": "PAK 36",
+                "pt-BR": "PAK 36",
+                "ru-RU": "PAK 36",
+                "zh-Hans": "Pak 36 反坦克炮",
+                "zh-Hant": "Pak 36 反坦克炮"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 1,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "4j",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/pak_36.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/pak_36.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86523,
+            "cardId": "panzer_ia",
+            "importId": "xo",
+            "json": {
+              "id": "panzer_ia",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Ziehe eine Karte, wenn du eine Infanterie kontrollierst.",
+                "en-EN": "Deployment: Draw a card if you control an infantry.",
+                "es-ES": "Despliegue: si controlas una unidad de infantería, roba una carta.",
+                "fr-FR": "Déploiement : Piochez une carte si vous contrôlez une unité d'infanterie.",
+                "it-IT": "Schieramento: se controlli una fanteria, pesca una carta.",
+                "ja-JP": "配備時：歩兵を操作している場合、カードを1枚引く。",
+                "ko-KR": "배치: 당신이 보병을 조종 중이라면 카드 1장을 뽑습니다.",
+                "pl-PL": "Rozmieszczenie: dobierz kartę, jeśli kontrolujesz piechotę.",
+                "pt-BR": "Posicionamento: Compre uma carta se você controlar uma infantaria.",
+                "ru-RU": "Размещение: Вы берёте карту, если контролируете пехоту.",
+                "zh-Hans": "部署：若有友方步兵，抽 1 张牌。",
+                "zh-Hant": "部署：若有友方步兵，抽 1 張牌。"
+              },
+              "type": "tank",
+              "image": "panzer_ia.avif",
+              "title": {
+                "de-DE": "PANZER I-A",
+                "en-EN": "PANZER I-A",
+                "es-ES": "PANZER I-A",
+                "fr-FR": "PANZER I-A",
+                "it-IT": "PANZER I-A",
+                "ja-JP": "I号戦車A型",
+                "ko-KR": "1호 전차 A형",
+                "pl-PL": "PANZER I-A",
+                "pt-BR": "PANZER I-A",
+                "ru-RU": "PANZER I-A",
+                "zh-Hans": "一号坦克 A 型",
+                "zh-Hant": "一號坦克 A 型"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "xo",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/panzer_ia.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/panzer_ia.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86524,
+            "cardId": "panzer_ib",
+            "importId": "lQ",
+            "json": {
+              "id": "panzer_ib",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Wird Veteran, wenn er das feindliche HQ beschädigt.",
+                "en-EN": "Becomes Veteran when it damages the enemy HQ.",
+                "es-ES": "Se transforma en Veterana cuando inflige daño al cuartel general enemigo.",
+                "fr-FR": "Lorsque cette unité cause des dégâts au QG ennemi, elle devient Vétéran.",
+                "it-IT": "Diventa Veterano quando danneggia il QG nemico.",
+                "ja-JP": "敵の本部にダメージを与えるとベテランになる。",
+                "ko-KR": "해당 유닛이 적 본부에 피해를 입히면 베테랑으로 승급합니다.",
+                "pl-PL": "Zostaje Weteranem, gdy zadaje uszkodzenia sztabowi przeciwnika.",
+                "pt-BR": "Torna-se Veterano quando causa dano ao QG inimigo.",
+                "ru-RU": "Становится Ветераном, когда наносит урон вражескому штабу.",
+                "zh-Hans": "本单位对敌方总部造成伤害时，升为老兵。",
+                "zh-Hant": "本單位對敵方總部造成傷害時，升為老兵。"
+              },
+              "type": "tank",
+              "image": "panzer_ib.avif",
+              "title": {
+                "de-DE": "PANZER I-B",
+                "en-EN": "PANZER I-B",
+                "es-ES": "PANZER I-B",
+                "fr-FR": "PANZER I-B",
+                "it-IT": "PANZER I-B",
+                "ja-JP": "I号戦車B型",
+                "ko-KR": "1호 전차 B형",
+                "pl-PL": "PANZER I-B",
+                "pt-BR": "PANZER I-B",
+                "ru-RU": "PANZER I-B",
+                "zh-Hans": "一号坦克 B 型",
+                "zh-Hant": "一號坦克 B 型"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "lQ",
+              "attributes": [
+                "BecomesVeteran:panzer_ib_vet",
+                "OnlySpawnable"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/panzer_ib.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/panzer_ib.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86525,
+            "cardId": "panzer_ib_vet",
+            "importId": "Cl",
+            "json": {
+              "id": "panzer_ib_vet",
+              "set": "Special",
+              "text": {
+                "de-DE": "Wenn diese Einheit Veteran wird, füge deiner Hand einen PANZER I-B hinzu.",
+                "en-EN": "When this unit becomes Veteran, add a PANZER I-B to your hand.",
+                "es-ES": "Cuando esta unidad se transforma en Veterana, añade un PANZER I-B a tu mano.",
+                "fr-FR": "Lorsque cette unité devient Vétéran, ajoutez un PANZER I-B à votre main.",
+                "it-IT": "Quando questa unità diventa Veterano, aggiungi un PANZER I-B alla tua mano.",
+                "ja-JP": "このユニットがベテランになる時、手札にI号戦車B型が1枚追加される。",
+                "ko-KR": "이 유닛이 베테랑이 되면 패에 '1호 전차 B형'을 추가합니다.",
+                "pl-PL": "Gdy ta jednostka stanie się Weteranem, dodaj do swojej ręki PANZER I-B.",
+                "pt-BR": "Quando esta unidade se tornar Veterana, adicione um PANZER I-B à sua mão.",
+                "ru-RU": "Когда этот отряд становится ветераном, добавляет вам в руку PANZER I-B.",
+                "zh-Hans": "升为老兵时，将 1 张“一号坦克 B 型”加入手牌。",
+                "zh-Hant": "升為老兵時，將 1 張“一號坦克 B 型”加入手牌。"
+              },
+              "type": "tank",
+              "image": "panzer_ib_vet.avif",
+              "title": {
+                "de-DE": "PANZER I-B",
+                "en-EN": "PANZER I-B",
+                "es-ES": "PANZER I-B",
+                "fr-FR": "PANZER I-B",
+                "it-IT": "PANZER I-B",
+                "ja-JP": "I号戦車B型",
+                "ko-KR": "1호 전차 B형",
+                "pl-PL": "PANZER I-B",
+                "pt-BR": "PANZER I-B",
+                "ru-RU": "PANZER I-B",
+                "zh-Hans": "一号坦克 B 型",
+                "zh-Hant": "一號坦克 B 型"
+              },
+              "attack": 2,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "Cl",
+              "attributes": [
+                "VeteranOf:panzer_ib"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/panzer_ib_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/panzer_ib_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86526,
+            "cardId": "panzer_i_dak",
+            "importId": "qi",
+            "json": {
+              "id": "panzer_i_dak",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Erhält Schock, sobald er sich an die Front bewegt.",
+                "en-EN": "Gets Shock when it moves into the frontline.",
+                "es-ES": "Obtiene Choque cuando se mueve al frente.",
+                "fr-FR": "Lorsque cette unité rejoint la première ligne, elle gagne Choc.",
+                "it-IT": "Quando si sposta in prima linea, ottiene Shock.",
+                "ja-JP": "前線に移動すると衝撃を得る。",
+                "ko-KR": "전방으로 이동하면 충격을 얻습니다.",
+                "pl-PL": "Otrzymuje Wstrząs po przemieszczeniu na linię frontu.",
+                "pt-BR": "Quando esta unidade entra na linha de frente, ela ganha Choque.",
+                "ru-RU": "Получает Штурм, когда выходит на линию фронта.",
+                "zh-Hans": "移至前线时，获得冲击。",
+                "zh-Hant": "移至前線時，獲得衝擊。"
+              },
+              "type": "tank",
+              "image": "panzer_i_dak.avif",
+              "title": {
+                "de-DE": "PANZER I DAK",
+                "en-EN": "PANZER I DAK",
+                "es-ES": "PANZER I DAK",
+                "fr-FR": "PANZER I DAK",
+                "it-IT": "PANZER I DAK",
+                "ja-JP": "I号戦車DAK",
+                "ko-KR": "1호 전차 DAK",
+                "pl-PL": "PANZER I DAK",
+                "pt-BR": "PANZER I DAK",
+                "ru-RU": "PANZER I DAK",
+                "zh-Hans": "一号坦克 DAK",
+                "zh-Hant": "一號坦克 DAK"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 1,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "qi",
+              "attributes": [
+                "smokescreen"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/panzer_i_dak.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/panzer_i_dak.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86516,
+            "cardId": "panzer_iia",
+            "importId": "4v",
+            "json": {
+              "id": "panzer_iia",
+              "set": "Base",
+              "text": {},
+              "type": "tank",
+              "image": "panzer_iia.avif",
+              "title": {
+                "de-DE": "PANZER II-A",
+                "en-EN": "PANZER II-A",
+                "es-ES": "PANZER II-A",
+                "fr-FR": "PANZER II-A",
+                "it-IT": "PANZER II-A",
+                "ja-JP": "II号戦車A型",
+                "ko-KR": "2호 전차 A형",
+                "pl-PL": "PANZER II-A",
+                "pt-BR": "PANZER II-A",
+                "ru-RU": "PANZER II-A",
+                "zh-Hans": "二号坦克 A 型",
+                "zh-Hant": "二號坦克 A 型"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "4v",
+              "attributes": [
+                "blitz",
+                "smokescreen"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/panzer_iia.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/panzer_iia.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86517,
+            "cardId": "panzer_iic",
+            "importId": "4w",
+            "json": {
+              "id": "panzer_iic",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Deine Einheiten erhalten +2+1, wenn sie Veteranen werden.",
+                "en-EN": "Your units get +2+1 when they become Veteran.",
+                "es-ES": "Tus unidades obtienen +2+1 cuando se convierten en Veteranas.",
+                "fr-FR": "Vos unités gagnent +2+1 lorsqu'elles deviennent Vétéran.",
+                "it-IT": "Quando un'unità alleata diventa Veterana, dagli +2+1.",
+                "ja-JP": "ユニットがベテランになると、ユニットは+2+1を獲得します。",
+                "ko-KR": "아군 유닛이 베테랑으로 승급하면 그 유닛은  +2+1을 얻습니다.",
+                "pl-PL": "Twoje jednostki otrzymują +2+1, gdy stają się Weteranami.",
+                "pt-BR": "Suas unidades ganham +2+1 quando se tornam Veteranas.",
+                "ru-RU": "Ваши отряды получают +2+1, когда становятся Ветеранами.",
+                "zh-Hans": "友方单位升为老兵时，使其获得 +2+1。",
+                "zh-Hant": "友方單位升為老兵時，使其獲得 +2+1。"
+              },
+              "type": "tank",
+              "image": "panzer_iic.avif",
+              "title": {
+                "de-DE": "PANZER II-C",
+                "en-EN": "PANZER II-C",
+                "es-ES": "PANZER II-C",
+                "fr-FR": "PANZER II-C",
+                "it-IT": "PANZER II-C",
+                "ja-JP": "II号戦車C型",
+                "ko-KR": "2호 전차 C형",
+                "pl-PL": "PANZER II-C",
+                "pt-BR": "PANZER II-C",
+                "ru-RU": "PANZER II-C",
+                "zh-Hans": "二号坦克 C 型",
+                "zh-Hant": "二號坦克 C 型"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 3,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "4w",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/panzer_iic.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/panzer_iic.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85491,
+            "cardId": "patton",
+            "importId": "bB",
+            "json": {
+              "id": "patton",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einheiten, die du in diesem Zug einsetzt, kosten 1 Kredit weniger und haben Blitz.",
+                "en-EN": "Units you deploy cost 1 less kredit and have Blitz this turn.",
+                "es-ES": "Te costará 1 krédito menos desplegar unidades y tendrás Blitz durante este turno.",
+                "fr-FR": "Les unités que vous déployez coûtent 1 Krédit de moins et gagnent Blitz pendant ce tour.",
+                "it-IT": "Le unità che schieri in questo turno costano 1 in meno e ottengono Blitz.",
+                "ja-JP": "このターン、配備するユニットのクレジットの消費が1減少し、電撃を獲得する。",
+                "ko-KR": "이번 턴에 배치하는 아군 유닛의 비용이 1 감소하며 기습을 얻습니다. ",
+                "pl-PL": "Rozmieszczane przez ciebie jednostki kosztują o 1 kredyt mniej i w tej turze mają Impet.",
+                "pt-BR": "As unidades posicionadas custam 1 a menos de crédito e recebem blitz neste turno.",
+                "ru-RU": "До конца хода ваши отряды стоят на 1 меньше и получают Блиц при размещении.",
+                "zh-Hans": "本回合，手牌中的所有单位具有 -1 花费，部署后具有闪击。",
+                "zh-Hant": "本回合，手牌中的所有單位具有 -1 花費，部署後具有閃擊。"
+              },
+              "type": "order",
+              "image": "patton.avif",
+              "title": {
+                "de-DE": "PATTON",
+                "en-EN": "PATTON",
+                "es-ES": "PATTON",
+                "fr-FR": "PATTON",
+                "it-IT": "PATTON",
+                "ja-JP": "パットン",
+                "ko-KR": "패튼",
+                "pl-PL": "PATTON",
+                "pt-BR": "PATTON",
+                "ru-RU": "ПАТТОН",
+                "zh-Hans": "巴顿",
+                "zh-Hant": "巴頓"
+              },
+              "rarity": "Elite",
+              "faction": "USA",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "bB"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/patton.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/patton.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86533,
+            "cardId": "polikarpov_po2",
+            "importId": "9i",
+            "json": {
+              "id": "polikarpov_po2",
+              "set": "Allegiance",
+              "text": {},
+              "type": "bomber",
+              "image": "polikarpov_po2.avif",
+              "title": {
+                "de-DE": "POLIKARPOW PO-2",
+                "en-EN": "POLIKARPOV PO-2",
+                "es-ES": "POLIKARPOV PO-2",
+                "fr-FR": "POLIKARPOV PO-2",
+                "it-IT": "POLIKARPOV PO-2",
+                "ja-JP": "ポリカルポフPO-2",
+                "ko-KR": "폴리카르포프 Po-2",
+                "pl-PL": "POLIKARPOW PO-2",
+                "pt-BR": "POLIKARPOV PO-2",
+                "ru-RU": "ПО-2",
+                "zh-Hans": "波-2",
+                "zh-Hant": "波-2"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "9i",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/polikarpov_po2.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/polikarpov_po2.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86534,
+            "cardId": "polikarpov_po2ii",
+            "importId": "jc",
+            "json": {
+              "id": "polikarpov_po2ii",
+              "set": "OnlySpawnable",
+              "text": {
+                "de-DE": "Zerstörung: Füge deiner Hand ein VOLKSEINSATZ hinzu.",
+                "en-EN": "Destruction: Add a FROM THE PEOPLE to your hand.",
+                "es-ES": "Destrucción: añade un DEL PUEBLO a tu mano.",
+                "fr-FR": "Destruction : Ajoute un PAR LE PEUPLE à votre main.",
+                "it-IT": "Distruzione: aggiungi DAL POPOLO alla tua mano.",
+                "ja-JP": "破壊時：「人民の力」を手札に加える。",
+                "ko-KR": "파괴 : 당신의 패에 \\\"인민으로부터\\\" 1장을 추가합니다.",
+                "pl-PL": "Zniszczenie: Dodaj WYSIŁEK LUDU do swojej ręki.",
+                "pt-BR": "Destruição: Adicione um DO POVO à sua mão.",
+                "ru-RU": "Уничтожение: Добавляет в вашу руку ОТ НАРОДА.",
+                "zh-Hans": "亡计：将 1 张“来自人民”加入手牌。",
+                "zh-Hant": "亡計：將 1 張“來自人民”加入手牌。"
+              },
+              "type": "bomber",
+              "image": "polikarpov_po2ii.avif",
+              "title": {
+                "de-DE": "POLIKARPOV PO-2-II",
+                "en-EN": "POLIKARPOV PO-2-II",
+                "es-ES": "POLIKARPOV PO-2-II",
+                "fr-FR": "POLIKARPOV PO-2-II",
+                "it-IT": "POLIKARPOV PO-2-II",
+                "ja-JP": "ポリカルポフPO-2-II",
+                "ko-KR": "폴리카르포프 PO-2-II",
+                "pl-PL": "POLIKARPOW PO-2-II",
+                "pt-BR": "POLIKARPOV PO-2-II",
+                "ru-RU": "ПО-2-II",
+                "zh-Hans": "波-2-II",
+                "zh-Hant": "波-2-II"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "jc",
+              "can_create": [
+                "from_the_people"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/polikarpov_po2ii.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/polikarpov_po2ii.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

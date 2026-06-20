@@ -1,0 +1,1091 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 85634,
+            "cardId": "stars_stripes",
+            "importId": "j4",
+            "json": {
+              "id": "stars_stripes",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Füge jeder Einheit in der feindlichen Nachschublinie für jede Einheit dort 1 Schaden zu.",
+                "en-EN": "Deal 1 damage to each unit in the enemy support line for each unit there.",
+                "es-ES": "Inflige 1 de daño a todas las unidades de la línea de apoyo enemiga por cada unidad allí.",
+                "fr-FR": "Infligez 1 dégât à toutes les unités de la ligne de soutien ennemie pour chaque unité qui s'y trouve.",
+                "it-IT": "Infliggi 1 danno a tutte le unità nella linea di supporto nemica per ogni unità presente lì.",
+                "ja-JP": "敵の後方支援にいる各ユニットに、敵の後方支援にいるユニットの数だけ1ダメージを与える。",
+                "ko-KR": "상대 후방에 있는 유닛들의 수만큼 그 유닛들에게 피해를 입힙니다.",
+                "pl-PL": "Zadaj 1 pkt obrażeń każdej jednostce na linii wsparcia przeciwnika za każdą znajdującą się tam jednostkę.",
+                "pt-BR": "Cause 1 ponto de dano a cada unidade na linha de apoio inimiga para cada unidade ali.",
+                "ru-RU": "Наносит 1 урона всем отрядам на линии поддержки противника за каждый отряд там.",
+                "zh-Hans": "对敌方支援阵线所有单位造成等同于该阵线单位数的伤害。",
+                "zh-Hant": "對敵方支援陣線所有單位造成等同於該陣線單位數的傷害。"
+              },
+              "type": "order",
+              "image": "stars_stripes.avif",
+              "title": {
+                "de-DE": "STERNENBANNER",
+                "en-EN": "STARS & STRIPES",
+                "es-ES": "BARRAS Y ESTRELLAS",
+                "fr-FR": "BANNIÈRE ÉTOILÉE",
+                "it-IT": "STARS & STRIPES",
+                "ja-JP": "星条旗",
+                "ko-KR": "성조기",
+                "pl-PL": "STARS AND STRIPES",
+                "pt-BR": "ESTRELAS E LISTRAS",
+                "ru-RU": "ЗВЁЗДЫ И ПОЛОСЫ",
+                "zh-Hans": "星条旗",
+                "zh-Hant": "星條旗"
+              },
+              "rarity": "Standard",
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "j4"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/stars_stripes.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/stars_stripes.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85658,
+            "cardId": "supply_front",
+            "importId": "bH",
+            "json": {
+              "id": "supply_front",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Repariert alle Einheiten an der Front vollständig und gibt ihnen +1+2.",
+                "en-EN": "Fully repair all units in the frontline and give them +1+2.",
+                "es-ES": "Repara completamente todas las unidades del frente y les otorga +1+2.",
+                "fr-FR": "Répare intégralement toutes les unités en première ligne et leur confère +1+2.",
+                "it-IT": "Ripara completamente tutte le unità in prima linea e dagli +1+2.",
+                "ja-JP": "前線の全ユニットを修復し、+1+2を与える。",
+                "ko-KR": "전방에 있는 모든 유닛을 완전히 수리하고 +1+2를 부여합니다.",
+                "pl-PL": "W pełni napraw wszystkie jednostki na linii frontu i zapewnij im +1+2.",
+                "pt-BR": "Repare totalmente todas as unidades na linha de frente e dê a elas +1+2.",
+                "ru-RU": "Полностью восстанавливает все отряды на линии фронта и даёт им +1 +2.",
+                "zh-Hans": "完全修复前线所有单位，使其获得 +1+2。",
+                "zh-Hant": "完全修復前線所有單位，使其獲得 +1+2。"
+              },
+              "type": "order",
+              "image": "supply_front.avif",
+              "title": {
+                "de-DE": "NACHSCHUBFRONT",
+                "en-EN": "SUPPLY FRONT",
+                "es-ES": "SUMINISTROS PARA EL FRENTE",
+                "fr-FR": "APPROVISIONNEMENT DU FRONT",
+                "it-IT": "FRONTE DI RIFORNIMENTO",
+                "ja-JP": "補給線",
+                "ko-KR": "전선 보급",
+                "pl-PL": "ZAOPATRZENIE FRONTU",
+                "pt-BR": "FRENTE DE SUPRIMENTO",
+                "ru-RU": "ПОДДЕРЖКА ФРОНТА",
+                "zh-Hans": "前线补给",
+                "zh-Hant": "前線補給"
+              },
+              "rarity": "Standard",
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": true,
+              "import_id": "bH"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/supply_front.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/supply_front.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85667,
+            "cardId": "surprise_engagement",
+            "importId": "yx",
+            "json": {
+              "id": "surprise_engagement",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Kostet 2 weniger, wenn in diesem Zug ein Regen gespielt wurde. Zerstöre eine zufällige feindliche Einheit. Ziehe die oberste Einheit deines Decks. ",
+                "en-EN": "Costs 2 less if Rain was played this turn. Destroy a random enemy unit. Draw the top unit of your deck.",
+                "es-ES": "Cuesta 2 menos si se jugó una carta Lluvia este turno. Destruye una unidad enemiga al azar. Roba la primera unidad de la parte superior de tu mazo. ",
+                "fr-FR": "Coûte 2 Krédits de moins si une carte Pluie a été jouée pendant ce tour. Détruit une unité ennemie au hasard. Piochez la première unité de votre deck. ",
+                "it-IT": "Costa 2 in meno se hai giocato una carta Pioggia questo turno. Distruggi un'unità nemica casuale. Pesca la prima unità del tuo mazzo. ",
+                "ja-JP": "雨がこのターンプレイされている場合、コストが2減少する。 ランダムな敵ユニットを破壊する。デッキの一番上のユニットを引く。",
+                "ko-KR": "이번 턴에 우천 카드를 사용했다면 비용이 2 감소합니다. 무작위 상대 유닛 하나를 파괴합니다. 당신의 덱 맨 위에 있는 유닛을 뽑습니다.",
+                "pl-PL": "Kosztuje o 2 mniej, jeśli w tej turze zagrano Deszcz. Zniszcz losową jednostkę wroga. Dobierz jednostkę znajdującą się na wierzchu twojej talii. ",
+                "pt-BR": "Custa 2 a menos se Chuva foi jogada neste turno. Destrua uma unidade inimiga aleatória. Compre a unidade do topo do seu baralho.",
+                "ru-RU": "Стоит на 2 меньше, если на этом ходу был сыгран Дождь. Уничтожает случайный вражеский отряд. Вы берёте верхний отряд из вашей колоды.",
+                "zh-Hans": "若本回合使用过降雨牌，具有 -2 花费。随机消灭 1 个敌方单位。抽 1 张卡组顶的单位。",
+                "zh-Hant": "若本回合使用過降雨牌，具有 -2 花費。隨機消滅 1 個敵方單位。抽 1 張卡組頂的單位。"
+              },
+              "type": "order",
+              "image": "surprise_engagement.avif",
+              "title": {
+                "de-DE": "ÜBERFALL-GEFECHT",
+                "en-EN": "SURPRISE ENGAGEMENT",
+                "es-ES": "ENFRENTAMIENTO SORPRESA",
+                "fr-FR": "RENCONTRE IMPRÉVUE",
+                "it-IT": "INGAGGIO A SORPRESA",
+                "ja-JP": "突然の接敵",
+                "ko-KR": "조우전",
+                "pl-PL": "NIESPODZIEWANE STARCIE",
+                "pt-BR": "ENGAJAMENTO SURPRESA",
+                "ru-RU": "ВНЕЗАПНАЯ СТЫЧКА",
+                "zh-Hans": "突发交战",
+                "zh-Hant": "突發交戰"
+              },
+              "rarity": "Special",
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "yx"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/surprise_engagement.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/surprise_engagement.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86622,
+            "cardId": "sykes_regulars",
+            "importId": "sx",
+            "json": {
+              "id": "sykes_regulars",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Ziehe 3 Karten, wenn sich diese Einheit an die Front bewegt.",
+                "en-EN": "Draw 3 cards when this unit moves into the frontline.",
+                "es-ES": "Cuando esta unidad se mueve al frente, roba 3 cartas.",
+                "fr-FR": "Piochez 3 cartes lorsque cette unité rejoint la première ligne.",
+                "it-IT": "Quando questa unità si muove in prima linea, pesca 3 carte.",
+                "ja-JP": "このユニットが前線に移動するとカードを3枚引く。",
+                "ko-KR": "이 유닛이 전방으로 이동하면 카드 3장을 뽑습니다.",
+                "pl-PL": "Dobierz 3 karty, gdy ta jednostka przemieści się na linię frontu.",
+                "pt-BR": "Compre 3 cartas quando esta unidade avançar para a linha de frente.",
+                "ru-RU": "Когда этот отряд перемещается на линию фронта, вы берёте 3 карты.",
+                "zh-Hans": "移至前线时，抽 3 张牌。",
+                "zh-Hant": "移至前線時，抽 3 張牌。"
+              },
+              "type": "infantry",
+              "image": "sykes_regulars.avif",
+              "title": {
+                "de-DE": "SYKES REGULARS",
+                "en-EN": "SYKES REGULARS",
+                "es-ES": "LOS REGULARES DE SYKES",
+                "fr-FR": "SYKES REGULARS",
+                "it-IT": "SYKES REGULARS",
+                "ja-JP": "サイクスレギュラーズ",
+                "ko-KR": "사익스 레귤러스",
+                "pl-PL": "SYKES REGULARS",
+                "pt-BR": "SYKES REGULARS",
+                "ru-RU": "ЗАВСЕГДАТАИ САЙКСА",
+                "zh-Hans": "赛克斯正规军",
+                "zh-Hant": "賽克斯正規軍"
+              },
+              "attack": 7,
+              "rarity": "Elite",
+              "defense": 5,
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "sx",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/sykes_regulars.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/sykes_regulars.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86676,
+            "cardId": "t34_1942",
+            "importId": "9p",
+            "json": {
+              "id": "t34_1942",
+              "set": "Base",
+              "text": {},
+              "type": "tank",
+              "image": "t34_1942.avif",
+              "title": {
+                "de-DE": "T-34 (1942)",
+                "en-EN": "T-34 1942",
+                "es-ES": "T-34 1942",
+                "fr-FR": "T-34 1942",
+                "it-IT": "T-34 1942",
+                "ja-JP": "T-34 1942",
+                "ko-KR": "T-34 1942년형",
+                "pl-PL": "T-34 (1942)",
+                "pt-BR": "T-34 1942",
+                "ru-RU": "Т-34 (1942)",
+                "zh-Hans": "T-34 1942",
+                "zh-Hant": "T-34 1942"
+              },
+              "attack": 5,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Soviet",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "9p",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/t34_1942.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/t34_1942.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86677,
+            "cardId": "t34_1942_b",
+            "importId": "9q",
+            "json": {
+              "id": "t34_1942_b",
+              "set": "OnlySpawnable",
+              "text": {
+                "de-DE": "Am Ende des Zugs zerstört.",
+                "en-EN": "Destroyed at end of turn.",
+                "es-ES": "Destruido al final del turno.",
+                "fr-FR": "Est détruit à la fin du tour.",
+                "it-IT": "Viene distrutto alla fine del turno.",
+                "ja-JP": "ターン終了時に破壊される。",
+                "ko-KR": "턴이 끝날 때 파괴됩니다.",
+                "pl-PL": "Jednostka zostaje zniszczona na końcu tury.",
+                "pt-BR": "Destruído no fim do turno.",
+                "ru-RU": "Уничтожается в конце хода.",
+                "zh-Hans": "回合结束时，消灭本单位。",
+                "zh-Hant": "回合結束時，消滅本單位。"
+              },
+              "type": "tank",
+              "image": "t34_1942_b.avif",
+              "title": {
+                "de-DE": "T-34 (1942)",
+                "en-EN": "T-34 1942",
+                "es-ES": "T-34 1942",
+                "fr-FR": "T-34 1942",
+                "it-IT": "T-34 1942",
+                "ja-JP": "T-34 1942",
+                "ko-KR": "T-34 1942년형",
+                "pl-PL": "T-34 (1942)",
+                "pt-BR": "T-34 1942",
+                "ru-RU": "Т-34 (1942)",
+                "zh-Hans": "T-34 1942",
+                "zh-Hant": "T-34 1942"
+              },
+              "attack": 5,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Soviet",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "9q",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/t34_1942_b.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/t34_1942_b.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86679,
+            "cardId": "t3485",
+            "importId": "9r",
+            "json": {
+              "id": "t3485",
+              "set": "Base",
+              "text": {
+                "de-DE": "Wenn der T-34-85 Ziel eines feindlichen Befehls wird, ziehe eine Karte.",
+                "en-EN": "When the opponent targets T-34-85 with an order, draw a card.",
+                "es-ES": "Cuando el oponente le dé una orden al T-34-85, roba una carta.",
+                "fr-FR": "Lorsque l'adversaire cible le T34-85 avec un ordre, piochez une carte.",
+                "it-IT": "Quando l'avversario bersaglia questa unità con un ordine, pesca una carta.",
+                "ja-JP": "敵がT-34-85を指令でターゲットしたとき、カードを引く。",
+                "ko-KR": "상대가 명령으로 T-34-85를 지정하면 카드 1장을 뽑습니다.",
+                "pl-PL": "Gdy przeciwnik weźmie na cel T-34-85 za pomocą rozkazu, dobierz kartę.",
+                "pt-BR": "Quando o oponente mira no T-34-85 com uma ordem, compre uma carta.",
+                "ru-RU": "Когда противник выбирает Т-34-85 целью приказа, вы берёте карту.",
+                "zh-Hans": "被敌方指令指向时，抽 1 张牌。",
+                "zh-Hant": "被敵方指令指向時，抽 1 張牌。"
+              },
+              "type": "tank",
+              "image": "t3485.avif",
+              "title": {
+                "de-DE": "T-34-85",
+                "en-EN": "T-34-85",
+                "es-ES": "T-34-85",
+                "fr-FR": "T-34-85",
+                "it-IT": "T-34-85",
+                "ja-JP": "T-34-85",
+                "ko-KR": "T-34-85",
+                "pl-PL": "T-34-85",
+                "pt-BR": "T-34-85",
+                "ru-RU": "Т-34-85",
+                "zh-Hans": "T-34-85",
+                "zh-Hant": "T-34-85"
+              },
+              "attack": 5,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Soviet",
+              "kredits": 5,
+              "reserved": true,
+              "import_id": "9r",
+              "attributes": [
+                "heavyArmor1"
+              ],
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/t3485.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/t3485.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85683,
+            "cardId": "the_alliance",
+            "importId": "bJ",
+            "json": {
+              "id": "the_alliance",
+              "set": "Base",
+              "text": {
+                "de-DE": "Gibt allen deiner Einheiten +2+2 (außer US-Einheiten).",
+                "en-EN": "Give all your non USA units +2+2.",
+                "es-ES": "Le otorga +2+2 a todas tus unidades que no sean de EE. UU.",
+                "fr-FR": "Confère +2+2 à toutes vos unités non américaines.",
+                "it-IT": "Dai +2+2 alle unità alleate non USA.",
+                "ja-JP": "アメリカ軍以外の全ユニットに+2+2を付与する。",
+                "ko-KR": "당신의 모든 비미국 유닛에게 공격력, 방어력 +2를 부여합니다.",
+                "pl-PL": "Zapewnij wszystkim swoim nieamerykańskim jednostkom +2+2.",
+                "pt-BR": "Dê +2+2 a todas as suas unidades que não sejam dos EUA.",
+                "ru-RU": "Все ваши неамериканские отряды получают +2 +2.",
+                "zh-Hans": "使所有友方非美国单位获得 +2+2。",
+                "zh-Hant": "使所有友方非美國單位獲得 +2+2。"
+              },
+              "type": "order",
+              "image": "the_alliance.avif",
+              "title": {
+                "de-DE": "DIE ALLIIERTEN",
+                "en-EN": "THE ALLIANCE",
+                "es-ES": "LA ALIANZA",
+                "fr-FR": "L’ALLIANCE",
+                "it-IT": "L'ALLEANZA",
+                "ja-JP": "同盟",
+                "ko-KR": "연합",
+                "pl-PL": "ALIANCI",
+                "pt-BR": "A ALIANÇA",
+                "ru-RU": "АЛЬЯНС",
+                "zh-Hans": "同盟国",
+                "zh-Hant": "同盟國"
+              },
+              "rarity": "Special",
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "bJ"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/the_alliance.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/the_alliance.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85684,
+            "cardId": "the_big_three",
+            "importId": "vR",
+            "json": {
+              "id": "the_big_three",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Jede deiner Einheiten erhält +1+1 für jede verbündete Einheit, die nicht derselben Nation angehört.",
+                "en-EN": "Each friendly unit gets +1+1 for each friendly unit not of the same nation.",
+                "es-ES": "Cada unidad aliada recibe +1+1 por cada unidad aliada que no sea de la misma nación.",
+                "fr-FR": "Chaque unité alliée gagne +1+1 pour chaque unité d'une autre nation que vous contrôlez.",
+                "it-IT": "Dai +1+1 alle unità alleate per ogni unità alleata che non condivide la loro stessa nazione.",
+                "ja-JP": "自身のユニットは、同じ国のものではない自身のユニット1体につき+1+1を得る。",
+                "ko-KR": "각 유닛이 같은 국가가 아닌 아군 유닛 하나당 +1+1을 얻습니다.",
+                "pl-PL": "Każda sojusznicza jednostka otrzymuje +1+1 za każdą sojuszniczą jednostkę niebędącą tego samego kraju.",
+                "pt-BR": "Cada unidade aliada recebe +1+1 para cada unidade aliada que não seja da mesma nação.",
+                "ru-RU": "Каждый дружественный отряд получает +1+1 за каждый дружественный отряд не той же нации.",
+                "zh-Hans": "使所有友方单位每有 1 个不同国家的友方单位，获得一次 +1+1。",
+                "zh-Hant": "使所有友方單位每有 1 個不同國家的友方單位，獲得一次 +1+1。"
+              },
+              "type": "order",
+              "image": "the_big_three.avif",
+              "title": {
+                "de-DE": "DIE GROSSEN DREI",
+                "en-EN": "THE BIG THREE",
+                "es-ES": "LOS TRES GRANDES",
+                "fr-FR": "LES TROIS GRANDS",
+                "it-IT": "I GRANDI TRE",
+                "ja-JP": "ビッグスリー",
+                "ko-KR": "연합 3국",
+                "pl-PL": "WIELKA TRÓJKA",
+                "pt-BR": "OS TRÊS GRANDES",
+                "ru-RU": "БОЛЬШАЯ ТРОЙКА",
+                "zh-Hans": "三巨头",
+                "zh-Hant": "三巨頭"
+              },
+              "rarity": "Special",
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "vR"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/the_big_three.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/the_big_three.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86632,
+            "cardId": "the_glamour_boys",
+            "importId": "mU",
+            "json": {
+              "id": "the_glamour_boys",
+              "set": "WinterWar",
+              "text": {
+                "de-DE": "Einsatz: Gibt deinem HQ +4 Verteidigung.",
+                "en-EN": "Deployment: Give your HQ +4 defense.",
+                "es-ES": "Despliegue: otorga +4 de defensa a tu cuartel general.",
+                "fr-FR": "Déploiement : Confère +4 de défense à votre QG.",
+                "it-IT": "Schieramento: dai +4 difesa al tuo QG.",
+                "ja-JP": "配備時：本部の防御力+4。",
+                "ko-KR": "배치: 아군 본부의 방어력에 +4를 부여합니다.",
+                "pl-PL": "Rozmieszczenie: zapewnij swojemu sztabowi +4 do obrony.",
+                "pt-BR": "Posicionamento: Dê +4 de defesa ao seu QG.",
+                "ru-RU": "Размещение: Даёт вашему штабу +4 к защите.",
+                "zh-Hans": "部署：使友方总部获得 +4 防御力。",
+                "zh-Hant": "部署：使友方總部獲得 +4 防禦力。"
+              },
+              "type": "infantry",
+              "image": "the_glamour_boys.avif",
+              "title": {
+                "de-DE": "GLAMOUR BOYS",
+                "en-EN": "THE GLAMOUR BOYS",
+                "es-ES": "LOS GLAMOUR BOYS",
+                "fr-FR": "THE GLAMOUR BOYS",
+                "it-IT": "THE GLAMOUR BOYS",
+                "ja-JP": "グラマー・ボーイズ",
+                "ko-KR": "글래머 보이즈",
+                "pl-PL": "THE GLAMOUR BOYS",
+                "pt-BR": "THE GLAMOUR BOYS",
+                "ru-RU": "ГЛАМУРНЫЕ ПАРНИ",
+                "zh-Hans": "魅力男孩高地人团",
+                "zh-Hant": "魅力男孩高地人團"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 6,
+              "faction": "Britain",
+              "kredits": 5,
+              "reserved": true,
+              "import_id": "mU",
+              "attributes": [
+                "guard"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/the_glamour_boys.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/the_glamour_boys.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86637,
+            "cardId": "the_silent_seventh",
+            "importId": "xU",
+            "json": {
+              "id": "the_silent_seventh",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Ziehe einmal pro Zug eine Karte, wenn du deine ganz linke Karte ausspielst. Wird nach dem dritten Mal Veteran.",
+                "en-EN": "Once per turn, draw a card when you play your left-most card. Becomes Veteran after the third time.",
+                "es-ES": "Una vez por turno, roba una carta cuando juegas la carta que se encuentra más a la izquierda en la mano. Se transforma en Veterana después de la tercera vez.",
+                "fr-FR": "Une fois par tour, piochez une carte lorsque vous jouez votre carte située tout à gauche en main. Devient Vétéran après la troisième fois.",
+                "it-IT": "Una volta per turno, quando giochi la tua carta più a sinistra, pesca una carta. Diventa Veterano dopo la terza volta.",
+                "ja-JP": "1ターンに1回、手札の一番左のカードをプレイする際にカードを1枚引く。その3回目にベテランになる。",
+                "ko-KR": "턴마다 한 번씩, 당신이 패 가장 왼쪽 카드를 사용할 때 카드 1장을 뽑습니다. 해당 효과의 세 번째 발동 시 베테랑으로 승급합니다.",
+                "pl-PL": "Raz na turę dobierz kartę, gdy zagrasz kartę z lewego końca w ręku. Zostaje Weteranem za trzecim razem.",
+                "pt-BR": "Uma vez por turno, compre uma carta quando jogar sua carta mais à esquerda. Torna-se Veterano após a terceira vez.",
+                "ru-RU": "Один раз за ход вы берёте карту, когда разыгрываете крайнюю левую карту. Становится Ветераном после третьего раза.",
+                "zh-Hans": "一回合一次，友方使用最左侧手牌时，抽 1 张牌。第三次后，升为老兵。",
+                "zh-Hant": "一回合一次，友方使用最左側手牌時，抽 1 張牌。第三次後，升為老兵。"
+              },
+              "type": "infantry",
+              "image": "the_silent_seventh.avif",
+              "title": {
+                "de-DE": "THE SILENT SEVENTH",
+                "en-EN": "THE SILENT SEVENTH",
+                "es-ES": "LA SILENCIOSA SÉPTIMA",
+                "fr-FR": "SILENT SEVENTH",
+                "it-IT": "SILENT SEVENTH",
+                "ja-JP": "サイレント・セブンス",
+                "ko-KR": "침묵의 제7사단",
+                "pl-PL": "CICHA SIÓDEMKA",
+                "pt-BR": "A SÉTIMA SILENCIOSA",
+                "ru-RU": "МОЛЧАЛИВАЯ СЕДЬМАЯ",
+                "zh-Hans": "沉默七师",
+                "zh-Hant": "沉默七師"
+              },
+              "attack": 6,
+              "rarity": "Limited",
+              "defense": 6,
+              "faction": "Anzac",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "xU",
+              "attributes": [
+                "BecomesVeteran:the_silent_seventh_vet",
+                "OnlySpawnable"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/the_silent_seventh.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/the_silent_seventh.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86638,
+            "cardId": "the_silent_seventh_vet",
+            "importId": "zG",
+            "json": {
+              "id": "the_silent_seventh_vet",
+              "set": "Special",
+              "text": {
+                "de-DE": "Deine Karte ganz links in der Hand kostet 2 weniger, mindestens aber 1.",
+                "en-EN": "Your left-most card costs 2 less, to a minimum of 1.",
+                "es-ES": "La carta que se encuentra más a la izquierda en la mano cuesta 2 menos (hasta un mínimo de 1).",
+                "fr-FR": "Votre carte située tout à gauche en main coûte 2 Krédits de moins, jusqu'à un minimum de 1.",
+                "it-IT": "La tua carta più a sinistra costa 2 in meno, ma non meno di 1.",
+                "ja-JP": "自身の一番左のカードのコストが2減少し、最低で1になる。",
+                "ko-KR": "당신 패의 가장 왼쪽에 놓인 카드의 비용이 2 감소합니다. (최소 1)",
+                "pl-PL": "Twoja karta znajdująca się na lewym końcu kosztuje o 2 mniej, ale minimum 1.",
+                "pt-BR": "Sua carta mais à esquerda custa 2 a menos, até o mínimo de 1.",
+                "ru-RU": "Ваша крайняя левая карта в руке стоит на 2 меньше, но не менее 1.",
+                "zh-Hans": "友方最左侧手牌具有 -2 花费，至少为 1。",
+                "zh-Hant": "友方最左側手牌具有 -2 花費，至少為 1。"
+              },
+              "type": "infantry",
+              "image": "the_silent_seventh_vet.avif",
+              "title": {
+                "de-DE": "THE SILENT SEVENTH",
+                "en-EN": "THE SILENT SEVENTH",
+                "es-ES": "LA SILENCIOSA SÉPTIMA",
+                "fr-FR": "SILENT SEVENTH",
+                "it-IT": "SILENT SEVENTH",
+                "ja-JP": "サイレント・セブンス",
+                "ko-KR": "침묵의 제7사단",
+                "pl-PL": "CICHA SIÓDEMKA",
+                "pt-BR": "A SÉTIMA SILENCIOSA",
+                "ru-RU": "МОЛЧАЛИВАЯ СЕДЬМАЯ",
+                "zh-Hans": "沉默七师",
+                "zh-Hant": "沉默七師"
+              },
+              "attack": 8,
+              "rarity": "Limited",
+              "defense": 8,
+              "faction": "Anzac",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "zG",
+              "attributes": [
+                "VeteranOf:the_silent_seventh",
+                "fury",
+                "guard"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/the_silent_seventh_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/the_silent_seventh_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86649,
+            "cardId": "tropic_lightning",
+            "importId": "DC",
+            "json": {
+              "id": "tropic_lightning",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Ziehe eine Karte, wenn du zum ersten Mal einen zusätzlichen Kredit-Slot erhältst. Beim zweiten Mal erhalten deine Einheiten +2+2. Wird nach dem dritten Mal Veteran.",
+                "en-EN": "Draw a card the first time you gain an extra kredit slot. Your units get +2+2 the second time. Becomes Veteran the third time.",
+                "es-ES": "Roba una carta la primera vez que obtienes un espacio para kréditos adicional. Tus unidades obtienen +2+2 la segunda vez. Se transforma en Veterana la tercera vez.",
+                "fr-FR": "Piochez une carte la 1re fois que vous gagnez un emplacement de Krédit supplémentaire. La 2e fois, vos unités gagnent +2+2. Devient Vétéran la 3e fois.",
+                "it-IT": "La prima volta che ottieni uno slot krediti extra, pesca una carta. La seconda, dai +2+2 alle unità alleate. Diventa Veterano alla terza.",
+                "ja-JP": "最初にクレジットスロットを獲得したときにカードを引く。ユニットはその2回目に+2+2を獲得します。その3回目にベテランになる。",
+                "ko-KR": "당신이 추가 크레딧 슬롯을 얻는 첫 번째에 카드 1장을 뽑고, 두 번째에 아군 유닛들이 +2+2를 얻으며, 세 번째에 이 유닛이 베테랑으로 승급합니다.",
+                "pl-PL": "Dobierz kartę za pierwszym razem, gdy zdobędziesz dodatkowe okno kredytu. Za drugim razem twoje jednostki otrzymają +2+2. Zostają Weteranem za trzecim razem.",
+                "pt-BR": "Compre uma carta na primeira vez que ganhar um espaço de krédito adicional. Suas unidades recebem +2+2 na segunda vez. Torna-se Veterano na terceira vez.",
+                "ru-RU": "Вы берёте карту, когда впервые получаете дополнительную кредитную ячейку. Ваши отряды получают +2+2 во второй раз. Становится Ветераном после третьего раза.",
+                "zh-Hans": "友方第一次额外获得指挥点槽时，抽 1 张牌。第二次时，使所有友方单位获得 +2+2。第三次时，升为老兵。",
+                "zh-Hant": "友方第一次額外獲得 1 個指揮點槽時，抽 1 張牌。第二次時，使所有友方單位獲得 +2+2。第三次時，升為老兵。"
+              },
+              "type": "infantry",
+              "image": "tropic_lightning.avif",
+              "title": {
+                "de-DE": "TROPIC LIGHTNING",
+                "en-EN": "TROPIC LIGHTNING",
+                "es-ES": "RELÁMPAGO TROPICAL",
+                "fr-FR": "TROPIC LIGHTNING",
+                "it-IT": "TROPIC LIGHTNING",
+                "ja-JP": "トロピックライトニング",
+                "ko-KR": "트로픽 라이트닝",
+                "pl-PL": "TROPIKALNA BŁYSKAWICA ",
+                "pt-BR": "RELÂMPAGO TROPICAL",
+                "ru-RU": "ТРОПИЧЕСКАЯ МОЛНИЯ",
+                "zh-Hans": "热带闪电师",
+                "zh-Hant": "熱帶閃電師"
+              },
+              "attack": 6,
+              "rarity": "Elite",
+              "defense": 6,
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "DC",
+              "attributes": [
+                "BecomesVeteran:tropic_lightning_vet",
+                "OnlySpawnable"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/tropic_lightning.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/tropic_lightning.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86650,
+            "cardId": "tropic_lightning_vet",
+            "importId": "DA",
+            "json": {
+              "id": "tropic_lightning_vet",
+              "set": "Special",
+              "text": {
+                "de-DE": "Entwickle zu Beginn deines Zuges EINE HANDVOLL HELDEN, ZWANG oder FÜR DIE FREIHEIT.",
+                "en-EN": "At the start of your turn, Develop A FEW GOOD MEN, DURESS or FOR FREEDOM.",
+                "es-ES": "Al comienzo de tu turno, desarrolla ALGUNOS HOMBRES BUENOS, COACCIÓN o POR LA LIBERTAD.",
+                "fr-FR": "Au début de votre tour, développez DES HOMMES D'HONNEUR, CONTRAINTE ou POUR LA LIBERTÉ.",
+                "it-IT": "All'inizio del tuo turno, Sviluppa POCHI MA BUONI, COSTRIZIONE o PER LA LIBERTÀ.",
+                "ja-JP": "自分のターンの開始時に、ア・フュー・グッドメン、強迫、または自由のためにを開発する。",
+                "ko-KR": "당신의 턴 시작 시, '소수정예', '강압', 또는 '자유를 위해'를 개발합니다.",
+                "pl-PL": "Na początku swojej tury rozwiń KILKU DOBRYCH LUDZI, PRZYMUS LUB ZA WOLNOŚĆ!.",
+                "pt-BR": "No início do seu turno, desenvolva ALGUNS HOMENS BONS, COERÇÃO ou PELA LIBERDADE.",
+                "ru-RU": "В начале вашего хода вы разрабатываете НЕСКОЛЬКО ХОРОШИХ ПАРНЕЙ, СУРОВЫЕ УСЛОВИЯ или ЗА СВОБОДУ.",
+                "zh-Hans": "友方回合开始时，从“好人寥寥”、“胁迫”和“为了自由”中开发 1 张。",
+                "zh-Hant": "友方回合開始時，從“好人寥寥”、“脅迫”和“為了自由”中開發 1 張。"
+              },
+              "type": "infantry",
+              "image": "tropic_lightning_vet.avif",
+              "title": {
+                "de-DE": "TROPIC LIGHTNING",
+                "en-EN": "TROPIC LIGHTNING",
+                "es-ES": "RELÁMPAGO TROPICAL",
+                "fr-FR": "TROPIC LIGHTNING",
+                "it-IT": "TROPIC LIGHTNING",
+                "ja-JP": "トロピックライトニング",
+                "ko-KR": "트로픽 라이트닝",
+                "pl-PL": "TROPIKALNA BŁYSKAWICA ",
+                "pt-BR": "RELÂMPAGO TROPICAL",
+                "ru-RU": "ТРОПИЧЕСКАЯ МОЛНИЯ",
+                "zh-Hans": "热带闪电师",
+                "zh-Hant": "熱帶閃電師"
+              },
+              "attack": 8,
+              "rarity": "Elite",
+              "defense": 8,
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "DA",
+              "attributes": [
+                "VeteranOf:tropic_lightning"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/tropic_lightning_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/tropic_lightning_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86654,
+            "cardId": "tupolev_tb3",
+            "importId": "xn",
+            "json": {
+              "id": "tupolev_tb3",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Füge auf beiden Seiten dieser Einheit je eine I-16 ISCHAK hinzu.",
+                "en-EN": "Deployment: Add I-16 ISHAK on both sides of this unit.",
+                "es-ES": "Despliegue: añade un I-16 ISHAK a a cada lado de esta unidad.",
+                "fr-FR": "Déploiement : Ajoute un I-16 ISHAK de chaque côté de cette unité.",
+                "it-IT": "Schieramento: aggiungi un I-16 ISHAK su entrambi i lati di quest'unità.",
+                "ja-JP": "配備時：このユニットの両側にI-16 イシャクを追加。",
+                "ko-KR": "배치: 이 유닛의 양쪽에 'I-16 이삭'을 추가합니다.",
+                "pl-PL": "Rozmieszczenie: Dodaj I-16 ISZAK po obu stronach tej jednostki.",
+                "pt-BR": "Posicionamento: Adicione I-16 ISHAK em ambos os lados desta unidade.",
+                "ru-RU": "Размещение: Добавляет И-16 ИШАК с обеих сторон этого отряда.",
+                "zh-Hans": "部署：将 2 个“伊-16 毛驴”加入本单位相邻处。",
+                "zh-Hant": "部署：將 2 個“伊-16 毛驢”加入本單位相鄰處。"
+              },
+              "type": "bomber",
+              "image": "tupolev_tb3.avif",
+              "title": {
+                "de-DE": "TUPOLEW TB-3",
+                "en-EN": "TUPOLEV TB-3",
+                "es-ES": "TUPOLEV TB-3",
+                "fr-FR": "TUPOLEV TB-3",
+                "it-IT": "TUPOLEV TB-3",
+                "ja-JP": "ツポレフ TB-3",
+                "ko-KR": "투폴레프 TB-3",
+                "pl-PL": "TUPOLEW TB-3",
+                "pt-BR": "TUPOLEV TB-3",
+                "ru-RU": "ТБ-3",
+                "zh-Hans": "特勃-3",
+                "zh-Hant": "特勃-3"
+              },
+              "attack": 3,
+              "rarity": "Special",
+              "defense": 4,
+              "faction": "Soviet",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "xn",
+              "can_create": [
+                "i16_ishak"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/tupolev_tb3.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/tupolev_tb3.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86659,
+            "cardId": "type_3_chinu",
+            "importId": "7h",
+            "json": {
+              "id": "type_3_chinu",
+              "set": "Base",
+              "text": {
+                "de-DE": "Hat Hinterhalt und Wache, wenn in deiner Nachschublinie.",
+                "en-EN": "Has Ambush and Guard while in your support line.",
+                "es-ES": "Tiene Emboscada y Guardia mientras esté en tu línea de apoyo.",
+                "fr-FR": "Possède Embuscade et Garde dans votre ligne de soutien.",
+                "it-IT": "Ha Imboscata e Guardia mentre è nella linea di supporto.",
+                "ja-JP": "後方支援にいる間、奇襲と護衛を持つ。",
+                "ko-KR": "후방에 있을 시 매복과 근위 능력을 부여받습니다.",
+                "pl-PL": "Będąc w Twojej linii wsparcia, otrzymuje Zasadzkę i Straż.",
+                "pt-BR": "Tem emboscada e guarda enquanto está na linha de apoio.",
+                "ru-RU": "Получает Засаду и Охрану, пока стоит на линии поддержки.",
+                "zh-Hans": "在支援阵线时，具有伏击和守护。",
+                "zh-Hant": "在支援陣線時，具有伏擊和守護。"
+              },
+              "type": "tank",
+              "image": "type_3_chinu.avif",
+              "title": {
+                "de-DE": "TYP 3 Chi-Nu",
+                "en-EN": "TYPE 3 Chi-Nu",
+                "es-ES": "TIPO 3 Chi-Nu",
+                "fr-FR": "TYPE 3 Chi-Nu",
+                "it-IT": "TYPE 3 Chi-Nu",
+                "ja-JP": "三式中戦車 チヌ",
+                "ko-KR": "3식 치누",
+                "pl-PL": "TYP 3 Chi-Nu",
+                "pt-BR": "TYPE 3 Chi-Nu",
+                "ru-RU": "ТИП 3 Chi-Nu",
+                "zh-Hans": "三式中战车",
+                "zh-Hant": "三式中戰車"
+              },
+              "attack": 5,
+              "rarity": "Limited",
+              "defense": 5,
+              "faction": "Japan",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "7h",
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/type_3_chinu.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/type_3_chinu.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86664,
+            "cardId": "type_92_105mm_field_gun",
+            "importId": "g1",
+            "json": {
+              "id": "type_92_105mm_field_gun",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Verbündete Infanterieeinheiten haben +1 Angriff.",
+                "en-EN": "Friendly infantry has +1 attack.",
+                "es-ES": "La infantería aliada tiene +1 de ataque.",
+                "fr-FR": "L'infanterie alliée gagne +1 d'attaque.",
+                "it-IT": "La fanteria alleata ha +1 attacco.",
+                "ja-JP": "味方の歩兵の攻撃力が1上がる。",
+                "ko-KR": "아군 보병 유닛의 공격력에 +1을 부여합니다.",
+                "pl-PL": "Sojusznicza piechota otrzymuje +1 do ataku.",
+                "pt-BR": "Infantarias aliadas têm +1 de ataque.",
+                "ru-RU": "Дружественная пехота получает +1 к атаке.",
+                "zh-Hans": "所有友方步兵具有 +1 攻击力。",
+                "zh-Hant": "所有友方步兵具有 +1 攻擊力。"
+              },
+              "type": "artillery",
+              "image": "type_92_105mm_field_gun.avif",
+              "title": {
+                "de-DE": "TYP 92 105-mm-FELDKANONE",
+                "en-EN": "TYPE 92 105mm FIELD GUN",
+                "es-ES": "CAÑÓN DE CAMPAÑA TIPO 92 DE 105 MM",
+                "fr-FR": "CANON DE CAMPAGNE TYPE 92 DE 105mm",
+                "it-IT": "TYPE 92 da 105mm",
+                "ja-JP": "九二式十糎加農砲",
+                "ko-KR": "92식 105mm 야포",
+                "pl-PL": "DZIAŁO POLOWE TYP 92 105 mm",
+                "pt-BR": "PEÇA DE ARTILHARIA TIPO 92 de 105 mm",
+                "ru-RU": "105-мм ПОЛЕВОЕ ОРУДИЕ ТИП 92",
+                "zh-Hans": "九二式野战炮",
+                "zh-Hant": "九二式野戰炮"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Japan",
+              "kredits": 5,
+              "reserved": true,
+              "import_id": "g1",
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/type_92_105mm_field_gun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/type_92_105mm_field_gun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85713,
+            "cardId": "uprising",
+            "importId": "jo",
+            "json": {
+              "id": "uprising",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Füge der Zieleinheit und allen anderen Einheiten Schaden in Höhe der in diesem Kampf zerstörten polnischen Einheiten zu.",
+                "en-EN": "Deal damage to all units equal to Polish units destroyed this battle.",
+                "es-ES": "Inflige daño todas las unidades equivalente a las unidades polacas destruidas en esta batalla.",
+                "fr-FR": "Inflige des dégâts à toutes les unités égaux au nombre d'unités polonaises détruites pendant cette bataille.",
+                "it-IT": "Infliggi danni pari alle unità polacche distrutte in questa battaglia a tutte le unità.",
+                "ja-JP": "この戦闘で破壊されたポーランドユニットに等しい数のダメージを与える。",
+                "ko-KR": "모든 유닛에 이번 전투에서 파괴된 폴란드 유닛 수만큼의 피해를 입힙니다.",
+                "pl-PL": "Zadaj wszystkim jednostkom obrażenia równe ilości polskich jednostek zniszczonych w tej bitwie.",
+                "pt-BR": "Causa dano a todas as unidades igual ao das unidades Polonesas destruídas nesta batalha.",
+                "ru-RU": "Наносит урон всем отрядам, равный количеству польских отрядов, уничтоженных в этой битве.",
+                "zh-Hans": "对所有单位造成等同于本局对战此前被消灭的波兰单位数的伤害。",
+                "zh-Hant": "對所有單位造成等同於本局對戰此前被消滅的波蘭單位數的傷害。"
+              },
+              "type": "order",
+              "image": "uprising.avif",
+              "title": {
+                "de-DE": "AUFSTAND",
+                "en-EN": "UPRISING",
+                "es-ES": "INSURGENCIA",
+                "fr-FR": "INSURRECTION",
+                "it-IT": "RIVOLTA",
+                "ja-JP": "反乱",
+                "ko-KR": "무장봉기",
+                "pl-PL": "POWSTANIE",
+                "pt-BR": "INSURGÊNCIA",
+                "ru-RU": "ВОССТАНИЕ",
+                "zh-Hans": "起义",
+                "zh-Hant": "起義"
+              },
+              "rarity": "Special",
+              "faction": "Poland",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "jo"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/uprising.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/uprising.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85719,
+            "cardId": "uss_archerfish",
+            "importId": "sK",
+            "json": {
+              "id": "uss_archerfish",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Zerstöre eine zufällige feindliche Einheit. Wiederhole dies, falls die oberste Karte auf deinem Deck eine Marine-Karte ist.",
+                "en-EN": "Destroy a random enemy unit. Repeat if there is a Navy card on top of your deck.",
+                "es-ES": "Destruye una unidad enemiga al azar. Se repite si hay una carta de Armada en la parte superior de tu mazo.",
+                "fr-FR": "Détruit une unité ennemie au hasard. Recommencez si la première carte de votre deck est de type Marine.",
+                "it-IT": "Distruggi un'unità nemica casuale. Ripeti l'effetto se hai una carta Marina in cima al mazzo.",
+                "ja-JP": "ランダムな敵ユニットを破壊する。デッキの上に海軍カードがある場合は、それを繰り返す。",
+                "ko-KR": "무작위 상대 유닛 하나를 파괴합니다. 당신의 덱 맨 위에 해군 카드가 있다면 이 효과를 반복합니다.",
+                "pl-PL": "Zniszcz losową jednostkę wroga. Powtórz, jeśli na wierzchu twojej talii znajduje się karta marynarki.",
+                "pt-BR": "Destrua uma unidade inimiga aleatória. Repita se houver uma carta do tipo Marinha no topo do seu baralho.",
+                "ru-RU": "Уничтожает случайный вражеский отряд. Эффект повторяется, если верхняя карта вашей колоды — Морская.",
+                "zh-Hans": "随机消灭 1 个敌方单位。若卡组顶是海军牌，重复一次。",
+                "zh-Hant": "隨機消滅 1 個敵方單位。若卡組頂是海軍牌，重複一次。"
+              },
+              "type": "order",
+              "image": "uss_archerfish.avif",
+              "title": {
+                "de-DE": "USS ARCHERFISH",
+                "en-EN": "USS ARCHERFISH",
+                "es-ES": "USS ARCHERFISH",
+                "fr-FR": "USS ARCHERFISH",
+                "it-IT": "USS ARCHERFISH",
+                "ja-JP": "USS アーチャーフィッシュ",
+                "ko-KR": "USS 아처피시",
+                "pl-PL": "USS ARCHERFISH",
+                "pt-BR": "USS ARCHERFISH",
+                "ru-RU": "USS АРЧЕРФИШ",
+                "zh-Hans": "USS 射水鱼号",
+                "zh-Hant": "USS 射水魚號"
+              },
+              "rarity": "Limited",
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "sK"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/uss_archerfish.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/uss_archerfish.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85723,
+            "cardId": "uss_yorktown",
+            "importId": "u8",
+            "json": {
+              "id": "uss_yorktown",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Füge dem Schlachtfeld vier BREWSTER F2A hinzu, falls möglich an der Frontlinie.",
+                "en-EN": "Add four BREWSTER F2A to the battlefield, in the frontline if possible.",
+                "es-ES": "Añade cuatro BREWSTER F2A al campo de batalla, en el frente de ser posible.",
+                "fr-FR": "Ajoute quatre BREWSTER F2A sur le champ de bataille, en première ligne si possible.",
+                "it-IT": "Aggiungi quattro BREWSTER F2A al campo di battaglia, in prima linea se possibile.",
+                "ja-JP": "ブルースター F2A 4体を戦場に追加する。それは可能であれば前線に追加される。",
+                "ko-KR": "전장에 '브루스터 F2A' 4개를 추가합니다. 가능하다면 전방에 추가합니다.",
+                "pl-PL": "Dodaj cztery BREWSTER F2A na pole bitwy, na linii frontu, jeśli to możliwe.",
+                "pt-BR": "Adicione quatro BREWSTER F2A ao campo de batalha, de preferência na linha de frente.",
+                "ru-RU": "Добавляет четыре BREWSTER F2A на поле боя, если возможно, на линию фронта.",
+                "zh-Hans": "将 4 个“F2A 水牛”加入战场，若可能，加入前线。",
+                "zh-Hant": "將 4 個“F2A 水牛”加入戰場，若可能，加入前線。"
+              },
+              "type": "order",
+              "image": "uss_yorktown.avif",
+              "title": {
+                "de-DE": "USS YORKTOWN",
+                "en-EN": "USS YORKTOWN",
+                "es-ES": "USS YORKTOWN",
+                "fr-FR": "USS YORKTOWN",
+                "it-IT": "USS YORKTOWN",
+                "ja-JP": "USS ヨークタウン",
+                "ko-KR": "USS 요크타운",
+                "pl-PL": "USS YORKTOWN",
+                "pt-BR": "USS YORKTOWN",
+                "ru-RU": "USS ЙОРКТАУН",
+                "zh-Hans": "USS 约克城号",
+                "zh-Hant": "USS 約克城號"
+              },
+              "rarity": "Special",
+              "faction": "USA",
+              "kredits": 5,
+              "reserved": false,
+              "import_id": "u8",
+              "can_create": [
+                "brewster_f2a"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/uss_yorktown.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/uss_yorktown.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

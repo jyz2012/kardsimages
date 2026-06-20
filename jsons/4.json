@@ -1,0 +1,1068 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 85879,
+            "cardId": "18_infantry_regiment",
+            "importId": "xq",
+            "json": {
+              "id": "18_infantry_regiment",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Bewegt sich an die Frontlinie, falls möglich.",
+                "en-EN": "Deployment: Moves into the frontline if possible.",
+                "es-ES": "Despliegue: se mueve al frente, de ser posible.",
+                "fr-FR": "Déploiement : Rejoint la première ligne si possible.",
+                "it-IT": "Schieramento: si muove in prima linea se possibile.",
+                "ja-JP": "配備時：可能であれば前線に移動する。",
+                "ko-KR": "배치: (가능할 경우) 전방으로 이동합니다.",
+                "pl-PL": "Rozmieszczenie: Jeśli to możliwe, przemieszcza się na linię frontu.",
+                "pt-BR": "Posicionamento: Move-se para a linha de frente, se possível.",
+                "ru-RU": "Размещение: Перемещается на линию фронта, если возможно.",
+                "zh-Hans": "部署：移至前线。",
+                "zh-Hant": "部署：移至前線。"
+              },
+              "type": "infantry",
+              "image": "18_infantry_regiment.avif",
+              "title": {
+                "de-DE": "18. INFANTERIEREGIMENT",
+                "en-EN": "18. INFANTRY REGIMENT",
+                "es-ES": "18.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "18e RÉGIMENT D'INFANTERIE",
+                "it-IT": "18. REG. FANTERIA",
+                "ja-JP": "第18歩兵連隊",
+                "ko-KR": "18.보병연대",
+                "pl-PL": "18 PUŁK PIECHOTY",
+                "pt-BR": "18º REGIMENTO DE INFANTARIA",
+                "ru-RU": "18-Й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 18 步兵团",
+                "zh-Hant": "第 18 步兵團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "xq",
+              "attributes": [
+                "shock",
+                "bond"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/18_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/18_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85896,
+            "cardId": "1_infantry_regiment",
+            "importId": "3P",
+            "json": {
+              "id": "1_infantry_regiment",
+              "set": "Base",
+              "text": {},
+              "type": "infantry",
+              "image": "1_infantry_regiment.avif",
+              "title": {
+                "de-DE": "1. INFANTERIEREGIMENT",
+                "en-EN": "1. INFANTRY REGIMENT",
+                "es-ES": "1.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "1er RÉGIMENT D’INFANTERIE",
+                "it-IT": "1° REG. FANTERIA",
+                "ja-JP": "第1歩兵連隊",
+                "ko-KR": "제1보병연대",
+                "pl-PL": "1 PUŁK PIECHOTY",
+                "pt-BR": "1º REGIMENTO DE INFANTARIA",
+                "ru-RU": "1-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 1 步兵团",
+                "zh-Hant": "第 1 步兵團"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "3P",
+              "operationCost": 0
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/1_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/1_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85889,
+            "cardId": "1st_airborne",
+            "importId": "10",
+            "json": {
+              "id": "1st_airborne",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "-1 Aktionskosten am Anfang deines Zugs, wenn Mobilisiert.",
+                "en-EN": "At the start of your turn, -1 operation cost if Mobilized.",
+                "es-ES": "Al comienzo de tu turno, tiene -1 de costo de operación si Movilizar está activo.",
+                "fr-FR": "Au début de votre tour, son coût d'opération est réduit de 1 si l'unité est Mobilisée.",
+                "it-IT": "All’inizio del tuo turno, ottiene -1 costo operativo se Mobilitata.",
+                "ja-JP": "ターン開始時に動員状態の場合、行動コストが1減る。",
+                "ko-KR": "당신의 턴 시작 시, 이 유닛이 집결 상태라면 운용 비용이 1 감소합니다.",
+                "pl-PL": "Mobilizacja sprawia, że na początku twojej tury koszt operacyjny wynosi -1.",
+                "pt-BR": "-1 de custo de operação se está mobilizado no começo do seu turno.",
+                "ru-RU": "Получает -1 к стоимости использования в начале вашего хода, если действует Мобилизация.",
+                "zh-Hans": "友方回合开始时，若具有动员，获得 -1 行动花费。",
+                "zh-Hant": "友方回合開始時，若具有動員，獲得 -1 行動花費。"
+              },
+              "type": "infantry",
+              "image": "1st_airborne.avif",
+              "title": {
+                "de-DE": "1. US-LUFTLANDEDIVISION",
+                "en-EN": "1st AIRBORNE",
+                "es-ES": "1.ª DIVISIÓN AEROTRANSPORTADA",
+                "fr-FR": "1re AÉROPORTÉE",
+                "it-IT": "1ª AVIOTRASPORTATA",
+                "ja-JP": "落下傘連隊第1大隊",
+                "ko-KR": "제1공수부대",
+                "pl-PL": "1 DYWIZJA POWIETRZNODESANTOWA",
+                "pt-BR": "1ª DIVISÃO AEROTRANSPORTADORA",
+                "ru-RU": "1-я ДЕСАНТНАЯ ДИВИЗИЯ",
+                "zh-Hans": "第 1 伞兵旅",
+                "zh-Hant": "第 1 傘兵旅"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 1,
+              "faction": "Britain",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "10",
+              "attributes": [
+                "fury",
+                "smokescreen",
+                "mobilize"
+              ],
+              "operationCost": 4
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/1st_airborne.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/1st_airborne.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85892,
+            "cardId": "1st_defense_battalion",
+            "importId": "xc",
+            "json": {
+              "id": "1st_defense_battalion",
+              "set": "Homefront",
+              "text": {
+                "de-DE": "Einsatz: Erhält +1 Angriff, wenn du eine US-Einheit an der Front kontrollierst.",
+                "en-EN": "Deployment: Gets +1 attack if you have a US unit in the frontline.",
+                "es-ES": "Despliegue: obtiene +1 de ataque si tienes una unidad estadounidense en el frente.",
+                "fr-FR": "Déploiement : Gagne +1 d'attaque si vous possédez une unité américaine en première ligne.",
+                "it-IT": "Schieramento: ottiene +1 attacco se hai un'unità USA in prima linea.",
+                "ja-JP": "配備時：前線にアメリカ軍ユニットがいる場合、攻撃力が1増加する。",
+                "ko-KR": "배치: 전방에 아군 미국 유닛이 있으면 공격력 +1을 얻습니다.",
+                "pl-PL": "Rozmieszczenie: Otrzymuje +1 do ataku, jeśli posiadasz na linii frontu amerykańską jednostkę.",
+                "pt-BR": "Posicionamento: recebe +1 de ataque se você tiver uma unidade dos EUA na linha de frente.",
+                "ru-RU": "Размещение: Получает +1 к атаке, если у вас есть американский отряд на линии фронта.",
+                "zh-Hans": "部署：若前线有友方美国单位，获得 +1 攻击力。",
+                "zh-Hant": "部署：若前線有友方美國單位，獲得 +1 攻擊力。"
+              },
+              "type": "infantry",
+              "image": "1st_defense_battalion.avif",
+              "title": {
+                "de-DE": "1. VERTEIDIGUNGSBATAILLON",
+                "en-EN": "1st DEFENSE BATTALION",
+                "es-ES": "1.º BATALLÓN DE DEFENSA",
+                "fr-FR": "1er BATAILLON DE DÉFENSE",
+                "it-IT": "1° BATTAGLIONE DI DIFESA",
+                "ja-JP": "第1防衛大隊",
+                "ko-KR": "제1방어대대",
+                "pl-PL": "1 BATALION OBRONNY",
+                "pt-BR": "1º BATALHÃO DE DEFESA",
+                "ru-RU": "1-й ОБОРОНИТЕЛЬНЫЙ БАТАЛЬОН",
+                "zh-Hans": "第 1 防卫营",
+                "zh-Hant": "第 1 防衛營"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "USA",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "xc",
+              "attributes": [
+                "blitz",
+                "bond"
+              ],
+              "operationCost": 0
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/1st_defense_battalion.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/1st_defense_battalion.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85900,
+            "cardId": "1st_signal_regiment",
+            "importId": "6y",
+            "json": {
+              "id": "1st_signal_regiment",
+              "set": "Base",
+              "text": {
+                "de-DE": "Fügt dem feindlichen HQ 1 Schaden zu, wenn eine andere verbündete Einheit zerstört wird.",
+                "en-EN": "When another friendly unit is destroyed, deal 1 damage to the enemy HQ.",
+                "es-ES": "Cuando otra unidad aliada es destruida, inflige 1 de daño al cuartel del enemigo.",
+                "fr-FR": "Lorsqu’une unité alliée est détruite, infligez 1 dégât au QG ennemi.",
+                "it-IT": "Quando un'altra unità alleata viene distrutta, infliggi 1 danno al QG nemico.",
+                "ja-JP": "他の味方ユニットが破壊されると、敵の本部に1ダメージを与える。",
+                "ko-KR": "다른 아군 유닛이 파괴되면, 상대 본부에 1의 피해를 입힙니다.",
+                "pl-PL": "Zadaj 1 pkt zniszczeń sztabowi przeciwnika po zniszczeniu innej sojuszniczej jednostki.",
+                "pt-BR": "Quando outra unidade aliada é destruída, cause 1 de dano ao QG inimigo.",
+                "ru-RU": "Когда уничтожается другой дружественный отряд, наносит 1 урона штабу врага.",
+                "zh-Hans": "其他友方单位被消灭时，对敌方总部造成 1 点伤害。",
+                "zh-Hant": "其他友方單位被消滅時，對敵方總部造成 1 點傷害。"
+              },
+              "type": "infantry",
+              "image": "1st_signal_regiment.avif",
+              "title": {
+                "de-DE": "1. FERNMELDEREGIMENT",
+                "en-EN": "1st SIGNAL REGIMENT",
+                "es-ES": "1.º REGIMIENTO DE SEÑALES",
+                "fr-FR": "1er RÉGIMENT DE TRANSMISSIONS",
+                "it-IT": "1° REG. TRASMISSIONI",
+                "ja-JP": "第一師団通信隊",
+                "ko-KR": "제1통신연대",
+                "pl-PL": "1 PUŁK SYGNALIZACYJNY",
+                "pt-BR": "1º REGIMENTO DE SINAIS",
+                "ru-RU": "1-й ПОЛК СВЯЗИ",
+                "zh-Hans": "电信第一联队",
+                "zh-Hant": "電信第一聯隊"
+              },
+              "attack": 0,
+              "rarity": "Elite",
+              "defense": 4,
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "6y",
+              "attributes": [
+                "smokescreen"
+              ],
+              "operationCost": 4
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/1st_signal_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/1st_signal_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85905,
+            "cardId": "20th_infantry_regiment",
+            "importId": "nL",
+            "json": {
+              "id": "20th_infantry_regiment",
+              "set": "WinterWar",
+              "text": {},
+              "type": "infantry",
+              "image": "20th_infantry_regiment.avif",
+              "title": {
+                "de-DE": "20. INFANTERIEREGIMENT",
+                "en-EN": "20th INFANTRY REGIMENT",
+                "es-ES": "20.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "20e RÉGIMENT D’INFANTERIE",
+                "it-IT": "20° REG. FANTERIA",
+                "ja-JP": "歩兵第二十連隊",
+                "ko-KR": "제20보병연대",
+                "pl-PL": "20 PUŁK PIECHOTY",
+                "pt-BR": "20º REGIMENTO DE INFANTARIA",
+                "ru-RU": "20-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "步兵第二十联队",
+                "zh-Hant": "步兵第二十聯隊"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "nL",
+              "attributes": [
+                "guard"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/20th_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/20th_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85933,
+            "cardId": "27th_mg_battalion",
+            "importId": "y3",
+            "json": {
+              "id": "27th_mg_battalion",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Einheiten, die du einsetzt, erhalten Blitz, wenn sie ganz links in der Hand waren, Schock, wenn sie ganz rechts waren.",
+                "en-EN": "Units you deploy get Blitz if they were left-most in hand, Shock if they were right-most.",
+                "es-ES": "Las unidades que despliegas reciben Blitz si eran la carta que se encontraba más a la izquierda en la mano, Choque si eran la carta que se encontraba más a la derecha en la mano.",
+                "fr-FR": "Les unités que vous déployez gagnent Blitz si elles étaient situées tout à gauche en main, ou Choc si elles étaient tout à droite.",
+                "it-IT": "Quando schieri un'unità, dagli Blitz se era la carta più a sinistra, Shock se più a destra.",
+                "ja-JP": "自身が配備したユニットが手札の一番左であった場合は電撃を、一番右にいる場合は衝撃を得る。",
+                "ko-KR": "아군 유닛을 배치 시, 그 카드가 패의 가장 왼쪽에 있었다면 기습을, 가장 오른쪽에 있었다면 충격을 부여합니다.",
+                "pl-PL": "Jednostki, które rozmieszczasz, otrzymują Impet, jeśli znajdowały się na lewym końcu, a Wstrząs, jeśli znajdowały się na prawym końcu.",
+                "pt-BR": "Unidades que você posicionar recebem Blitz se forem a carta mais à esquerda na mão, Choque se forem a mais à direita.",
+                "ru-RU": "Размещаемые вами отряды получают Блиц, если находились в крайней левой позиции в руке, Штурм — если в крайней правой.",
+                "zh-Hans": "友方单位从手中最左侧部署时，使其获得闪击，从最右侧时，获得冲击。",
+                "zh-Hant": "友方單位從手中最左側部署時，使其獲得閃擊，從最右側時，獲得衝擊。"
+              },
+              "type": "infantry",
+              "image": "27th_mg_battalion.avif",
+              "title": {
+                "de-DE": "27. MG-BATAILLON",
+                "en-EN": "27th MG BATTALION",
+                "es-ES": "27.º BATALLÓN DE AMETRALLADORAS",
+                "fr-FR": "27e BATAILLON DE MITRAILLEUSES",
+                "it-IT": "27° BATTAGLIONE MG",
+                "ja-JP": "第27 MG大隊",
+                "ko-KR": "제27기관총대대",
+                "pl-PL": "27 BATALION KARABINÓW MASZYNOWYCH",
+                "pt-BR": "27º BATALHÃO DE METRALHADORAS",
+                "ru-RU": "27-й ПУЛЕМЁТНЫЙ БАТАЛЬОН",
+                "zh-Hans": "第 27 机枪营",
+                "zh-Hant": "第 27 機槍營"
+              },
+              "attack": 1,
+              "rarity": "Special",
+              "defense": 3,
+              "faction": "Anzac",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "y3",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/27th_mg_battalion.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/27th_mg_battalion.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85937,
+            "cardId": "28_jger_regiment",
+            "importId": "i9",
+            "json": {
+              "id": "28_jger_regiment",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Erhält Hinterhalt, wenn sie sich an die Front bewegt.",
+                "en-EN": "Gains Ambush when it moves into the frontline.",
+                "es-ES": "Obtiene Emboscada cuando se mueve hacia el frente de batalla.",
+                "fr-FR": "Gagne Embuscade lorsqu'il rejoint la première ligne.",
+                "it-IT": "Ottiene Imboscata quando si sposta in prima linea.",
+                "ja-JP": "前線に移動すると奇襲を獲得する。",
+                "ko-KR": "이 유닛이 전방으로 이동하면 매복을 얻습니다.",
+                "pl-PL": "Otrzymuje Zasadzkę po przemieszczeniu na linię frontu.",
+                "pt-BR": "Ganha Emboscada quando se move para a linha de frente.",
+                "ru-RU": "Получает Засаду, когда выходит на линию фронта.",
+                "zh-Hans": "移至前线时，获得伏击。",
+                "zh-Hant": "移至前線時，獲得伏擊。"
+              },
+              "type": "infantry",
+              "image": "28_jger_regiment.avif",
+              "title": {
+                "de-DE": "28. JÄGERREGIMENT",
+                "en-EN": "28. JÄGER REGIMENT",
+                "es-ES": "28.º REGIMIENTO DE JÄGER",
+                "fr-FR": "28e RÉGIMENT JÄGER",
+                "it-IT": "28° REG. JÄGER",
+                "ja-JP": "第28猟兵連隊",
+                "ko-KR": "제28예거연대",
+                "pl-PL": "28 PUŁK JEGRÓW",
+                "pt-BR": "28. REGIMENTO JÄGER",
+                "ru-RU": "28. JÄGER",
+                "zh-Hans": "第 28 猎兵团",
+                "zh-Hant": "第 28 獵兵團"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 1,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "i9",
+              "attributes": [
+                "smokescreen"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/28_jger_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/28_jger_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85947,
+            "cardId": "2nd_parachute",
+            "importId": "gy",
+            "json": {
+              "id": "2nd_parachute",
+              "set": "OnlySpawnable",
+              "text": {},
+              "type": "infantry",
+              "image": "2nd_parachute.avif",
+              "title": {
+                "de-DE": "2. FALLSCHIRMJÄGER",
+                "en-EN": "2nd PARACHUTE",
+                "es-ES": "2.ª DIVISIÓN DE PARACAIDISTAS",
+                "fr-FR": "2e PARACHUTE",
+                "it-IT": "2ª PARACADUTISTI",
+                "ja-JP": "第2大隊パラシュート連隊",
+                "ko-KR": "제2낙하산연대",
+                "pl-PL": "2 BRYGADA SPADOCHRONOWA",
+                "pt-BR": "2ª BRIGADA PARAQUEDISTA",
+                "ru-RU": "2-я ПАРАШЮТНАЯ БРИГАДА",
+                "zh-Hans": "第 2 伞兵旅",
+                "zh-Hant": "第 2 傘兵旅"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 1,
+              "faction": "Britain",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "gy",
+              "attributes": [
+                "fury",
+                "mobilize"
+              ],
+              "operationCost": 0
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/2nd_parachute.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/2nd_parachute.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85959,
+            "cardId": "321st_rifle_regiment",
+            "importId": "8H",
+            "json": {
+              "id": "321st_rifle_regiment",
+              "set": "Base",
+              "text": {
+                "de-DE": "Zerstörung: Fügt der Nachschublinie eine 1/1 LEICHTE INFANTERIEEINHEIT hinzu.",
+                "en-EN": "Destruction: Add a 1/1 LIGHT INFANTRY to the support line.",
+                "es-ES": "Destrucción: Añade a 1/1 SOLDADO DE INFANTERÍA LIGERO a la línea de apoyo.",
+                "fr-FR": "Destruction : Ajoute une unité d’INFANTERIE LÉGÈRE 1/1 à la ligne de soutien.",
+                "it-IT": "Distruzione: aggiungi un'unità 1/1 FANTERIA LEGGERA alla linea di supporto.",
+                "ja-JP": "破壊時：後方支援に1/1狙撃兵を追加する。",
+                "ko-KR": "파괴: 후방에 공격력, 방어력 1의 \\\"경보병을\\\" 추가합니다.",
+                "pl-PL": "Zniszczenie: dodaj 1/1 jednostkę LEKKIEJ PIECHOTY do linii wsparcia.",
+                "pt-BR": "Destruição: adicione um uma INFANTARIA LEVE 1/1 à linha de apoio.",
+                "ru-RU": "Уничтожение: Добавляет на линию поддержки отряд ЛЁГКАЯ ПЕХОТА.",
+                "zh-Hans": "亡计：将 1 个“轻步兵”加入支援阵线。",
+                "zh-Hant": "亡計：將 1 個“輕步兵”加入支援陣線。"
+              },
+              "type": "infantry",
+              "image": "321st_rifle_regiment.avif",
+              "title": {
+                "de-DE": "321. SCHÜTZENREGIMENT",
+                "en-EN": "321st RIFLE REGIMENT",
+                "es-ES": "321.º REGIMIENTO DE FUSILEROS",
+                "fr-FR": "321e RÉGIMENT DE FUSILIERS",
+                "it-IT": "321° REG. FUCILIERI",
+                "ja-JP": "第321狙撃連隊",
+                "ko-KR": "제321소총연대",
+                "pl-PL": "321 PUŁK STRZELCÓW",
+                "pt-BR": "321ª DIVISÃO DE FUZILEIROS",
+                "ru-RU": "321-й СТРЕЛКОВЫЙ ПОЛК",
+                "zh-Hans": "步兵第 321 团",
+                "zh-Hant": "步兵第 321 團"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Soviet",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "8H",
+              "attributes": [
+                "blitz"
+              ],
+              "can_create": [
+                "light_infantry"
+              ],
+              "operationCost": 1
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/321st_rifle_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/321st_rifle_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85812,
+            "cardId": "329th_engineer_battalion",
+            "importId": "8C",
+            "json": {
+              "id": "329th_engineer_battalion",
+              "set": "Base",
+              "text": {
+                "de-DE": "Wird eine andere verbündete Einheit zerstört, erhält dein HQ +2 Verteidigung.",
+                "en-EN": "When another friendly unit is destroyed, your HQ gains +2 defense.",
+                "es-ES": "Cuando una unidad aliada sea destruida, tu cuartel general gana +2 de defensa.",
+                "fr-FR": "Lorsqu’une autre unité alliée est détruite, votre QG gagne +2 de défense.",
+                "it-IT": "Quando un’altra unità alleata viene distrutta, il tuo QG guadagna +2 difesa.",
+                "ja-JP": "味方ユニットが破壊されると、自身の本部の防御力が2上がる。",
+                "ko-KR": "다른 아군 유닛이 파괴되면, 본부의 방어력에 +2를 부여합니다.",
+                "pl-PL": "Gdy inna jednostka sojusznicza zostanie zniszczona, Twój sztab zyskuje +2 do obrony.",
+                "pt-BR": "Quando outra unidade aliada é destruída, seu QG ganha +2 de defesa.",
+                "ru-RU": "Когда уничтожается другой дружественный отряд, ваш штаб получает +2 к защите.",
+                "zh-Hans": "其他友方单位被消灭时，使友方总部获得 +2 防御力。",
+                "zh-Hant": "其他友方單位被消滅時，使友方總部獲得 +2 防禦力。"
+              },
+              "type": "infantry",
+              "image": "329th_engineer_battalion.avif",
+              "title": {
+                "de-DE": "329. PIONIERBATAILLON",
+                "en-EN": "329th ENGINEER BATTALION",
+                "es-ES": "329.º BATALLÓN DE INGENIEROS",
+                "fr-FR": "329e BATAILLON DU GÉNIE",
+                "it-IT": "329° BATTAGLIONE DEL GENIO",
+                "ja-JP": "第329工兵大隊",
+                "ko-KR": "제329공병대대",
+                "pl-PL": "329 BATALION INŻYNIERYJNY",
+                "pt-BR": "329º BATALHÃO DE ENGENHEIROS",
+                "ru-RU": "329-й ИНЖЕНЕРНЫЙ БАТАЛЬОН",
+                "zh-Hans": "工兵第 329 营",
+                "zh-Hant": "工兵第 329 營"
+              },
+              "attack": 0,
+              "rarity": "Elite",
+              "defense": 4,
+              "faction": "Soviet",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "8C",
+              "attributes": [
+                "smokescreen"
+              ],
+              "operationCost": 4
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/329th_engineer_battalion.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/329th_engineer_battalion.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85962,
+            "cardId": "32nd_infantry_regiment",
+            "importId": "gl",
+            "json": {
+              "id": "32nd_infantry_regiment",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Einsatz: Ziehe ein 32. INFANTERIEREGIMENT aus deinem Deck.",
+                "en-EN": "Deployment: Draw a 32nd INFANTRY REGIMENT from your deck.",
+                "es-ES": "Despliegue: Roba un 32.º REGIMIENTO DE INFANTERÍA de tu mazo.",
+                "fr-FR": "Déploiement : Piochez un 32e RÉGIMENT D'INFANTERIE de votre deck.",
+                "it-IT": "Schieramento: pesca un 32° REGGIMENTO FANTERIA dal tuo mazzo.",
+                "ja-JP": "配備時：デッキから第32歩兵連隊を引く。",
+                "ko-KR": "배치: 덱에서 제32보병연대를 뽑습니다.",
+                "pl-PL": "Rozmieszczenie: dobierz ze swojej talii 32 PUŁK PIECHOTY.",
+                "pt-BR": "Posicionamento: Compre um 32º REGIMENTO DE INFANTARIA do seu baralho.",
+                "ru-RU": "Размещение: Вы берёте из своей колоды 32-й ПЕХОТНЫЙ ПОЛК.",
+                "zh-Hans": "部署：抽 1 张“第 32 步兵团”。",
+                "zh-Hant": "部署：抽 1 張“第 32 步兵團”。"
+              },
+              "type": "infantry",
+              "image": "32nd_infantry_regiment.avif",
+              "title": {
+                "de-DE": "32. INFANTERIEREGIMENT",
+                "en-EN": "32nd INFANTRY REGIMENT",
+                "es-ES": "32.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "32e RÉGIMENT D'INFANTERIE",
+                "it-IT": "32° REG. FANTERIA",
+                "ja-JP": "第32歩兵連隊",
+                "ko-KR": "제32보병연대",
+                "pl-PL": "32 PUŁK PIECHOTY",
+                "pt-BR": "32º REGIMENTO DE INFANTARIA",
+                "ru-RU": "32-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 32 步兵团",
+                "zh-Hant": "第 32 步兵團"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 1,
+              "faction": "USA",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "gl",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/32nd_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/32nd_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85967,
+            "cardId": "33rd_recon",
+            "importId": "6C",
+            "json": {
+              "id": "33rd_recon",
+              "set": "Base",
+              "text": {
+                "de-DE": "Wenn diese Einheit Schaden erleidet, ziehe eine Karte.",
+                "en-EN": "When this unit takes damage, draw a card.",
+                "es-ES": "Cuando esta unidad recibe daño, roba una carta.",
+                "fr-FR": "Lorsque cette unité subit des dégâts, piochez une carte.",
+                "it-IT": "Quando questa unità subisce danni, pesca una carta.",
+                "ja-JP": "このユニットがダメージを受けると、カードを1枚引く。",
+                "ko-KR": "제33정찰연대가 피해를 입으면 카드 1장을 뽑습니다.",
+                "pl-PL": "Kiedy ta jednostka otrzymuje obrażenia, pobierz kartę.",
+                "pt-BR": "Quando esta unidade sofre dano, compre uma carta.",
+                "ru-RU": "Когда этот отряд получает урон, вы берёте карту.",
+                "zh-Hans": "本单位受到伤害时，抽 1 张牌。",
+                "zh-Hant": "本單位受到傷害時，抽 1 張牌。"
+              },
+              "type": "infantry",
+              "image": "33rd_recon.avif",
+              "title": {
+                "de-DE": "33. AUFKLÄRUNGSREGIMENT",
+                "en-EN": "33rd RECON",
+                "es-ES": "33º DE RECONOCIMIENTO",
+                "fr-FR": "33e DE RECONNAISSANCE",
+                "it-IT": "33° RICOGNIZIONE",
+                "ja-JP": "弓兵団",
+                "ko-KR": "제33수색연대",
+                "pl-PL": "33 PUŁK ROZPOZNAWCZY",
+                "pt-BR": "33º RECONHECIMENTO",
+                "ru-RU": "33-й РАЗВЕДПОЛК",
+                "zh-Hans": "搜索第三十三联队",
+                "zh-Hant": "搜索第三十三聯隊"
+              },
+              "attack": 1,
+              "rarity": "Special",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "6C",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/33rd_recon.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/33rd_recon.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85971,
+            "cardId": "34th_infantry_regiment",
+            "importId": "6D",
+            "json": {
+              "id": "34th_infantry_regiment",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Ziehe am Ende deines Zuges die oberste Karte deines Decks und lege sie ab.",
+                "en-EN": "At the end of your turn, draw and discard the top card of your deck.",
+                "es-ES": "Al final de tu turno, roba y descarta la carta superior de tu mazo.",
+                "fr-FR": "À la fin de votre tour, piochez et défaussez la première carte de votre deck.",
+                "it-IT": "Alla fine del tuo turno, pesca e scarta la prima carta del tuo mazzo.",
+                "ja-JP": "自分のターン終了時に、自分のデッキの一番上のカードを引いて捨てる。",
+                "ko-KR": "당신의 턴 종료시에 당신의 덱 맨 위의 카드 1장을 뽑고 버립니다.",
+                "pl-PL": "Na koniec swojej tury dobierz i odrzuć wierzchnią kartę ze swojej talii.",
+                "pt-BR": "No final do seu turno, compre e descarte a carta do topo do seu baralho.",
+                "ru-RU": "В конце вашего хода вы берёте и сбрасываете карту из своей колоды.",
+                "zh-Hans": "友方回合结束时，抽 1 张牌，将其弃掉。",
+                "zh-Hant": "友方回合結束時，抽 1 張牌，將其棄掉。"
+              },
+              "type": "infantry",
+              "image": "34th_infantry_regiment.avif",
+              "title": {
+                "de-DE": "34. INFANTERIEREGIMENT",
+                "en-EN": "34th INFANTRY REGIMENT",
+                "es-ES": "34.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "34e RÉGIMENT D’INFANTERIE",
+                "it-IT": "34° REG. FANTERIA",
+                "ja-JP": "歩兵第三十四連隊",
+                "ko-KR": "제34보병연대",
+                "pl-PL": "34 PUŁK PIECHOTY",
+                "pt-BR": "34º REGIMENTO DE INFANTARIA",
+                "ru-RU": "34-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "步兵第三十四联队",
+                "zh-Hant": "步兵第三十四聯隊"
+              },
+              "attack": 2,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "6D",
+              "operationCost": 0
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/34th_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/34th_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86402,
+            "cardId": "37_mm_antiaircraft_gun",
+            "importId": "9e",
+            "json": {
+              "id": "37_mm_antiaircraft_gun",
+              "set": "Base",
+              "text": {
+                "de-DE": "Aktionen feindlicher Lufteinheiten kosten +2.",
+                "en-EN": "Enemy air units cost +2 to operate.",
+                "es-ES": "Las unidades aéreas enemigas tienen un costo operación de +2.",
+                "fr-FR": "Le coût d’opération des unités aériennes ennemies augmente de +2.",
+                "it-IT": "Le unità aeree nemiche hanno +2 costo operativo.",
+                "ja-JP": "敵空軍ユニットの運用コストを2増やす。",
+                "ko-KR": "상대 공중 유닛의 운용 비용이 +2 증가합니다.",
+                "pl-PL": "Koszt przeprowadzania działań przez wrogie jednostki powietrzne jest wyższy o 2 pkt.",
+                "pt-BR": "As unidades aéreas inimigas têm +2 de custo de operação.",
+                "ru-RU": "Вражеские самолёты получают +2 к стоимости использования.",
+                "zh-Hans": "所有敌方空军具有 +2 行动花费。",
+                "zh-Hant": "所有敵方空軍具有 +2 行動花費。"
+              },
+              "type": "artillery",
+              "image": "37_mm_antiaircraft_gun.avif",
+              "title": {
+                "de-DE": "37-mm-FLUGABWEHRKANONE",
+                "en-EN": "37 mm ANTI-AIRCRAFT GUN",
+                "es-ES": "CAÑÓN ANTIAÉREO de 37 mm",
+                "fr-FR": "CANON ANTIAÉRIEN DE 37 mm",
+                "it-IT": "CONTRAEREO da 37 mm",
+                "ja-JP": "37mm対空砲",
+                "ko-KR": "37mm 대공포",
+                "pl-PL": "DZIAŁO PRZECIWLOTNICZE 37 mm",
+                "pt-BR": "ARMA ANTIAÉREA DE 37 mm",
+                "ru-RU": "37-мм ЗЕНИТНОЕ ОРУДИЕ",
+                "zh-Hans": "37 毫米高射炮",
+                "zh-Hant": "37 毫米高射炮"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 1,
+              "faction": "Soviet",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "9e",
+              "attributes": [
+                "smokescreen"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/37_mm_antiaircraft_gun.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/37_mm_antiaircraft_gun.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85991,
+            "cardId": "3rd_alpini_regiment",
+            "importId": "5h",
+            "json": {
+              "id": "3rd_alpini_regiment",
+              "set": "Allegiance",
+              "text": {},
+              "type": "infantry",
+              "image": "3rd_alpini_regiment.avif",
+              "title": {
+                "de-DE": "3.ALPINI-REGIMENT",
+                "en-EN": "3rd ALPINI REGIMENT",
+                "es-ES": "3.º REGIMIENTO DE ALPINOS",
+                "fr-FR": "3e RÉGIMENT ALPIN",
+                "it-IT": "3° REG. ALPINI",
+                "ja-JP": "第3山岳連隊",
+                "ko-KR": "제3알피니연대",
+                "pl-PL": "3 PUŁK ALPEJSKI",
+                "pt-BR": "3º REGIMENTO ALPINI",
+                "ru-RU": "3-й АЛЬПИЙСКИЙ ПОЛК",
+                "zh-Hans": "第 3 山地团",
+                "zh-Hant": "第 3 山地團"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 2,
+              "faction": "Italy",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "5h",
+              "attributes": [
+                "alpine"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/3rd_alpini_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/3rd_alpini_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85998,
+            "cardId": "3rd_morskoi_pekhoty",
+            "importId": "zC",
+            "json": {
+              "id": "3rd_morskoi_pekhoty",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Einsatz: Füge deiner Nachschublinie eine LEICHTE INFANTERIE und deiner Hand eine EXPLOSION hinzu.",
+                "en-EN": "Deployment: Add a LIGHT INFANTRY to your support line and a BLAST to your hand.",
+                "es-ES": "Despliegue: Añade una INFANTERÍA LIGERA a tu línea de apoyo y una EXPLOSIÓN a tu mano.",
+                "fr-FR": "Déploiement : Ajoute une unité d'INFANTERIE LÉGÈRE à votre ligne de soutien et une EXPLOSION à votre main.",
+                "it-IT": "Schieramento: aggiungi una FANTERIA LEGGERA alla tua linea di supporto e un'ESPLOSIONE alla tua mano.",
+                "ja-JP": "配備：後方支援に狙撃兵を追加し、手札に爆破を加える。",
+                "ko-KR": "배치: 당신의 후방에 '경보병'을, 패에는 '폭발'을 추가합니다.",
+                "pl-PL": "Rozmieszczenie: Dodaj LEKKĄ PIECHOTĘ do swojej linii wsparcia i WYBUCH do swojej ręki.",
+                "pt-BR": "Posicionamento: adicione uma INFANTARIA LEVE à sua linha de apoio e uma EXPLOSÃO à sua mão.",
+                "ru-RU": "Размещение: Добавляет ЛЁГКУЮ ПЕХОТУ на вашу линию поддержки и ВЗРЫВ в вашу руку.",
+                "zh-Hans": "部署：将 1 个“轻步兵”加入支援阵线，将 1 张“爆破”加入手中。",
+                "zh-Hant": "部署：將 1 個“輕步兵”加入支援陣線，將 1 張“爆破”加入手中。"
+              },
+              "type": "infantry",
+              "image": "3rd_morskoi_pekhoty.avif",
+              "title": {
+                "de-DE": "3. MORSKOI PEKHOTY",
+                "en-EN": "3rd MORSKOI PEKHOTY",
+                "es-ES": "3.ª DE MORSKAYA PEJOTA",
+                "fr-FR": "3e MORSKOI PEKHOTY",
+                "it-IT": "3° MORSKOI PEKHOTY",
+                "ja-JP": "第3海兵隊",
+                "ko-KR": "제3해군보병여단",
+                "pl-PL": "3 BRYGADA PIECHOTY MORSKIEJ",
+                "pt-BR": "3º MORSKOI PEKHOTY",
+                "ru-RU": "3-я БРИГАДА МОРСКОЙ ПЕХОТЫ",
+                "zh-Hans": "海军步兵第 3 旅",
+                "zh-Hant": "海軍步兵第 3 旅"
+              },
+              "attack": 1,
+              "rarity": "Limited",
+              "defense": 1,
+              "faction": "Soviet",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "zC",
+              "can_create": [
+                "light_infantry",
+                "blast"
+              ],
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/3rd_morskoi_pekhoty.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/3rd_morskoi_pekhoty.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85999,
+            "cardId": "3rd_yokosuka",
+            "importId": "lk",
+            "json": {
+              "id": "3rd_yokosuka",
+              "set": "WorldAtWar",
+              "text": {
+                "de-DE": "Hat +1 Angriff für jede benachbarte japanische Einheit.",
+                "en-EN": "Has +1 attack for each adjacent Japanese unit.",
+                "es-ES": "Tiene +1 de ataque por cada unidad japonesa adyacente.",
+                "fr-FR": "Gagne +1 d'attaque pour chaque unité japonaise adjacente.",
+                "it-IT": "Ha +1 attacco per ogni unità giapponese adiacente.",
+                "ja-JP": "隣接する日本軍ユニットそれぞれにつき攻撃力が1増加する。",
+                "ko-KR": "인접한 일본 유닛 하나 당 공격력이 1 증가합니다.",
+                "pl-PL": "Otrzymuje +1 ataku za każdą sąsiadującą jednostkę japońską.",
+                "pt-BR": "Tem +1 de ataque para cada unidade Japonesa adjacente.",
+                "ru-RU": "Получает +1 к атаке за каждый японский отряд по соседству.",
+                "zh-Hans": "每有 1 个相邻日本单位，具有 +1 攻击力。",
+                "zh-Hant": "每有 1 個相鄰日本單位，具有 +1 攻擊力。"
+              },
+              "type": "infantry",
+              "image": "3rd_yokosuka.avif",
+              "title": {
+                "de-DE": "3. YOKOSUKA",
+                "en-EN": "3rd YOKOSUKA",
+                "es-ES": "3.ª de YOKOSUKA",
+                "fr-FR": "3e YOKOSUKA",
+                "it-IT": "3ª YOKOSUKA",
+                "ja-JP": "横須賀鎮守府第三特別陸戦隊",
+                "ko-KR": "제3요코스카 ",
+                "pl-PL": "3. YOKOSUKA",
+                "pt-BR": "3º YOKOSUKA",
+                "ru-RU": "3-й БАТАЛЬОН ЙОКОСУКА",
+                "zh-Hans": "横镇第三特别陆战队",
+                "zh-Hant": "橫鎮第三特別陸戰隊"
+              },
+              "attack": 1,
+              "rarity": "Special",
+              "defense": 1,
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "lk",
+              "attributes": [
+                "blitz"
+              ],
+              "operationCost": 0
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/3rd_yokosuka.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/3rd_yokosuka.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86008,
+            "cardId": "41st_bicycle_regiment",
+            "importId": "6E",
+            "json": {
+              "id": "41st_bicycle_regiment",
+              "set": "Base",
+              "text": {},
+              "type": "infantry",
+              "image": "41st_bicycle_regiment.avif",
+              "title": {
+                "de-DE": "41. FAHRRADREGIMENT",
+                "en-EN": "41st BICYCLE REGIMENT",
+                "es-ES": "41.º REGIMIENTO CICLISTA",
+                "fr-FR": "41e RÉGIMENT À BICYCLETTE",
+                "it-IT": "41° REG. CICLISTI",
+                "ja-JP": "歩兵第四十一連隊",
+                "ko-KR": "제41자전거연대",
+                "pl-PL": "41 PUŁK ROWEROWY",
+                "pt-BR": "41º REGIMENTO DE CICLISTAS",
+                "ru-RU": "41-й ВЕЛОСИПЕДНЫЙ ПОЛК",
+                "zh-Hans": "银轮第四十一联队",
+                "zh-Hant": "銀輪第四十一聯隊"
+              },
+              "attack": 1,
+              "rarity": "Special",
+              "defense": 1,
+              "faction": "Japan",
+              "kredits": 1,
+              "reserved": true,
+              "import_id": "6E",
+              "attributes": [
+                "blitz",
+                "fury"
+              ],
+              "operationCost": 0
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/41st_bicycle_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/41st_bicycle_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86011,
+            "cardId": "432_infantry_regiment",
+            "importId": "nv",
+            "json": {
+              "id": "432_infantry_regiment",
+              "set": "WinterWar",
+              "text": {},
+              "type": "infantry",
+              "image": "432_infantry_regiment.avif",
+              "title": {
+                "de-DE": "432. INFANTERIEREGIMENT",
+                "en-EN": "432. INFANTRY REGIMENT",
+                "es-ES": "432.º REGIMIENTO DE INFANTERÍA",
+                "fr-FR": "432e RÉGIMENT D'INFANTERIE",
+                "it-IT": "432. REG. FANTERIA",
+                "ja-JP": "第432歩兵連隊",
+                "ko-KR": "제432보병연대",
+                "pl-PL": "432 PUŁK PIECHOTY",
+                "pt-BR": "432. REGIMENTO DE INFANTARIA",
+                "ru-RU": "432-й ПЕХОТНЫЙ ПОЛК",
+                "zh-Hans": "第 432 步兵团",
+                "zh-Hant": "第 432 步兵團"
+              },
+              "attack": 1,
+              "rarity": "Standard",
+              "defense": 4,
+              "faction": "Germany",
+              "kredits": 1,
+              "reserved": false,
+              "import_id": "nv",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/432_infantry_regiment.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/432_infantry_regiment.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}

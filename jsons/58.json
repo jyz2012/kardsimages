@@ -1,0 +1,1076 @@
+{
+  "data": {
+    "cards": {
+      "pageInfo": {
+        "count": 1613,
+        "hasNextPage": true,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "node": {
+            "id": 86369,
+            "cardId": "ki44_tojo",
+            "importId": "6W",
+            "json": {
+              "id": "ki44_tojo",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Der Feind wirft einen zufälligen Bomber ab.",
+                "en-EN": "Deployment: The enemy discards a random bomber from hand.",
+                "es-ES": "Despliegue: El enemigo descarta a un bombardero al azar de la mano.",
+                "fr-FR": "Déploiement : L'ennemi défausse un bombardier de sa main au hasard.",
+                "it-IT": "Schieramento: il nemico scarta un bombardiere casuale dalla mano.",
+                "ja-JP": "配備時：敵はランダムな爆撃機を手札から捨てる。",
+                "ko-KR": "배치: 상대는 패에서 무작위의 폭격기를 버립니다.",
+                "pl-PL": "Rozmieszczenie: przeciwnik odrzuca z ręki losowy bombowiec.",
+                "pt-BR": "Posicionamento: o inimigo descarta um bombardeiro aleatório da mão.",
+                "ru-RU": "Размещение: Противник сбрасывает случайный бомбардировщик.",
+                "zh-Hans": "部署：敌方随机弃掉 1 张轰炸机。",
+                "zh-Hant": "部署：敵方隨機棄掉 1 張轟炸機。"
+              },
+              "type": "fighter",
+              "image": "ki44_tojo.avif",
+              "title": {
+                "de-DE": "Ki-44 TOJO",
+                "en-EN": "Ki-44 TOJO",
+                "es-ES": "Ki-44 TOJO",
+                "fr-FR": "Ki-44 TOJO",
+                "it-IT": "Ki-44 TOJO",
+                "ja-JP": "二式単座戦闘機 鍾馗",
+                "ko-KR": "Ki-44 토조",
+                "pl-PL": "Ki-44 TOJO",
+                "pt-BR": "Ki-44 TOJO",
+                "ru-RU": "Ki-44 TOJO",
+                "zh-Hans": "Ki-44 二式战 钟馗",
+                "zh-Hant": "Ki-44 二式戰 鍾馗"
+              },
+              "attack": 4,
+              "rarity": "Limited",
+              "defense": 2,
+              "faction": "Japan",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "6W",
+              "attributes": [
+                "ambush"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/ki44_tojo.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/ki44_tojo.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86370,
+            "cardId": "ki45_dragon_slayer",
+            "importId": "mg",
+            "json": {
+              "id": "ki45_dragon_slayer",
+              "set": "BrothersInArms",
+              "text": {
+                "de-DE": "Einsatz: Wird Veteran, wenn dies die erste DRAGON SLAYER ist, die du in dieser Schlacht einsetzt.",
+                "en-EN": "Deployment: Becomes Veteran if this is the first Ki-45 DRAGON SLAYER you deploy this battle.",
+                "es-ES": "Despliegue: se transforma en Veterana si este es el primer Ki-45 MATADRAGONES que despliegas esta batalla.",
+                "fr-FR": "Déploiement : Devient Vétéran si c'est le premier Ki-45 TUEUR DE DRAGONS que vous déployez pendant cette bataille.",
+                "it-IT": "Schieramento: diventa Veterano se questo è il primo Ki-45 TORYU che schieri in questa battaglia.",
+                "ja-JP": "配備時：この戦闘で最初に展開した二式複座戦闘機　屠龍がベテランになります。",
+                "ko-KR": "배치: 해당 유닛이 이번 게임에서 처음 배치되는 \\\"토류\\\" 라면 베테랑으로 승급합니다.",
+                "pl-PL": "Rozmieszczenie: Zostaje Weteranem, jeśli jest to pierwszy Ki-45 POGROMCA SMOKÓW, którego rozmieszczasz w tej bitwie.",
+                "pt-BR": "Posicionamento: Torna-se Veterano se este for o primeiro Ki-45 CAÇADRAGÕES que você posiciona nesta batalha.",
+                "ru-RU": "Размещение: Становится Ветераном, если это первый Ki-45 TORYU, который вы размещаете в этом бою.",
+                "zh-Hans": "部署：若本单位是本局对战中友方部署的第一张“Ki-45 二式复战 屠龙”，升为老兵。",
+                "zh-Hant": "部署：若本單位是本局對戰中友方部署的第一張“Ki-45 二式複戰 屠龍”，升為老兵。"
+              },
+              "type": "fighter",
+              "image": "ki45_dragon_slayer.avif",
+              "title": {
+                "de-DE": "Ki-45 DRAGON SLAYER",
+                "en-EN": "Ki-45 DRAGON SLAYER",
+                "es-ES": "Ki-45 MATADRAGONES",
+                "fr-FR": "Ki-45 TUEUR DE DRAGONS",
+                "it-IT": "Ki-45 TORYU",
+                "ja-JP": "二式複座戦闘機　屠龍",
+                "ko-KR": "Ki-45 토류",
+                "pl-PL": "Ki-45 POGROMCA SMOKÓW",
+                "pt-BR": "Ki-45 CAÇADRAGÕES",
+                "ru-RU": "Ki-45 TORYU",
+                "zh-Hans": "Ki-45 二式复战 屠龙",
+                "zh-Hant": "Ki-45 二式複戰 屠龍"
+              },
+              "attack": 4,
+              "rarity": "Limited",
+              "defense": 3,
+              "faction": "Japan",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "mg",
+              "attributes": [
+                "BecomesVeteran:ki45_dragon_slayer_vet",
+                "OnlySpawnable"
+              ],
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/ki45_dragon_slayer.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/ki45_dragon_slayer.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86371,
+            "cardId": "ki45_dragon_slayer_vet",
+            "importId": "CM",
+            "json": {
+              "id": "ki45_dragon_slayer_vet",
+              "set": "Special",
+              "text": {},
+              "type": "fighter",
+              "image": "ki45_dragon_slayer_vet.avif",
+              "title": {
+                "de-DE": "Ki-45 DRAGON SLAYER",
+                "en-EN": "Ki-45 DRAGON SLAYER",
+                "es-ES": "Ki-45 MATADRAGONES",
+                "fr-FR": "Ki-45 TUEUR DE DRAGONS",
+                "it-IT": "Ki-45 TORYU",
+                "ja-JP": "二式複座戦闘機　屠龍",
+                "ko-KR": "Ki-45 토류",
+                "pl-PL": "Ki-45 POGROMCA SMOKÓW",
+                "pt-BR": "Ki-45 CAÇADRAGÕES",
+                "ru-RU": "Ki-45 TORYU",
+                "zh-Hans": "Ki-45 二式复战 屠龙",
+                "zh-Hant": "Ki-45 二式複戰 屠龍"
+              },
+              "attack": 6,
+              "rarity": "Limited",
+              "defense": 4,
+              "faction": "Japan",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "CM",
+              "attributes": [
+                "VeteranOf:ki45_dragon_slayer"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/ki45_dragon_slayer_vet.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/ki45_dragon_slayer_vet.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86377,
+            "cardId": "ki83",
+            "importId": "7x",
+            "json": {
+              "id": "ki83",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Am Anfang deines Zugs ziehst du eine Karte und der Feind 2 Karten.",
+                "en-EN": "At the start of your turn, you draw a card and the enemy draws 2 cards.",
+                "es-ES": "Al inicio de tu turno, robas una carta y el enemigo roba 2 cartas.",
+                "fr-FR": "Au début de votre tour, vous piochez une carte et l'ennemi en pioche 2.",
+                "it-IT": "All'inizio del tuo turno, peschi una carta e il nemico ne pesca 2.",
+                "ja-JP": "自身のターンの開始時、自身はカードを1枚引き、敵はカードを2枚引く。",
+                "ko-KR": "당신의 턴 시작시에 당신은 카드 1장을 뽑고 상대는 카드 2장을 뽑습니다.",
+                "pl-PL": "Na początku swojej tury dobierasz jedną, a przeciwnik dwie karty.",
+                "pt-BR": "No início do seu turno, você compra uma carta e o inimigo compra 2 cartas.",
+                "ru-RU": "В начале вашего хода вы берёте карту, а противник берёт 2 карты.",
+                "zh-Hans": "友方回合开始时，友方抽 1 张牌，敌方抽 2 张牌。",
+                "zh-Hant": "友方回合開始時，友方抽 1 張牌，敵方抽 2 張牌。"
+              },
+              "type": "fighter",
+              "image": "ki83.avif",
+              "title": {
+                "de-DE": "Ki-83",
+                "en-EN": "Ki-83",
+                "es-ES": "Ki-83",
+                "fr-FR": "Ki-83",
+                "it-IT": "Ki-83",
+                "ja-JP": "キ83",
+                "ko-KR": " Ki-83",
+                "pl-PL": "Ki-83",
+                "pt-BR": "Ki-83",
+                "ru-RU": "Ki-83",
+                "zh-Hans": "Ki-83 试制重战",
+                "zh-Hant": "Ki-83 試製重戰"
+              },
+              "attack": 6,
+              "rarity": "Elite",
+              "defense": 5,
+              "faction": "Japan",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "7x",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/ki83.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/ki83.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85503,
+            "cardId": "km_prinz_eugen",
+            "importId": "u1",
+            "json": {
+              "id": "km_prinz_eugen",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Wenn der Feind eine Einheit einsetzt, setze sie auf ihr Deck und wandle sie in PRODUKTION um.",
+                "en-EN": "When the enemy deploys a unit, put it on top of their deck and Convert it into PRODUCTION.",
+                "es-ES": "Cuando el enemigo despliega una unidad, ponla en la parte superior de su mazo y la Convierte en PRODUCCIÓN.",
+                "fr-FR": "Lorsque l'ennemi déploie une unité, placez-la au-dessus de son deck et Convertissez-la en PRODUCTION.",
+                "it-IT": "Quando il nemico schiera un'unità, mettila in cima al suo mazzo e Convertila in PRODUZIONE.",
+                "ja-JP": "敵がユニットを配備したとき、そのユニットをそのデッキの上に置き、生産に変換する。",
+                "ko-KR": "상대가 유닛을 배치하면, 그 유닛을 상대의 덱 맨 위에 올려놓고 ‘생산’으로 변환합니다.",
+                "pl-PL": "Gdy przeciwnik rozmieści jednostkę, umieść ją na wierzchu jego talii i Przekształć w PRODUKCJĘ.",
+                "pt-BR": "Quando o inimigo posicionar uma unidade, Converta ela em PRODUÇÃO e coloque no topo do baralho.",
+                "ru-RU": "Когда противник размещает отряд, он кладётся на верх его колоды и конвертируется в ПРОИЗВОДСТВО.",
+                "zh-Hans": "敌方单位部署时，将其返回卡组顶并转换为“生产”。",
+                "zh-Hant": "敵方單位部署時，將其返回卡組頂並轉換為“生產”。"
+              },
+              "type": "countermeasure",
+              "image": "km_prinz_eugen.avif",
+              "title": {
+                "de-DE": "KM PRINZ EUGEN",
+                "en-EN": "KM PRINZ EUGEN",
+                "es-ES": "KM PRINZ EUGEN",
+                "fr-FR": "KM PRINZ EUGEN",
+                "it-IT": "KM PRINZ EUGEN",
+                "ja-JP": "KM プリンツ・オイゲン",
+                "ko-KR": "KM 프린츠 오이겐",
+                "pl-PL": "PRINZ EUGEN",
+                "pt-BR": "KM PRINZ EUGEN",
+                "ru-RU": "КМ ПРИНЦ ОЙГЕН",
+                "zh-Hans": "KM 欧根亲王号",
+                "zh-Hant": "KM 歐根親王號"
+              },
+              "rarity": "Special",
+              "faction": "Germany",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "u1",
+              "can_create": [
+                "production"
+              ]
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/km_prinz_eugen.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/km_prinz_eugen.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86390,
+            "cardId": "kyushu_j7w3",
+            "importId": "vn",
+            "json": {
+              "id": "kyushu_j7w3",
+              "set": "NavalWarfare",
+              "text": {
+                "de-DE": "Hat +2 Angriff und Schnellfeuer, wenn unbeschädigt.",
+                "en-EN": "Has +2 attack and Fury if undamaged.",
+                "es-ES": "Tiene +2 de ataque y Furia si se encuentra intacta.",
+                "fr-FR": "Possède +2 d'attaque et Fureur s'il n'est pas endommagé.",
+                "it-IT": "Ha +2 attacco e Furia mentre non è danneggiato.",
+                "ja-JP": "ダメージを受けていない場合、攻撃力が2増加し、猛攻を持つ。",
+                "ko-KR": "피해를 입지 않았다면 공격력 +2가 증가하고 분노를 가집니다.",
+                "pl-PL": "Otrzymuje +2 do ataku i Furię, jeśli nie jest uszkodzony.",
+                "pt-BR": "Recebe +2 de ataque e Fúria enquanto não estiver danificada.",
+                "ru-RU": "Имеет +2 к атаке и Ярость, если не повреждён.",
+                "zh-Hans": "若未受伤，具有 +2 攻击力和奋战。",
+                "zh-Hant": "若未受傷，具有 +2 攻擊力和奮戰。"
+              },
+              "type": "fighter",
+              "image": "kyushu_j7w3.avif",
+              "title": {
+                "de-DE": "KYUSHU J7W3",
+                "en-EN": "KYUSHU J7W3",
+                "es-ES": "KYUSHU J7W3",
+                "fr-FR": "KYUSHU J7W3",
+                "it-IT": "KYUSHU J7W3",
+                "ja-JP": "J7W震電",
+                "ko-KR": "큐슈 J7W3",
+                "pl-PL": "KYUSHU J7W",
+                "pt-BR": "KYUSHU J7W3",
+                "ru-RU": "KYUSHU J7W3",
+                "zh-Hans": "J7W3 震电局地战",
+                "zh-Hant": "J7W3 震電局地戰"
+              },
+              "attack": 3,
+              "rarity": "Elite",
+              "defense": 4,
+              "faction": "Japan",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "vn",
+              "attributes": [
+                "ambush"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/kyushu_j7w3.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/kyushu_j7w3.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86397,
+            "cardId": "la5",
+            "importId": "9d",
+            "json": {
+              "id": "la5",
+              "set": "Base",
+              "text": {},
+              "type": "fighter",
+              "image": "la5.avif",
+              "title": {
+                "de-DE": "LA-5",
+                "en-EN": "LA-5",
+                "es-ES": "LA-5",
+                "fr-FR": "LA-5",
+                "it-IT": "LA-5",
+                "ja-JP": "LA-5",
+                "ko-KR": "La-5",
+                "pl-PL": "LA-5",
+                "pt-BR": "LA-5",
+                "ru-RU": "ЛА-5",
+                "zh-Hans": "拉-5",
+                "zh-Hant": "拉-5"
+              },
+              "attack": 4,
+              "rarity": "Limited",
+              "defense": 5,
+              "faction": "Soviet",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "9d",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/la5.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/la5.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86393,
+            "cardId": "lancashire_fusiliers",
+            "importId": "1v",
+            "json": {
+              "id": "lancashire_fusiliers",
+              "set": "Allegiance",
+              "text": {},
+              "type": "infantry",
+              "image": "lancashire_fusiliers.avif",
+              "title": {
+                "de-DE": "LANCASHIRE FUSILIERS",
+                "en-EN": "LANCASHIRE FUSILIERS",
+                "es-ES": "FUSILEROS DE LANCASHIRE",
+                "fr-FR": "FUSILIERS DU LANCASHIRE",
+                "it-IT": "LANCASHIRE FUSILIERS",
+                "ja-JP": "ランカシャー・フュージリアーズ",
+                "ko-KR": "랭커셔 퓨질리어 연대",
+                "pl-PL": "PUŁK FIZYLIERÓW LANCASHIRE",
+                "pt-BR": "LANCASHIRE FUSILIERS",
+                "ru-RU": "ЛАНКАШИРСКИЕ ФУЗИЛЁРЫ",
+                "zh-Hans": "兰开夏燧发枪兵团",
+                "zh-Hant": "蘭開夏燧發槍兵團"
+              },
+              "attack": 5,
+              "rarity": "Standard",
+              "defense": 6,
+              "faction": "Britain",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "1v",
+              "operationCost": 1
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/lancashire_fusiliers.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/lancashire_fusiliers.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85404,
+            "cardId": "lion_for_a_day",
+            "importId": "fV",
+            "json": {
+              "id": "lion_for_a_day",
+              "set": "Breakthrough",
+              "text": {
+                "de-DE": "Zerstöre gewählte Einheit mit Angriff von 4 oder mehr.",
+                "en-EN": "Destroy target unit with 4 or more attack.",
+                "es-ES": "Destruye a una unidad objetivo que tenga 4 de ataque o más.",
+                "fr-FR": "Détruisez l'unité ciblée avec 4 d'attaque ou plus.",
+                "it-IT": "Distruggi un'unità con attacco pari a 4 o superiore.",
+                "ja-JP": "4以上の攻撃力を持つターゲットを破壊する。",
+                "ko-KR": "공격력이 4이상인 유닛을 지정해 파괴합니다.",
+                "pl-PL": "Zniszcz wybraną jednostkę posiadającą co najmniej 4 pkt ataku.",
+                "pt-BR": "Destrua a unidade-alvo com 4 ou mais de ataque.",
+                "ru-RU": "Уничтожает отряд с атакой 4 или более.",
+                "zh-Hans": "消灭 1 个攻击力不小于 4 的单位。",
+                "zh-Hant": "消滅 1 個攻擊力不小於 4 的單位。"
+              },
+              "type": "order",
+              "image": "lion_for_a_day.avif",
+              "title": {
+                "de-DE": "EIN TAG ALS LÖWE",
+                "en-EN": "LION FOR A DAY",
+                "es-ES": "LEÓN POR UN DÍA",
+                "fr-FR": "VIVRE UN JOUR COMME UN LION",
+                "it-IT": "UN GIORNO DA LEONE",
+                "ja-JP": "一夜の獅子",
+                "ko-KR": "사자의 삶",
+                "pl-PL": "BYĆ LWEM CHOĆ JEDEN DZIEŃ",
+                "pt-BR": "LEÃO POR UM DIA",
+                "ru-RU": "ЛЕВ НА ОДИН ДЕНЬ",
+                "zh-Hans": "一日之狮",
+                "zh-Hant": "一日之獅"
+              },
+              "rarity": "Special",
+              "faction": "Italy",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "fV"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/lion_for_a_day.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/lion_for_a_day.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85529,
+            "cardId": "long_range_recon",
+            "importId": "5Y",
+            "json": {
+              "id": "long_range_recon",
+              "set": "Base",
+              "text": {
+                "de-DE": "Dein HQ erhält Verteidigung in Höhe der Anzahl aller Karten auf dem Schlachtfeld.",
+                "en-EN": "Your HQ gains defense equal to the number of all cards on the battlefield.",
+                "es-ES": "Tu cuartel general obtiene una defensa igual al número de cartas en el campo de batalla.",
+                "fr-FR": "Votre QG gagne une défense égale au nombre total de cartes sur le champ de bataille.",
+                "it-IT": "Dai difesa al tuo QG pari al numero di bersagli sul campo di battaglia.",
+                "ja-JP": "自身の本部は、戦場にいるすべてのカードの数と等しい防御力を得る。",
+                "ko-KR": "전장에 있는 모든 카드의 수 만큼 아군 본부에 추가 방어력을 부여합니다.",
+                "pl-PL": "Twój sztab zyskuje obronę równą liczbie wszystkich kart na polu bitwy.",
+                "pt-BR": "Seu QG ganha defesa igual ao número de todas as cartas no campo de batalha.",
+                "ru-RU": "Ваш штаб получает защиту, равную количеству всех карт на поле боя.",
+                "zh-Hans": "使友方总部获得等同于场上所有卡牌数的防御力。",
+                "zh-Hant": "使友方總部獲得等同於場上所有卡牌數的防禦力。"
+              },
+              "type": "order",
+              "image": "long_range_recon.avif",
+              "title": {
+                "de-DE": "FERNAUFKLÄRUNG",
+                "en-EN": "LONG RANGE RECON",
+                "es-ES": "RECONOCIMIENTO A LARGA DISTANCIA",
+                "fr-FR": "RECONNAISSANCE LONGUE PORTÉE",
+                "it-IT": "RICOGNIZIONE A LUNGO RAGGIO",
+                "ja-JP": "長距離偵察",
+                "ko-KR": "장거리 정찰",
+                "pl-PL": "ROZPOZNANIE DALEKIEGO ZASIĘGU",
+                "pt-BR": "RECONHECIMENTO DE LONGO ALCANCE",
+                "ru-RU": "ГЛУБОКАЯ РАЗВЕДКА",
+                "zh-Hans": "远距离侦察",
+                "zh-Hant": "遠距離偵察"
+              },
+              "rarity": "Standard",
+              "faction": "Japan",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "5Y",
+              "attributes": [
+                "intel1"
+              ]
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/long_range_recon.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/long_range_recon.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86421,
+            "cardId": "m3_grant",
+            "importId": "hV",
+            "json": {
+              "id": "m3_grant",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Einsatz: Erhält +1+2, wenn dein HQ mehr als 20 Verteidigung hat.",
+                "en-EN": "Deployment: Gets +1+2 if your HQ has defense over 20.",
+                "es-ES": "Despliegue: Obtiene +1+2 si tu cuartel general tiene una defensa superior a 20.",
+                "fr-FR": "Déploiement : Gagne +1+2 si la défense de votre QG est supérieure à 20.",
+                "it-IT": "Schieramento: ottiene +1+2 se il tuo QG ha più di 20 difesa.",
+                "ja-JP": "配備時：自身の本部の防御力が20以上の場合、+1+2を得る。",
+                "ko-KR": "배치: 아군 본부의 방어력이 20 이상이면 이 유닛이 +1+2를 얻습니다.",
+                "pl-PL": "Rozmieszczenie: Otrzymuje +1+2, jeśli twój sztab ma obronę większą niż 20.",
+                "pt-BR": "Posicionamento: recebe +1+2 se seu QG tiver mais de 20 de defesa.",
+                "ru-RU": "Размещение: Получает +1+2, если у вашего штаба более 20 защиты.",
+                "zh-Hans": "部署：若友方总部防御力大于 20，获得 +1+2。",
+                "zh-Hant": "部署：若友方總部防禦力不小於 20，獲得 +1+2。"
+              },
+              "type": "tank",
+              "image": "m3_grant.avif",
+              "title": {
+                "de-DE": "M3 GRANT",
+                "en-EN": "M3 GRANT",
+                "es-ES": "M3 GRANT",
+                "fr-FR": "M3 GRANT",
+                "it-IT": "M3 GRANT",
+                "ja-JP": "M3グラント",
+                "ko-KR": "M3 그랜트",
+                "pl-PL": "M3 GRANT",
+                "pt-BR": "M3 GRANT",
+                "ru-RU": "M3 GRANT",
+                "zh-Hans": "M3 格兰特",
+                "zh-Hant": "M3 格蘭特"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Britain",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "hV",
+              "attributes": [
+                "guard"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/m3_grant.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/m3_grant.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86424,
+            "cardId": "m4a1",
+            "importId": "d3",
+            "json": {
+              "id": "m4a1",
+              "set": "Allegiance",
+              "text": {
+                "de-DE": "Kann nicht das Ziel feindlicher Befehle sein. Ziehe diese Einheit aus dem Deck, wenn der Feind dich zum abwerfen zwingt.",
+                "en-EN": "Can't be targeted by enemy orders. Draw this unit from deck if enemy makes you discard.",
+                "es-ES": "No puede ser el objetivo de las órdenes del enemigo. Roba esta unidad del mazo si el enemigo te hace descartarte.",
+                "fr-FR": "Ne peut pas être pris pour cible par les ordres ennemis. Piochez cette unité du deck si l'ennemi défausse une de vos cartes.",
+                "it-IT": "Non può essere bersaglio di ordini nemici. Dopo che il nemico ti ha fatto scartare una carta, pesca questa unità dal tuo mazzo.",
+                "ja-JP": "敵の指令にターゲットにされない。敵によって手札を捨てられた場合、このユニットをデッキから引く。",
+                "ko-KR": "상대 명령의 대상으로 지정될 수 없습니다. 상대 카드로 인해 당신이 카드를 버리면 이 유닛을 덱에서 뽑습니다.",
+                "pl-PL": "Nie może być celem wrogich rozkazów. Dobierz tę jednostkę z talii, jeśli przeciwnik zmusi cię do odrzucenia karty.",
+                "pt-BR": "Não pode ser alvo de ordens inimigas. Compre esta unidade do baralho se o inimigo fizer você descartá-la.",
+                "ru-RU": "Не может быть целью вражеских приказов. Вы берёте этот отряд из колоды, когда враг заставляет вас сбросить карту.",
+                "zh-Hans": "无法被敌方指令指向。友方因敌方弃牌时，抽取此牌。",
+                "zh-Hant": "無法被敵方指令指向。友方因敵方棄牌時，抽取此牌。"
+              },
+              "type": "tank",
+              "image": "m4a1.avif",
+              "title": {
+                "de-DE": "M4A1",
+                "en-EN": "M4A1",
+                "es-ES": "M4A1",
+                "fr-FR": "M4A1",
+                "it-IT": "M4A1",
+                "ja-JP": "M4A1",
+                "ko-KR": "M4A1",
+                "pl-PL": "M4A1",
+                "pt-BR": "M4A1",
+                "ru-RU": "M4A1",
+                "zh-Hans": "M4A1",
+                "zh-Hant": "M4A1"
+              },
+              "attack": 4,
+              "rarity": "Special",
+              "defense": 5,
+              "faction": "USA",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "d3",
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/m4a1.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/m4a1.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86426,
+            "cardId": "m4_sherman",
+            "importId": "d4",
+            "json": {
+              "id": "m4_sherman",
+              "set": "Base",
+              "text": {
+                "de-DE": "Einsatz: Wenn du eine US-Einheit an der Front hast, ziehe 2 Karten.",
+                "en-EN": "Deployment: If you have a US unit in the frontline, draw 2 cards.",
+                "es-ES": "Despliegue: Si tienes una unidad de Estados Unidos en el frente, robas 2 cartas.",
+                "fr-FR": "Déploiement : Si vous avez une unité américaine en première ligne, piochez 2 cartes.",
+                "it-IT": "Schieramento: se hai un'unità USA in prima linea, pesca 2 carte.",
+                "ja-JP": "配備時：前線にアメリカ軍ユニットがいる場合、カードを2枚引く。",
+                "ko-KR": "배치: 전방에 아군 미군 유닛이 있다면, 카드 2장을 뽑습니다.",
+                "pl-PL": "Rozmieszczenie: jeśli masz na linii frontu jednostkę USA, dobierz 2 karty.",
+                "pt-BR": "Posicionamento: se você tem uma unidade norte-americana na linha de frente, compre 2 cartas.",
+                "ru-RU": "Размещение: Если вы контролируете американский отряд на линии фронта, вы берёте 2 карты.",
+                "zh-Hans": "部署：若前线有友方美国单位，抽 2 张牌。",
+                "zh-Hant": "部署：若前線有友方美國單位，抽 2 張牌。"
+              },
+              "type": "tank",
+              "image": "m4_sherman.avif",
+              "title": {
+                "de-DE": "M4 SHERMAN",
+                "en-EN": "M4 SHERMAN",
+                "es-ES": "M4 SHERMAN",
+                "fr-FR": "M4 SHERMAN",
+                "it-IT": "M4 SHERMAN",
+                "ja-JP": "M4 シャーマン",
+                "ko-KR": "M4 셔먼",
+                "pl-PL": "M4 SHERMAN",
+                "pt-BR": "M4 SHERMAN",
+                "ru-RU": "M4 SHERMAN",
+                "zh-Hans": "M4 谢尔曼",
+                "zh-Hant": "M4 雪曼"
+              },
+              "attack": 4,
+              "rarity": "Standard",
+              "defense": 4,
+              "faction": "USA",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "d4",
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/m4_sherman.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/m4_sherman.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86536,
+            "cardId": "m4_sherman_pl",
+            "importId": "jr",
+            "json": {
+              "id": "m4_sherman_pl",
+              "set": "Legions",
+              "text": {
+                "de-DE": "Hat Blitz und hat keine Aktionskosten, wenn du in diesem Zug eine Exil-Karte gespielt hast.",
+                "en-EN": "Has Blitz and operates for free if you have played an Exile card this turn.",
+                "es-ES": "Tiene Blitz y opera gratis si has jugado una carta Exilio este turno.",
+                "fr-FR": "Gagne Blitz et coût d'opération réduit à 0 si vous avez joué une carte Exil pendant ce tour.",
+                "it-IT": "Ha Blitz e 0 costo operativo se hai giocato una carta con Esilio in questo turno.",
+                "ja-JP": "このターンで亡命カードをプレイしている場合、電撃を持ち、行動コストが0になる。",
+                "ko-KR": "이번 턴에 당신이 망명 카드를 사용했다면 이 유닛은 기습을 얻고 운용 비용이 0이 됩니다.",
+                "pl-PL": "Otrzymuje Impet i działa za darmo, jeśli w tej turze zagrałeś kartę z Uchodźstwem.",
+                "pt-BR": "Tem Blitz e opera de graça se você jogou uma carta de Exílio neste turno.",
+                "ru-RU": "Получает Блиц и действует бесплатно, если вы разыграли карту с Изгнанием на этом ходу.",
+                "zh-Hans": "本回合，若友方使用过流亡牌，具有闪击且行动花费减为 0。",
+                "zh-Hant": "本回合，若友方使用過流亡牌，具有閃擊且行動花費減為 0。"
+              },
+              "type": "tank",
+              "exile": "USA",
+              "image": "m4_sherman_pl.avif",
+              "title": {
+                "de-DE": "M4 SHERMAN PL",
+                "en-EN": "M4 SHERMAN PL",
+                "es-ES": "M4 SHERMAN PL",
+                "fr-FR": "M4 SHERMAN PL",
+                "it-IT": "M4 SHERMAN PL",
+                "ja-JP": "M4シャーマン PL",
+                "ko-KR": "M4 셔먼 PL",
+                "pl-PL": "M4 SHERMAN PL",
+                "pt-BR": "M4 SHERMAN PL",
+                "ru-RU": "M4 SHERMAN PL",
+                "zh-Hans": "M4 谢尔曼 PL",
+                "zh-Hant": "M4 雪曼 PL"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 4,
+              "faction": "Poland",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "jr",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/m4_sherman_pl.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/m4_sherman_pl.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86244,
+            "cardId": "m6a1_seiran",
+            "importId": "6O",
+            "json": {
+              "id": "m6a1_seiran",
+              "set": "Base",
+              "text": {
+                "de-DE": "Deine Befehle verursachen +1 Schaden.",
+                "en-EN": "Your orders deal +1 damage.",
+                "es-ES": "Tus órdenes infligen +1 de daño.",
+                "fr-FR": "Vos ordres infligent 1 dégât supplémentaire.",
+                "it-IT": "I tuoi ordini infliggono 1 danno in più.",
+                "ja-JP": "自身の指令が与えるダメージ+1。",
+                "ko-KR": "당신의 명령이 피해를 입힐 경우, 피해량이 +1 증가합니다.",
+                "pl-PL": "Twoje rozkazy zadają +1 pkt obrażeń.",
+                "pt-BR": "Suas ordens causam +1 de dano.",
+                "ru-RU": "Ваши приказы наносят +1 урона.",
+                "zh-Hans": "友方指令造成的伤害 +1。",
+                "zh-Hant": "友方指令造成的傷害 +1。"
+              },
+              "type": "bomber",
+              "image": "m6a1_seiran.avif",
+              "title": {
+                "de-DE": "M6A1 SEIRAN",
+                "en-EN": "M6A1 SEIRAN",
+                "es-ES": "M6A1 SEIRAN",
+                "fr-FR": "M6A1 SEIRAN",
+                "it-IT": "M6A1 SEIRAN",
+                "ja-JP": "晴嵐",
+                "ko-KR": "M6A1 세이란",
+                "pl-PL": "M6A1 SEIRAN",
+                "pt-BR": "M6A1 SEIRAN",
+                "ru-RU": "M6A1 SEIRAN",
+                "zh-Hans": "M6A1 晴岚特攻",
+                "zh-Hant": "M6A1 晴嵐特攻"
+              },
+              "attack": 1,
+              "rarity": "Special",
+              "defense": 4,
+              "faction": "Japan",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "6O",
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/m6a1_seiran.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/m6a1_seiran.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85419,
+            "cardId": "mass_attack",
+            "importId": "7Q",
+            "json": {
+              "id": "mass_attack",
+              "set": "Base",
+              "text": {
+                "de-DE": "Fügt dem Ziel Schaden in Höhe der Anzahl der Einheiten, die du kontrollierst, zu.",
+                "en-EN": "Deal damage to target equal to number of units you control.",
+                "es-ES": "Inflige un daño al objetivo equivalente al número de unidades que controles.",
+                "fr-FR": "Inflige à la cible des dégâts égaux au nombre d’unités que vous contrôlez.",
+                "it-IT": "Infliggi danni pari al numero di unità che controlli.",
+                "ja-JP": "ターゲットに自分がコントロールしているユニット数に等しいダメージを与える。",
+                "ko-KR": "지정한 대상에게 당신이 조종하는 유닛의 수만큼 피해를 입힙니다.",
+                "pl-PL": "Zadaj obrażenia celowi w wysokości równej liczbie kontrolowanych przez Ciebie jednostek.",
+                "pt-BR": "Cause dano ao alvo igual ao número de unidades que você controla.",
+                "ru-RU": "Наносит цели урон, равный числу отрядов под вашим контролем.",
+                "zh-Hans": "对 1 个目标造成等同于友方单位数的伤害。",
+                "zh-Hant": "對 1 個目標造成等同於友方單位數的傷害。"
+              },
+              "type": "order",
+              "image": "mass_attack.avif",
+              "title": {
+                "de-DE": "MASSENANGRIFF",
+                "en-EN": "MASS ATTACK",
+                "es-ES": "ATAQUE EN MASA",
+                "fr-FR": "ATTAQUE EN MASSE",
+                "it-IT": "ATTACCO DI MASSA",
+                "ja-JP": "物量戦",
+                "ko-KR": "대규모 공격",
+                "pl-PL": "ZMASOWANY ATAK",
+                "pt-BR": "ATAQUE EM MASSA",
+                "ru-RU": "МАССИРОВАННАЯ АТАКА",
+                "zh-Hans": "大规模攻击",
+                "zh-Hant": "大規模攻擊"
+              },
+              "rarity": "Special",
+              "faction": "Soviet",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "7Q"
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/mass_attack.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/mass_attack.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 85421,
+            "cardId": "materials",
+            "importId": "Bb",
+            "json": {
+              "id": "materials",
+              "set": "OnlySpawnable",
+              "text": {
+                "de-DE": "Ziehe 4 Karten. Ziehe 8 Karten, wenn diese Karte 4+ Züge in deinem Deck verbracht hat.",
+                "en-EN": "Draw 4 cards. Draw 8 if this card spent 4+ turns in your deck.",
+                "es-ES": "Roba 4 cartas. Roba 8 si esta carta ha pasado más de 4 turnos en tu mazo.",
+                "fr-FR": "Piochez 4 cartes. Piochez-en 8 si cette carte a passé 4 tours ou plus dans votre deck.",
+                "it-IT": "Pesca 4 carte. Pescane 8 se questa carta è rimasta nel tuo mazzo per 4 o più turni.",
+                "ja-JP": "カードを4枚引く。このカードがデッキ内に4ターン以上存在していた場合、代わりに8枚引く。",
+                "ko-KR": "카드 4장을 뽑습니다. 이 카드가 당신의 덱에 4턴 이상 있었을 경우 8장의 카드를 뽑습니다.",
+                "pl-PL": "Dobierz 4 karty. Dobierz 8, jeśli ta karta spędziła w twojej talii więcej niż 4 tury.",
+                "pt-BR": "Compre 4 cartas. Cause 8 de dano se esta carta ficou por 4 ou mais turnos em seu baralho.",
+                "ru-RU": "Возьмите 4 карты. Возьмите 8, если эта карта провела более 4 ходов в вашей колоде.",
+                "zh-Hans": "抽 4 张牌。若在卡组中的回合数不小于 4，改为抽 8 张牌。",
+                "zh-Hant": "抽 4 張牌。若在卡組中的回合數不小於 4，改為抽 8 張牌。"
+              },
+              "type": "order",
+              "image": "materials.avif",
+              "title": {
+                "de-DE": "MATERIALIEN",
+                "en-EN": "MATERIALS",
+                "es-ES": "MATERIALES",
+                "fr-FR": "MARCHANDISES",
+                "it-IT": "MATERIALI",
+                "ja-JP": "物資",
+                "ko-KR": "군수 물자",
+                "pl-PL": "MATERIAŁY",
+                "pt-BR": "MATERIAIS",
+                "ru-RU": "МАТЕРИАЛЫ",
+                "zh-Hans": "原料",
+                "zh-Hant": "原料"
+              },
+              "rarity": "Limited",
+              "faction": "Britain",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "Bb"
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/materials.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/materials.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86271,
+            "cardId": "matilda_frog",
+            "importId": "xW",
+            "json": {
+              "id": "matilda_frog",
+              "set": "OceaniaStorm",
+              "text": {
+                "de-DE": "Fügt Infanterie und HQ doppelten Schaden zu. Einheiten links von dieser Einheit haben +2 Angriff. ",
+                "en-EN": "Deals double damage to infantry and HQ. Units to the left of this unit have +2 attack.",
+                "es-ES": "Inflige el doble de daño a la infantería y al cuartel general. Las unidades a la izquierda de esta unidad tienen +2 de ataque. ",
+                "fr-FR": "Inflige le double de dégâts aux unités d'infanterie et au QG. Les unités situées à gauche de celle-ci possèdent +2 d'attaque. ",
+                "it-IT": "Infligge il doppio dei danni alla fanteria e ai QG. Le unità alla sinistra di questa hanno +2 attacco. ",
+                "ja-JP": "歩兵と本部に対し2倍のダメージを与える。このユニットの左側のユニットの攻撃力+2。",
+                "ko-KR": "보병과 본부를 상대로 2배의 피해를 입힙니다. 이 유닛의 왼쪽에 있는 모든 유닛의 공격력이 +2 증가합니다.",
+                "pl-PL": "Zadaje podwójne obrażenia piechocie i sztabowi. Jednostki po lewej stronie tej jednostki otrzymują +2 do ataku. ",
+                "pt-BR": "Causa o dobro de dano a Infantaria e ao QG. As unidades à esquerda desta unidade recebem +2 de ataque.",
+                "ru-RU": "Наносит двойной урон пехоте и штабу. Отряды, находящиеся слева от этого отряда, имеют +2 к атаке.",
+                "zh-Hans": "对步兵和总部造成双倍伤害。本单位左侧所有单位具有 +2 攻击力。",
+                "zh-Hant": "對步兵和總部造成雙倍傷害。本單位左側所有單位具有 +2 攻擊力。"
+              },
+              "type": "tank",
+              "image": "matilda_frog.avif",
+              "title": {
+                "de-DE": "MATILDA FROG",
+                "en-EN": "MATILDA FROG",
+                "es-ES": "MATILDA FROG",
+                "fr-FR": "MATILDA FROG",
+                "it-IT": "MATILDA FROG",
+                "ja-JP": "マチルダ・フロッグ",
+                "ko-KR": "마틸다 프로그",
+                "pl-PL": "MATILDA FROG",
+                "pt-BR": "MATILDA FROG",
+                "ru-RU": "MATILDA FROG",
+                "zh-Hans": "玛蒂尔达 蛙式",
+                "zh-Hant": "瑪蒂爾達 蛙式"
+              },
+              "attack": 3,
+              "rarity": "Special",
+              "defense": 5,
+              "faction": "Anzac",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "xW",
+              "attributes": [
+                "ambush",
+                "heavyArmor1"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/matilda_frog.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/matilda_frog.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86440,
+            "cardId": "matilda_mk_ii",
+            "importId": "1z",
+            "json": {
+              "id": "matilda_mk_ii",
+              "set": "Base",
+              "text": {
+                "de-DE": "Von MATILDA Mk II beschädigte Einheiten werden festgesetzt.",
+                "en-EN": "Units damaged by MATILDA Mk II are pinned.",
+                "es-ES": "Las unidades dañadas por el MATILDA Mk II son inmovilizadas.",
+                "fr-FR": "Les unités endommagées par le MATILDA Mk II sont immobilisées.",
+                "it-IT": "Le unità danneggiate da MATILDA Mk II vengono Bloccate.",
+                "ja-JP": "マチルダMk.IIにダメージを与えられたユニットは抑止される。",
+                "ko-KR": "마틸다 Mk 2에 피해를 받은 유닛은 고정됩니다.",
+                "pl-PL": "Jednostki trafione przez czołg MATILDA Mk II zostają przyszpilone.",
+                "pt-BR": "Unidades danificadas pelo MATILDA Mk II são imobilizadas.",
+                "ru-RU": "Отряды, получившие урон от MATILDA Mk II, блокируются.",
+                "zh-Hans": "压制受到本单位伤害的单位。",
+                "zh-Hant": "壓制受到本單位傷害的單位。"
+              },
+              "type": "tank",
+              "image": "matilda_mk_ii.avif",
+              "title": {
+                "de-DE": "MATILDA Mk II",
+                "en-EN": "MATILDA Mk II",
+                "es-ES": "MATILDA Mk II",
+                "fr-FR": "MATILDA Mk II",
+                "it-IT": "MATILDA Mk II",
+                "ja-JP": "マチルダMk.II",
+                "ko-KR": "마틸다 Mk 2",
+                "pl-PL": "MATILDA Mk II",
+                "pt-BR": "MATILDA Mk II",
+                "ru-RU": "MATILDA Mk II",
+                "zh-Hans": "玛蒂尔达 Mk II",
+                "zh-Hant": "瑪蒂爾達 Mk II"
+              },
+              "attack": 3,
+              "rarity": "Standard",
+              "defense": 5,
+              "faction": "Britain",
+              "kredits": 4,
+              "reserved": true,
+              "import_id": "1z",
+              "attributes": [
+                "heavyArmor1"
+              ],
+              "operationCost": 2
+            },
+            "reserved": true,
+            "imageUrl": "/images/card/v51/zh-Hans/matilda_mk_ii.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/matilda_mk_ii.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        },
+        {
+          "node": {
+            "id": 86441,
+            "cardId": "matilda_mk_iv",
+            "importId": "rf",
+            "json": {
+              "id": "matilda_mk_iv",
+              "set": "BloodAndIron",
+              "text": {
+                "de-DE": "Wird Veteran, nachdem sie einen Schockangriff durchgeführt hat.",
+                "en-EN": "Becomes Veteran after it Shock attacks.",
+                "es-ES": "Se transforma en Veterana después de atacar con Choque.",
+                "fr-FR": "Devient Vétéran après avoir effectué son attaque de Choc.",
+                "it-IT": "Diventa Veterano dopo che attacca usando Shock.",
+                "ja-JP": "衝撃能力を使用した攻撃後にベテランになる。",
+                "ko-KR": "충격 공격 후 베테랑으로 승급합니다.",
+                "pl-PL": "Zostaje Weteranem po atakach ze Wstrząsem.",
+                "pt-BR": "Se torna Veterano após realizar um ataque de Choque.",
+                "ru-RU": "Становится Ветераном после своей Штурмовой атаки.",
+                "zh-Hans": "本单位冲击后，升为老兵。",
+                "zh-Hant": "本單位衝擊後，升為老兵。"
+              },
+              "type": "tank",
+              "image": "matilda_mk_iv.avif",
+              "title": {
+                "de-DE": "MATILDA Mk IV",
+                "en-EN": "MATILDA Mk IV",
+                "es-ES": "MATILDA Mk IV",
+                "fr-FR": "MATILDA Mk IV",
+                "it-IT": "MATILDA Mk IV",
+                "ja-JP": "マチルダMk.IV",
+                "ko-KR": "마틸다 Mk 4",
+                "pl-PL": "MATILDA Mk IV",
+                "pt-BR": "MATILDA Mk IV",
+                "ru-RU": "MATILDA Mk IV",
+                "zh-Hans": "玛蒂尔达 Mk IV",
+                "zh-Hant": "瑪蒂爾達 Mk IV"
+              },
+              "attack": 3,
+              "rarity": "Limited",
+              "defense": 5,
+              "faction": "Britain",
+              "kredits": 4,
+              "reserved": false,
+              "import_id": "rf",
+              "attributes": [
+                "BecomesVeteran:matilda_mk_iv_vet",
+                "OnlySpawnable",
+                "heavyArmor1",
+                "shock"
+              ],
+              "operationCost": 2
+            },
+            "reserved": false,
+            "imageUrl": "/images/card/v51/zh-Hans/matilda_mk_iv.avif",
+            "thumbUrl": "/images/card/v51/zh-Hans/thumb/matilda_mk_iv.avif",
+            "__typename": "Card"
+          },
+          "__typename": "CardNode"
+        }
+      ],
+      "__typename": "CardConnection"
+    }
+  }
+}
