@@ -30,6 +30,41 @@
             color: #ffd700;
         }
 
+        .filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .filter-label {
+            font-size: 16px;
+            color: #eee;
+        }
+
+        .filter-select {
+            background: #16213e;
+            color: #eee;
+            border: 2px solid #333;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 150px;
+        }
+
+        .filter-select:hover {
+            border-color: #ffd700;
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: #ffd700;
+        }
+
         .loading {
             text-align: center;
             font-size: 20px;
@@ -145,7 +180,35 @@
 <body>
     <div class="container">
         <h1>Kards 卡牌画廊</h1>
-        <div id="progress" class="progress"></div>
+        <div class="filter-bar">
+            <span class="filter-label">费用：</span>
+            <select class="filter-select" id="cost-filter">
+                <option value="all">全部</option>
+                <option value="0">0费</option>
+                <option value="1">1费</option>
+                <option value="2">2费</option>
+                <option value="3">3费</option>
+                <option value="4">4费</option>
+                <option value="5">5费</option>
+                <option value="6">6费</option>
+                <option value="7+">7+费</option>
+            </select>
+            <span class="filter-label">国家：</span>
+            <select class="filter-select" id="faction-filter">
+                <option value="all">全部</option>
+                <option value="Germany">德国</option>
+                <option value="USA">美国</option>
+                <option value="Soviet">苏联</option>
+                <option value="Britain">英国</option>
+                <option value="Japan">日本</option>
+                <option value="Italy">意大利</option>
+                <option value="France">法国</option>
+                <option value="Neutral">中立</option>
+                <option value="Anzac">澳新</option>
+                <option value="Finland">芬兰</option>
+                <option value="Poland">波兰</option>
+            </select>
+        </div>
         <div id="loading" class="loading">加载中...</div>
         <div id="gallery" class="gallery"></div>
         <div id="error" class="error" style="display: none;"></div>
@@ -160,11 +223,11 @@
     </div>
 
     <script>
-        let currentJsonIndex = 1;
-        let totalJsons = 81;
-        let isLoading = false;
         let currentImageUrl = '';
         let currentNormalizedName = '';
+        let currentCostFilter = 'all';
+        let currentFactionFilter = 'all';
+        let allCards = [];
 
         function extractNormalizedName(imageUrl) {
             const parts = imageUrl.split('/');
@@ -176,61 +239,49 @@
             return `https://images.weserv.nl/?url=ssl:www.kards.com${imageUrl}`;
         }
 
-        function displayCards(data) {
-            document.getElementById('loading').style.display = 'none';
+        function matchesFilter(card) {
+            const costMatch = currentCostFilter === 'all' 
+                ? true 
+                : (currentCostFilter === '7+' ? card.kredits >= 7 : card.kredits === parseInt(currentCostFilter));
+            
+            const factionMatch = currentFactionFilter === 'all' 
+                ? true 
+                : card.faction === currentFactionFilter;
+            
+            return costMatch && factionMatch;
+        }
+
+        function renderGallery() {
             const gallery = document.getElementById('gallery');
+            gallery.innerHTML = '';
 
-            if (!data.data || !data.data.cards || !data.data.cards.edges) {
-                return;
-            }
+            allCards.forEach(card => {
+                if (matchesFilter(card)) {
+                    const imgUrl = getImageUrl(card.imageUrl);
+                    const normalizedName = extractNormalizedName(card.imageUrl);
 
-            const edges = data.data.cards.edges;
-
-            edges.forEach(edge => {
-                const node = edge.node;
-                if (node.imageUrl) {
-                    const imgUrl = getImageUrl(node.imageUrl);
-                    const normalizedName = extractNormalizedName(node.imageUrl);
-
-                    const card = document.createElement('div');
-                    card.className = 'card';
-                    card.innerHTML = `<img src="${imgUrl}" alt="卡牌" loading="lazy">`;
-                    card.onclick = () => openModal(imgUrl, normalizedName);
-                    gallery.appendChild(card);
+                    const cardDiv = document.createElement('div');
+                    cardDiv.className = 'card';
+                    cardDiv.innerHTML = `<img src="${imgUrl}" alt="卡牌" loading="lazy">`;
+                    cardDiv.onclick = () => openModal(imgUrl, normalizedName);
+                    gallery.appendChild(cardDiv);
                 }
             });
-
-            updateProgress();
         }
 
-        function updateProgress() {
-            document.getElementById('progress').textContent = `已加载: ${currentJsonIndex} / ${totalJsons}`;
-        }
-
-        async function loadNextJson() {
-            if (isLoading || currentJsonIndex > totalJsons) {
-                return;
-            }
-
-            isLoading = true;
-            document.getElementById('loading').style.display = 'block';
-
+        async function loadFilters() {
             try {
-                const response = await fetch(`jsons/${currentJsonIndex}.json`);
+                const response = await fetch('filters.json');
                 if (!response.ok) {
                     throw new Error('加载失败');
                 }
-                const data = await response.json();
-                displayCards(data);
-                currentJsonIndex++;
+                allCards = await response.json();
+                document.getElementById('loading').style.display = 'none';
+                renderGallery();
             } catch (error) {
-                if (currentJsonIndex > totalJsons) {
-                    document.getElementById('loading').textContent = '已加载全部';
-                } else {
-                    document.getElementById('loading').textContent = '加载失败';
-                }
-            } finally {
-                isLoading = false;
+                document.getElementById('loading').textContent = '加载失败';
+                document.getElementById('error').textContent = error.message;
+                document.getElementById('error').style.display = 'block';
             }
         }
 
@@ -268,13 +319,17 @@
             }
         };
 
-        window.addEventListener('scroll', () => {
-            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500) {
-                loadNextJson();
-            }
+        document.getElementById('cost-filter').addEventListener('change', (e) => {
+            currentCostFilter = e.target.value;
+            renderGallery();
         });
 
-        loadNextJson();
+        document.getElementById('faction-filter').addEventListener('change', (e) => {
+            currentFactionFilter = e.target.value;
+            renderGallery();
+        });
+
+        loadFilters();
     </script>
 </body>
 </html>
