@@ -177,7 +177,6 @@
 
     <script>
         let currentImageUrl = '';
-        let currentOriginalImageUrl = '';
         let currentNormalizedName = '';
         let allCards = [];
 
@@ -188,10 +187,6 @@
         }
 
         function getImageUrl(imageUrl) {
-            return `https://images.weserv.nl/?url=ssl:www.kards.com${imageUrl}`;
-        }
-
-        function getOriginalImageUrl(imageUrl) {
             return `https://images.weserv.nl/?url=ssl:www.kards.com${imageUrl}`;
         }
 
@@ -206,8 +201,7 @@
                 const cardDiv = document.createElement('div');
                 cardDiv.className = 'card';
                 cardDiv.innerHTML = `<img src="${imgUrl}" alt="卡牌" loading="lazy">`;
-                const originalImgUrl = getOriginalImageUrl(card.imageUrl);
-                cardDiv.onclick = () => openModal(imgUrl, originalImgUrl, normalizedName);
+                cardDiv.onclick = () => openModal(imgUrl, normalizedName);
                 gallery.appendChild(cardDiv);
             });
         }
@@ -228,9 +222,8 @@
             }
         }
 
-        function openModal(imgUrl, originalImgUrl, normalizedName) {
+        function openModal(imgUrl, normalizedName) {
             currentImageUrl = imgUrl;
-            currentOriginalImageUrl = originalImgUrl;
             currentNormalizedName = normalizedName;
             document.getElementById('modalImg').src = imgUrl;
             document.getElementById('modal').classList.add('active');
@@ -242,13 +235,30 @@
 
         async function downloadImage() {
             try {
-                const a = document.createElement('a');
-                a.href = currentOriginalImageUrl;
-                a.download = `${currentNormalizedName}.avif`;
-                a.target = '_blank';
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.onload = function() {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.naturalWidth;
+                    canvas.height = img.naturalHeight;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0);
+                    
+                    canvas.toBlob(function(blob) {
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `${currentNormalizedName}.avif`;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        window.URL.revokeObjectURL(url);
+                    }, 'image/png');
+                };
+                img.onerror = function() {
+                    alert('图片加载失败，请重试');
+                };
+                img.src = currentImageUrl;
             } catch (error) {
                 alert('下载失败: ' + error.message);
             }
