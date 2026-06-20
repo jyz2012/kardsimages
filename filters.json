@@ -120,6 +120,966 @@
     "imageUrl": "/images/card/v51/zh-Hans/long_lance.avif"
   },
   {
+    "id": "lost_convoy",
+    "faction": "Germany",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/lost_convoy.avif"
+  },
+  {
+    "id": "mist",
+    "faction": "Neutral",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/mist.avif"
+  },
+  {
+    "id": "no_retreat",
+    "faction": "Soviet",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/no_retreat.avif"
+  },
+  {
+    "id": "penicillin",
+    "faction": "USA",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/penicillin.avif"
+  },
+  {
+    "id": "pressurized_cabin",
+    "faction": "USA",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/pressurized_cabin.avif"
+  },
+  {
+    "id": "production",
+    "faction": "Neutral",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/production.avif"
+  },
+  {
+    "id": "radar",
+    "faction": "Britain",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/radar.avif"
+  },
+  {
+    "id": "reorganize",
+    "faction": "Japan",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/reorganize.avif"
+  },
+  {
+    "id": "resistance_b",
+    "faction": "France",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/resistance_b.avif"
+  },
+  {
+    "id": "retribution_b",
+    "faction": "USA",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/retribution_b.avif"
+  },
+  {
+    "id": "sally",
+    "faction": "France",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/sally.avif"
+  },
+  {
+    "id": "sloped_armor",
+    "faction": "Soviet",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/sloped_armor.avif"
+  },
+  {
+    "id": "standard_ammo",
+    "faction": "Soviet",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/standard_ammo.avif"
+  },
+  {
+    "id": "stubborn_defense",
+    "faction": "Poland",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/stubborn_defense.avif"
+  },
+  {
+    "id": "synthetic_oil",
+    "faction": "Germany",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/synthetic_oil.avif"
+  },
+  {
+    "id": "synthetic_rubber",
+    "faction": "Britain",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/synthetic_rubber.avif"
+  },
+  {
+    "id": "type_xxi_uboat",
+    "faction": "Germany",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/type_xxi_uboat.avif"
+  },
+  {
+    "id": "unexpected_resistance",
+    "faction": "Britain",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/unexpected_resistance.avif"
+  },
+  {
+    "id": "usace",
+    "faction": "USA",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/usace.avif"
+  },
+  {
+    "id": "v1_flying_bomb",
+    "faction": "Germany",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/v1_flying_bomb.avif"
+  },
+  {
+    "id": "war_production",
+    "faction": "Soviet",
+    "kredits": 0,
+    "imageUrl": "/images/card/v51/zh-Hans/war_production.avif"
+  },
+  {
+    "id": "102_grenadier",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/102_grenadier.avif"
+  },
+  {
+    "id": "102_grenadier_vet",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/102_grenadier_vet.avif"
+  },
+  {
+    "id": "109th_combat_engineers",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/109th_combat_engineers.avif"
+  },
+  {
+    "id": "10th_engineers_battalion",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/10th_engineers_battalion.avif"
+  },
+  {
+    "id": "10th_para_battalion",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/10th_para_battalion.avif"
+  },
+  {
+    "id": "111th_indian_brigade",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/111th_indian_brigade.avif"
+  },
+  {
+    "id": "112th_infantry_regiment",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/112th_infantry_regiment.avif"
+  },
+  {
+    "id": "118th_mixed_regiment",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/118th_mixed_regiment.avif"
+  },
+  {
+    "id": "128th_rifles",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/128th_rifles.avif"
+  },
+  {
+    "id": "12th_guards_mechanised",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/12th_guards_mechanised.avif"
+  },
+  {
+    "id": "12th_guards_mechanised_vet",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/12th_guards_mechanised_vet.avif"
+  },
+  {
+    "id": "12th_uan",
+    "faction": "Poland",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/12th_uan.avif"
+  },
+  {
+    "id": "146th_infantry_regiment",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/146th_infantry_regiment.avif"
+  },
+  {
+    "id": "152e_rgiment",
+    "faction": "France",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/152e_rgiment.avif"
+  },
+  {
+    "id": "158_nachschub",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/158_nachschub.avif"
+  },
+  {
+    "id": "15th_cavalry_regiment",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/15th_cavalry_regiment.avif"
+  },
+  {
+    "id": "164th_infantry_regiment",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/164th_infantry_regiment.avif"
+  },
+  {
+    "id": "16th_rifles",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/16th_rifles.avif"
+  },
+  {
+    "id": "173rd_guard_rifles",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/173rd_guard_rifles.avif"
+  },
+  {
+    "id": "18_infantry_regiment",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/18_infantry_regiment.avif"
+  },
+  {
+    "id": "1_infantry_regiment",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/1_infantry_regiment.avif"
+  },
+  {
+    "id": "1st_airborne",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/1st_airborne.avif"
+  },
+  {
+    "id": "1st_defense_battalion",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/1st_defense_battalion.avif"
+  },
+  {
+    "id": "1st_signal_regiment",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/1st_signal_regiment.avif"
+  },
+  {
+    "id": "20th_infantry_regiment",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/20th_infantry_regiment.avif"
+  },
+  {
+    "id": "27th_mg_battalion",
+    "faction": "Anzac",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/27th_mg_battalion.avif"
+  },
+  {
+    "id": "28_jger_regiment",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/28_jger_regiment.avif"
+  },
+  {
+    "id": "2nd_parachute",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/2nd_parachute.avif"
+  },
+  {
+    "id": "321st_rifle_regiment",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/321st_rifle_regiment.avif"
+  },
+  {
+    "id": "329th_engineer_battalion",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/329th_engineer_battalion.avif"
+  },
+  {
+    "id": "32nd_infantry_regiment",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/32nd_infantry_regiment.avif"
+  },
+  {
+    "id": "33rd_recon",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/33rd_recon.avif"
+  },
+  {
+    "id": "34th_infantry_regiment",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/34th_infantry_regiment.avif"
+  },
+  {
+    "id": "37_mm_antiaircraft_gun",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/37_mm_antiaircraft_gun.avif"
+  },
+  {
+    "id": "3rd_alpini_regiment",
+    "faction": "Italy",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/3rd_alpini_regiment.avif"
+  },
+  {
+    "id": "3rd_morskoi_pekhoty",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/3rd_morskoi_pekhoty.avif"
+  },
+  {
+    "id": "3rd_yokosuka",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/3rd_yokosuka.avif"
+  },
+  {
+    "id": "41st_bicycle_regiment",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/41st_bicycle_regiment.avif"
+  },
+  {
+    "id": "432_infantry_regiment",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/432_infantry_regiment.avif"
+  },
+  {
+    "id": "463rd_battalion",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/463rd_battalion.avif"
+  },
+  {
+    "id": "4_pioneer_battalion",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/4_pioneer_battalion.avif"
+  },
+  {
+    "id": "4th_alabama",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/4th_alabama.avif"
+  },
+  {
+    "id": "4tp",
+    "faction": "Poland",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/4tp.avif"
+  },
+  {
+    "id": "506th_airborne",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/506th_airborne.avif"
+  },
+  {
+    "id": "511th_airborne",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/511th_airborne.avif"
+  },
+  {
+    "id": "51st_rifle_brigade",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/51st_rifle_brigade.avif"
+  },
+  {
+    "id": "56_jger_regiment",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/56_jger_regiment.avif"
+  },
+  {
+    "id": "56th_recon",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/56th_recon.avif"
+  },
+  {
+    "id": "58th_infantry_regiment",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/58th_infantry_regiment.avif"
+  },
+  {
+    "id": "593rd_jasco",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/593rd_jasco.avif"
+  },
+  {
+    "id": "5th_legions_regiment",
+    "faction": "Poland",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/5th_legions_regiment.avif"
+  },
+  {
+    "id": "5th_parachute_brigade",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/5th_parachute_brigade.avif"
+  },
+  {
+    "id": "5th_sasebo_snlf",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/5th_sasebo_snlf.avif"
+  },
+  {
+    "id": "6th_naval_brigade",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/6th_naval_brigade.avif"
+  },
+  {
+    "id": "738_jger_regiment",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/738_jger_regiment.avif"
+  },
+  {
+    "id": "73e_rgiment_dinfanterie",
+    "faction": "France",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/73e_rgiment_dinfanterie.avif"
+  },
+  {
+    "id": "78th_yongsan",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/78th_yongsan.avif"
+  },
+  {
+    "id": "85_pioneer_company",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/85_pioneer_company.avif"
+  },
+  {
+    "id": "89th_infantry_regiment",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/89th_infantry_regiment.avif"
+  },
+  {
+    "id": "97th_rifles",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/97th_rifles.avif"
+  },
+  {
+    "id": "99th_kholm",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/99th_kholm.avif"
+  },
+  {
+    "id": "aa_barrage",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/aa_barrage.avif"
+  },
+  {
+    "id": "admiral_yamamoto",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/admiral_yamamoto.avif"
+  },
+  {
+    "id": "aerial_reconnaissance",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/aerial_reconnaissance.avif"
+  },
+  {
+    "id": "aid_to_the_front",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/aid_to_the_front.avif"
+  },
+  {
+    "id": "air_corps_ferrying",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/air_corps_ferrying.avif"
+  },
+  {
+    "id": "air_land_sea",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/air_land_sea.avif"
+  },
+  {
+    "id": "air_strips",
+    "faction": "Italy",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/air_strips.avif"
+  },
+  {
+    "id": "air_superiority",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/air_superiority.avif"
+  },
+  {
+    "id": "allied_research_effort",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/allied_research_effort.avif"
+  },
+  {
+    "id": "anders_army",
+    "faction": "Poland",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/anders_army.avif"
+  },
+  {
+    "id": "arado_ar_196",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/arado_ar_196.avif"
+  },
+  {
+    "id": "atlantic_command",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/atlantic_command.avif"
+  },
+  {
+    "id": "aunt_frieda",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/aunt_frieda.avif"
+  },
+  {
+    "id": "awoken_giant",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/awoken_giant.avif"
+  },
+  {
+    "id": "baker_street_irregulars",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/baker_street_irregulars.avif"
+  },
+  {
+    "id": "blackout",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/blackout.avif"
+  },
+  {
+    "id": "bloody_sickle",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/bloody_sickle.avif"
+  },
+  {
+    "id": "bocage_warfare",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/bocage_warfare.avif"
+  },
+  {
+    "id": "breakout",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/breakout.avif"
+  },
+  {
+    "id": "brewster_f2a",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/brewster_f2a.avif"
+  },
+  {
+    "id": "buffs",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/buffs.avif"
+  },
+  {
+    "id": "burning_sky",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/burning_sky.avif"
+  },
+  {
+    "id": "burst_of_fire",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/burst_of_fire.avif"
+  },
+  {
+    "id": "buzz_bomb",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/buzz_bomb.avif"
+  },
+  {
+    "id": "cannone_da_47",
+    "faction": "Italy",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/cannone_da_47.avif"
+  },
+  {
+    "id": "careless_talk",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/careless_talk.avif"
+  },
+  {
+    "id": "carrier_cover",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/carrier_cover.avif"
+  },
+  {
+    "id": "claim_the_skies",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/claim_the_skies.avif"
+  },
+  {
+    "id": "close_air_support",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/close_air_support.avif"
+  },
+  {
+    "id": "colonial_dreams",
+    "faction": "Italy",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/colonial_dreams.avif"
+  },
+  {
+    "id": "colossus",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/colossus.avif"
+  },
+  {
+    "id": "combined_arms",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/combined_arms.avif"
+  },
+  {
+    "id": "critical_damage",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/critical_damage.avif"
+  },
+  {
+    "id": "cup_of_tea",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/cup_of_tea.avif"
+  },
+  {
+    "id": "dark_deeds",
+    "faction": "Finland",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/dark_deeds.avif"
+  },
+  {
+    "id": "deadly_duty",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/deadly_duty.avif"
+  },
+  {
+    "id": "defeat_in_detail",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/defeat_in_detail.avif"
+  },
+  {
+    "id": "defend_the_nation",
+    "faction": "France",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/defend_the_nation.avif"
+  },
+  {
+    "id": "desert_push",
+    "faction": "Italy",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/desert_push.avif"
+  },
+  {
+    "id": "dilemma",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/dilemma.avif"
+  },
+  {
+    "id": "dingo",
+    "faction": "Anzac",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/dingo.avif"
+  },
+  {
+    "id": "diplomatic_attach",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/diplomatic_attach.avif"
+  },
+  {
+    "id": "direct_hit",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/direct_hit.avif"
+  },
+  {
+    "id": "distant_front",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/distant_front.avif"
+  },
+  {
+    "id": "dive_bombing",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/dive_bombing.avif"
+  },
+  {
+    "id": "do_or_die",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/do_or_die.avif"
+  },
+  {
+    "id": "double_strength",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/double_strength.avif"
+  },
+  {
+    "id": "duck",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/duck.avif"
+  },
+  {
+    "id": "duty_bound",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/duty_bound.avif"
+  },
+  {
+    "id": "enemy_spotted",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/enemy_spotted.avif"
+  },
+  {
+    "id": "entanglement",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/entanglement.avif"
+  },
+  {
+    "id": "escaut_plan",
+    "faction": "France",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/escaut_plan.avif"
+  },
+  {
+    "id": "expansion",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/expansion.avif"
+  },
+  {
+    "id": "experimental_flight",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/experimental_flight.avif"
+  },
+  {
+    "id": "exposed",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/exposed.avif"
+  },
+  {
+    "id": "fast_heinz",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/fast_heinz.avif"
+  },
+  {
+    "id": "fiat_c_r_42",
+    "faction": "Italy",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/fiat_c_r_42.avif"
+  },
+  {
+    "id": "final_push",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/final_push.avif"
+  },
+  {
+    "id": "foiled_plans",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/foiled_plans.avif"
+  },
+  {
+    "id": "forced_surrender",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/forced_surrender.avif"
+  },
+  {
+    "id": "for_freedom",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/for_freedom.avif"
+  },
+  {
+    "id": "for_the_emperor",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/for_the_emperor.avif"
+  },
+  {
+    "id": "fortified_position",
+    "faction": "France",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/fortified_position.avif"
+  },
+  {
+    "id": "frappe",
+    "faction": "France",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/frappe.avif"
+  },
+  {
+    "id": "frontal_defense",
+    "faction": "Poland",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/frontal_defense.avif"
+  },
+  {
+    "id": "furor",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/furor.avif"
+  },
+  {
+    "id": "fw_189",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/fw_189.avif"
+  },
+  {
+    "id": "garrison",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/garrison.avif"
+  },
+  {
+    "id": "gebirgspionier_95",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/gebirgspionier_95.avif"
+  },
+  {
+    "id": "gladiator_escort",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/gladiator_escort.avif"
+  },
+  {
+    "id": "gladiator_mk_i",
+    "faction": "Britain",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/gladiator_mk_i.avif"
+  },
+  {
+    "id": "grand_plans",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/grand_plans.avif"
+  },
+  {
+    "id": "greif",
+    "faction": "Germany",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/greif.avif"
+  },
+  {
+    "id": "grim_day",
+    "faction": "USA",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/grim_day.avif"
+  },
+  {
+    "id": "guerilla_warfare_school",
+    "faction": "Anzac",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/guerilla_warfare_school.avif"
+  },
+  {
+    "id": "gunboat_hit",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/gunboat_hit.avif"
+  },
+  {
+    "id": "gunboat_run",
+    "faction": "Japan",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/gunboat_run.avif"
+  },
+  {
+    "id": "hasty_reinforcements",
+    "faction": "Soviet",
+    "kredits": 1,
+    "imageUrl": "/images/card/v51/zh-Hans/hasty_reinforcements.avif"
+  },
+  {
     "id": "heartland_defense",
     "faction": "Finland",
     "kredits": 1,
@@ -1318,126 +2278,6 @@
     "faction": "Soviet",
     "kredits": 2,
     "imageUrl": "/images/card/v51/zh-Hans/676th_regiment.avif"
-  },
-  {
-    "id": "lost_convoy",
-    "faction": "Germany",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/lost_convoy.avif"
-  },
-  {
-    "id": "mist",
-    "faction": "Neutral",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/mist.avif"
-  },
-  {
-    "id": "no_retreat",
-    "faction": "Soviet",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/no_retreat.avif"
-  },
-  {
-    "id": "penicillin",
-    "faction": "USA",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/penicillin.avif"
-  },
-  {
-    "id": "pressurized_cabin",
-    "faction": "USA",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/pressurized_cabin.avif"
-  },
-  {
-    "id": "production",
-    "faction": "Neutral",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/production.avif"
-  },
-  {
-    "id": "radar",
-    "faction": "Britain",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/radar.avif"
-  },
-  {
-    "id": "reorganize",
-    "faction": "Japan",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/reorganize.avif"
-  },
-  {
-    "id": "resistance_b",
-    "faction": "France",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/resistance_b.avif"
-  },
-  {
-    "id": "retribution_b",
-    "faction": "USA",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/retribution_b.avif"
-  },
-  {
-    "id": "sally",
-    "faction": "France",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/sally.avif"
-  },
-  {
-    "id": "sloped_armor",
-    "faction": "Soviet",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/sloped_armor.avif"
-  },
-  {
-    "id": "standard_ammo",
-    "faction": "Soviet",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/standard_ammo.avif"
-  },
-  {
-    "id": "stubborn_defense",
-    "faction": "Poland",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/stubborn_defense.avif"
-  },
-  {
-    "id": "synthetic_oil",
-    "faction": "Germany",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/synthetic_oil.avif"
-  },
-  {
-    "id": "synthetic_rubber",
-    "faction": "Britain",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/synthetic_rubber.avif"
-  },
-  {
-    "id": "type_xxi_uboat",
-    "faction": "Germany",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/type_xxi_uboat.avif"
-  },
-  {
-    "id": "unexpected_resistance",
-    "faction": "Britain",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/unexpected_resistance.avif"
-  },
-  {
-    "id": "usace",
-    "faction": "USA",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/usace.avif"
-  },
-  {
-    "id": "v1_flying_bomb",
-    "faction": "Germany",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/v1_flying_bomb.avif"
   },
   {
     "id": "6th_airlanding_brigade",
@@ -2640,126 +3480,6 @@
     "imageUrl": "/images/card/v51/zh-Hans/sb2c_helldiver.avif"
   },
   {
-    "id": "war_production",
-    "faction": "Soviet",
-    "kredits": 0,
-    "imageUrl": "/images/card/v51/zh-Hans/war_production.avif"
-  },
-  {
-    "id": "102_grenadier",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/102_grenadier.avif"
-  },
-  {
-    "id": "102_grenadier_vet",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/102_grenadier_vet.avif"
-  },
-  {
-    "id": "109th_combat_engineers",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/109th_combat_engineers.avif"
-  },
-  {
-    "id": "10th_engineers_battalion",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/10th_engineers_battalion.avif"
-  },
-  {
-    "id": "10th_para_battalion",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/10th_para_battalion.avif"
-  },
-  {
-    "id": "111th_indian_brigade",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/111th_indian_brigade.avif"
-  },
-  {
-    "id": "112th_infantry_regiment",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/112th_infantry_regiment.avif"
-  },
-  {
-    "id": "118th_mixed_regiment",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/118th_mixed_regiment.avif"
-  },
-  {
-    "id": "128th_rifles",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/128th_rifles.avif"
-  },
-  {
-    "id": "12th_guards_mechanised",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/12th_guards_mechanised.avif"
-  },
-  {
-    "id": "12th_guards_mechanised_vet",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/12th_guards_mechanised_vet.avif"
-  },
-  {
-    "id": "12th_uan",
-    "faction": "Poland",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/12th_uan.avif"
-  },
-  {
-    "id": "146th_infantry_regiment",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/146th_infantry_regiment.avif"
-  },
-  {
-    "id": "152e_rgiment",
-    "faction": "France",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/152e_rgiment.avif"
-  },
-  {
-    "id": "158_nachschub",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/158_nachschub.avif"
-  },
-  {
-    "id": "15th_cavalry_regiment",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/15th_cavalry_regiment.avif"
-  },
-  {
-    "id": "164th_infantry_regiment",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/164th_infantry_regiment.avif"
-  },
-  {
-    "id": "16th_rifles",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/16th_rifles.avif"
-  },
-  {
-    "id": "173rd_guard_rifles",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/173rd_guard_rifles.avif"
-  },
-  {
     "id": "scorched_earth",
     "faction": "Soviet",
     "kredits": 2,
@@ -3958,126 +4678,6 @@
     "faction": "Germany",
     "kredits": 3,
     "imageUrl": "/images/card/v51/zh-Hans/breakthrough.avif"
-  },
-  {
-    "id": "18_infantry_regiment",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/18_infantry_regiment.avif"
-  },
-  {
-    "id": "1_infantry_regiment",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/1_infantry_regiment.avif"
-  },
-  {
-    "id": "1st_airborne",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/1st_airborne.avif"
-  },
-  {
-    "id": "1st_defense_battalion",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/1st_defense_battalion.avif"
-  },
-  {
-    "id": "1st_signal_regiment",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/1st_signal_regiment.avif"
-  },
-  {
-    "id": "20th_infantry_regiment",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/20th_infantry_regiment.avif"
-  },
-  {
-    "id": "27th_mg_battalion",
-    "faction": "Anzac",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/27th_mg_battalion.avif"
-  },
-  {
-    "id": "28_jger_regiment",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/28_jger_regiment.avif"
-  },
-  {
-    "id": "2nd_parachute",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/2nd_parachute.avif"
-  },
-  {
-    "id": "321st_rifle_regiment",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/321st_rifle_regiment.avif"
-  },
-  {
-    "id": "329th_engineer_battalion",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/329th_engineer_battalion.avif"
-  },
-  {
-    "id": "32nd_infantry_regiment",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/32nd_infantry_regiment.avif"
-  },
-  {
-    "id": "33rd_recon",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/33rd_recon.avif"
-  },
-  {
-    "id": "34th_infantry_regiment",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/34th_infantry_regiment.avif"
-  },
-  {
-    "id": "37_mm_antiaircraft_gun",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/37_mm_antiaircraft_gun.avif"
-  },
-  {
-    "id": "3rd_alpini_regiment",
-    "faction": "Italy",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/3rd_alpini_regiment.avif"
-  },
-  {
-    "id": "3rd_morskoi_pekhoty",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/3rd_morskoi_pekhoty.avif"
-  },
-  {
-    "id": "3rd_yokosuka",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/3rd_yokosuka.avif"
-  },
-  {
-    "id": "41st_bicycle_regiment",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/41st_bicycle_regiment.avif"
-  },
-  {
-    "id": "432_infantry_regiment",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/432_infantry_regiment.avif"
   },
   {
     "id": "burning_sun",
@@ -5280,126 +5880,6 @@
     "imageUrl": "/images/card/v51/zh-Hans/victory_garden.avif"
   },
   {
-    "id": "463rd_battalion",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/463rd_battalion.avif"
-  },
-  {
-    "id": "4_pioneer_battalion",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/4_pioneer_battalion.avif"
-  },
-  {
-    "id": "4th_alabama",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/4th_alabama.avif"
-  },
-  {
-    "id": "4tp",
-    "faction": "Poland",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/4tp.avif"
-  },
-  {
-    "id": "506th_airborne",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/506th_airborne.avif"
-  },
-  {
-    "id": "511th_airborne",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/511th_airborne.avif"
-  },
-  {
-    "id": "51st_rifle_brigade",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/51st_rifle_brigade.avif"
-  },
-  {
-    "id": "56_jger_regiment",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/56_jger_regiment.avif"
-  },
-  {
-    "id": "56th_recon",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/56th_recon.avif"
-  },
-  {
-    "id": "58th_infantry_regiment",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/58th_infantry_regiment.avif"
-  },
-  {
-    "id": "593rd_jasco",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/593rd_jasco.avif"
-  },
-  {
-    "id": "5th_legions_regiment",
-    "faction": "Poland",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/5th_legions_regiment.avif"
-  },
-  {
-    "id": "5th_parachute_brigade",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/5th_parachute_brigade.avif"
-  },
-  {
-    "id": "5th_sasebo_snlf",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/5th_sasebo_snlf.avif"
-  },
-  {
-    "id": "6th_naval_brigade",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/6th_naval_brigade.avif"
-  },
-  {
-    "id": "738_jger_regiment",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/738_jger_regiment.avif"
-  },
-  {
-    "id": "73e_rgiment_dinfanterie",
-    "faction": "France",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/73e_rgiment_dinfanterie.avif"
-  },
-  {
-    "id": "78th_yongsan",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/78th_yongsan.avif"
-  },
-  {
-    "id": "85_pioneer_company",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/85_pioneer_company.avif"
-  },
-  {
-    "id": "89th_infantry_regiment",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/89th_infantry_regiment.avif"
-  },
-  {
     "id": "welch_regiment",
     "faction": "Britain",
     "kredits": 3,
@@ -6598,126 +7078,6 @@
     "faction": "Germany",
     "kredits": 4,
     "imageUrl": "/images/card/v51/zh-Hans/pak_40.avif"
-  },
-  {
-    "id": "97th_rifles",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/97th_rifles.avif"
-  },
-  {
-    "id": "99th_kholm",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/99th_kholm.avif"
-  },
-  {
-    "id": "aa_barrage",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/aa_barrage.avif"
-  },
-  {
-    "id": "admiral_yamamoto",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/admiral_yamamoto.avif"
-  },
-  {
-    "id": "aerial_reconnaissance",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/aerial_reconnaissance.avif"
-  },
-  {
-    "id": "aid_to_the_front",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/aid_to_the_front.avif"
-  },
-  {
-    "id": "air_corps_ferrying",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/air_corps_ferrying.avif"
-  },
-  {
-    "id": "air_land_sea",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/air_land_sea.avif"
-  },
-  {
-    "id": "air_strips",
-    "faction": "Italy",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/air_strips.avif"
-  },
-  {
-    "id": "air_superiority",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/air_superiority.avif"
-  },
-  {
-    "id": "allied_research_effort",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/allied_research_effort.avif"
-  },
-  {
-    "id": "anders_army",
-    "faction": "Poland",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/anders_army.avif"
-  },
-  {
-    "id": "arado_ar_196",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/arado_ar_196.avif"
-  },
-  {
-    "id": "atlantic_command",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/atlantic_command.avif"
-  },
-  {
-    "id": "aunt_frieda",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/aunt_frieda.avif"
-  },
-  {
-    "id": "awoken_giant",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/awoken_giant.avif"
-  },
-  {
-    "id": "baker_street_irregulars",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/baker_street_irregulars.avif"
-  },
-  {
-    "id": "blackout",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/blackout.avif"
-  },
-  {
-    "id": "bloody_sickle",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/bloody_sickle.avif"
-  },
-  {
-    "id": "bocage_warfare",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/bocage_warfare.avif"
   },
   {
     "id": "panzer_iiie",
@@ -7920,126 +8280,6 @@
     "imageUrl": "/images/card/v51/zh-Hans/spitfire_mk_ia.avif"
   },
   {
-    "id": "breakout",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/breakout.avif"
-  },
-  {
-    "id": "brewster_f2a",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/brewster_f2a.avif"
-  },
-  {
-    "id": "buffs",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/buffs.avif"
-  },
-  {
-    "id": "burning_sky",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/burning_sky.avif"
-  },
-  {
-    "id": "burst_of_fire",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/burst_of_fire.avif"
-  },
-  {
-    "id": "buzz_bomb",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/buzz_bomb.avif"
-  },
-  {
-    "id": "cannone_da_47",
-    "faction": "Italy",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/cannone_da_47.avif"
-  },
-  {
-    "id": "careless_talk",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/careless_talk.avif"
-  },
-  {
-    "id": "carrier_cover",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/carrier_cover.avif"
-  },
-  {
-    "id": "claim_the_skies",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/claim_the_skies.avif"
-  },
-  {
-    "id": "close_air_support",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/close_air_support.avif"
-  },
-  {
-    "id": "colonial_dreams",
-    "faction": "Italy",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/colonial_dreams.avif"
-  },
-  {
-    "id": "colossus",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/colossus.avif"
-  },
-  {
-    "id": "combined_arms",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/combined_arms.avif"
-  },
-  {
-    "id": "critical_damage",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/critical_damage.avif"
-  },
-  {
-    "id": "cup_of_tea",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/cup_of_tea.avif"
-  },
-  {
-    "id": "dark_deeds",
-    "faction": "Finland",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/dark_deeds.avif"
-  },
-  {
-    "id": "deadly_duty",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/deadly_duty.avif"
-  },
-  {
-    "id": "defeat_in_detail",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/defeat_in_detail.avif"
-  },
-  {
-    "id": "defend_the_nation",
-    "faction": "France",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/defend_the_nation.avif"
-  },
-  {
     "id": "stars_stripes",
     "faction": "USA",
     "kredits": 5,
@@ -9240,126 +9480,6 @@
     "imageUrl": "/images/card/v51/zh-Hans/advanced_royal_research.avif"
   },
   {
-    "id": "desert_push",
-    "faction": "Italy",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/desert_push.avif"
-  },
-  {
-    "id": "dilemma",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/dilemma.avif"
-  },
-  {
-    "id": "dingo",
-    "faction": "Anzac",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/dingo.avif"
-  },
-  {
-    "id": "diplomatic_attach",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/diplomatic_attach.avif"
-  },
-  {
-    "id": "direct_hit",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/direct_hit.avif"
-  },
-  {
-    "id": "distant_front",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/distant_front.avif"
-  },
-  {
-    "id": "dive_bombing",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/dive_bombing.avif"
-  },
-  {
-    "id": "do_or_die",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/do_or_die.avif"
-  },
-  {
-    "id": "double_strength",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/double_strength.avif"
-  },
-  {
-    "id": "duck",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/duck.avif"
-  },
-  {
-    "id": "duty_bound",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/duty_bound.avif"
-  },
-  {
-    "id": "enemy_spotted",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/enemy_spotted.avif"
-  },
-  {
-    "id": "entanglement",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/entanglement.avif"
-  },
-  {
-    "id": "escaut_plan",
-    "faction": "France",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/escaut_plan.avif"
-  },
-  {
-    "id": "expansion",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/expansion.avif"
-  },
-  {
-    "id": "experimental_flight",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/experimental_flight.avif"
-  },
-  {
-    "id": "exposed",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/exposed.avif"
-  },
-  {
-    "id": "fast_heinz",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/fast_heinz.avif"
-  },
-  {
-    "id": "fiat_c_r_42",
-    "faction": "Italy",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/fiat_c_r_42.avif"
-  },
-  {
-    "id": "final_push",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/final_push.avif"
-  },
-  {
     "id": "advanced_soviet_research",
     "faction": "Soviet",
     "kredits": 9,
@@ -9556,125 +9676,5 @@
     "faction": "Germany",
     "kredits": 12,
     "imageUrl": "/images/card/v51/zh-Hans/uranprojekt.avif"
-  },
-  {
-    "id": "foiled_plans",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/foiled_plans.avif"
-  },
-  {
-    "id": "forced_surrender",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/forced_surrender.avif"
-  },
-  {
-    "id": "for_freedom",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/for_freedom.avif"
-  },
-  {
-    "id": "for_the_emperor",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/for_the_emperor.avif"
-  },
-  {
-    "id": "fortified_position",
-    "faction": "France",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/fortified_position.avif"
-  },
-  {
-    "id": "frappe",
-    "faction": "France",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/frappe.avif"
-  },
-  {
-    "id": "frontal_defense",
-    "faction": "Poland",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/frontal_defense.avif"
-  },
-  {
-    "id": "furor",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/furor.avif"
-  },
-  {
-    "id": "fw_189",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/fw_189.avif"
-  },
-  {
-    "id": "garrison",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/garrison.avif"
-  },
-  {
-    "id": "gebirgspionier_95",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/gebirgspionier_95.avif"
-  },
-  {
-    "id": "gladiator_escort",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/gladiator_escort.avif"
-  },
-  {
-    "id": "gladiator_mk_i",
-    "faction": "Britain",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/gladiator_mk_i.avif"
-  },
-  {
-    "id": "grand_plans",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/grand_plans.avif"
-  },
-  {
-    "id": "greif",
-    "faction": "Germany",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/greif.avif"
-  },
-  {
-    "id": "grim_day",
-    "faction": "USA",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/grim_day.avif"
-  },
-  {
-    "id": "guerilla_warfare_school",
-    "faction": "Anzac",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/guerilla_warfare_school.avif"
-  },
-  {
-    "id": "gunboat_hit",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/gunboat_hit.avif"
-  },
-  {
-    "id": "gunboat_run",
-    "faction": "Japan",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/gunboat_run.avif"
-  },
-  {
-    "id": "hasty_reinforcements",
-    "faction": "Soviet",
-    "kredits": 1,
-    "imageUrl": "/images/card/v51/zh-Hans/hasty_reinforcements.avif"
   }
 ]
