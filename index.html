@@ -248,6 +248,7 @@
 
     <script>
         let currentImageUrl = '';
+        let currentOriginalImageUrl = '';
         let currentNormalizedName = '';
         let currentCostFilter = 'all';
         let currentFactionFilter = 'all';
@@ -260,6 +261,10 @@
         }
 
         function getImageUrl(imageUrl) {
+            return `https://images.weserv.nl/?url=ssl:www.kards.com${imageUrl}`;
+        }
+
+        function getOriginalImageUrl(imageUrl) {
             return `https://images.weserv.nl/?url=ssl:www.kards.com${imageUrl}`;
         }
 
@@ -287,7 +292,8 @@
                     const cardDiv = document.createElement('div');
                     cardDiv.className = 'card';
                     cardDiv.innerHTML = `<img src="${imgUrl}" alt="卡牌" loading="lazy">`;
-                    cardDiv.onclick = () => openModal(imgUrl, normalizedName);
+                    const originalImgUrl = getOriginalImageUrl(card.imageUrl);
+                    cardDiv.onclick = () => openModal(imgUrl, originalImgUrl, normalizedName);
                     gallery.appendChild(cardDiv);
                 }
             });
@@ -309,8 +315,9 @@
             }
         }
 
-        function openModal(imgUrl, normalizedName) {
+        function openModal(imgUrl, originalImgUrl, normalizedName) {
             currentImageUrl = imgUrl;
+            currentOriginalImageUrl = originalImgUrl;
             currentNormalizedName = normalizedName;
             document.getElementById('modalImg').src = imgUrl;
             document.getElementById('modal').classList.add('active');
@@ -322,16 +329,13 @@
 
         async function downloadImage() {
             try {
-                const response = await fetch(currentImageUrl);
-                const blob = await response.blob();
-                const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
-                a.href = url;
+                a.href = currentOriginalImageUrl;
                 a.download = `${currentNormalizedName}.avif`;
+                a.target = '_blank';
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
-                window.URL.revokeObjectURL(url);
             } catch (error) {
                 alert('下载失败: ' + error.message);
             }
