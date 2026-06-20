@@ -1,0 +1,98 @@
+[
+    {
+        "id": "alexandria",
+        "imageUrl": "/images/card/v51/zh-Hans/alexandria.avif"
+    },
+    {
+        "id": "rangoon",
+        "imageUrl": "/images/card/v51/zh-Hans/rangoon.avif"
+    },
+    {
+        "id": "london",
+        "imageUrl": "/images/card/v51/zh-Hans/london.avif"
+    },
+    {
+        "id": "danzig",
+        "imageUrl": "/images/card/v51/zh-Hans/danzig.avif"
+    },
+    {
+        "id": "washington",
+        "imageUrl": "/images/card/v51/zh-Hans/washington.avif"
+    },
+    {
+        "id": "bunker",
+        "imageUrl": "/images/card/v51/zh-Hans/bunker.avif"
+    },
+    {
+        "id": "bryansk",
+        "imageUrl": "/images/card/v51/zh-Hans/bryansk.avif"
+    },
+    {
+        "id": "kursk",
+        "imageUrl": "/images/card/v51/zh-Hans/kursk.avif"
+    },
+    {
+        "id": "moscow",
+        "imageUrl": "/images/card/v51/zh-Hans/moscow.avif"
+    },
+    {
+        "id": "stalingrad",
+        "imageUrl": "/images/card/v51/zh-Hans/stalingrad.avif"
+    },
+    {
+        "id": "truk",
+        "imageUrl": "/images/card/v51/zh-Hans/truk.avif"
+    },
+    {
+        "id": "cherbourg",
+        "imageUrl": "/images/card/v51/zh-Hans/cherbourg.avif"
+    },
+    {
+        "id": "guadalcanal",
+        "imageUrl": "/images/card/v51/zh-Hans/guadalcanal.avif"
+    },
+    {
+        "id": "baguio",
+        "imageUrl": "/images/card/v51/zh-Hans/baguio.avif"
+    },
+    {
+        "id": "tunis_city",
+        "imageUrl": "/images/card/v51/zh-Hans/tunis_city.avif"
+    },
+    {
+        "id": "villersbocage",
+        "imageUrl": "/images/card/v51/zh-Hans/villersbocage.avif"
+    },
+    {
+        "id": "flotilla",
+        "imageUrl": "/images/card/v51/zh-Hans/flotilla.avif"
+    },
+    {
+        "id": "supply_train",
+        "imageUrl": "/images/card/v51/zh-Hans/supply_train.avif"
+    },
+    {
+        "id": "fortress_darwin",
+        "imageUrl": "/images/card/v51/zh-Hans/fortress_darwin.avif"
+    },
+    {
+        "id": "alam_el_halfa",
+        "imageUrl": "/images/card/v51/zh-Hans/alam_el_halfa.avif"
+    },
+    {
+        "id": "arracourt",
+        "imageUrl": "/images/card/v51/zh-Hans/arracourt.avif"
+    },
+    {
+        "id": "ardennes",
+        "imageUrl": "/images/card/v51/zh-Hans/ardennes.avif"
+    },
+    {
+        "id": "el_alamein",
+        "imageUrl": "/images/card/v51/zh-Hans/el_alamein.avif"
+    },
+    {
+        "id": "manila",
+        "imageUrl": "/images/card/v51/zh-Hans/manila.avif"
+    }   
+]

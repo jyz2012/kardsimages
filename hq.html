@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kards Images</title>
+    <title>Kards HQ Images</title>
     <style>
         * {
             margin: 0;
@@ -28,41 +28,6 @@
             text-align: center;
             margin-bottom: 30px;
             color: #ffd700;
-        }
-
-        .filter-bar {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-
-        .filter-label {
-            font-size: 16px;
-            color: #eee;
-        }
-
-        .filter-select {
-            background: #16213e;
-            color: #eee;
-            border: 2px solid #333;
-            padding: 12px 24px;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: all 0.3s;
-            min-width: 150px;
-        }
-
-        .filter-select:hover {
-            border-color: #ffd700;
-        }
-
-        .filter-select:focus {
-            outline: none;
-            border-color: #ffd700;
         }
 
         .loading {
@@ -169,17 +134,10 @@
             font-size: 18px;
         }
 
-        .progress {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 16px;
-            color: #aaa;
-        }
-
-        .top-nav-btn {
+        .back-btn {
             position: fixed;
             top: 20px;
-            right: 20px;
+            left: 20px;
             background: #ffd700;
             color: #1a1a2e;
             border: none;
@@ -194,45 +152,16 @@
             display: inline-block;
         }
 
-        .top-nav-btn:hover {
+        .back-btn:hover {
             background: #ffed4a;
             transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <a href="/hq.html" class="top-nav-btn">总部</a>
+    <a href="index.html" class="back-btn">返回</a>
     <div class="container">
-        <h1>Kards 卡牌收藏</h1>
-        <div class="filter-bar">
-            <span class="filter-label">费用：</span>
-            <select class="filter-select" id="cost-filter">
-                <option value="all">全部</option>
-                <option value="0">0费</option>
-                <option value="1">1费</option>
-                <option value="2">2费</option>
-                <option value="3">3费</option>
-                <option value="4">4费</option>
-                <option value="5">5费</option>
-                <option value="6">6费</option>
-                <option value="7+">7+费</option>
-            </select>
-            <span class="filter-label">国家：</span>
-            <select class="filter-select" id="faction-filter">
-                <option value="all">全部</option>
-                <option value="Germany">德国</option>
-                <option value="USA">美国</option>
-                <option value="Soviet">苏联</option>
-                <option value="Britain">英国</option>
-                <option value="Japan">日本</option>
-                <option value="Italy">意大利</option>
-                <option value="France">法国</option>
-                <option value="Neutral">中立</option>
-                <option value="Anzac">澳新</option>
-                <option value="Finland">芬兰</option>
-                <option value="Poland">波兰</option>
-            </select>
-        </div>
+        <h1>Kards 总部卡牌</h1>
         <div id="loading" class="loading">加载中...</div>
         <div id="gallery" class="gallery"></div>
         <div id="error" class="error" style="display: none;"></div>
@@ -249,8 +178,6 @@
     <script>
         let currentImageUrl = '';
         let currentNormalizedName = '';
-        let currentCostFilter = 'all';
-        let currentFactionFilter = 'all';
         let allCards = [];
 
         function extractNormalizedName(imageUrl) {
@@ -263,39 +190,25 @@
             return `https://images.weserv.nl/?url=ssl:www.kards.com${imageUrl}`;
         }
 
-        function matchesFilter(card) {
-            const costMatch = currentCostFilter === 'all' 
-                ? true 
-                : (currentCostFilter === '7+' ? card.kredits >= 7 : card.kredits === parseInt(currentCostFilter));
-            
-            const factionMatch = currentFactionFilter === 'all' 
-                ? true 
-                : card.faction === currentFactionFilter;
-            
-            return costMatch && factionMatch;
-        }
-
         function renderGallery() {
             const gallery = document.getElementById('gallery');
             gallery.innerHTML = '';
 
             allCards.forEach(card => {
-                if (matchesFilter(card)) {
-                    const imgUrl = getImageUrl(card.imageUrl);
-                    const normalizedName = extractNormalizedName(card.imageUrl);
+                const imgUrl = getImageUrl(card.imageUrl);
+                const normalizedName = extractNormalizedName(card.imageUrl);
 
-                    const cardDiv = document.createElement('div');
-                    cardDiv.className = 'card';
-                    cardDiv.innerHTML = `<img src="${imgUrl}" alt="卡牌" loading="lazy">`;
-                    cardDiv.onclick = () => openModal(imgUrl, normalizedName);
-                    gallery.appendChild(cardDiv);
-                }
+                const cardDiv = document.createElement('div');
+                cardDiv.className = 'card';
+                cardDiv.innerHTML = `<img src="${imgUrl}" alt="卡牌" loading="lazy">`;
+                cardDiv.onclick = () => openModal(imgUrl, normalizedName);
+                gallery.appendChild(cardDiv);
             });
         }
 
-        async function loadFilters() {
+        async function loadCards() {
             try {
-                const response = await fetch('filters.json');
+                const response = await fetch('hq_list.json');
                 if (!response.ok) {
                     throw new Error('加载失败');
                 }
@@ -343,17 +256,7 @@
             }
         };
 
-        document.getElementById('cost-filter').addEventListener('change', (e) => {
-            currentCostFilter = e.target.value;
-            renderGallery();
-        });
-
-        document.getElementById('faction-filter').addEventListener('change', (e) => {
-            currentFactionFilter = e.target.value;
-            renderGallery();
-        });
-
-        loadFilters();
+        loadCards();
     </script>
 </body>
 </html>
