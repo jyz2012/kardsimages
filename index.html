@@ -65,6 +65,10 @@
             border-color: #ffd700;
         }
 
+        .search-input {
+            min-width: 250px;
+        }
+
         .loading {
             text-align: center;
             font-size: 20px;
@@ -390,6 +394,8 @@
                 <option value="Finland">芬兰</option>
                 <option value="Poland">波兰</option>
             </select>
+            <span class="filter-label">搜索：</span>
+            <input type="text" class="filter-select search-input" id="search-input" placeholder="输入卡牌名称...">
         </div>
         <div class="toolbar">
             <button id="viewSelectedBtn" class="toolbar-btn" onclick="openSelectedModal()" disabled>预览选中</button>
@@ -426,6 +432,7 @@
         let currentNormalizedName = '';
         let currentCostFilter = 'all';
         let currentFactionFilter = 'all';
+        let currentSearchQuery = '';
         let allCards = [];
         let selectedCards = new Set();
 
@@ -448,7 +455,12 @@
                 ? true 
                 : card.faction === currentFactionFilter;
             
-            return costMatch && factionMatch;
+            const searchMatch = currentSearchQuery === ''
+                ? true
+                : (card.id.toLowerCase().includes(currentSearchQuery.toLowerCase().replace(/\s+/g, '_')) || 
+                   (card['zh-Title'] && card['zh-Title'].includes(currentSearchQuery)));
+            
+            return costMatch && factionMatch && searchMatch;
         }
 
         function getFilteredCards() {
@@ -681,6 +693,12 @@
 
         document.getElementById('faction-filter').addEventListener('change', (e) => {
             currentFactionFilter = e.target.value;
+            updateSelectionUI();
+            renderGallery();
+        });
+
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            currentSearchQuery = e.target.value;
             updateSelectionUI();
             renderGallery();
         });

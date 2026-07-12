@@ -38,7 +38,8 @@ def main():
                             'id': node_json.get('id'),
                             'faction': node_json.get('faction'),
                             'kredits': node_json.get('kredits'),
-                            'imageUrl': node.get('imageUrl')
+                            'imageUrl': node.get('imageUrl'),
+                            'zh-Title': edge['node']['json']['title'].get('zh-Hans')
                         }
                         
                         all_filters.append(card_data)
