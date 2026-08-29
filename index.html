@@ -53,7 +53,7 @@
             font-size: 16px;
             cursor: pointer;
             transition: all 0.3s;
-            min-width: 150px;
+            min-width: 0px;
         }
 
         .filter-select:hover {
@@ -66,7 +66,7 @@
         }
 
         .search-input {
-            min-width: 250px;
+            min-width: 100px;
         }
 
         .loading {
@@ -77,8 +77,8 @@
 
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 14px;
         }
 
         .card {
@@ -163,6 +163,22 @@
         }
 
         .close-btn:hover {
+            background: #c0392b;
+        }
+
+        .selected-close-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .selected-close-btn:hover {
             background: #c0392b;
         }
 
@@ -254,7 +270,7 @@
         .card-checkbox {
             position: absolute;
             top: 10px;
-            left: 10px;
+            left: 160px;
             width: 24px;
             height: 24px;
             accent-color: #ffd700;
@@ -367,7 +383,7 @@
     <div class="container">
         <h1>Kards 卡牌收藏</h1>
         <div class="filter-bar">
-            <span class="filter-label">费用：</span>
+            <span class="filter-label">费用:</span>
             <select class="filter-select" id="cost-filter">
                 <option value="all">全部</option>
                 <option value="0">0费</option>
@@ -379,7 +395,7 @@
                 <option value="6">6费</option>
                 <option value="7+">7+费</option>
             </select>
-            <span class="filter-label">国家：</span>
+            <span class="filter-label">国家:</span>
             <select class="filter-select" id="faction-filter">
                 <option value="all">全部</option>
                 <option value="Germany">德国</option>
@@ -394,8 +410,27 @@
                 <option value="Finland">芬兰</option>
                 <option value="Poland">波兰</option>
             </select>
-            <span class="filter-label">搜索：</span>
-            <input type="text" class="filter-select search-input" id="search-input" placeholder="输入卡牌名称...">
+            <span class="filter-label">稀有度:</span>
+                <select class="filter-select" id="rarity-filter">
+                    <option value="all">全部</option>
+                    <option value="Standard">普通</option>
+                    <option value="Limited">限定</option>
+                    <option value="Special">特殊</option>
+                    <option value="Elite">精英</option>
+                </select>
+            <span class="filter-label">卡牌类型:</span>
+            <select class="filter-select" id="type-filter">
+                <option value="all">全部</option>
+                <option value="infantry">步兵</option>
+                <option value="tank">坦克</option>
+                <option value="fighter">战斗机</option>
+                <option value="bomber">轰炸机</option>
+                <option value="artillery">炮兵</option>
+                <option value="order">指令</option>
+                <option value="countermeasure">反制</option>
+            </select>
+            <span class="filter-label">搜索:</span>
+            <input type="text" class="filter-select search-input" id="search-input" placeholder="输入卡牌名称或描述...">
         </div>
         <div class="toolbar">
             <button id="viewSelectedBtn" class="toolbar-btn" onclick="openSelectedModal()" disabled>预览选中</button>
@@ -410,6 +445,7 @@
     <div id="modal" class="modal">
         <div class="modal-content">
             <button class="close-btn" onclick="closeModal()">关闭</button>
+            <!-- <button class="close-btn" onclick="selectCard()">选中</button> -->
             <button class="download-btn" onclick="downloadImage()">下载</button>
             <img id="modalImg" src="" alt="放大图片">
         </div>
@@ -420,7 +456,7 @@
             <div class="selected-modal-header">
                 <span class="selected-modal-title">已选中的卡牌</span>
                 <div>
-                    <button class="close-btn" onclick="closeSelectedModal()">关闭</button>
+                    <button class="selected-close-btn" onclick="closeSelectedModal()">关闭</button>
                 </div>
             </div>
             <div id="selectedGallery" class="selected-modal-gallery"></div>
@@ -432,6 +468,8 @@
         let currentNormalizedName = '';
         let currentCostFilter = 'all';
         let currentFactionFilter = 'all';
+        let currentRarityFilter = 'all';
+        let currentTypeFilter = 'all';
         let currentSearchQuery = '';
         let allCards = [];
         let selectedCards = new Set();
@@ -454,13 +492,24 @@
             const factionMatch = currentFactionFilter === 'all' 
                 ? true 
                 : card.faction === currentFactionFilter;
-            
+
+            const rarityMatch = currentRarityFilter === 'all'
+                ? true
+                : card.rarity === currentRarityFilter;
+
+            const typeMatch = currentTypeFilter === 'all'
+                ? true
+                : card.type === currentTypeFilter;
+
             const searchMatch = currentSearchQuery === ''
                 ? true
-                : (card.id.toLowerCase().includes(currentSearchQuery.toLowerCase().replace(/\s+/g, '_')) || 
-                   (card['zh-Title'] && card['zh-Title'].includes(currentSearchQuery)));
+                : (
+                    card.id.toLowerCase().includes(currentSearchQuery.toLowerCase().replace(/\s+/g, '_')) ||
+                    (card['zh-Title'] && card['zh-Title'].toLowerCase().includes(currentSearchQuery.toLowerCase())) ||
+                    (card['zh-text'] && card['zh-text'].toLowerCase().includes(currentSearchQuery.toLowerCase()))
+                );
             
-            return costMatch && factionMatch && searchMatch;
+            return costMatch && factionMatch && rarityMatch && typeMatch && searchMatch;
         }
 
         function getFilteredCards() {
@@ -693,6 +742,18 @@
 
         document.getElementById('faction-filter').addEventListener('change', (e) => {
             currentFactionFilter = e.target.value;
+            updateSelectionUI();
+            renderGallery();
+        });
+
+        document.getElementById('rarity-filter').addEventListener('change', (e) => {
+            currentRarityFilter = e.target.value;
+            updateSelectionUI();
+            renderGallery();
+        });
+
+        document.getElementById('type-filter').addEventListener('change', (e) => {
+            currentTypeFilter = e.target.value;
             updateSelectionUI();
             renderGallery();
         });

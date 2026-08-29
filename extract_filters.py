@@ -39,7 +39,11 @@ def main():
                             'faction': node_json.get('faction'),
                             'kredits': node_json.get('kredits'),
                             'imageUrl': node.get('imageUrl'),
-                            'zh-Title': edge['node']['json']['title'].get('zh-Hans')
+                            'zh-Title': edge['node']['json']['title'].get('zh-Hans'),
+                            'zh-text': edge['node']['json']['text'].get('zh-Hans'),
+                            'set': edge['node']['json'].get('set'),
+                            'rarity': edge['node']['json'].get('rarity'),
+                            'type': edge['node']['json'].get('type'),
                         }
                         
                         all_filters.append(card_data)
