@@ -30,27 +30,83 @@
             color: #ffd700;
         }
 
+        .filter-toggle-row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+
+        .toggle-filters-btn {
+            background: #ffd700;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 8px;
+            padding: 9px 18px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .toggle-filters-btn:hover {
+            background: #ffed4a;
+        }
+
         .filter-bar {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: 15px;
-            margin-bottom: 30px;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .filter-bar.collapsed {
+            display: none;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            background: rgba(22, 33, 62, 0.9);
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 6px 10px;
+            font-size: 13px;
         }
 
         .filter-label {
-            font-size: 16px;
+            font-size: 13px;
             color: #eee;
+            white-space: nowrap;
+        }
+
+        .filter-option {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 6px;
+            border-radius: 6px;
+            color: #eee;
+            cursor: pointer;
+            font-size: 12px;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .filter-option input {
+            accent-color: #ffd700;
+            transform: scale(0.9);
         }
 
         .filter-select {
             background: #16213e;
             color: #eee;
             border: 2px solid #333;
-            padding: 12px 24px;
+            padding: 8px 14px;
             border-radius: 8px;
-            font-size: 16px;
+            font-size: 14px;
             cursor: pointer;
             transition: all 0.3s;
             min-width: 0px;
@@ -66,7 +122,23 @@
         }
 
         .search-input {
-            min-width: 100px;
+            min-width: 120px;
+        }
+
+        .clear-filters-btn {
+            background: #ffd700;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 14px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .clear-filters-btn:hover {
+            background: #ffed4a;
         }
 
         .loading {
@@ -198,8 +270,8 @@
 
         .top-nav-btn {
             position: fixed;
-            top: 20px;
-            right: 20px;
+            top: 2%;
+            right: 2%;
             background: #ffd700;
             color: #1a1a2e;
             border: none;
@@ -269,8 +341,8 @@
 
         .card-checkbox {
             position: absolute;
-            top: 10px;
-            left: 160px;
+            top: 3%;
+            right: 3%;
             width: 24px;
             height: 24px;
             accent-color: #ffd700;
@@ -382,55 +454,91 @@
     <a href="hq.html" class="top-nav-btn">总部</a>
     <div class="container">
         <h1>Kards 卡牌收藏</h1>
-        <div class="filter-bar">
-            <span class="filter-label">费用:</span>
-            <select class="filter-select" id="cost-filter">
-                <option value="all">全部</option>
-                <option value="0">0费</option>
-                <option value="1">1费</option>
-                <option value="2">2费</option>
-                <option value="3">3费</option>
-                <option value="4">4费</option>
-                <option value="5">5费</option>
-                <option value="6">6费</option>
-                <option value="7+">7+费</option>
-            </select>
-            <span class="filter-label">国家:</span>
-            <select class="filter-select" id="faction-filter">
-                <option value="all">全部</option>
-                <option value="Germany">德国</option>
-                <option value="USA">美国</option>
-                <option value="Soviet">苏联</option>
-                <option value="Britain">英国</option>
-                <option value="Japan">日本</option>
-                <option value="Italy">意大利</option>
-                <option value="France">法国</option>
-                <option value="Neutral">中立</option>
-                <option value="Anzac">澳新</option>
-                <option value="Finland">芬兰</option>
-                <option value="Poland">波兰</option>
-            </select>
-            <span class="filter-label">稀有度:</span>
-                <select class="filter-select" id="rarity-filter">
-                    <option value="all">全部</option>
-                    <option value="Standard">普通</option>
-                    <option value="Limited">限定</option>
-                    <option value="Special">特殊</option>
-                    <option value="Elite">精英</option>
-                </select>
-            <span class="filter-label">卡牌类型:</span>
-            <select class="filter-select" id="type-filter">
-                <option value="all">全部</option>
-                <option value="infantry">步兵</option>
-                <option value="tank">坦克</option>
-                <option value="fighter">战斗机</option>
-                <option value="bomber">轰炸机</option>
-                <option value="artillery">炮兵</option>
-                <option value="order">指令</option>
-                <option value="countermeasure">反制</option>
-            </select>
-            <span class="filter-label">搜索:</span>
-            <input type="text" class="filter-select search-input" id="search-input" placeholder="输入卡牌名称或描述...">
+        <div class="filter-toggle-row">
+            <button id="toggleFiltersBtn" class="toggle-filters-btn" type="button">筛选</button>
+        </div>
+
+        <div class="filter-bar collapsed" id="filterBar">
+            <div class="filter-group">
+                <span class="filter-label">费用:</span>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="all" checked> 全部</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="0"> 0费</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="1"> 1费</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="2"> 2费</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="3"> 3费</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="4"> 4费</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="5"> 5费</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="6"> 6费</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="cost" value="7+"> 7+费</label>
+            </div>
+
+            <div class="filter-group">
+                <span class="filter-label">国家:</span>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="all" checked> 全部</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Germany"> 德国</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="USA"> 美国</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Soviet"> 苏联</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Britain"> 英国</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Japan"> 日本</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Italy"> 意大利</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="France"> 法国</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Neutral"> 中立</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Anzac"> 澳新</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Finland"> 芬兰</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="faction" value="Poland"> 波兰</label>
+            </div>
+
+            <div class="filter-group">
+                <span class="filter-label">稀有度:</span>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="rarity" value="all" checked> 全部</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="rarity" value="Standard"> 普通</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="rarity" value="Limited"> 限定</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="rarity" value="Special"> 特殊</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="rarity" value="Elite"> 精英</label>
+            </div>
+
+            <div class="filter-group">
+                <span class="filter-label">卡牌类型:</span>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="all" checked> 全部</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="infantry"> 步兵</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="tank"> 坦克</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="fighter"> 战斗机</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="bomber"> 轰炸机</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="artillery"> 炮兵</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="order"> 指令</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="type" value="countermeasure"> 反制</label>
+            </div>
+
+            <div class="filter-group">
+                <span class="filter-label">扩展包:</span>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="all" checked> 全部</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="Base"> 基础</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="Allegiance"> 忠诚</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="Breakthrough"> 突破</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="Legions"> 军团</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="WorldAtWar"> 世纪大战</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="TheatersOfWar"> 战区</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="BrotherInArms"> 战友</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="WinterWar"> 冬季战争</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="CovertOps"> 秘密行动</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="BloodAndIron"> 血与铁</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="NavalWarfare"> 海战</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="Homefront"> 国土阵线</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="OceaniaStorm"> 澳新风暴</label>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="set" value="OnlySpawnable"> 衍生牌</label>
+            </div>
+
+            <div class="filter-group">
+                <span class="filter-label">其他</span>
+                <label class="filter-option"><input type="checkbox" class="filter-checkbox" data-group="reserved" value=true> 显示预备卡牌</label>
+            </div>
+
+            <div class="filter-group">
+                <span class="filter-label">搜索:</span>
+                <input type="text" class="filter-select search-input" id="search-input" placeholder="名称/描述...">
+            </div>
+
+            <button id="clearFiltersBtn" class="clear-filters-btn" type="button">清除筛选</button>
         </div>
         <div class="toolbar">
             <button id="viewSelectedBtn" class="toolbar-btn" onclick="openSelectedModal()" disabled>预览选中</button>
@@ -466,13 +574,52 @@
     <script>
         let currentImageUrl = '';
         let currentNormalizedName = '';
-        let currentCostFilter = 'all';
-        let currentFactionFilter = 'all';
-        let currentRarityFilter = 'all';
-        let currentTypeFilter = 'all';
+        let currentCostFilter = ['all'];
+        let currentFactionFilter = ['all'];
+        let currentRarityFilter = ['all'];
+        let currentTypeFilter = ['all'];
+        let currentSetFilter = ['all'];
+        let showReservedFilter = false;
         let currentSearchQuery = '';
         let allCards = [];
         let selectedCards = new Set();
+
+        function setFilterGroupState(groupName, values) {
+            const normalized = values && values.length ? values : ['all'];
+            if (groupName === 'cost') currentCostFilter = normalized;
+            if (groupName === 'faction') currentFactionFilter = normalized;
+            if (groupName === 'rarity') currentRarityFilter = normalized;
+            if (groupName === 'type') currentTypeFilter = normalized;
+            if (groupName === 'set') currentSetFilter = normalized;
+        }
+
+        function resetCheckboxGroup(groupName) {
+            document.querySelectorAll(`.filter-checkbox[data-group="${groupName}"]`).forEach((checkbox) => {
+                checkbox.checked = checkbox.value === 'all';
+            });
+            setFilterGroupState(groupName, ['all']);
+        }
+
+        function resetReservedFilter() {
+            const reservedCheckbox = document.querySelector('.filter-checkbox[data-group="reserved"]');
+            if (reservedCheckbox) {
+                reservedCheckbox.checked = false;
+            }
+            showReservedFilter = false;
+        }
+
+        function clearAllFilters() {
+            resetCheckboxGroup('cost');
+            resetCheckboxGroup('faction');
+            resetCheckboxGroup('rarity');
+            resetCheckboxGroup('type');
+            resetCheckboxGroup('set');
+            resetReservedFilter();
+            document.getElementById('search-input').value = '';
+            currentSearchQuery = '';
+            updateSelectionUI();
+            renderGallery();
+        }
 
         function extractNormalizedName(imageUrl) {
             const parts = imageUrl.split('/');
@@ -485,21 +632,29 @@
         }
 
         function matchesFilter(card) {
-            const costMatch = currentCostFilter === 'all' 
-                ? true 
-                : (currentCostFilter === '7+' ? card.kredits >= 7 : card.kredits === parseInt(currentCostFilter));
+            const costMatch = currentCostFilter.includes('all')
+                ? true
+                : currentCostFilter.some((value) => value === '7+' ? card.kredits >= 7 : card.kredits === Number(value));
             
-            const factionMatch = currentFactionFilter === 'all' 
-                ? true 
-                : card.faction === currentFactionFilter;
-
-            const rarityMatch = currentRarityFilter === 'all'
+            const factionMatch = currentFactionFilter.includes('all')
                 ? true
-                : card.rarity === currentRarityFilter;
+                : currentFactionFilter.includes(card.faction);
 
-            const typeMatch = currentTypeFilter === 'all'
+            const rarityMatch = currentRarityFilter.includes('all')
                 ? true
-                : card.type === currentTypeFilter;
+                : currentRarityFilter.includes(card.rarity);
+
+            const typeMatch = currentTypeFilter.includes('all')
+                ? true
+                : currentTypeFilter.includes(card.type);
+
+            const setMatch = currentSetFilter.includes('all')
+                ? true
+                : currentSetFilter.includes(card.set);
+
+            const reserved = showReservedFilter === true
+                ? true
+                : !card.reserved;
 
             const searchMatch = currentSearchQuery === ''
                 ? true
@@ -509,7 +664,7 @@
                     (card['zh-text'] && card['zh-text'].toLowerCase().includes(currentSearchQuery.toLowerCase()))
                 );
             
-            return costMatch && factionMatch && rarityMatch && typeMatch && searchMatch;
+            return costMatch && factionMatch && rarityMatch && typeMatch && setMatch && reserved && searchMatch;
         }
 
         function getFilteredCards() {
@@ -734,29 +889,56 @@
             }
         };
 
-        document.getElementById('cost-filter').addEventListener('change', (e) => {
-            currentCostFilter = e.target.value;
-            updateSelectionUI();
-            renderGallery();
+        document.querySelectorAll('.filter-checkbox').forEach((checkbox) => {
+            checkbox.addEventListener('change', (e) => {
+                const groupName = e.target.dataset.group;
+
+                if (groupName === 'reserved') {
+                    showReservedFilter = e.target.checked;
+                    updateSelectionUI();
+                    renderGallery();
+                    return;
+                }
+
+                const groupBoxes = document.querySelectorAll(`.filter-checkbox[data-group="${groupName}"]`);
+
+                if (e.target.value === 'all') {
+                    groupBoxes.forEach((box) => {
+                        box.checked = box.value === 'all';
+                    });
+                    setFilterGroupState(groupName, ['all']);
+                } else {
+                    const allBox = document.querySelector(`.filter-checkbox[data-group="${groupName}"][value="all"]`);
+                    if (e.target.checked) {
+                        if (allBox) allBox.checked = false;
+                    }
+
+                    const selectedValues = Array.from(groupBoxes)
+                        .filter((box) => box.checked && box.value !== 'all')
+                        .map((box) => box.value);
+
+                    if (!selectedValues.length) {
+                        groupBoxes.forEach((box) => {
+                            box.checked = box.value === 'all';
+                        });
+                        setFilterGroupState(groupName, ['all']);
+                    } else {
+                        setFilterGroupState(groupName, selectedValues);
+                    }
+                }
+
+                updateSelectionUI();
+                renderGallery();
+            });
         });
 
-        document.getElementById('faction-filter').addEventListener('change', (e) => {
-            currentFactionFilter = e.target.value;
-            updateSelectionUI();
-            renderGallery();
+        document.getElementById('toggleFiltersBtn').addEventListener('click', () => {
+            const filterBar = document.getElementById('filterBar');
+            const isCollapsed = filterBar.classList.toggle('collapsed');
+            document.getElementById('toggleFiltersBtn').textContent = isCollapsed ? '筛选' : '收起筛选';
         });
 
-        document.getElementById('rarity-filter').addEventListener('change', (e) => {
-            currentRarityFilter = e.target.value;
-            updateSelectionUI();
-            renderGallery();
-        });
-
-        document.getElementById('type-filter').addEventListener('change', (e) => {
-            currentTypeFilter = e.target.value;
-            updateSelectionUI();
-            renderGallery();
-        });
+        document.getElementById('clearFiltersBtn').addEventListener('click', clearAllFilters);
 
         document.getElementById('search-input').addEventListener('input', (e) => {
             currentSearchQuery = e.target.value;

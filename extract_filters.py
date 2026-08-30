@@ -44,6 +44,7 @@ def main():
                             'set': edge['node']['json'].get('set'),
                             'rarity': edge['node']['json'].get('rarity'),
                             'type': edge['node']['json'].get('type'),
+                            'reserved': edge['node']['json'].get('reserved'),
                         }
                         
                         all_filters.append(card_data)
