@@ -47,7 +47,7 @@ def main():
     offset = 0
     request_count = 1
     
-    while offset <= 1600:
+    while offset <= 1640:
         payload = {
             "operationName": "getCards",
             "variables": {
